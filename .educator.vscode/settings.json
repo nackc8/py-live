@@ -1,0 +1,140 @@
+{
+  "[ansible]": {
+    "editor.defaultFormatter": "redhat.ansible"
+  },
+  "[java]": {
+    "java.debug.settings.console": "integratedTerminal",
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.tabSize": 4,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "auto-run-command.rules": [
+    {
+      "command": "workbench.action.toggleScreencastMode",
+      "condition": "always"
+    }
+  ],
+  "breadcrumbs.enabled": false,
+  "debug.console.fontSize": 14,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.colorDecorators": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorSurroundingLines": 3,
+  "editor.defaultFormatter": "foxundermoon.shell-format",
+  "editor.fontFamily": "'IBM Plex Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 17,
+  "editor.fontWeight": "600",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": false,
+  "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": false,
+  "explorer.excludeGitIgnore": true,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/ignored*": false
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "java.project.excludePaths": [
+    ".",
+    // Exclude the root directory
+    "**"
+    // Exclude everything else recursively
+  ],
+  "java.project.sourcePaths": ["date"],
+  "json.format.enable": false,
+  "scm.inputFontFamily": "editor",
+  "scm.inputfontSize": 20,
+  "screencastMode.keyboardOptions": {
+    "showKeys": false,
+    "showSingleEditorCursorMoves": false
+  },
+  "screencastMode.keyboardOverlayTimeout": 2000,
+  "screencastMode.mouseIndicatorSize": 60,
+  "screencastMode.verticalOffset": 10,
+  "terminal.integrated.defaultProfile.linux": "BashPresentation",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.minimumContrastRatio": 7,
+  "terminal.integrated.profiles.linux": {
+    "BashPresentation": {
+      "args": ["--rcfile", "./.educator.shared/.bashrc"],
+      "path": "bash"
+    }
+  },
+  "terminal.integrated.suggest.quickSuggestions": false,
+  "vscode_custom_css.imports": [".educator.vscode/custom.css"],
+  "window.zoomLevel": 2,
+  "window.zoomPerWindow": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#dfd",
+    "editor.lineHighlightBorder": "#bdb",
+    "editorCursor.background": "#fff",
+    "editorCursor.foreground": "#000",
+    "editorError.background": "#ffccccaa",
+    "editorError.border": "#ffffff00",
+    "editorError.foreground": "#ffcccc00",
+    "editorWarning.background": "#ffffccaa",
+    "editorWarning.border": "#ffffff00",
+    "editorWarning.foreground": "#ffffff00",
+    "icon.foreground": "#aaa",
+    "list.activeSelectionBackground": "#dfd",
+    "list.activeSelectionForeground": "#00f",
+    "list.activeSelectionIconForeground": "#aaa",
+    "list.focusedBackground": "#dfd",
+    "list.hoverBackground": "#dfd",
+    "list.hoverForeground": "#00f",
+    "list.hoverIconForeground": "#00f",
+    "list.inactiveSelectionBackground": "#dfd",
+    "list.inactiveSelectionForeground": "#00f",
+    "quickInputList.focusBackground": "#eff",
+    "quickInputList.focusForeground": "#aaa",
+    "quickInputList.focusIconForeground": "#aaa",
+    "sideBar.foreground": "#000"
+  },
+  "workbench.colorTheme": "Default High Contrast Light",
+  "workbench.editor.showIcons": false,
+  "workbench.iconTheme": null,
+  "workbench.statusBar.visible": false
+}

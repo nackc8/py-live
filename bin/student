@@ -1,0 +1,25 @@
+#!/bin/bash
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+source ./lib.bash
+script_parent_dir="$(cd .. && pwd)"
+
+answer=$(
+	ask "Vill du återgå till studentläget? ([yYjJ] [nN]) " \
+		yYjJ nN
+)
+
+if [[ "$answer" == 'n' ]]; then
+	exit 1
+fi
+
+sleep 1
+timestamp="$(date +%s)"
+
+save=$(mktemp -d -t "educator-save-$timestamp-XXX")
+
+mv -v "$script_parent_dir/."{gitignore,vscode,idea} "$save" 2>/dev/null || true
+
+git update-index --no-skip-worktree "$script_parent_dir/.gitignore"
+
+git restore -- "$script_parent_dir/.gitignore"

@@ -1,0 +1,67 @@
+#!/bin/bash
+
+[ -e /tmp/.autocommit ] && exit
+
+datepart="$(date +"%y%m%d")"
+
+tick=5
+
+acl() {
+    if [ -n "$1" ]; then
+        _alog+="$1"
+        echo -n "$1"
+    else
+        echo -n "$_alog"
+    fi
+}
+
+echo -n "autocommit: "
+
+while true; do
+    [[ $(git branch --show-current) == "$datepart" ]] && break
+    [[ "$1" != "--wait-branch" ]] && exit
+    acl "w"
+    sleep $tick
+done
+
+touch /tmp/.autocommit
+trap "rm /tmp/.autocommit" EXIT
+
+minWaitSec=30
+maxWaitSec=120
+
+while true; do
+    acl "."
+    lastCommitSeconds="$(date +%s)"
+    minElapsedSeconds="$lastCommitSeconds"
+    while read -r f; do
+        lastModificationSeconds="$(date -r "$f" +%s)"
+        currentSeconds="$(date +%s)"
+        ((elapsedSeconds = currentSeconds - lastModificationSeconds))
+        ((minElapsedSeconds = minElapsedSeconds > elapsedSeconds ? elapsedSeconds : minElapsedSeconds))
+    done < <(git status --porcelain | cut -c4-)
+
+    if [[ -n "$(git status --porcelain)" ]]; then
+        currentSeconds="$(date +%s)"
+        ((secondsSinceCommit = currentSeconds - lastCommitSeconds))
+        commit_reason=
+        if ((minElapsedSeconds > minWaitSec)); then
+            commit_reason='complete'
+            acl="c"
+        elif ((secondsSinceCommit > maxWaitSec)); then
+            commit_reason='partial'
+            acl="p"
+        fi
+
+        print "%s" "$acl"
+
+        if [ -n "$commit_reason" ]; then
+            echo
+            git add .
+            git commit -m "autocommit $commit_reason $(date +"%H%M (%S)")"
+            git push
+            echo -n "autocommit: "
+        fi
+    fi
+    sleep $tick
+done

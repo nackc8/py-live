@@ -1,0 +1,26 @@
+#!/bin/bash
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+source ./lib.bash
+
+msg <<-EOM
+	Det här skriptet skriver över alla förändringar i "live"-klonen så att de
+    blir exakt som den senaste versionen på GitHub. Det löser t.ex. problem om
+    utbildaren ändrat i Git-historiken så att det annars är svårt att få de
+    senaste ändringarna.
+EOM
+
+answer=$(
+    ask "Är du säker på att du vill radera dina lokala ändringar och hämta de senaste? ([yYjJ] [nN]) " \
+        yYjJ nN
+)
+
+if [[ "$answer" == 'n' ]]; then
+    exit 1
+fi
+
+git fetch origin
+git reset --hard origin/main
+git clean -fd
+
+./daystart

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+source ./lib.bash
+
+date_ymd="$(date +"%y%m%d")"
+
+git config --local pull.rebase true
+git config --local rebase.autostash true
+
+git fetch
+
+if ! git checkout "$date_ymd" 2>/dev/null; then
+	msg <<-EOM
+		Dagens branch verkar inte skapad och pushad ännu.
+		Testa igen om en stund!
+	EOM
+	exit 1
+fi

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+source ./lib.bash
+script_parent_dir="$(cd .. && pwd)"
+
+msg <<-EOM
+	Utbildarläget skriver över filer och inställningar som då går förlorade.
+	Det gör det även svårare att hänga med "live" eftersom det blir möjligt att
+	ändra filer, vilka kan orsaka konflikter när du hämtar uppdateringar.
+EOM
+
+answer=$(
+	ask "Är du säker på att du vill slå på utbildarläget? ([yYjJ] [nN])" \
+		yYjJ nN
+)
+
+if [[ "$answer" == 'n' ]]; then
+	exit 1
+fi
+
+sleep 1
+timestamp="$(date +%s)"
+
+save=$(mktemp -d -t "educator-save-$timestamp-XXX")
+
+mv -v "$script_parent_dir/."{gitignore,vscode,idea} "$save" 2>/dev/null || true
+
+ln -v "$script_parent_dir/."{educator.,}gitignore
+ln -vs "$script_parent_dir/."{educator.,}vscode
+
+git update-index --skip-worktree "$script_parent_dir/.gitignore"

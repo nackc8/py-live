@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Auto commit",
+      "type": "shell",
+      "command": ".educator.shared/autocommit",
+      "args": ["--wait-branch"],
+      "runOptions": { "runOn": "folderOpen", "instanceLimit": 1 },
+      "presentation": {
+        "reveal": "never", // Prevent the output from being shown
+        "echo": false, // Do not echo the command in the output
+        "focus": false, // Do not focus the terminal
+        "panel": "dedicated" // Use a dedicated terminal panel
+      }
+    }
+  ]
+}
