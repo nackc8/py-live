@@ -57,4 +57,61 @@ TypeError: can't multiply sequence by non-int of type 'float'
 >>> type(lst)[C[C[C[Clst = [1, 3, 5][1@2[C[C[C[C[C[C[C[C[1P[1@"[1@h[1@e[1@j[1@s[1@a[1@n[1@"[C[C[C[C
 >>> lst2 = [1, "hejsan", 5][C[C[C[C[14Ptype(lst)2)[C
 <class 'list'>
->>> print
+>>> print(lst2)
+[1, 'hejsan', 5]
+>>> y2 = [1, 'hejsan', 5]
+>>> print(3)
+3
+>>> print(3)[3)[C,)[1P)])[C
+[3]
+>>> [H[2J>>> id(lst)
+140451583740352
+>>> id(lst)
+140451583740352
+>>> id(lst)[C[C[C[C[Knicelist = lst
+>>> id(lst)
+140451583740352
+>>> id(nicelist)
+140451583740352
+>>> id(nicelist)[C[C[C[C[C[C[C[5Plst)[C[C[C[Cnicelist = lst[C[C[C[C[7Pid(lst)nicelist)[C[C[C[C[Kprint(nicelist)
+[1, 3, 5]
+>>> print(nicelist)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)l)s)t)
+[1, 3, 5]
+>>> lst.append(888)
+>>> lst.append(888)[C[C[C[C[5Pprint(lst)
+[1, 3, 5, 888]
+>>> print(lst)[1P)[1P)[1P)n)i)celist)[C
+[1, 3, 5, 888]
+>>> hummm = nicelist
+>>> hummm.append("hoooo)[K")
+>>> print ([K[K(lst)
+[1, 3, 5, 888, 'hoooo']
+>>> tal1 = 111
+>>> tak2 =[K[K[K[Kl2 = tal1
+>>> print(tal1)
+111
+>>> \[Kprint(tal2)
+111
+>>> tal1 = tal1 + 2
+>>> tal1 = tal1 + 2[C[C[C[C[4Pprint(tal2)
+111
+>>> id(tal1)
+10872968
+>>> id(tal1)[1P)2)[C
+10872904
+>>> x1=[K = 123
+>>> x2 = x1
+>>> id(x1)
+10873288
+>>> id ([K[K(x2_[K)
+10873288
+>>> x2=[K = x2 + 1
+>>> x2 = x2 + 1[C[C[C[C[5Pid(x2)
+10873320
+>>> id(tx[Kx[K[Kx1)
+10873288
+>>> [K>>> [K>>> [H[2J>>> 
+[?2004h[94mdate/d250219 (B[m$ [?2004l
+exit
+
+Script done on 2025-02-19 13:46:36+01:00 [COMMAND_EXIT_CODE="0"]
