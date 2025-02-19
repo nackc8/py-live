@@ -6,4 +6,4 @@ age = input("Hur gammal är du " + namn + "? ")
 
 print("Du är", age, "år gammal")
 
-print("Om två år är du", "år gammal")
+print("Om två år är du", age + 2, "år gammal")
