@@ -1,0 +1,60 @@
+Script started on 2025-02-19 13:50:49+01:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="92" LINES="13"]
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py
+[?2004l['apple', 'banana', 'cherry']
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py
+[?2004l['apple', 'banana', 'cherry']
+range(0, 3)
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py
+[?2004l['apple', 'banana', 'cherry']
+[0, 1, 2]
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py[A[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py
+[?2004l['apple', 'banana', 'cherry']
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py", line 9, in <module>
+    print(r)
+          ^
+NameError: name 'r' is not defined. Did you mean: 'r1'?
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/sequence.py
+[?2004l['apple', 'banana', 'cherry']
+range(0, 3)
+[0, 1, 2]
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py", line 2, in <module>
+    type(tal)
+         ^^^
+NameError: name 'tal' is not defined. Did you mean: 'tal1'?
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l<class 'float'>
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l<class 'float'>
+<class 'float'>
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l<class 'float'>
+3.14159
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l<class 'float'>
+3.14159
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l<class 'float'>
+3
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/numbers.py
+[?2004l<class 'float'>
+3
+[?2004h[94mdate/d250219 (B[m$ while true; sleep 1[K1; git pull;[C done[1@d[1@o[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  ^C[?2004l[?2004h[?2004l
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/repeat.py
+[?2004lnums typ:  <class 'int'>
+nums varde: 4040
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/repeat.py
+[?2004lnums typ:  <class 'str'>
+nums varde: 4040
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ python greeter.py 
+[?2004lVad är ditt namn?Rulle
+Hej  Rulle
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py
+[?2004lVad är ditt namn?Rulle
+Hej Rulle
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackad
