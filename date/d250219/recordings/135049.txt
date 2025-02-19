@@ -57,4 +57,59 @@ Hej  Rulle
 [?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py
 [?2004lVad är ditt namn?Rulle
 Hej Rulle
-[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackad
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py
+[?2004lVad är ditt namn?Rulle
+Hej Rulle
+Hur gammal är duRulle?Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py", line 5, in <module>
+    age = input("Hur gammal är du " + namn + "?")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EOFError
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py
+[?2004lVad är ditt namn?^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py", line 1, in <module>
+    namn = input("Vad är ditt namn?")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py
+[?2004lVad är ditt namn? Rulle
+Hej Rulle
+Hur gammal är du Rulle? 109
+Du är 109 år gammal
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py
+[?2004lVad är ditt namn? Rulle
+Hej Rulle
+Hur gammal är du Rulle? 109
+Du är 109 år gammal
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/date/d250219/greeter.py", line 9, in <module>
+    print("Om två år är du", age + 2, "år gammal")
+                             ~~~~^~~
+TypeError: can only concatenate str (not "int") to str
+[?2004h[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? ^L  17
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 17
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 17
+Du får inte köra bil!
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 17
+Du får inte köra bil!
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+Du får inte köra bil!
+[?2004h[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[
