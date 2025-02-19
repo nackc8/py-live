@@ -1,0 +1,2 @@
+# "fulkod" med typer
+
