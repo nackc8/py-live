@@ -53,7 +53,7 @@ while true; do
             acl="p"
         fi
 
-        print "%s" "$acl"
+        printf "%s" "$acl"
 
         if [ -n "$commit_reason" ]; then
             echo
