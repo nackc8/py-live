@@ -1,0 +1,17 @@
+Script started on 2025-02-19 13:49:02+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="92" LINES="6"]
+[?2004h[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ bash sequence.py [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpython3[K
+python
+python3
+python3.11
+python3.11-config
+python3-config
+python-argcomplete-check-easy-install-script
+--More--[Kpython-argcomplete-tcsh
+[94mdate/d250219 (B[m$ python3 seq[H[2J[94mdate/d250219 (B[m$ python3 sequence.py [C[K
+[?2004l['apple', 'banana', 'cherry']
+[?2004h[94mdate/d250219 (B[m$ python3 sequence.py[H[2J[94mdate/d250219 (B[m$ python3 sequence.py
+[?2004l['apple', 'banana', 'cherry']
+[?2004h[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [?2004l
+exit
+
+Script done on 2025-02-19 15:32:50+01:00 [COMMAND_EXIT_CODE="0"]
