@@ -1,4 +1,11 @@
+# AREPL requires standard_input to be hardcoded, like so: standard_input = 'hello world'; print(input())
+#
+# age = int(input())
+
+# Med AREPL
+standard_input = "109"  # vi leker att anv skrev 109 och tryckte enter
 age = int(input())
+
 
 if age >= 18:
     print("Du får köra bil!")
