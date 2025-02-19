@@ -112,4 +112,31 @@ Du får även promenera!
 [?2004lHur gammal är du? 18
 Du får köra bil!
 Du får även promenera!
-[?2004h[94mdate/d250219 (B[
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 16
+Du får övningsköra!
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 15
+Du får inte köra bil!
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+Nää nää nääänääää
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+Nää nää nääänääää
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py[A[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J[94mdate/d250219 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/date/d250219/conditionals.py
+[?2004lHur gammal är du? 18
+Du får köra bil!
+Nää nää nääänääää
+Du får även promenera!
+[?2004h[94mdate/d250219 (B[m$ [H[2J[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [K[94mdate/d250219 (B[m$ [?2004l
+exit
+
+Script done on 2025-02-19 15:32:47+01:00 [COMMAND_EXIT_CODE="0"]

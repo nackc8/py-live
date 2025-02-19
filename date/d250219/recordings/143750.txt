@@ -49,4 +49,28 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 [?2004h[94m(B[m$ [H[2J[94m(B[m$ ^C[?2004l[?2004h
 [?2004l
-[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34447 -- /shared/kent/Documents/nackademin/pyth
+[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34447 -- /shared/kent/Documents/nackademin/python/py-live/date/d250219/for_range.py 
+[?2004l0
+1
+2
+slut
+[?2004h[94m(B[m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40361 -- /shared/kent/Documents/nackademin/python/py-live/date/d250219/for_list.py 
+[?2004l[?2004h[94m(B[m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34533 -- /shared/kent/Documents/nackademin/python/py-live/date/d250219/for_list.py 
+[?2004l[?2004h[94m(B[m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36683 -- /shared/kent/Documents/nackademin/python/py-live/date/d250219/for_continue_break.py 
+[?2004l[?2004h[94m(B[m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44311 -- /shared/kent/Documents/nackademin/python/py-live/date/d250219/for_continue_break.py 
+[?2004lsumma 2500
+[?2004h[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h[94m(B[m$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46689 -- /shared/kent/Documents/nackademin/python/py-live/date/d250219/for_continue_break.py 
+[?2004l[?2004h[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [?2004l
+exit
+
+Script done on 2025-02-19 15:32:44+01:00 [COMMAND_EXIT_CODE="247"]
