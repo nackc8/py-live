@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
-source ./lib.bash
+source ../.educator.shared/lib.bash
 script_parent_dir="$(cd .. && pwd)"
 
 answer=$(
