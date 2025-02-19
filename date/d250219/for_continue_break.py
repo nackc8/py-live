@@ -1,5 +1,5 @@
 sum = 0
-for a in range(1, 100):
+for a in range(2, 100):
     udda = a % 2
     if bool(udda):
         sum = sum + a
