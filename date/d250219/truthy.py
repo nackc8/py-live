@@ -1,3 +1,5 @@
+# bool(x) är False om x är 0 eller x är tom, annars True
+
 one = 1
 one_bool = bool(one)
 
