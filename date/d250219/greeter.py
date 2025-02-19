@@ -3,6 +3,8 @@ namn = input("Vad är ditt namn? ")
 print("Hej", namn)
 
 age = input("Hur gammal är du " + namn + "? ")
+age = int(age)
+
 
 print("Du är", age, "år gammal")
 
