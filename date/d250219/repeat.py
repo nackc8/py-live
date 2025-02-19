@@ -1,2 +1,2 @@
-# "fulkod" med typer
+# "Fulkod" med typer
 
