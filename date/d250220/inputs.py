@@ -1,6 +1,8 @@
 col = input("Skriv din favoritfärg: ")
 
-if col == "gul":
+ugly = col == "gul"
+
+if ugly:
     print("gult är fult!")
 else:
     print(col, "är en bra färg!")
