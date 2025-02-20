@@ -25,6 +25,8 @@ else:
 
 tic_tac_toe[0][0] = "X"
 
+# Nu vunnit
+
 if tic_tac_toe[0][0] == "X" and tic_tac_toe[1][1] == "X" and tic_tac_toe[2][2] == "X":
     print("X vann diagonalt från övre vänstra hörnet, till nedre högra")
 else:
