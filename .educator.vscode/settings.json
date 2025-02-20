@@ -104,7 +104,7 @@
   },
   "terminal.integrated.suggest.quickSuggestions": false,
   "vscode_custom_css.imports": [".educator.vscode/custom.css"],
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 3,
   "window.zoomPerWindow": false,
   "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
