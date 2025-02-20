@@ -2,4 +2,6 @@
 
 col = "gul"
 
-print(col.capitalize())
+print(col.capitalize())  # Gul
+
+print(col.casefold())  # gul
