@@ -1,3 +1,5 @@
+# Om while-uttrycket är False körs ingen snurr i loopen
+
 while False:
     print("Neeej!")
 
