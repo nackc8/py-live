@@ -1,6 +1,8 @@
 # multiplikationstabeller
 
 for tabell in range(1, 10):
+    print("")
     print("## Multiplikationstabell", tabell)
-    for nummer in range(1, tabell + 1):
+    print("")
+    for nummer in range(1, 10):
         print(tabell, "*", nummer)
