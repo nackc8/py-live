@@ -1,0 +1,67 @@
+Script started on 2025-02-20 09:47:43+01:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="98" LINES="8"]
+[?2004h[94mdate/d250220 (B[m$ /bin/python3
+[?2004lPython 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> tic_tac_toe = [
+...     ["", "X", ""],
+...     ["O", "X", "O"],
+...     ["", "", "X"]
+... ]
+>>> tic_tac_toe = [
+...     ["", "X", ""],
+...     ["O", "X", "O"],
+...     ["", "", "X"]
+... ]
+>>> tic_tac_toe = [
+...     ["", "X", ""],
+...     ["O", "X", "O"],
+...     ["", "", "X"]
+... ]
+>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+  File "<stdin>", line 1
+    /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+    ^
+SyntaxError: invalid syntax
+>>> /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+  File "<stdin>", line 1
+    /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+    ^
+SyntaxError: invalid syntax
+>>> /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+  File "<stdin>", line 1
+    /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+    ^
+SyntaxError: invalid syntax
+>>> 
+[?2004h[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+[?2004l1
+[?2004h[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+[?2004l1
+[?2004h[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+[?2004l1
+[?2004h[94mdate/d250220 (B[m$ python3
+[?2004lPython 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+[?2004h[94mdate/d250220 (B[m$ [H[2J[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/more_lists.py
+[?2004l1
+[?2004h[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs.py
+[?2004lSkriv din favoritfärg: brun
+[?2004h[94mdate/d250220 (B[m$ [H[2J[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs.py
+[?2004lSkriv din favoritfärg: gul
+gul är en bra färg!
+[?2004h[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [H[2J[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs.py
+[?2004lSkriv din favoritfärg: gr[tt   ått
+grått är en bra färg!
+[?2004h[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs.py
+[?2004lSkriv din favoritfärg: gul
+gult är fult!
+[?2004h[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs.py[H[2J[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs.py
+[?2004lSkriv din favoritfärg: Gul
+Gul är en bra färg!
+[?2004h[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ [K[94mdate/d250220 (B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs_safer.py
+[?2004lÅlder? ^CTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion2/inputs_safer.py", line 1, in <module>
+    age = input("Ålder? ")
+          ^^^^^^^^^^^^^^^^
+Keyboa
