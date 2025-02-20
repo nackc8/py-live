@@ -1,4 +1,4 @@
-# for num in range(1, 10):
+# for num in range(1, 6):
 #     print(num)
 # # matar ut
 # # 1
@@ -6,11 +6,8 @@
 # # 3
 # # 4
 # # 5
-# # 6
-# # 7
-# # 8
-# # 9
 
 num = 1
-while num < 10:
+while num < 6:
     print(num)
+    num += 1
