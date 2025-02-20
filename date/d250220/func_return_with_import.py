@@ -16,5 +16,5 @@ def div_by_13(lst_input):
 hit_for_lst1 = div_by_13(lst1)
 hit_for_lst2 = div_by_13(lst2)
 
-smashprint.smashprint("hit 1:", hit_for_lst1)
-smashprint.smashprint("hit 2:", hit_for_lst2)
+smashprint.smashprint("hit 1:" + hit_for_lst1)
+smashprint.smashprint("hit 2:" + hit_for_lst2)
