@@ -1,0 +1,22 @@
+Script started on 2025-02-20 09:18:12+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="83" LINES="17"]
+[?2004h[94mdate/d250220 (B[m$ git[K[K[Kgit status
+[?2004lOn branch 250220
+Your branch is up to date with 'origin/250220'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   ../../.educator.gitignore[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../../.state[m
+	[31m../../.vscode[m
+	[31m../../ITINF24/lektion2[m
+	[31m./[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h[94mdate/d250220 (B[m$ cd[K[Kexit
+[?2004lexit
+
+Script done on 2025-02-20 09:18:46+01:00 [COMMAND_EXIT_CODE="0"]
