@@ -3,7 +3,6 @@
 sum = 0
 
 while True:
-    kaffe = 39
     num = input("Skriv ett heltal eller exit: ")
     if num.isdigit():
         sum += int(num)
@@ -13,4 +12,3 @@ while True:
         print("Du skrev varken en siffra eller exit!")
 
 print("Summan är", sum)
-print("Kaffe är", kaffe)
