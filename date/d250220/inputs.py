@@ -1,5 +1,7 @@
 col = input("Skriv din favoritfärg: ")
 
+col = col.capitalize()
+
 is_ugly = col == "gul"
 
 if is_ugly:
