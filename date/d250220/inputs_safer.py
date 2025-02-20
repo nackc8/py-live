@@ -1,7 +1,7 @@
 age = input("Ålder? ")
 
-if age.isdigit():
-    print("Bra")
+if not age.isdigit():
+    print("Ange en siffra")
 
 age = int(age)
 
