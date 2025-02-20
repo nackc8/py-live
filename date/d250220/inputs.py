@@ -1,3 +1,5 @@
+standard_input = "gUL"  # för "kattens" skull
+
 col = input("Skriv din favoritfärg: ")
 
 col = col.capitalize()
