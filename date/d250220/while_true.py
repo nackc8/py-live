@@ -3,6 +3,6 @@
 sum = 0
 
 while True:
-    print("Neeej!")
-
-print("Sista raden!")
+    num = input("Skriv ett heltal eller exit: ")
+    if num.isdigit():
+        sum += num
