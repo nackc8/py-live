@@ -5,6 +5,9 @@ def greet(person_name, person_age):
     print(person_name, person_age)
 
 
-greet("Rulle", 87)
+name = input("Namn: ")
+age = int(input("Age: "))
+
+greet(name, age)
 
 print("Nu e re slut")
