@@ -1,3 +1,6 @@
 col = input("Skriv din favoritfärg: ")
 
-print(col, "är en bra färg!")
+if col == "gul":
+    print("gult är fult!")
+else:
+    print(col, "är en bra färg!")
