@@ -8,5 +8,7 @@ while True:
         sum += int(num)
     elif num == "exit":
         break
+    else:
+        print("Du skrev varken en siffra eller exit!")
 
 print("Summan är", sum)
