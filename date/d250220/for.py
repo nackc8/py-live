@@ -9,5 +9,5 @@
 
 num = 1
 while num < 6:
-    num += 1
     print(num)
+    num += 1
