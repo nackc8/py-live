@@ -9,3 +9,9 @@ pos_1_in_numbers = numbers[1]
 pos_4_in_numbers = numbers[4]
 
 tic_tac_toe = [[" ", "X", " "], ["O", "X", "O"], [" ", " ", "X"]]
+
+# if sats som kollar om X har vunnit diagonalt från högst upp
+# till vänster, till längst ned till höger
+
+if tic_tac_toe[0][0] == "X" and tic_tac_toe[1][1] == "X" and tic_tac_toe[2][2] == "X":
+    print("X vann diagonalt från övre vänstra hörnet, till nedre högra")
