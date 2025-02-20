@@ -6,3 +6,7 @@ while True:
     num = input("Skriv ett heltal eller exit: ")
     if num.isdigit():
         sum += int(num)
+    elif num == "exit":
+        break
+
+print("Summan är", sum)
