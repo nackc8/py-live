@@ -1,4 +1,9 @@
-lst = [2, 0, 7, 9]
+lst = [2, 7, 9, 15, 14, 19]
+
+hit = None
 
 for num in lst:
-    print(num)
+    if num % 13 == 0:
+        hit = num
+
+print("hit:", hit)
