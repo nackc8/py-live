@@ -5,4 +5,4 @@ sum = 0
 while True:
     num = input("Skriv ett heltal eller exit: ")
     if num.isdigit():
-        sum += num
+        sum += int(num)
