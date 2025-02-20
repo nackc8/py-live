@@ -20,3 +20,12 @@ tic_tac_toe = [[" ", "X", " "], ["O", "X", "O"], [" ", " ", "X"]]
 
 if tic_tac_toe[0][0] == "X" and tic_tac_toe[1][1] == "X" and tic_tac_toe[2][2] == "X":
     print("X vann diagonalt från övre vänstra hörnet, till nedre högra")
+else:
+    print("X har inte vunnit ännu..")
+
+tic_tac_toe[0][0] = "X"
+
+if tic_tac_toe[0][0] == "X" and tic_tac_toe[1][1] == "X" and tic_tac_toe[2][2] == "X":
+    print("X vann diagonalt från övre vänstra hörnet, till nedre högra")
+else:
+    print("X har inte vunnit ännu..")
