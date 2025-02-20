@@ -8,4 +8,4 @@ print(numbers[0])
 pos_1_in_numbers = numbers[1]
 pos_4_in_numbers = numbers[4]
 
-tic_tac_toe = [["", "X", ""], ["O", "X", "O"], ["", "", "X"]]
+tic_tac_toe = [[" ", "X", " "], ["O", "X", "O"], [" ", " ", "X"]]
