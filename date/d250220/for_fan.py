@@ -8,3 +8,6 @@ for order in fan_orders:
     if order < small_order_fee_limit:
         order = order * small_order_fee_percent
         fan_orders_plus_small_order_fee.append(order)
+
+print("before sof:", fan_orders)
+print("with sof:", fan_orders_plus_small_order_fee)
