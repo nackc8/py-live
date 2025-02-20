@@ -1,7 +1,11 @@
+import sys
+
+
 age = input("Ålder? ")
 
 if not age.isdigit():
     print("Ange en siffra")
+    sys.exit(1)
 
 age = int(age)
 
