@@ -8,6 +8,9 @@ print(numbers[0])
 pos_1_in_numbers = numbers[1]
 pos_4_in_numbers = numbers[4]
 
+# [" ", "X", " "],
+# ["O", "X", "O"],
+# [" ", " ", "X"]
 tic_tac_toe = [[" ", "X", " "], ["O", "X", "O"], [" ", " ", "X"]]
 
 # if sats som kollar om X har vunnit diagonalt från högst upp
