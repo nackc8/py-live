@@ -65,7 +65,7 @@
   "explorer.compactFolders": false,
   "explorer.decorations.colors": false,
   "explorer.excludeGitIgnore": true,
-  "files.autoSave": "off",
+  "files.autoSave": "afterDelay",
   "files.exclude": {
     "**/ignored*": false
   },
