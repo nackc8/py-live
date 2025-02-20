@@ -8,10 +8,14 @@ print(numbers[0])  # prints 1
 pos_1_in_numbers = numbers[1]
 pos_4_in_numbers = numbers[4]
 
-# [" ", "X", " "],
-# ["O", "X", "O"],
-# [" ", " ", "X"]
-tic_tac_toe = [[" ", "X", " "], ["O", "X", "O"], [" ", " ", "X"]]
+# fmt: off
+tic_tac_toe = \
+    [
+        [" ", "X", " "],
+        ["O", "X", "O"],
+        [" ", " ", "X"]
+    ]
+# fmt: n
 
 # if sats som kollar om X har vunnit diagonalt från högst upp
 # till vänster, till längst ned till höger
