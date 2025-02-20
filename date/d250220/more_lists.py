@@ -8,6 +8,9 @@ print(numbers[0])  # prints 1
 pos_1_in_numbers = numbers[1]
 pos_4_in_numbers = numbers[4]
 
+# fmt off och on kan slå av och på Ruff:s autoformattering. Rad som slutar
+# med \ behandlar Python som att samma rad fortsätter oavbruten på nästa rad.
+
 # fmt: off
 tic_tac_toe = \
     [
@@ -15,7 +18,7 @@ tic_tac_toe = \
         ["O", "X", "O"],
         [" ", " ", "X"]
     ]
-# fmt: n
+# fmt: on
 
 # if sats som kollar om X har vunnit diagonalt från högst upp
 # till vänster, till längst ned till höger
