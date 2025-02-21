@@ -1,0 +1,107 @@
+# shellcheck shell=bash
+
+__profiles_educator_dot_bashrc_script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+__profiles_educator_dot_bashrc_root="$(
+    cd "$__profiles_educator_dot_bashrc_script_dir/.."
+    git rev-parse --show-toplevel
+)"
+
+source "$__profiles_educator_dot_bashrc_root/.shared/repo.bash"
+
+# shellcheck disable=SC1090
+source ~/.bashrc
+
+# shellcheck disable=SC2181,SC2317
+_rel_path() {
+    local prompt
+    local root
+
+    root="$(git rev-parse --show-toplevel 2>/dev/null)"
+
+    # if in a git repo
+    if [[ $? == 0 ]]; then
+        # make prompt relative to git root
+        prompt="${PWD#"$root"}"
+        prompt="${prompt#/}"
+    else
+        # make prompt relative to home
+        prompt="${PWD/"$HOME"/\~}"
+    fi
+
+    echo -n "$prompt"
+}
+export -f _rel_path
+
+# shellcheck disable=SC2317,SC2155
+_set_bash_prompt() {
+    local prompt=$(_rel_path)
+
+    if ((${#prompt} > 13)); then
+        prompt+="\n"
+    elif ((${#prompt} > 0)); then
+        prompt+=" "
+    fi
+
+    prompt="$(tput setaf 12)${prompt# }$(tput sgr0)$ "
+    PS1=$prompt
+}
+export -f _set_bash_prompt
+
+pwd
+ls --color
+
+# shellcheck disable=SC1091
+[[ -f $__profiles_educator_dot_bashrc_root/.state ]] && source "$__profiles_educator_dot_bashrc_root/.state"
+
+__profiles_educator_dot_bashrc_dates_dir="$__profiles_educator_dot_bashrc_root/date"
+mkdir -p "$__profiles_educator_dot_bashrc_dates_dir"
+
+IFS=, read -r __profiles_educator_dot_bashrc_datepart __profiles_educator_dot_bashrc_timepart < <(date +"%y%m%d,%H%M%S")
+__profiles_educator_dot_bashrc_todays_date_dir="$__profiles_educator_dot_bashrc_dates_dir/d$__profiles_educator_dot_bashrc_datepart"
+
+export PROMPT_COMMAND=_set_bash_prompt
+export SHELL="$__profiles_educator_dot_bashrc_script_dir/bash_noprofile_norc"
+
+if [[ ! -e $__profiles_educator_dot_bashrc_todays_date_dir || -n $__profiles_educator_dot_bashrc_class || -n $default_lession_number ]]; then
+    if [ -n "$__profiles_educator_dot_bashrc_class" ]; then
+        __profiles_educator_dot_bashrc_class="$(ask --default "$__profiles_educator_dot_bashrc_class" --validate '[A-Z]+2[3-9]' \
+            "Ange klass: ($__profiles_educator_dot_bashrc_class) ")"
+    else
+        __profiles_educator_dot_bashrc_class="$(ask --validate '[A-Z]+2[3-9]' 'Ange klass:')"
+    fi
+
+    default_lession_number=$((__profiles_educator_dot_bashrc_lession_number + 1))
+
+    __profiles_educator_dot_bashrc_lession_number="$(
+        ask --validate '[1-9][0-9]?' --default "$default_lession_number" \
+            "Ange lektion ($default_lession_number) "
+    )"
+
+    echo -e "__profiles_educator_dot_bashrc_class='$__profiles_educator_dot_bashrc_class'\n__profiles_educator_dot_bashrc_lession_number='$__profiles_educator_dot_bashrc_lession_number'" >"$__profiles_educator_dot_bashrc_root/.state"
+
+    git fetch
+    git stash
+    if ! git checkout "$__profiles_educator_dot_bashrc_datepart" 2>/dev/null; then
+        git checkout -b "$__profiles_educator_dot_bashrc_datepart"
+        git push
+    fi
+    git stash pop
+fi
+
+__profiles_educator_dot_bashrc_todays_lession_dir="$__profiles_educator_dot_bashrc_root/$__profiles_educator_dot_bashrc_class/lektion${__profiles_educator_dot_bashrc_lession_number}"
+
+mkdir -p "$__profiles_educator_dot_bashrc_todays_lession_dir"
+
+[ ! -e "$__profiles_educator_dot_bashrc_todays_date_dir" ] && ln -rs "$__profiles_educator_dot_bashrc_todays_lession_dir" "$__profiles_educator_dot_bashrc_todays_date_dir"
+
+cd "$__profiles_educator_dot_bashrc_todays_lession_dir" || true
+
+mkdir -p recordings
+
+__profiles_educator_dot_bashrc_record="recordings/${__profiles_educator_dot_bashrc_timepart}.txt"
+__profiles_educator_dot_bashrc_record_timing="recordings/${__profiles_educator_dot_bashrc_timepart}_timing.txt"
+
+# shellcheck disable=SC2064,SC2154
+trap '__profiles_educator_dot_bashrc_exit_code=$?; '"'$__profiles_educator_dot_bashrc_script_dir/clean_exited_recording.bash' '$__profiles_educator_dot_bashrc_record' '$__profiles_educator_dot_bashrc_record_timing'; "'exit $__profiles_educator_dot_bashrc_exit_code' EXIT
+
+script -q --return "$__profiles_educator_dot_bashrc_record" "--timing=$__profiles_educator_dot_bashrc_record_timing"

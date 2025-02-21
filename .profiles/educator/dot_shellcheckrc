@@ -1,0 +1,5 @@
+disable=SC2119,SC2155,SC2164
+external-sources=true
+source-path=SCRIPTDIR/../..
+source-path=SCRIPTDIR/..
+enable=quote-safe-variables

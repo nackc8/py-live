@@ -7,11 +7,12 @@ ignored*
 #
 # "Live"
 #
+*.iml
 /.gitignore
+/.idea
+/.shellcheckrc
 /.state
 /.vscode
-/.idea
-*.iml
 
 #
 # Java
