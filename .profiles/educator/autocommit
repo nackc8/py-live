@@ -1,0 +1,86 @@
+#!/bin/bash
+
+cd "$(dirname "${BASH_SOURCE[0]}")"
+root="$(git rev-parse --show-toplevel)"
+source "$root/.shared/repo.bash"
+
+exit_if_script_is_already_running
+
+report() {
+    if [ -n "$1" ]; then
+        _alog+="$1"
+        echo -n "$1"
+    else
+        clear
+        echo -n "autocommit: "
+        echo -n "$_alog"
+    fi
+}
+
+get_oldest_change_time_sec() {
+    # all commit times will be older than this
+    local min="$(date +%s)"
+    local has_changes=1
+
+    while read -r changed_file; do
+        echo changed_file: "$changed_file" >&2
+        has_changes=0
+        local mod="$(date -r "$changed_file" +%s)"
+        min=$((mod < min ? mod : min))
+    done < <(git status --porcelain | cut -c4-)
+    echo "$min"
+    return "$has_changes"
+}
+
+commit_push() {
+    local commit_reason="$1"
+    git add .
+    git commit -m "autocommit $commit_reason $(date +"%H%M (%S)")"
+    git push
+}
+
+datepart="$(date +"%y%m%d")"
+
+tick=5
+
+while true; do
+    [[ $(git branch --show-current) == "$datepart" ]] && break
+    [[ "$1" != "--wait-branch" ]] && exit
+    report "?"
+    sleep "$tick"
+done
+
+min_wait_sec=15
+max_wait_sec=120
+
+cd "$root"
+
+while true; do
+    oldest_sec=$(get_oldest_change_time_sec)
+
+    has_changes=$?
+
+    time_since_oldest_sec=$(($(date +%s) - oldest_sec))
+
+    if ((has_changes > 0)); then
+        # no changes
+        report "."
+    elif ((time_since_oldest_sec < min_wait_sec)); then
+        # wait
+        report "w"
+    elif ((time_since_oldest_sec > max_wait_sec)); then
+        report "p"
+        git add .
+        commit_push "partial"
+        sleep 10
+        report
+    else
+        report "c"
+        git add .
+        commit_push "complete"
+        sleep 10
+        report
+    fi
+
+    sleep "$tick"
+done

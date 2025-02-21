@@ -1,0 +1,10 @@
+{
+  "explorer.excludeGitIgnore": false,
+  "files.exclude": {
+    ".[!v][!s][!c][!o][!d][!e]*/**": true
+  },
+  "shellcheck.ignorePatterns": {
+    ".*/**": true,
+    "bin/**": true
+  }
+}

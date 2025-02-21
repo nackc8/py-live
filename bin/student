@@ -1,12 +1,13 @@
 #!/bin/bash
 
+set -euo pipefail
+
 cd "$(dirname "${BASH_SOURCE[0]}")"
-source ../.educator.shared/lib.bash
-script_parent_dir="$(cd .. && pwd)"
+root="$(git rev-parse --show-toplevel)"
+source "$root/.shared/repo.bash"
 
 answer=$(
-	ask "Vill du återgå till studentläget? ([yYjJ] [nN]) " \
-		yYjJ nN
+	ask --default n "Vill du återgå till studentläget? (j/N) " yYjJ nN
 )
 
 if [[ "$answer" == 'n' ]]; then
@@ -17,9 +18,6 @@ sleep 1
 timestamp="$(date +%s)"
 
 save=$(mktemp -d -t "educator-save-$timestamp-XXX")
+mv -v "$root/."{vscode,shellcheckrc,gitignore} "$save" 2>/dev/null || true
 
-mv -v "$script_parent_dir/."{gitignore,vscode,idea} "$save" 2>/dev/null || true
-
-git update-index --no-skip-worktree "$script_parent_dir/.gitignore"
-
-git restore -- "$script_parent_dir/.gitignore"
+reset_vscode_profile_student

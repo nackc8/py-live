@@ -2,10 +2,6 @@
   "[ansible]": {
     "editor.defaultFormatter": "redhat.ansible"
   },
-  "[java]": {
-    "java.debug.settings.console": "integratedTerminal",
-    "terminal.integrated.defaultProfile.linux": "bash"
-  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -47,6 +43,7 @@
       "condition": "always"
     }
   ],
+  "AREPL.skipLandingPage": true,
   "breadcrumbs.enabled": false,
   "debug.console.fontSize": 14,
   "editor.acceptSuggestionOnEnter": "off",
@@ -66,8 +63,11 @@
   "explorer.decorations.colors": false,
   "explorer.excludeGitIgnore": true,
   "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
   "files.exclude": {
-    "**/ignored*": false
+    "**/ignored*": false,
+    ".shared": true,
+    ".*": true
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -75,16 +75,10 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
-  "java.project.excludePaths": [
-    ".",
-    // Exclude the root directory
-    "**"
-    // Exclude everything else recursively
-  ],
-  "java.project.sourcePaths": ["date"],
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableSuggestions": false,
   "json.format.enable": false,
   "scm.inputFontFamily": "editor",
-  "scm.inputfontSize": 20,
   "screencastMode.keyboardOptions": {
     "showKeys": false,
     "showSingleEditorCursorMoves": false
@@ -98,12 +92,11 @@
   "terminal.integrated.minimumContrastRatio": 7,
   "terminal.integrated.profiles.linux": {
     "BashPresentation": {
-      "args": ["--rcfile", "./.educator.shared/.bashrc"],
+      "args": ["--rcfile", "./.profiles/educator/present_dot_bashrc"],
       "path": "bash"
     }
   },
   "terminal.integrated.suggest.quickSuggestions": false,
-  "vscode_custom_css.imports": [".educator.vscode/custom.css"],
   "window.zoomLevel": 3,
   "window.zoomPerWindow": false,
   "workbench.activityBar.location": "hidden",
@@ -118,10 +111,10 @@
     "editorWarning.background": "#ffffccaa",
     "editorWarning.border": "#ffffff00",
     "editorWarning.foreground": "#ffffff00",
-    "icon.foreground": "#aaa",
+    "icon.foreground": "#000",
     "list.activeSelectionBackground": "#dfd",
     "list.activeSelectionForeground": "#00f",
-    "list.activeSelectionIconForeground": "#aaa",
+    "list.activeSelectionIconForeground": "#000",
     "list.focusedBackground": "#dfd",
     "list.hoverBackground": "#dfd",
     "list.hoverForeground": "#00f",

@@ -1,26 +1,92 @@
 #!/bin/bash
 
 cd "$(dirname "${BASH_SOURCE[0]}")"
-source ../.educator.shared/lib.bash
+root="$(git rev-parse --show-toplevel)"
+source "$root/.shared/repo.bash"
 
-msg <<-EOM
-	Det här skriptet skriver över alla förändringar i "live"-klonen så att de
-    blir exakt som den senaste versionen på GitHub. Det löser t.ex. problem om
-    utbildaren ändrat i Git-historiken så att det annars är svårt att få de
-    senaste ändringarna.
-EOM
+educator_git_ignore="$root/.educator/dot_gitignore"
+daystart="$root/bin/daystart"
 
-answer=$(
-    ask "Är du säker på att du vill radera dina lokala ändringar och hämta de senaste? ([yYjJ] [nN]) " \
-        yYjJ nN
-)
+if [[ $# -gt 0 && $1 == --continue-at ]]; then
+	msg_stderr <<-EOM
+		Kör den uppdaterade versionen av skriptet...
+	EOM
 
-if [[ "$answer" == 'n' ]]; then
-    exit 1
+	if [ ! -d "$2" ]; then
+		msg_stderr <<-EOM
+			Missing script reset script: '"$2"'.
+		EOM
+		exit 1
+	fi
+
+	root=$2
+	shift 2
+else
+	msg <<-EOM
+		Det här skriptet skriver över alla förändringar i "live"-klonen så att de
+		blir exakt som den senaste versionen på GitHub. Det löser t.ex. problem om
+		utbildaren ändrat i Git-historiken så att det annars är svårt att få de
+		senaste ändringarna.
+	EOM
+
+	answer=$(
+		ask --default n "Är du säker på att du vill radera dina lokala ändringar och hämta de senaste? (j/N) " yYjJ nN
+	)
+
+	if [[ "$answer" == 'n' ]]; then
+		exit 1
+	fi
+
+	msg <<-EOM
+		Under tiden som skriptet körs kan du behöva skriva in ditt lösenord för
+		GitHub flera gånger.
+	EOM
+	sleep 5
+
+	trap 'rm -rf "$temporary_directory"' EXIT
+	temporary_directory=$(mktemp -d 2>/dev/null || mktemp -d -t tmp)
+
+	live_repo="$temporary_directory/live"
+	git clone "$(get_git_url)" "$live_repo"
+	echo
+
+	reset_script_relpath=$(git ls-files --full-name ./reset)
+
+	latest_reset_script="$live_repo/$reset_script_relpath"
+
+	if cmp -s "$PWD/reset" "$latest_reset_script"; then
+		msg_stderr <<-EOM
+			Kör vidare med nuvarande version av skriptet eftersom det är den
+			senaste versionen.
+		EOM
+	else
+		if "$latest_reset_script" --continue-at "$root"; then
+			exit
+		else
+			msg_stderr <<-EOM
+				Kör vidare med nuvarande version av skriptet eftersom den
+				senaste versionen inte kunde köras.
+			EOM
+		fi
+	fi
 fi
 
-git fetch origin
-git reset --hard origin/main
-git clean -fd
+cd "$root"
 
-./daystart
+git fetch
+
+# Remove all untracked files and directories based on the latest educator
+# gitignore file. This is necessary because the educator gitignore file may have
+# changed since the last time the student cloned the repository.
+git ls-files --ignored --exclude-from="$educator_git_ignore" --others -z "$root" |
+	xargs -0 rm -rfv
+
+git reset --hard "origin/$(get_git_branch)"
+git checkout main
+git reset --hard origin/main
+
+reset_vscode_profile_student
+
+echo
+
+"$daystart"

@@ -1,0 +1,110 @@
+# shellcheck shell=bash
+
+___script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+___root="$(
+	cd "$___script_dir/.."
+	git rev-parse --show-toplevel
+)"
+
+source "$___root/.shared/repo.bash"
+
+# shellcheck disable=SC1090
+source ~/.bashrc
+
+# shellcheck disable=SC2181,SC2317
+___rel_path() {
+	local prompt
+	local root
+
+	root="$(git rev-parse --show-toplevel 2>/dev/null)"
+
+	# if in a git repo
+	if [[ $? == 0 ]]; then
+		# make prompt relative to git root
+		prompt="${PWD#"$root"}"
+		prompt="${prompt#/}"
+	else
+		# make prompt relative to home
+		prompt="${PWD/"$HOME"/\~}"
+	fi
+
+	echo -n "$prompt"
+}
+export -f ___rel_path
+
+# shellcheck disable=SC2317,SC2155
+___set_bash_prompt() {
+	local prompt=$(___rel_path)
+
+	if ((${#prompt} > 13)); then
+		prompt+="\n"
+	elif ((${#prompt} > 0)); then
+		prompt+=" "
+	fi
+
+	prompt="$(tput setaf 12)${prompt# }$(tput sgr0)$ "
+	PS1=$prompt
+}
+export -f ___set_bash_prompt
+
+pwd
+ls --color
+
+# shellcheck disable=SC1091
+[[ -f $___root/.state ]] && source "$___root/.state"
+
+___dates_dir="$___root/date"
+mkdir -p "$___dates_dir"
+
+IFS=, read -r ___datepart ___timepart < <(date +"%y%m%d,%H%M%S")
+___date_dir="$___dates_dir/d$___datepart"
+
+export PROMPT_COMMAND=___set_bash_prompt
+export SHELL="$___script_dir/bash_noprofile_norc"
+
+if [[ ! -e $___date_dir || -z $___class || -z $___lession_number ]]; then
+	if [ -n "$___class" ]; then
+		___class="$(ask --default "$___class" --validate '[A-Z]+2[3-9]' \
+			"Ange klass: ($___class) ")"
+	else
+		___class="$(ask --validate '[A-Z]+2[3-9]' 'Ange klass:')"
+	fi
+
+	___def_lession_number=$((___lession_number + 1))
+
+	___lession_number="$(
+		ask --validate '[1-9][0-9]?' --default "$___def_lession_number" \
+			"Ange lektion ($___def_lession_number) "
+	)"
+
+	cat <<-EOF >"$___root/.state"
+		___class='$___class'
+		___lession_number=$___lession_number
+	EOF
+
+	git fetch
+	git stash
+	if ! git checkout "$___datepart" 2>/dev/null; then
+		git checkout -b "$___datepart"
+		git push
+	fi
+	git stash pop
+fi
+
+___lession_dir="$___root/$___class/lektion${___lession_number}"
+
+mkdir -p "$___lession_dir"
+
+[ ! -e "$___date_dir" ] && ln -rs "$___lession_dir" "$___date_dir"
+
+cd "$___lession_dir" || true
+
+mkdir -p recordings
+
+___record="recordings/${___timepart}.txt"
+___record_timing="recordings/${___timepart}_timing.txt"
+
+# shellcheck disable=SC2064,SC2154
+trap '___exit_code=$?; '"'$___script_dir/clean_exited_recording.bash' '$___record' '$___record_timing'; "'exit $___exit_code' EXIT
+
+script -q --return "$___record" "--timing=$___record_timing"
