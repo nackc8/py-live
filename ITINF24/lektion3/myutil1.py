@@ -6,9 +6,6 @@ def get_first(lst):
     return lst[0]
 
 
-if 2 > 1 + 3:
-    print("Whaaat?")
-
 # i AREPL så menas None, när den skriver null
 
 min_lista = [8, 10, "Hej"]
