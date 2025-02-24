@@ -1,6 +1,6 @@
 # vi vill att start ska vara
 # valfri...
-def myprint(txt, start="ZZZ"):
+def myprint(txt, *, start="ZZZ"):
     print(start + txt)
 
 
