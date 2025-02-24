@@ -1,1 +1,2 @@
-def get_first()
+def get_first(lst):
+    print(lst)
