@@ -5,5 +5,5 @@ def myprint(txt, *, start="ZZZ"):
 
 
 myprint("Hello1")
-myprint("Hello2", "AAA")
+# myprint("Hello2", "AAA") # Förbjudet pga *
 myprint("Hello3", start="BBB")
