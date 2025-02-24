@@ -981,3 +981,75 @@ Tillbaka
 -116478
 -116601
 -116724
+-116847
+-116970
+-117093
+-117216
+-117339
+-117462
+-117585
+-117708
+-117831
+-117954
+-118077
+-118200
+-118323
+-118446
+-118569
+-118692
+-118815
+-118938
+-119061
+-119184
+-119307
+-119430
+-119553
+-119676
+-119799
+-119922
+-120045
+-120168
+-120291
+-120414
+-120537
+-120660
+-120783
+-120906
+-121029
+-121152
+-121275
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 501, in main
+    run()
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 351, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion3/rekur1.py", line 9, in <module>
+    count_to_zero(3)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion3/rekur1.py", line 6, in count_to_zero
+    count_to_zero(val)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion3/rekur1.py", line 6, in count_to_zero
+    count_to_zero(val)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion3/rekur1.py", line 6, in count_to_zero
+    count_to_zero(val)
+  [Previous line repeated 983 more times]
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion3/rekur1.py", line 5, in count_to_zero
+    print(val)
+RecursionError: maximum recursion depth exceeded while calling a Python object
+[?2004h[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[A[K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [K[94m(B[m$ [?2004l
+exit
+
+Script done on 2025-02-24 11:41:11+01:00 [COMMAND_EXIT_CODE="1"]
