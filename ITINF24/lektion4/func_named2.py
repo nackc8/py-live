@@ -1,7 +1,8 @@
 # vi vill att start ska vara
 # valfri...
 def myprint(text, start="$$$"):
-    print(text + start)
+    print(start + text)
 
 
-myprint("Hello")
+myprint("Hello1")
+myprint("Hello2", "----\n")
