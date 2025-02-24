@@ -30,6 +30,7 @@ def get_first_second(lst):
 # ska importeras.
 #
 
+FAKE_PI = 3.14  # strunta i onödiga PI-decimaler
 
 # min_lista = [8, 10, "Hej"]
 # # tillbaka = get_first(min_lista)
