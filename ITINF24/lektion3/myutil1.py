@@ -3,7 +3,7 @@ def get_first_using_print_is_wrong(lst):
 
 
 def get_first(lst):
-    print(lst[0])
+    return lst[0]
 
 
 # i AREPL så menas None, när den skriver null
