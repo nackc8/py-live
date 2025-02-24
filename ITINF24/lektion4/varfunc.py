@@ -8,6 +8,10 @@ def dubbla(tal):
 
 # hehe pekar på samma
 # funktion som dubbla
-hehe = dubbla
-a = dubbla(10)
-b = hehe(10)
+# hehe = dubbla
+# a = dubbla(10)
+# b = hehe(10)
+
+modifiera = halvera
+
+moddat_varde = modifiera(10)
