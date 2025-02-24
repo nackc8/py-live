@@ -1,8 +1,11 @@
 # * betyder att vi kräver namnanrop på parametrarna
 # till höger om den..
 
+# / betyder att vi kräver positionella anrop på parametrarna
+# till vänster om den..
 
-def myprint(txt, *, start="ZZZ"):
+
+def myprint(txt, /, *, start="ZZZ"):
     print(start + txt)
 
 
