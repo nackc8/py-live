@@ -30,8 +30,8 @@ def get_first_second(lst):
 # ska importeras.
 #
 
-min_lista = [8, 10, "Hej"]
-# tillbaka = get_first(min_lista)
-# print("tillbaka", tillbaka)
-first_second = get_first_second(min_lista)
-print("first_second", first_second)
+# min_lista = [8, 10, "Hej"]
+# # tillbaka = get_first(min_lista)
+# # print("tillbaka", tillbaka)
+# first_second = get_first_second(min_lista)
+# print("first_second", first_second)
