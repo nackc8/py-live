@@ -1,0 +1,16 @@
+Script started on 2025-02-24 09:26:23+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="25" LINES="11"]
+ITINF24/lektion3
+$ ITINF24/lektion3
+$ while turueö; do git pull; sleep 5; done 
+
+
+
+
+
+e
+^C
+ITINF24/lektion3
+$ 
+exit
+
+Script done on 2025-02-24 09:28:28+01:00 [COMMAND_EXIT_CODE="130"]

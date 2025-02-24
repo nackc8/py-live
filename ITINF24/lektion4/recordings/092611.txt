@@ -1,0 +1,10 @@
+Script started on 2025-02-24 09:26:23+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="25" LINES="11"]
+[?2004h[94mITINF24/lektion3
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion3
+(B[m$ while tut[K[Krueö [K[K; do git pull; sleep 5; done [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+[?2004l^C
+[?2004h[94mITINF24/lektion3
+(B[m$ [?2004l
+exit
+
+Script done on 2025-02-24 09:28:28+01:00 [COMMAND_EXIT_CODE="130"]
