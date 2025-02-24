@@ -6,6 +6,6 @@ def dubbla(tal):
     return tal * 2
 
 
-modifiera = halvera
+modifiera = dubbla
 
 moddat_varde = modifiera(10)
