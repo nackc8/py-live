@@ -3,4 +3,4 @@ def count_to_zero(val):
     if val == 0:
         return
     print(val)
-    return count_to_zero(val)
+    count_to_zero(val)
