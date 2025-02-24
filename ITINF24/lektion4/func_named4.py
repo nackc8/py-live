@@ -7,3 +7,4 @@ def myprint(txt, *, start="ZZZ"):
 
 
 myprint("Hello world", start="Inte zeta")
+myprint(txt="Hello world", start="Inte zeta")
