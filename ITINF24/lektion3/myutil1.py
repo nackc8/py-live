@@ -1,5 +1,5 @@
 def get_first(lst):
-    print(lst)
+    print(lst[0])
 
 
 # i AREPL så menas None, när den skriver null
