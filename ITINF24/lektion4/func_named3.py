@@ -1,5 +1,7 @@
-# vi vill att start ska vara
-# valfri...
+# * betyder att vi kräver namnanrop på parametrarna
+# till höger om den..
+
+
 def myprint(txt, *, start="ZZZ"):
     print(start + txt)
 
