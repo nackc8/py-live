@@ -5,6 +5,9 @@ def halvera(tal):
 def dubbla(tal):
     return tal * 2
 
-def modifiera
+
+def modifiera(tal, fn):
+    return fn(tal)
 
 
+modifiera(5, dubbla)
