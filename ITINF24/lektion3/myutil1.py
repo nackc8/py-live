@@ -1,3 +1,7 @@
+def get_first_using_print_is_wrong(lst):
+    print(lst[0])
+
+
 def get_first(lst):
     print(lst[0])
 
