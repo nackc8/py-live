@@ -7,7 +7,7 @@ def get_first(lst):
 
 
 def get_first_second(lst):
-    return [lst[0]]
+    return [lst[1]]
 
 
 # i AREPL så menas None, när den skriver null
