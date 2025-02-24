@@ -4,3 +4,6 @@
 
 def myprint(txt, *, start="ZZZ"):
     print(start + txt)
+
+
+myprint("Hello world", start="Inte zeta")
