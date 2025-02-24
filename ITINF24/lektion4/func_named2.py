@@ -1,3 +1,5 @@
+def myprint(text, start):
+    print(text + start)
 
-def dela(a, b):
-    return a / b
+
+myprint("Hello")
