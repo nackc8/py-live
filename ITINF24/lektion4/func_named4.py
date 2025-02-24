@@ -15,4 +15,6 @@ def myprint2(txt1, /, txt2, *, start="ZZZ"):
 
 # myprint(txt="Hello world", start="Inte zeta") # Förbjuden
 
+# Båda funkar lika bra!
 myprint2("Hello ", "world", start="---")
+myprint2("Hello ", txt2="world", start="---")
