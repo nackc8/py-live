@@ -4,3 +4,5 @@ def count_to_zero(val):
     #     return val
     print(val)
     count_to_zero(val)
+
+count_to_zero()
