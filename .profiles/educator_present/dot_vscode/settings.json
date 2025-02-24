@@ -128,6 +128,7 @@
   },
   "workbench.colorTheme": "Default High Contrast Light",
   "workbench.editor.showIcons": false,
+  "workbench.hover.delay": 5000,
   "workbench.iconTheme": null,
   "workbench.statusBar.visible": false
 }

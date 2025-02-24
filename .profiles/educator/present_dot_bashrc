@@ -108,3 +108,5 @@ ___record_timing="recordings/${___timepart}_timing.txt"
 trap '___exit_code=$?; '"'$___script_dir/clean_exited_recording.bash' '$___record' '$___record_timing'; "'exit $___exit_code' EXIT
 
 script -q --return "$___record" "--timing=$___record_timing"
+
+exit $?
