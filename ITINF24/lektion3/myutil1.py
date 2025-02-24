@@ -25,6 +25,11 @@ def get_first_second(lst):
 
 # i AREPL så menas None, när den skriver null
 
+#
+# Inte köra kod "i onödan" direkt i filer som
+# ska importeras.
+#
+
 min_lista = [8, 10, "Hej"]
 # tillbaka = get_first(min_lista)
 # print("tillbaka", tillbaka)
