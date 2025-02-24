@@ -2,7 +2,4 @@
 print("Du fick: 🃁")
 
 r = range(1000, 1300)
-
-r_lst = [1, 2, 3, 4, 5]
-
-print(r[0])
+print(r[0])  # -> 1000 eftersom det är först (0)
