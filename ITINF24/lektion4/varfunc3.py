@@ -10,4 +10,4 @@ def modifiera(tal, fn):
     return fn(tal)
 
 
-modifiera(5, dubbla)
+resultat = modifiera(5, dubbla)
