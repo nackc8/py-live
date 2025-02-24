@@ -10,6 +10,7 @@ def get_first_second_kanske_mindre_lasbart(lst):
     return [lst[0], lst[1]]
 
 
+# undvik globala variabler
 def get_first_second_global():
     first = min_lista[0]
     second = min_lista[1]
