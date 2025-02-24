@@ -50,8 +50,18 @@ export -f ___set_bash_prompt
 pwd
 ls --color
 
+___class_validation_re='^[A-Z]+2[3-9]$'
+___lession_number_validation_re='^[1-9][0-9]?$'
+
 # shellcheck disable=SC1091
-[[ -f $___root/.state ]] && source "$___root/.state"
+if [[ -f $___root/.state ]] && (
+	source "$___root/.state"
+	[[ $___class =~ $___class_validation_re ]] && [[ $___lession_number =~ $___lession_number_validation_re ]] && echo Jaaa
+); then
+	source "$___root/.state"
+else
+	rm -f "$___root/.state"
+fi
 
 ___dates_dir="$___root/date"
 mkdir -p "$___dates_dir"
@@ -64,16 +74,16 @@ export SHELL="$___script_dir/bash_noprofile_norc"
 
 if [[ ! -e $___date_dir || -z $___class || -z $___lession_number ]]; then
 	if [ -n "$___class" ]; then
-		___class="$(ask --default "$___class" --validate '[A-Z]+2[3-9]' \
+		___class="$(ask --default "$___class" --validate "$___class_validation_re" \
 			"Ange klass: ($___class) ")"
 	else
-		___class="$(ask --validate '[A-Z]+2[3-9]' 'Ange klass:')"
+		___class="$(ask --validate "$___class_validation_re" 'Ange klass:')"
 	fi
 
 	___def_lession_number=$((___lession_number + 1))
 
 	___lession_number="$(
-		ask --validate '[1-9][0-9]?' --default "$___def_lession_number" \
+		ask --validate "$___lession_number_validation_re" --default "$___def_lession_number" \
 			"Ange lektion ($___def_lession_number) "
 	)"
 
