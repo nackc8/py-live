@@ -7,7 +7,6 @@ def xuff(*params):
     for p in params:
         print("\t", p)
 
-
 xuff("hej", "hopp")
 
 xuff("")
