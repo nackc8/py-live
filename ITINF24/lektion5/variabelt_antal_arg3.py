@@ -2,13 +2,13 @@ import random
 
 
 #                   .---------- * först gör att man kan få in en sekvens av positionella argument
-def tal_delare(tal, *params):
+def tal_delare(tal, *params, faktor):
     """tal_delare delar ett tal med var och en
     av parametrarna i param"""
     print(f"{random.randint(1, 999)} tal_delare:")
     for p in params:
         print("", "loop-snurr, p=", p)
-        tal = tal / p
+        tal = (tal / p) * faktor
     return tal
 
 
