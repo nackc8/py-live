@@ -5,6 +5,12 @@
 # mutable: kan ändras
 # immutable: ändras aldrig
 
+# strängar är immutable
 str1 = "hej"
 print(str1, id(str1))
-str1.replace
+str1 = str1.replace("j", "y")
+print(str1, id(str1))
+
+# listor är mutable
+lst = ["aa", "bb", "cc"]
+print(lst, id(lst))
