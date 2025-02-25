@@ -8,6 +8,7 @@ by = "skinnskatteberg"
 # print(by[::-1])  # Omvänd, baklänges
 
 
-print(lst[2::-1])  # Omvänd, baklänges
+print(lst[2::-1])  # Börjar vid index 2
+print(by[2::-1])  # Börjar vid index 2
 
 # print(by[::-1])  # Omvänd, baklänges
