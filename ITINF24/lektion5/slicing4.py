@@ -7,11 +7,18 @@ by = "skinnskatteberg"
 
 # kombinera slicing 3 och 4.
 
-print(lst[1:5])  # omsträngens längd är exakt som ovan
+# print(lst[1:5])  # omsträngens längd är exakt som ovan
 
 # mer generellt
-print(lst[1:-1])  # omsträngens längd är exakt som ovan
-print(by[1:-1])  # omsträngens längd är exakt som ovan
+# print(lst[1:-1])
+# print(by[1:-1])
+
+lst = ["a", "b", "c", "d", "e", "f"]
+by = "skinnskatteberg"
+
+# tre näst sista
+print(lst[1:-1])
+print(by[1:-1])
 
 
 # print(lst[::2])  # Varannat element
