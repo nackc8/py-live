@@ -5,9 +5,9 @@ import random
 def tal_delare(tal, *params):
     print(f"{random.randint(1, 999)} positionella argument:")
     for p in params:
-        print("\t", p)
+        tal = tal / p
+        print(tal)
+    return tal
 
 
-tal_delare("hej", "hopp")
-
-tal_delare("")
+behandlat_tal = tal_delare(1000)
