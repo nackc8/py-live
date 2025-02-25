@@ -14,3 +14,4 @@ print(str1, id(str1))
 # listor är mutable
 lst = ["aa", "bb", "cc"]
 print(lst, id(lst))
+lst.pop()
