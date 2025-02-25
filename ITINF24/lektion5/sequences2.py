@@ -1,4 +1,10 @@
 djur = "bisonoxe"
 
+tecken = 1
 for bokstav in djur:
-    print(bokstav,end="SLUT")
+    if tecken > 3:
+        print(bokstav.upper(), end="")
+    else:
+        print(bokstav, end="")
+
+    tecken += 1
