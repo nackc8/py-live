@@ -19,4 +19,5 @@ if "s" in djur:
 if "BIS" in djur.upper():
     print("BIS-djur!")
 
+# Obs! .replace är endast för text, inte sekvenser
 print("BIS".replace("BI", "Bi"))
