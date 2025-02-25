@@ -17,8 +17,8 @@ lst = ["a", "b", "c", "d", "e", "f"]
 by = "skinnskatteberg"
 
 # tre näst sista
-print(lst[1:-1])
-print(by[1:-1])
+print(lst[-4:-1])
+print(by[-4:-1])
 
 
 # print(lst[::2])  # Varannat element
