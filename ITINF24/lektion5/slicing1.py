@@ -2,6 +2,9 @@
 
 lst = ["a", "b", "c", "d", "e", "f"]
 print(lst[3])  # Första elementet
+# 3 och ändra icke negativa tal hittar element från
+# början till slutet.
+print(lst[-1])  # Sista elementet
 
 
 # print(lst[2:])  # Från index 2 till slutet
