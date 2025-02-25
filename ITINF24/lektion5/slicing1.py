@@ -1,8 +1,7 @@
 # slicing fungerar för alla sekvenser
 
-lst = [0, 1, 2, 3, 4, 5]
+lst = ["a", "b", "c", "d", "e", "f"]
 print(lst[0])  # Första elementet
-
 
 
 # print(lst[2:])  # Från index 2 till slutet
