@@ -1,3 +1,5 @@
+import random
+
 #        .---------- * först gör att man kan få in en sekvens av positionella argument
 def xuff(*params):
     print("positionella argument:")
@@ -6,3 +8,5 @@ def xuff(*params):
 
 
 xuff("hej", "hopp")
+
+xuff("")
