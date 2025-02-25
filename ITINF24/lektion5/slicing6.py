@@ -1,3 +1,7 @@
 # slicing fungerar för alla sekvenser
 
-# print(lst[::-1])  # Omvänd lista
+lst = ["a", "b", "c", "d", "e", "f"]
+by = "skinnskatteberg"
+
+
+print(lst[::-1])  # Omvänd lista
