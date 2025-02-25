@@ -14,5 +14,5 @@ by = "skinnskatteberg"
 lst = ["a", "b", "c", "d", "e", "f"]
 by = "skinnskatteberg"
 
-print(lst[4::-1])  # Börjar vid index 2
-print(by[4::-1])  # Börjar vid index 2
+print(lst[4:1:-1])  # Börjar vid index 4, slutar vid index 1
+print(by[4:1:-1])  # Börjar vid index 4, slutar vid index 1
