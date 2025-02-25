@@ -1,5 +1,8 @@
+#        .---------- * först gör att man kan få in en sekvens av positionella argument
 def xuff(*params):
-    print(type(params))
+    print("positionella argument:")
+    for p in params:
+        print("\t", p)
 
 
-xuff("hej")
+xuff("hej", "hopp")
