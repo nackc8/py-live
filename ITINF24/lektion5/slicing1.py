@@ -13,9 +13,14 @@ print(str1, id(str1))
 
 # listor är mutable
 lst = ["aa", "bb", "cc"]
-print(lst, id(lst))
+print("lst", lst, id(lst))
+
+lst2 = ["aa", "bb", "cc"]
+print("lst2", lst2, id(lst2))
+
+
 el1 = lst.pop(1)
 print(lst, id(lst))
 
 ny_str = "hej"
-print("ny_str",ny_str, id(ny_str))
+print("ny_str", ny_str, id(ny_str))
