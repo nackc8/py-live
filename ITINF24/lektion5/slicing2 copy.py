@@ -6,7 +6,7 @@ by = "skinnskatteberg"
 # läsning av delar
 
 print(lst[:4])  # Från början till (ej inklusive) index 4
-print(lst[:-1])  # Från början till (ej inklusive) index 4
+print(lst[:-1])  # Från början till (ej inklusive) sista indexet
 
 
 
