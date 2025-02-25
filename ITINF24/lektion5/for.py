@@ -1,5 +1,5 @@
 words = ['cat', 'window', 'defenestrate']
-for ouhsius in words:
-    print(ouhsius, len(ouhsius))
+for x in words:
+    print(x, len(x))
 
 eijeoi = 12
