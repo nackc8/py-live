@@ -1,2 +1,5 @@
+def xuff(*params):
+    print(type(params))
 
-def xuff()
+
+xuff("hej")
