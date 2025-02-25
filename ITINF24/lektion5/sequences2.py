@@ -8,3 +8,11 @@ for bokstav in djur:
         print(bokstav, end="")
 
     tecken += 1
+print()
+
+
+# https://docs.python.org/3.11/library/stdtypes.html#sequence-types-list-tuple-range
+# relevant:
+#   x in s
+if "s" in djur:
+    print("s-djur!")
