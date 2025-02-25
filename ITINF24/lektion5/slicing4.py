@@ -5,11 +5,9 @@ by = "skinnskatteberg"
 
 # läsning av delar
 
-print(lst[:4])  # Från början till (ej inklusive) index 4
-print(lst[:-1])  # Från början till (ej inklusive) sista indexet
+# kombinera slicing 3 och 4.
 
-print(by[:4])  # Från början till (ej inklusive) index 4
-print(by[:-1])  # Från början till (ej inklusive) sista indexet
+print(lst[::2])  # Varannat element
 
 
 # print(lst[::2])  # Varannat element
