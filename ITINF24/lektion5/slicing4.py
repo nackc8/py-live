@@ -21,7 +21,3 @@ print(by[-4:-1])
 # tvärtom test - det kraschar inte!
 print("tvärtom", lst[-1:-4])
 print("tvärtom", by[-1:-4])
-
-
-# print(lst[::2])  # Varannat element
-# print(lst[::-1])  # Omvänd lista
