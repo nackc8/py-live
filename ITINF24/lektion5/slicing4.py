@@ -20,7 +20,7 @@ by = "skinnskatteberg"
 print(lst[-4:-1])
 print(by[-4:-1])
 
-# tvärtom test
+# tvärtom test - det kraschar inte!
 print("tvärtom", lst[-1:-4])
 print("tvärtom", by[-1:-4])
 
