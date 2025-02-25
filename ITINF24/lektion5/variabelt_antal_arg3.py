@@ -14,4 +14,4 @@ def tal_delare(tal, *params, faktor):
 
 # behandlat_tal = tal_delare(1000)
 # behandlat_tal2 = tal_delare(1000, 2)
-behandlat_tal3 = tal_delare(1000, 2, 0.5, 3, 4)
+behandlat_tal3 = tal_delare(1000, 2, 0.5, 3, 4, faktor=1)
