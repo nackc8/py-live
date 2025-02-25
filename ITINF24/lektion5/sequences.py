@@ -9,3 +9,5 @@ nummer = range(1000, 1100, 100)
 
 # sekvenser kan ge tillbaka
 # elementet på ett visst index
+
+print(nummer)
