@@ -18,3 +18,5 @@ if "s" in djur:
     print("s-djur!")
 if "BIS" in djur.upper():
     print("BIS-djur!")
+
+print("BIS".replace("BI", "Bi"))
