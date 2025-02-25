@@ -4,5 +4,10 @@ lst = ["a", "b", "c", "d", "e", "f"]
 by = "skinnskatteberg"
 
 
-print(lst[::-1])  # Omvänd, baklänges
-print(by[::-1])  # Omvänd, baklänges
+# print(lst[::-1])  # Omvänd, baklänges
+# print(by[::-1])  # Omvänd, baklänges
+
+
+print(lst[2::-1])  # Omvänd, baklänges
+
+# print(by[::-1])  # Omvänd, baklänges
