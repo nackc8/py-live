@@ -32,7 +32,8 @@ __cp() {
 		local name=$(basename "$src")
 		name="${name/#dot_/.}"
 		echo -n 'cp '
-		cp -v --remove-destination "$src" "$dst/$name"
+		rm -rf "$dst/$name"
+		cp -v "$src" "$dst/$name"
 	done
 }
 
