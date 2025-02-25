@@ -1,4 +1,4 @@
 djur = "bisonoxe"
 
 for bokstav in djur:
-    print(bokstav)
+    print(bokstav,end="SLUT")
