@@ -5,7 +5,7 @@ print(lst[0])  # Första elementet
 # 3 och ändra icke negativa tal hittar element från
 # början till slutet.
 print(lst[-1])  # Sista elementet
-print(lst[-6])  # Sista elementet
+print(lst[-6])  # Första elementet, räknat från slutet
 
 
 # print(lst[2:])  # Från index 2 till slutet
