@@ -14,5 +14,7 @@ print()
 # https://docs.python.org/3.11/library/stdtypes.html#sequence-types-list-tuple-range
 # relevant:
 #   x in s
-if "BIS" in djur:
+if "s" in djur:
+    print("s-djur!")
+if "BIS" in djur.upper():
     print("BIS-djur!")
