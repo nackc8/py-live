@@ -11,3 +11,4 @@ def tal_delare(tal, *params):
 
 
 behandlat_tal = tal_delare(1000)
+# behandlat_tal2 = tal_delare(1000, 2)
