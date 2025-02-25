@@ -5,3 +5,6 @@
 # mutable: kan ändras
 # immutable: ändras aldrig
 
+str1 = "hej"
+print(str1, id(str1))
+str1.replace
