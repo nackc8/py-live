@@ -16,3 +16,6 @@ lst = ["aa", "bb", "cc"]
 print(lst, id(lst))
 el1 = lst.pop(1)
 print(lst, id(lst))
+
+ny_str = "hej"
+print("ny_str",ny_str, id(ny_str))
