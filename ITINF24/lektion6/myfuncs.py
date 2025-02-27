@@ -16,4 +16,4 @@ if __name__ == "__main__":
     start_number = int(sys.argv[1])
 
     n = gnumber(start_number)
-    print(n)
+    print("Som script:", n)
