@@ -4,7 +4,8 @@ def gnumber(num):
     return num
 
 
-# Vi ska kunna anropa modulen som ett skript
+# Vi ska kunna anropa modulen som ett skript enligt
+#    python3 myfuncs.py 12345
 if __name__ == "__main__":
     import sys
 
@@ -14,7 +15,5 @@ if __name__ == "__main__":
     # (forts) Filen .vscode/launch.json skapas och används
     start_number = int(sys.argv[1])
 
-    n = gnumber(9000)
-    print("Mitt gnumber:", n)
-    # med f-sträng
-    print(f"Mitt gnumber: {n}")
+    n = gnumber(start_number)
+    print(n)
