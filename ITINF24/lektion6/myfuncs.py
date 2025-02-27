@@ -8,7 +8,8 @@ def gnumber(num):
 if __name__ == "__main__":
     import sys
 
-    start_number = sys.argv[1]
+    # 
+    start_number = int(sys.argv[1])
 
     n = gnumber(9000)
     print("Mitt gnumber:", n)
