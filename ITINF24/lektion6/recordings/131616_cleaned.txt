@@ -1,0 +1,95 @@
+Script started on 2025-02-27 13:16:16+01:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="80" LINES="7"]
+/bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+140271138847360
+140271138847360
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+140650099997312
+140650099997312
+('Hej', 1, True, 3.3, [4, 5, 7])
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+140563928414848
+140563928414848
+('Hej', 1, True, 3.3, [4, 5, 7])
+('Hej', 1, True, 3.3, [4, 5, 7])
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+140561816402560
+140561816402560
+('Hej', 1, True, 3.3, [1, 2, 3])
+('Hej', 1, True, 3.3, [1, 2, 3, 'en till'])
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+139706543078016
+139706543078016
+('Hej', 1, True, 3.3, [1, 2, 3])
+('Hej', 1, True, 3.3, [1, 2, 3, 'en till'])
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 5, in <module>
+    print(tal(10))
+          ^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 2, in tal
+    return tal * 2
+           ~~~~^~~
+TypeError: unsupported operand type(s) for *: 'function' and 'int'
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 5, in <module>
+    print(tal(10))
+          ^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 2, in tal
+    return tal * 2
+           ~~~~^~~
+TypeError: unsupported operand type(s) for *: 'function' and 'int'
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+20
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+(20, 50)
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+tal1: 20 tal2: 50
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 5, in <module>
+    result1 = tva_tal(10, 38)
+              ^^^^^^^^^^^^^^^
+TypeError: tva_tal() takes 1 positional argument but 2 were given
+ITINF24/lektion6
+$ 
+ITINF24/lektion6
+$ 
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+tal1: 20 tal2: 190
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+a 20 b 190
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+a 20 b 190
+ITINF24/lektion6
+$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/enkel_funktion.py
+None
+ITINF24/lektion6
+$ ITINF24/lektion6
+$ 
+exit
+
+Script done on 2025-02-27 14:05:06+01:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,179 @@
+Script started on 2025-02-27 11:07:09+01:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="54" LINES="7"]
+/bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/import_vs_execute.py
+[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/import_vs_execute.py
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/import_vs_execute.py
+[?2004lMed import:  46.28335419354718
+[?2004h[94mITINF24/lektion6
+(B[m$ ^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion6
+(B[m$ pip3[K[K[K[Kpython3 -m pip --help[H[2J[94mITINF24/lektion6
+(B[m$ python3 -m pip --help
+[?2004l
+Usage:   
+  /usr/bin/python3 -m pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled
+                              exceptions propagate
+                              outside the main
+                              subroutine, instead of
+                              logging them to
+                              stderr.
+  --isolated                  Run pip in an isolated
+                              mode, ignoring
+                              environment variables
+                              and user
+                              configuration.
+  --require-virtualenv        Allow pip to only run
+                              in a virtual
+                              environment; exit with
+                              an error otherwise.
+  --python <python>           Run pip with the
+                              specified Python
+                              interpreter.
+  -v, --verbose               Give more output.
+                              Option is additive,
+                              and can be used up to
+                              3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output.
+                              Option is additive,
+                              and can be used up to
+                              3 times (corresponding
+                              to WARNING, ERROR, and
+                              CRITICAL logging
+                              levels).
+  --log <path>                Path to a verbose
+                              appending log.
+  --no-input                  Disable prompting for
+                              input.
+  --proxy <proxy>             Specify a proxy in the
+                              form scheme://[user:pa
+                              sswd@]proxy.server:por
+                              t.
+  --retries <retries>         Maximum number of
+                              retries each
+                              connection should
+                              attempt (default 5
+                              times).
+  --timeout <sec>             Set the socket timeout
+                              (default 15 seconds).
+  --exists-action <action>    Default action when a
+                              path already exists:
+                              (s)witch, (i)gnore,
+                              (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or
+                              host:port pair as
+                              trusted, even though
+                              it does not have valid
+                              or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA
+                              certificate bundle. If
+                              provided, overrides
+                              the default. See 'SSL
+                              Certificate
+                              Verification' in pip
+                              documentation for more
+                              information.
+  --client-cert <path>        Path to SSL client
+                              certificate, a single
+                              file containing the
+                              private key and the
+                              certificate in PEM
+                              format.
+  --cache-dir <dir>           Store the cache data
+                              in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically
+                              check PyPI to
+                              determine whether a
+                              new version of pip is
+                              available for
+                              download. Implied with
+                              --no-index.
+  --no-color                  Suppress colored
+                              output.
+  --no-python-version-warning
+                              Silence deprecation
+                              warnings for upcoming
+                              unsupported Pythons.
+  --use-feature <feature>     Enable new
+                              functionality, that
+                              may be backward
+                              incompatible.
+  --use-deprecated <feature>  Enable deprecated
+                              functionality, that
+                              will be removed in the
+                              future.
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/pythonpath.py
+[?2004lsys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/pythonpath.py
+[?2004l
+
+sys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ export PYTHONPATH[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho ¤P[K[K$PYTHONPATH
+[?2004l
+[?2004h[94mITINF24/lektion6
+(B[m$ echo $PYTHONPATH[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ export PT[KYTHONPATH:[7msys.path ['/shared/kent/Documents/nac[27m[7mk[27m[7mademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.z[27m[7mi[27m[7mp', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', [27m[7m'[27m[7m/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/di[27m[7ms[27m[7mt-packages', '/usr/lib/python3.11/dist-packages'][27m[A[A[A[Asys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dis[1Pt-packages', '/usr/lib/python3.11/dist-packages'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m/shared/kent/Documents/nackademin/python/py[27m[7m-[27m[7mlive/ITINF24/lektion6[27m[A/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6[K1
+[?2004lbash: export: `PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1': not a valid identifier
+[?2004h[94mITINF24/lektion6
+(B[m$ export PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[CN PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AP PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AA PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AT PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AH PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A= PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C/shared/kent/Documents/nackademin/pytho[1Pn/py-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python[1P/py-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/[1Ppy-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/p[1Py-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/py[1P-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/py-[1Plive/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ echo $PT[KYTH[K[KTH[K[K[K[K[K[K[K[K[K[KexportNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/pythonpath.py
+[?2004l
+
+sys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion6
+(B[m$ echo ¤P[K[K$PYTHONPATH
+[?2004l
+[?2004h[94mITINF24/lektion6
+(B[m$ (reverse-i-search)`': e': [7me[27mcho $PYTHONPATHx': [7mex[27mportNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[Ap': [7mexp[27mortNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[Ao': [7mexpo[27mrtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A(B[m$ exportNPATH=/shared/kent/Documents/nackademin/python/py-[18Plive/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[CtNPATH=/shared/kent/Documents/nackademin/python/py-l[1Pive/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-li[1Pve/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-liv[1Pe/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-live[1P/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-live/[1PITINF24/lektion1[A tNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[APtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AYtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[ATtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AHtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AOtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[ANtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[CPATH=/shared/kent/Documents/nackademin/python/py[1P-live/ITINF24/lektion1[APATH=/shared/kent/Documents/nackademin/python/py-[1Plive/ITINF24/lektion1[A
+
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ echo $PYTHONPATH/
+[?2004l/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1/
+[?2004h[94mITINF24/lektion6
+(B[m$ echo $PYTHONPATH/[C[C[C[C[C[C[C[C PYTHONPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[Cecho $PYTHONPATH[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C PYTHONPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1
