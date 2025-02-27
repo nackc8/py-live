@@ -1,0 +1,95 @@
+Script started on 2025-02-27 13:16:16+01:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="80" LINES="7"]
+/bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+[?2004l140271138847360
+140271138847360
+[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+[?2004l140650099997312
+140650099997312
+('Hej', 1, True, 3.3, [4, 5, 7])
+[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+[?2004l140563928414848
+140563928414848
+('Hej', 1, True, 3.3, [4, 5, 7])
+('Hej', 1, True, 3.3, [4, 5, 7])
+[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+[?2004l140561816402560
+140561816402560
+('Hej', 1, True, 3.3, [1, 2, 3])
+('Hej', 1, True, 3.3, [1, 2, 3, 'en till'])
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/tuple.py
+[?2004l139706543078016
+139706543078016
+('Hej', 1, True, 3.3, [1, 2, 3])
+('Hej', 1, True, 3.3, [1, 2, 3, 'en till'])
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 5, in <module>
+    print(tal(10))
+          ^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 2, in tal
+    return tal * 2
+           ~~~~^~~
+TypeError: unsupported operand type(s) for *: 'function' and 'int'
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 5, in <module>
+    print(tal(10))
+          ^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 2, in tal
+    return tal * 2
+           ~~~~^~~
+TypeError: unsupported operand type(s) for *: 'function' and 'int'
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004l20
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004l(20, 50)
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004ltal1: 20 tal2: 50
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py", line 5, in <module>
+    result1 = tva_tal(10, 38)
+              ^^^^^^^^^^^^^^^
+TypeError: tva_tal() takes 1 positional argument but 2 were given
+[?2004h[94mITINF24/lektion6
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004ltal1: 20 tal2: 190
+[?2004h[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004la 20 b 190
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/funktioner_och_tuplar.py
+[?2004la 20 b 190
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/enkel_funktion.py
+[?2004lNone
+[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [?2004l
+exit
+
+Script done on 2025-02-27 14:05:06+01:00 [COMMAND_EXIT_CODE="0"]
