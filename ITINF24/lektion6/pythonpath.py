@@ -1,2 +1,4 @@
+import sys
+
 # vi kan se vår path
-sys.path
+print("sys.path", sys.path)
