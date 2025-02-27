@@ -77,4 +77,71 @@ General Options:
                               retries each
                               connection should
                               attempt (default 5
-                              tim
+                              times).
+  --timeout <sec>             Set the socket timeout
+                              (default 15 seconds).
+  --exists-action <action>    Default action when a
+                              path already exists:
+                              (s)witch, (i)gnore,
+                              (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or
+                              host:port pair as
+                              trusted, even though
+                              it does not have valid
+                              or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA
+                              certificate bundle. If
+                              provided, overrides
+                              the default. See 'SSL
+                              Certificate
+                              Verification' in pip
+                              documentation for more
+                              information.
+  --client-cert <path>        Path to SSL client
+                              certificate, a single
+                              file containing the
+                              private key and the
+                              certificate in PEM
+                              format.
+  --cache-dir <dir>           Store the cache data
+                              in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically
+                              check PyPI to
+                              determine whether a
+                              new version of pip is
+                              available for
+                              download. Implied with
+                              --no-index.
+  --no-color                  Suppress colored
+                              output.
+  --no-python-version-warning
+                              Silence deprecation
+                              warnings for upcoming
+                              unsupported Pythons.
+  --use-feature <feature>     Enable new
+                              functionality, that
+                              may be backward
+                              incompatible.
+  --use-deprecated <feature>  Enable deprecated
+                              functionality, that
+                              will be removed in the
+                              future.
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/pythonpath.py
+[?2004lsys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/pythonpath.py
+[?2004l
+
+sys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ export PYTHONPATH[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho ¤P[K[K$PYTHONPATH
+[?2004l
+[?2004h[94mITINF24/lektion6
+(B[m$ echo $PYTHONPATH[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004
