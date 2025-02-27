@@ -4,7 +4,7 @@ import sys
 print("")
 print("")
 print("sys.path", sys.path)
-x = [
+utan_påverkan = [
     "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6",
     "/usr/lib/python311.zip",
     "/usr/lib/python3.11",
