@@ -5,6 +5,6 @@ def gnumber(num):
 
 
 n = gnumber(9000)
-print("Mitt gnumber:", gnumber)
+print("Mitt gnumber:", n)
 # med f-sträng
-print(f"Mitt gnumber: {gnumber}")
+print(f"Mitt gnumber: {n}")
