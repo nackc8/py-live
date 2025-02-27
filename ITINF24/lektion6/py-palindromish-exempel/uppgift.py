@@ -1,1 +1,3 @@
-palindromish()
+palindromish(s, g=None):
+    pass
+
