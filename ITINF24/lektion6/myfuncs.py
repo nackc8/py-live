@@ -8,7 +8,10 @@ def gnumber(num):
 if __name__ == "__main__":
     import sys
 
-    # Python Debugger: Debug using launch.json / Python Debugger / Python file with arguments
+    # 1. Python Debugger: Debug using launch.json
+    # 2. Python Debugger
+    # 3. Python Debugger: Current File with Argument
+    # (forts) Filen .vscode/launch.json skapas och används
     start_number = int(sys.argv[1])
 
     n = gnumber(9000)
