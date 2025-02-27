@@ -154,4 +154,26 @@ sys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m/shared/kent/Documents/nackademin/python/py[27m[7m-[27m[7mlive/ITINF24/lektion6[27m[A/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6[K1
 [?2004lbash: export: `PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1': not a valid identifier
 [?2004h[94mITINF24/lektion6
-(B[m$ export PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[CN PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AP PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AA PYTHO/shared/kent/Documents/nackademin/p
+(B[m$ export PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[CN PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AP PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AA PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AT PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AH PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A= PYTHO/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C/shared/kent/Documents/nackademin/pytho[1Pn/py-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python[1P/py-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/[1Ppy-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/p[1Py-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/py[1P-live/ITINF24/lektion1[A/shared/kent/Documents/nackademin/python/py-[1Plive/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ [H[2J[94mITINF24/lektion6
+(B[m$ echo $PT[KYTH[K[KTH[K[K[K[K[K[K[K[K[K[KexportNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6/pythonpath.py
+[?2004l
+
+sys.path ['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion6', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion6
+(B[m$ echo ¤P[K[K$PYTHONPATH
+[?2004l
+[?2004h[94mITINF24/lektion6
+(B[m$ (reverse-i-search)`': e': [7me[27mcho $PYTHONPATHx': [7mex[27mportNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[Ap': [7mexp[27mortNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[Ao': [7mexpo[27mrtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A(B[m$ exportNPATH=/shared/kent/Documents/nackademin/python/py-[18Plive/ITINF24/lektion1[A[C[C[C[C[C[C[C[C[C[C[C[C[CtNPATH=/shared/kent/Documents/nackademin/python/py-l[1Pive/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-li[1Pve/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-liv[1Pe/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-live[1P/ITINF24/lektion1[AtNPATH=/shared/kent/Documents/nackademin/python/py-live/[1PITINF24/lektion1[A tNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[APtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AYtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[ATtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AHtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[AOtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[ANtNPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[CPATH=/shared/kent/Documents/nackademin/python/py[1P-live/ITINF24/lektion1[APATH=/shared/kent/Documents/nackademin/python/py-[1Plive/ITINF24/lektion1[A
+
+[?2004l[?2004h[94mITINF24/lektion6
+(B[m$ echo $PYTHONPATH/
+[?2004l/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1/
+[?2004h[94mITINF24/lektion6
+(B[m$ echo $PYTHONPATH/[C[C[C[C[C[C[C[C PYTHONPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1[A[C[C[C[C[C[C[C[Cecho $PYTHONPATH[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C PYTHONPATH=/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion1
