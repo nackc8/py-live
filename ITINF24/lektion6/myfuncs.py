@@ -6,7 +6,9 @@ def gnumber(num):
 
 # Vi ska kunna anropa modulen som ett skript
 if __name__ == "__main__":
-    import 
+    import sys
+    sys.argv
+
     n = gnumber(9000)
     print("Mitt gnumber:", n)
     # med f-sträng
