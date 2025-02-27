@@ -8,7 +8,7 @@ def gnumber(num):
 if __name__ == "__main__":
     import sys
 
-    # Python Debugger: Debug using launch.json / Python Debugger
+    # Python Debugger: Debug using launch.json / Python Debugger / Python file with arguments
     start_number = int(sys.argv[1])
 
     n = gnumber(9000)
