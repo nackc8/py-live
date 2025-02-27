@@ -4,7 +4,8 @@ def gnumber(num):
     return num
 
 
-n = gnumber(9000)
-print("Mitt gnumber:", n)
-# med f-sträng
-print(f"Mitt gnumber: {n}")
+if __name__ == "__main__":
+    n = gnumber(9000)
+    print("Mitt gnumber:", n)
+    # med f-sträng
+    print(f"Mitt gnumber: {n}")
