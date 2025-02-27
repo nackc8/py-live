@@ -5,3 +5,6 @@ def gnumber(num):
 
 
 n = gnumber(9000)
+print("Mitt gnumber:", gnumber)
+# med f-sträng
+print(f"Mitt gnumber: {gnumber}")
