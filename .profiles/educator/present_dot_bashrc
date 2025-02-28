@@ -41,8 +41,12 @@ ___set_bash_prompt() {
 	elif ((${#prompt} > 0)); then
 		prompt+=" "
 	fi
+	local color_blue="$(tput setaf 12)"
+	local color_reset="$(tput sgr0)"
 
-	prompt="$(tput setaf 12)${prompt# }$(tput sgr0)$ "
+	# Wrap color codes in \[ \] so bash knows they're non-printable
+	prompt="\[${color_blue}\]${prompt}\[${color_reset}\]\$ "
+
 	PS1=$prompt
 }
 export -f ___set_bash_prompt
@@ -56,7 +60,7 @@ ___lession_number_validation_re='^[1-9][0-9]?$'
 # shellcheck disable=SC1091
 if [[ -f $___root/.state ]] && (
 	source "$___root/.state"
-	[[ $___class =~ $___class_validation_re ]] && [[ $___lession_number =~ $___lession_number_validation_re ]] && echo Jaaa
+	[[ $___class =~ $___class_validation_re ]] && [[ $___lession_number =~ $___lession_number_validation_re ]]
 ); then
 	source "$___root/.state"
 else
