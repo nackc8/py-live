@@ -1,5 +1,4 @@
 {
-  "editor.parameterHints.enabled": false,
   "editor.folding": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
