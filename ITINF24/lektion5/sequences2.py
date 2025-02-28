@@ -8,7 +8,7 @@ for bokstav in djur:
         print(bokstav, end="")
 
     tecken += 1
-print()
+print
 
 
 # https://docs.python.org/3.11/library/stdtypes.html#sequence-types-list-tuple-range

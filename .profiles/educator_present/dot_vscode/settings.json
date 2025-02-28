@@ -1,7 +1,6 @@
 {
-  "[ansible]": {
-    "editor.defaultFormatter": "redhat.ansible"
-  },
+  "editor.quickSuggestionsDelay": 10000,
+  "editor.folding": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -40,6 +39,14 @@
   "auto-run-command.rules": [
     {
       "command": "workbench.action.toggleScreencastMode",
+      "condition": "hasFile: .ignored-enable-screencast"
+    },
+    {
+      "command": [
+        "workbench.action.toggleFullScreen",
+        "workbench.debug.viewlet.action.removeAllBreakpoints",
+        "github.copilot.toggleCopilot"
+      ],
       "condition": "always"
     }
   ],

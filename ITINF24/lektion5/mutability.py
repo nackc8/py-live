@@ -3,7 +3,7 @@
 # mutable vs immutable
 # mutable: kan ändras
 # immutable: ändras aldrig
-
+print()
 # strängar är immutable
 str1 = "hej"
 print(str1, id(str1))

@@ -1,28 +1,32 @@
 # Programmering i Python - "Live"
 
-Detta Git-repositorium innehåller exempel från terminalen och filer för varje lektion. Det är en samlad plats för flera versioner av kursen.
+Detta Git-repo innehåller exempel från terminalen och filer för varje lektion där sådant förekommit. Det är en samlad plats för flera versioner av kursen.
 
 ## Lektionsdag
 
 Under din klassmapp finns en katalog för varje lektionsdag. Denna katalog innehåller två viktiga delar:
 
-- Terminalinspelningar: En underkatalog `recordings` med inspelningar av allt som skrivs i terminalen under lektionsdagen.
+- Terminalinspelningar: En underkatalog `recordings` med inspelningar av allt som skrevs i terminalen under lektionsdagen.
 
 - Resten: De skript/program som vi skapar och kör samt eventuella datafiler kopplade till dem läggs oftast direkt i katalogen.
 
-Se nedan för hur du kan spela upp inspelningarna.
-
 ## Att följa med "Live"
 
-Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra skriptet `./bin/daystart` på morgonen.
+Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra Bash-skriptet `bin/daystart` på morgonen. Om du använder Windows kan du köra skriptet från "Git Bash" men tyvärr inte från PowerShell.
 
 Efter det kan du antingen köra `git pull` i terminalen eller använda din utvecklingsmiljö för att hämta de senaste ändringarna från utbildaren. Kom ihåg att upprepa detta varje gång du vill få de senaste ändringarna.
 
+Om du vill få de senase ändringarna kontinuerligt så kan du t.ex. använda en liten loop som kör git pull var 5:e sekund:
+
+    ```
+    while true; do git pull; sleep 5; done
+    ```
+
 Vid dagens slut slås förändringarna ihop till en commit som går över till `main`-grenen.
 
-## Att spela upp den inspelade terminalen
+## Att spela upp eller se inspelade terminalen terminalsessioner
 
-### Vad är `script` och `scriptreplay`?
+### "Videoinspelning" och uppspelning av terminalen
 
 `script` är ett kommando som används för att spela in terminalsessioner. Det skapar en textfil som innehåller allt som skrivs i terminalen.
 
