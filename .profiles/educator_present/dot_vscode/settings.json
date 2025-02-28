@@ -1,6 +1,6 @@
 {
+  "editor.parameterHints.enabled": false,
   "editor.folding": false,
-  "editor.suggestOnTriggerCharacters": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
