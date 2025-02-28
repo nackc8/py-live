@@ -10,3 +10,4 @@ print(lst[-3:])  # Från tredje sista till slutet
 
 print(by[2:])  # Från och med index 2 till slutet
 print(by[-3:])  # Från tredje sista till slutet
+print()
