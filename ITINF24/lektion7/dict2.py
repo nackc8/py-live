@@ -3,7 +3,11 @@ p = print
 # en dict med en nyckel, "4502129999" som har värdet None
 ppl_v0 = {"4502129999": None}
 
-ppl_v0 = {"4502129999": {"firstname": "Torleif", "surname": "Bengtsson"}}
+ppl_v1 = {
+    "4502129999": {"firstname": "Torleif", "surname": "Bengtsson"},
+    "1501019999": {"firstname": "Ulla", "surname": "Ullskog"},
+    "2502039999": {"firstname": "Mohammed", "surname": "Larsson"},
+}
 
 
-p(ppl_v0)
+p(ppl_v1)
