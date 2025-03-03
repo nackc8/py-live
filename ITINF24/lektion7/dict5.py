@@ -6,8 +6,9 @@ ppl = {
     "4502129999": {"firstname": "Torleif", "surname": "Bengtsson"},
     "1501019999": {"firstname": "Ulla", "surname": "Ullskog"},
     "2502039999": {"firstname": "Mohammed", "surname": "Larsson"},
+    "0502039999":{"firstname": "Bo", "surname": "Asp"}
 }
-ppl["0502039999"] = {"firstname": "Bo", "surname": "Asp"}
+ppl[] =
 
 # p(ppl.keys())  # som en lista med personnummer i detta fall
 
