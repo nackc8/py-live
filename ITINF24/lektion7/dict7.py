@@ -7,5 +7,4 @@ ppl = {
 }
 
 for item in ppl.items():
-    
     p(item)
