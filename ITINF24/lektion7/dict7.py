@@ -8,4 +8,5 @@ ppl = {
 
 for item in ppl.items():
     pnr = item[0]
-    p(pnr)
+    if "195001019999" > pnr:
+        p(pnr)
