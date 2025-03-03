@@ -9,4 +9,5 @@ p("words issubset i words2?", words.issubset(words2))
 
 lst = ["a", "b", "c"]
 
-p(words2.issubset(words))
+# auto typecast till set inuti issubset()
+p(words2.issubset(swords))
