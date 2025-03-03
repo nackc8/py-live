@@ -14,4 +14,7 @@ ppl = {
     "4502129999": bo,
     # "4502129999": {"firstname": "Torleif", "surname": "Bengtsson"},
 }
+
+# bo heter numera gunnar
+
 p(ppl)
