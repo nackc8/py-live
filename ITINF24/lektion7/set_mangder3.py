@@ -11,3 +11,4 @@ lst = ["a", "b", "c"]
 
 # auto typecast till set inuti issubset()
 p(words2.issubset(swords))
+
