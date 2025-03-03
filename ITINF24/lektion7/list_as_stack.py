@@ -10,8 +10,8 @@ def paran_balanced(txt):
     return len(par_stack) == 0
 
 
-result = paran_balanced("(hej)hopp")
-print("Testfall pass: ", result == False)
+result = paran_balanced("((hej)hopp)")
+print("Testfall pass: ", result == True)
 
 
 # funktions som svarar sant, om parenteserna matchar
