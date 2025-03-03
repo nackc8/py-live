@@ -4,7 +4,6 @@ for n in range(0, 10):
     if val % 2 == 0:
         lst1.append(val)
 
-
-# lst2 = [2**n for n in range(0, 5)]
+lst2 = []
 
 # print("lika", lst1, lst2)
