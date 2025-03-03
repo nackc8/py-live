@@ -14,3 +14,5 @@ p(f"indoktrinera betyder {x['indoktrinera']}")
 p(f"pizza betyder {x['pizza']}")
 
 p("hela:", x)
+
+x2 = {"indoktrinera": "Styrd påverkan", "pizza": "Platt mat", 789: "Ett högre än 788"}
