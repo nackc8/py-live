@@ -5,7 +5,7 @@ def p(*args, **kwargs):
     #      = unpacking (inte 100% på termen)
     print(*args, **kwargs)
     # samma som
-    print(1, 2, sep=":")
+    print(1, 2, sep=":", end="THE END")
 
 
 p(1, 2, sep=":")
