@@ -12,5 +12,10 @@ words3 = {"röd", "blå"}
 # # auto typecast till set inuti issubset()
 # p(words2.issubset(swords))
 
-p("difference words och word2", words.difference(words2))
-p("difference words2 och words", words2.difference(words))
+# allt som inte finns i den mängd som funktionen tar
+# p("difference words och word2", words.difference(words2))
+# p("difference words2 och words", words2.difference(words))
+
+# lika
+p("difference words och word2", words.symmetric_difference(words2))
+p("difference words2 och words", words2.symmetric_difference(words))

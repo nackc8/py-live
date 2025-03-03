@@ -90,7 +90,7 @@
     }
   },
   "terminal.integrated.suggest.quickSuggestions": false,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "window.zoomPerWindow": false,
   "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
