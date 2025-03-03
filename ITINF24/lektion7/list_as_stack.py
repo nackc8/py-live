@@ -4,6 +4,8 @@ def paran_balanced(txt):
         if bokstav == "(":
             par_stack.append("(")
         if bokstav == ")":
+            if len(par_stack) == 0:
+                return False
             par_stack.pop()
         print(bokstav, par_stack)
 
@@ -11,7 +13,7 @@ def paran_balanced(txt):
 
 
 result = paran_balanced(")")
-print("Testfall pass: ", result == True)
+print("Testfall pass: ", result == False)
 
 
 # funktions som svarar sant, om parenteserna matchar
