@@ -1,3 +1,4 @@
+p = print
 # # Tillbakablick på hur datastrukturer skapas:
 # en_lst = ["x"]
 # en_tpl = ("x",)
@@ -5,4 +6,6 @@
 # en_str = "x"
 
 # En mängd, ett set, skapas via
-en_set = set()
+ett_tomt_set = set()
+p(ett_tomt_set)
+ett_set_med_innehall=set()
