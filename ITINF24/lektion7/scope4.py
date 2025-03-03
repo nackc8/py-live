@@ -2,18 +2,10 @@ p = print
 age = 100
 
 
-def tuut():
-    # lst är muterbar
-    lst.append("tuut")
+def femtio():
+    p("femtio:", age)
+    age = 9999
+    p("femtio:", age)
 
 
-tuut()
-
-
-def boom():
-    lst = p("inne i boom()", ["boom"])
-
-
-boom()
-
-p("utanför direkt i filen", lst)
+femtio()
