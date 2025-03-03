@@ -10,4 +10,4 @@ for pdata in ppl.values():
     p(pdata["firstname"])
 
 namn = [pdata["firstname"] for pdata in ppl.values()]
-namn = [n for n in namn]
+namn = [n.upper() for n in namn]
