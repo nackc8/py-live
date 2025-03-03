@@ -1,3 +1,6 @@
+# Använd debuggern för att förstå bättre!
+
+
 def paran_balanced(txt):
     par_stack = []
     for bokstav in txt:
