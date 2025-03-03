@@ -16,7 +16,7 @@
 
 - **Sök fil:** `Ctrl+P`
 - **Sök text i projektet:** `Ctrl+Skift+F`
-- **Kommandopallett (Sök kommando):** `Ctrl+Skift+P`
+- **Kommandopallett (Sök kommando):** `Ctrl+P`
 - **Zen Mode:** `Ctrl+K Z` (tryck Esc två gånger för att avsluta)
 
 ## Anpassa layout
