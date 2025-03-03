@@ -1,9 +1,20 @@
 {
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonl]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "editor.folding": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[markdown]": {
     "editor.tabSize": 4,
     "editor.wordWrap": "bounded",
@@ -22,9 +33,9 @@
     },
     {
       "command": [
-        "github.copilot.toggleCopilot",
         "workbench.action.toggleFullScreen",
-        "workbench.debug.viewlet.action.removeAllBreakpoints"
+        "workbench.debug.viewlet.action.removeAllBreakpoints",
+        "github.copilot.toggleCopilot"
       ],
       "condition": "always"
     }

@@ -12,5 +12,6 @@ print(by[:4])  # Från början till (ej inklusive) index 4
 print(by[:-1])  # Från början till (ej inklusive) sista indexet
 
 
+
 # print(lst[::2])  # Varannat element
 # print(lst[::-1])  # Omvänd lista

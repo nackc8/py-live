@@ -1,6 +1,6 @@
 # Programmering i Python – "Live"
 
-Detta repo innehåller terminalexempel och kodfiler från varje lektion. Det är en gemensam plats för flera kursversioner.
+Detta Git-repo innehåller exempel från terminalen och filer för varje lektion där sådant förekommit. Det är en samlad plats för flera versioner av kursen.
 
 ## Lektionsdag
 
@@ -11,23 +11,23 @@ I din klassmapp finns en katalog för varje lektionsdag som innehåller:
 
 ## Följ lektionen "Live"
 
-Varje lektionsdag har en egen Git-gren. Commits läggs till och pushas löpande.
+## Att följa med "Live"
 
-1. Kör `bin/daystart` (från Bash, t.ex. Git Bash på Windows) för att checka ut dagens gren.
-2. Använd `git pull` regelbundet för att få in nya ändringar.
-   *(Du kan även lägga detta i en loop för kontinuerlig uppdatering:)*
-
-   ```bash
-   while true; do git pull; sleep 5; done
-   ```
+Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra Bash-skriptet `bin/daystart` på morgonen. Om du använder Windows kan du köra skriptet från "Git Bash" men tyvärr inte från PowerShell.
 
 3. Vid dagens slut sammanfogas allt till `main`.
 
-> **Obs!** I Windows fungerar skriptet endast i Git Bash, inte i PowerShell.
+Om du vill få de senase ändringarna kontinuerligt så kan du t.ex. använda en liten loop som kör git pull var 5:e sekund:
 
-## Spela in och spela upp terminalsessioner
+    ```
+    while true; do git pull; sleep 5; done
+    ```
 
-### Installation av `script` och `scriptreplay`
+Vid dagens slut slås förändringarna ihop till en commit som går över till `main`-grenen.
+
+## Att spela upp eller se inspelade terminalen terminalsessioner
+
+### "Videoinspelning" och uppspelning av terminalen
 
 - **Linux:** Finns ofta redan installerat. Annars:
 
