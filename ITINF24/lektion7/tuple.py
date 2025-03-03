@@ -1,5 +1,5 @@
-p = print
+vad_som_helst = print
 
 t1 = ("Ove", 67)
 
-p(t1)
+vad_som_helst(t1)
