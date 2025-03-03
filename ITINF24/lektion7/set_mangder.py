@@ -8,4 +8,5 @@ p = print
 # En mängd, ett set, skapas via
 ett_tomt_set = set()
 p(ett_tomt_set)
-ett_set_med_innehall=set()
+ett_set_med_innehall = set("hejsan")
+p(ett_set_med_innehall)
