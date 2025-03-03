@@ -9,4 +9,4 @@ ppl = {
 for pdata in ppl.values():
     p(pdata["firstname"])
 
-namn = [pdata for pdata in ppl]
+namn = [pdata for pdata in ppl.values()]
