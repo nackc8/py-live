@@ -17,4 +17,7 @@ ppl = {
 
 # bo heter numera gunnar
 bo["firstname"] = "gunnar"
+# ulla heter numera gunborg
+
+
 p(ppl)
