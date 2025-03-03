@@ -12,3 +12,5 @@ x[789] = "Ett högre än 788"
 
 p(f"indoktrinera betyder {x['indoktrinera']}")
 p(f"pizza betyder {x['pizza']}")
+
+p("hela:", x)
