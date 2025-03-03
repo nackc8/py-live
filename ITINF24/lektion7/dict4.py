@@ -16,5 +16,5 @@ ppl = {
 }
 
 # bo heter numera gunnar
-
+bo["firstname"] = "gunnar"
 p(ppl)
