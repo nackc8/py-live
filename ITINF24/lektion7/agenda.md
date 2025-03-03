@@ -13,6 +13,6 @@ Sets - set() - konvertera till och från för att få unika element ✅
 
 Dictionary - {} - endast immutable nycklar, .items():, .keys(), .values() ✅
 
-global, local - namnen binder mot lokalt scope som standard och ändrar där, ändra från annan fil
+global, local - namnen binder mot lokalt scope som standard och ändrar där, ändra från annan fil ✅
 
 Rekursion, balanserad lista, att skicka med värden in, att returnera värden - Indentering i en punktlista
