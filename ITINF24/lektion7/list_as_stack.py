@@ -1,4 +1,6 @@
-def paran_match(s):
+def paran_match(txt):
+    for bokstav in txt:
+        print(bokstav)
     return False
 
 
