@@ -18,4 +18,7 @@ p("name", type(name), name)
 # variablerna name, age.
 name, age = "Janne", 55
 
+# Bäst att skriva tuples med
+# parenteser, då utan inte alltid
+# fungerar och är mindre tydligt
 name, age = ("Janne", 55)
