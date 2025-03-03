@@ -1,6 +1,6 @@
 import pprint
 
-p = print
+p = pprint.pprint
 
 # en dict med en nyckel, "4502129999" som har värdet None
 ppl_v0 = {"4502129999": None}
@@ -11,5 +11,6 @@ ppl_v1 = {
     "2502039999": {"firstname": "Mohammed", "surname": "Larsson"},
 }
 
+ppl_v1.
 
-pprint.pprint(ppl_v1)
+p(ppl_v1)
