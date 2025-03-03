@@ -1,3 +1,5 @@
+import pprint
+
 p = print
 
 # en dict med en nyckel, "4502129999" som har värdet None
@@ -10,4 +12,4 @@ ppl_v1 = {
 }
 
 
-p(ppl_v1)
+pprint.pprint(ppl_v1)
