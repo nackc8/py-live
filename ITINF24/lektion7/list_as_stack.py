@@ -10,7 +10,7 @@ def paran_balanced(txt):
     return len(par_stack) == 0
 
 
-result = paran_balanced("((hej)hopp)")
+result = paran_balanced(")")
 print("Testfall pass: ", result == True)
 
 
