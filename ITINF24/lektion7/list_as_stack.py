@@ -1,4 +1,5 @@
 def paran_match(txt):
+    par_stack = []
     for bokstav in txt:
         if bokstav == "(":
             pass
