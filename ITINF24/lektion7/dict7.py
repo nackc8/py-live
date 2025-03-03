@@ -12,7 +12,6 @@ ppl = {
 #     if "1915" in pnr:
 #         p(pnr, "heter", item[1]["firstname"])
 
-for item in ppl.items():
-    pnr = item[0]
+for pnr, pdata in ppl.items():
     if "1915" in pnr:
-        p(pnr, "heter", item[1]["firstname"])
+        p(pnr, "heter", pdata["firstname"])
