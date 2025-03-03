@@ -1,0 +1,7 @@
+
+
+
+p = print
+
+p("Hejsan")
+
