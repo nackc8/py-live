@@ -9,7 +9,7 @@ Tuple med parentes, utan parentes (fungerar inte alltid, som i en list comprehen
 
 ---
 
-Sets - set() - konvertera till och från för att få unika element
+Sets - set() - konvertera till och från för att få unika element ✅
 
 
 Dictionary - {} - endast immutable nycklar, .items():, .keys(), .values()
