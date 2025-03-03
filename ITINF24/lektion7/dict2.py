@@ -1,6 +1,9 @@
 p = print
 
 # en dict med en nyckel, "4502129999" som har värdet None
-ppl = {"4502129999": None}
+ppl_v0 = {"4502129999": None}
 
-p(ppl)
+ppl_v0 = {"4502129999": "Torleif"}
+
+
+p(ppl_v0)
