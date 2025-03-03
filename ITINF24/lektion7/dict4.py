@@ -9,4 +9,4 @@ ppl = {
 }
 ppl["0502039999"] = {"firstname": "Bo", "surname": "Asp"}
 
-p(ppl.keys())
+p(ppl.keys())  # som en lista med personnummer i detta fall
