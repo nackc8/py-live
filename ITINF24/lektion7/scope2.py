@@ -1,23 +1,11 @@
+import scope2_called
+
 p = print
-# I samma "scope", variabeln är
-# tillgänglig
-x = 1
-p(x)
 
+result = scope2_called.get_x()
 
-def dubbla(t):
-    # d = d * 2
-    # UnboundLocalError: cannot access local variable 'd' where it is not associated with a value
-    # d sätts på raden under, försvinner
-    # efter anropets slut
-    d = t * 2
-    return d
+direkt = scope2_called.x
 
+scope2_called.x = 222
 
-p(dubbla(10))
-# p(d)
-# NameError: name 'd' is not defined
-# d är en lokal variabel i dubbla
-
-# de variabler som sätts utanför
-# funktioner = globala för modulen
+result2 = scope2_called.get_x()
