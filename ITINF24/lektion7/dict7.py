@@ -7,4 +7,5 @@ ppl = {
 }
 
 for item in ppl.items():
-    p(item)
+    pnr = item[0]
+    p(pnr)
