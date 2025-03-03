@@ -18,6 +18,6 @@ ppl = {
 # bo heter numera gunnar
 bo["firstname"] = "gunnar"
 # ulla heter numera gunborg
-
+ppl["1501019999"]["firstname"] = "Gunborg"
 
 p(ppl)
