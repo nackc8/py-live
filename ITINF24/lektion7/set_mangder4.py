@@ -3,6 +3,6 @@ p = print
 lst = ["burk", "bil", "kanot", "bil", "rep"]
 
 # om ordningen inte spelar roll
-lst = set(lst)
+lst = list(set(lst))
 
 p(lst)
