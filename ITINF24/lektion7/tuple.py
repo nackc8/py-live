@@ -1,4 +1,5 @@
-vad_som_helst = print
+tal = print
+vad_som_helst = tal
 
 t1 = ("Ove", 67)
 
