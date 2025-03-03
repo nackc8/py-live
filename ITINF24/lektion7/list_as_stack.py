@@ -7,7 +7,6 @@ def paran_balanced(txt):
             if len(par_stack) == 0:
                 return False
             par_stack.pop()
-        print(bokstav, par_stack)
 
     return len(par_stack) == 0
 
