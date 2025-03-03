@@ -6,11 +6,11 @@ def paran_match(txt):
         if bokstav == ")":
             par_stack.pop()
         print(bokstav, par_stack)
-    return False
+    return len(par_stack) == 0
 
 
-print(paran_match("(hejsan)") == True)
-# print(paran_match("(") == False)
+# print(paran_match("(hejsan)") == True)
+print(paran_match("(") == False)
 
 
 # funktions som svarar sant, om parenteserna matchar
