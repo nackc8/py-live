@@ -1,5 +1,5 @@
 p = print
-lst_of_lsts = ["a", "b", ["c"], "d"]
+lst_of_lsts = ["a", "b", ["c", ["X"]], "d"]
 
 
 def deep_print(l):
