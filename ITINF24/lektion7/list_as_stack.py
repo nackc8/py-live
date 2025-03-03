@@ -1,4 +1,4 @@
-def paran_match(txt):
+def paran_balanced(txt):
     par_stack = []
     for bokstav in txt:
         if bokstav == "(":
@@ -6,11 +6,12 @@ def paran_match(txt):
         if bokstav == ")":
             par_stack.pop()
         print(bokstav, par_stack)
+
     return len(par_stack) == 0
 
 
 # print(paran_match("(hejsan)") == True)
-print(paran_match("(") == False)
+print(paran_balanced("(") == False)
 
 
 # funktions som svarar sant, om parenteserna matchar
