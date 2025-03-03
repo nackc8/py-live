@@ -7,5 +7,4 @@ def p(*args, **kwargs):
     # samma som
     print(1, 2, sep=":", end="THE END")
 
-
 p(1, 2, sep=":")
