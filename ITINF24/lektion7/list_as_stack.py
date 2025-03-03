@@ -3,7 +3,7 @@ def paran_match(txt):
     for bokstav in txt:
         if bokstav == "(":
             par_stack.append("(")
-        print(bokstav)
+        print(bokstav, par_stack)
     return False
 
 
