@@ -11,4 +11,4 @@ lst3 = lst1[:]
 # samma som: lst1.pop(1)
 
 # tilldela en ny del i lst3
-lst3[2:4] = ["hej!!!", "Hallå!!!"]
+lst3[2:4] = ["hej!!!", "Hallå!!!", "Fler!!"]
