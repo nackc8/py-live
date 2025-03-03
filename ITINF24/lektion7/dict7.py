@@ -6,4 +6,4 @@ ppl = {
     "192502039999": {"firstname": "Mohammed", "surname": "Larsson"},
 }
 
-i = ppl.items()
+i = list(ppl.items())
