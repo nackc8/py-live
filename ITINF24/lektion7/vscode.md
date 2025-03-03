@@ -5,6 +5,9 @@
 - **Färger:** Välj mellan Light/Dark-tema eller sök fler i _Marketplace_ under “Color Theme”. Du kan också justera fil- och ikon-teman.
 - **Typsnitt:** Testa till exempel [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono?query=ibm+plex+mono), [Monaspace](https://monaspace.githubnext.com/) eller [JetBrains Mono](https://www.jetbrains.com/lp/mono/). Även [Nerd Fonts](https://www.nerdfonts.com/font-downloads) har många varianter med extra ikoner.
 
+[15 Best Programming Fonts for Better Coding
+](https://kinsta.com/blog/best-programming-fonts/)
+
 ## VS Code-funktioner
 
 - **Flera mappar i samma arbetsyta (Workspace)**
