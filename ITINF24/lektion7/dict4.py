@@ -12,3 +12,10 @@ ppl["0502039999"] = {"firstname": "Bo", "surname": "Asp"}
 # p(ppl.keys())  # som en lista med personnummer i detta fall
 
 p(ppl.values())
+# ger:
+# [
+#     {"firstname": "Torleif", "surname": "Bengtsson"},
+#     {"firstname": "Ulla", "surname": "Ullskog"},
+#     {"firstname": "Mohammed", "surname": "Larsson"},
+#     {"firstname": "Bo", "surname": "Asp"},
+# ]
