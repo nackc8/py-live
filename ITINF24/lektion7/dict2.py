@@ -11,6 +11,6 @@ ppl_v1 = {
     "2502039999": {"firstname": "Mohammed", "surname": "Larsson"},
 }
 
-ppl_v1["2502039999"] = {"firstname": "Bo", "surname": "Asp"}
+ppl_v1["0502039999"] = {"firstname": "Bo", "surname": "Asp"}
 
 p(ppl_v1)
