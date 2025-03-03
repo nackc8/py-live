@@ -10,8 +10,7 @@ def paran_balanced(txt):
     return len(par_stack) == 0
 
 
-# print(paran_match("(hejsan)") == True)
-result = paran_balanced("(")
+result = paran_balanced("(hej)hopp")
 print("Testfall pass: ", result == False)
 
 
