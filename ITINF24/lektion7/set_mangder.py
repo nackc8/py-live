@@ -10,3 +10,6 @@ ett_tomt_set = set()
 p(ett_tomt_set)
 ett_set_med_innehall = set("hellohello")
 p(ett_set_med_innehall)
+
+x = {}
+p(type(x))
