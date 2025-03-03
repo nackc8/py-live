@@ -13,5 +13,5 @@ sett = set()
 for el in lst:
     if el in sett:
         continue
-    sett.
-
+    sett.add(el)
+    lst2.append(el)
