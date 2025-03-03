@@ -1,5 +1,5 @@
 p = print
-lst = []
+age = 100
 
 
 def tuut():
