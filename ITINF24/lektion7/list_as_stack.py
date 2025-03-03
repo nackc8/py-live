@@ -11,7 +11,8 @@ def paran_balanced(txt):
 
 
 # print(paran_match("(hejsan)") == True)
-print(paran_balanced("(") == False)
+result = paran_balanced("(")
+print("Testfall pass: ", result == False)
 
 
 # funktions som svarar sant, om parenteserna matchar
