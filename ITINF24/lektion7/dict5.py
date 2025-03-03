@@ -9,4 +9,5 @@ ppl = {
 for pnr in ppl.keys():
     p(pnr)
 
-p("yngst:", min(ppl.keys()))
+p("yngst:", max(ppl.keys()))
+p("äldst:", min(ppl.keys()))
