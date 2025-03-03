@@ -11,7 +11,7 @@ Tuple med parentes, utan parentes (fungerar inte alltid, som i en list comprehen
 
 Sets - set() - konvertera till och från för att få unika element ✅
 
-Dictionary - {} - endast immutable nycklar, .items():, .keys(), .values()
+Dictionary - {} - endast immutable nycklar, .items():, .keys(), .values() ✅
 
 
 More on Conditions - Parenteser, in, not in, is, is not, not, == False och == True är ofta svårare att läsa än utan fast med bra variabelnamn
