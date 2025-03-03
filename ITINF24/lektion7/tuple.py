@@ -18,3 +18,4 @@ p("name", type(name), name)
 # variablerna name, age.
 name, age = "Janne", 55
 
+name, age = ("Janne", 55)
