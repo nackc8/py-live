@@ -1,3 +1,4 @@
-ns = ["nord", "hejsan", "hoppsan", "myrstack"]
+ns = ["nord", "syd"]
+vo = ["väst", "öst"]
 
-ord_minst_7tkn = [o for o in ord if len(o) > 6]
+kombo = [(x, y) for x in ns for y in vo]
