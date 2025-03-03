@@ -6,5 +6,5 @@ ppl = {
     "192502039999": {"firstname": "Mohammed", "surname": "Larsson"},
 }
 
-for pnr in ppl.keys():
-    p(pnr)
+for pdata in ppl.values():
+    p(pdata["firstname"])
