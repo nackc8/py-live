@@ -12,5 +12,6 @@ lst2 = []
 sett = set()
 for el in lst:
     if el in sett:
-        
+        continue
+    sett.
 
