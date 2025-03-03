@@ -13,4 +13,4 @@ Sets - set() - konvertera till och från för att få unika element
 Dictionary - {} - endast immutable nycklar, .items():, .keys(), .values()
 More on Conditions - Parenteser, in, not in, is, is not, not, == False och == True är ofta svårare att läsa än utan fast med bra variabelnamn
 global, local - namnen binder mot lokalt scope som standard och ändrar där
-Rekursion, att skicka med värden in, att returnera värden - Indentering i en punktlista
+Rekursion, balanserad lista, att skicka med värden in, att returnera värden - Indentering i en punktlista
