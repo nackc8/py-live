@@ -6,3 +6,7 @@ words3 = {"röd", "blå"}
 
 p("words2 issubset i words?", words2.issubset(words))
 p("words issubset i words2?", words.issubset(words2))
+
+lst = ["a", "b", "c"]
+
+p(words2.issubset(words))
