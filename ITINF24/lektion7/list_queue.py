@@ -1,6 +1,7 @@
 # listor som en kö
 
-# I 
+# I utvecklingstermer benäms en
+# en kö ofta som: FIFO (first in first out)
 
 customer_queue = []
 
