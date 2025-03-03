@@ -1,5 +1,7 @@
 def paran_match(txt):
     for bokstav in txt:
+        if bokstav == "(":
+            pass
         print(bokstav)
     return False
 
