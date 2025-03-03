@@ -1,3 +1,4 @@
+✅
 Using Lists as Stacks
 Lista som en stack - Parenteser
 Using Lists as Queues - Sällan ett problem i praktiken
