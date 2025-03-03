@@ -13,4 +13,4 @@ words3 = {"röd", "blå"}
 # p(words2.issubset(swords))
 
 p("difference words och word2", words.difference(words2))
-p("difference words2 och word", words2.difference(words))
+p("difference words2 och words", words2.difference(words))
