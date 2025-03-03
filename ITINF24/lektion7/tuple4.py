@@ -5,6 +5,7 @@
 tpl2 = ("hejsan", ["hund", "katt"])
 
 print(tpl2)
+# då listan är muterbar fungerar:
 tpl2[1].append("får")
 print(tpl2)
 
