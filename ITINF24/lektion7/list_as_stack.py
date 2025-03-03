@@ -1,3 +1,5 @@
+# Stack, benämns ofta inom utveckling som: LIFO
+
 # Använd debuggern för att förstå bättre!
 
 # Den som vill kan gärna uttöka med { } samt
