@@ -3,16 +3,17 @@ class AddPrint:
         self.lista = []
 
     def add_print(part):
-        
+        self.lista.append(part)
+        print(self.lista)
 
 
-# add_print1 = fun_fac()
-# add_print2 = fun_fac()
+ap_obj1 = AddPrint()
+ap_obj2 = AddPrint()
 
-# add_print1("Hej")
+ap_obj1.add_print("Hej")
 
-# add_print2("Hello")
-# add_print2("Super")
-# add_print2("Mario")
-# add_print2("World")
-# add_print1("Benny!")
+ap_obj2.add_print("Hello")
+ap_obj2.add_print("Super")
+ap_obj2.add_print("Mario")
+ap_obj2.add_print("World")
+ap_obj1.add_print("Benny!")
