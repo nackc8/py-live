@@ -98,7 +98,9 @@ sequenceDiagram
     Note over fun_fac: Skapar ny lista `lst` och en ny function `inner_fun`
     fun_fac-->>modulen: funktionspekaren till 2_fun_inner_fun
     Note over modulen: anropen följer
-    add_print1_Hej -> 1_fun_inner_fun: d
+    modulen->add_print1: Hej
+    add_print1->1_fun_inner_fun: Hej
+    add_print2->2_fun_inner_fun: Hello
 
 ```
     add_print2_Hello
