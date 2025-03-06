@@ -5,7 +5,7 @@ class Animal:
     pass
 
 
-class Eagle:
+class Eagle(Animal):
     total_sounds = 0
 
     def __init__(self):
