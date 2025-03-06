@@ -21,9 +21,10 @@ global_lst = {
 # 2.2 Finland
 
 
-def indentera(lst, prefix=""):
+def indentera(dct, prefix=""):
+    
     n = 0
-    for header, content in lst.items():
+    for header, content in dct.items():
         n += 1
         print(prefix, n, " ", header, sep="")
         if content:
