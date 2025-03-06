@@ -3,11 +3,9 @@ p = print
 
 class Animal:
     def __init__(self):
-        print("Animal!!!")
         self.sounds = 0
 
     def sound(self):
-        print("Körs i överklassen")
         self.sounds += 1
 
 
