@@ -10,3 +10,5 @@ class Greeting:
 
 
 greet1 = Greeting()
+
+greet1.greet()
