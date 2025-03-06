@@ -1,4 +1,5 @@
 class Greeting:
+    def __init__
     def greet(self):
         print("Hello")
 
