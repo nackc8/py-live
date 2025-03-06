@@ -51,7 +51,7 @@ eagle2.sound()
 eagle2.sound()
 
 donkey = Donkey()
-donkey.sound()
+donkey.sound(True)
 donkey.sound()
 donkey.sound()
 donkey.sound()
