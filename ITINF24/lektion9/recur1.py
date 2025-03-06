@@ -1,5 +1,5 @@
-
-lst = [
+# fmt: off
+lst = {
     "Bakgrund": [
         "Historia",
         "Nuläget"
@@ -8,4 +8,5 @@ lst = [
         "Sverige",
         "Finland"
     ]
-]
+}
+# fmt: on
