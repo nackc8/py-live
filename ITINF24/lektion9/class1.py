@@ -2,7 +2,7 @@ class Greeting:
     # Konstruktor
     def __init__(self, name):
         print("I konstruktorn, fick namnet ", name)
-        self.djijji = 123
+        self.djijji = 1
 
     def greet(self):
         print("Hello", self.djijji)
