@@ -44,7 +44,7 @@ class Donkey(Animal):
 
         if stat:
             print(f" {self.get_stats()}", end="")
-            print(" " + self.get_stats(), end="")
+        #            print(" " + self.get_stats(), end="")
 
         print()
 
