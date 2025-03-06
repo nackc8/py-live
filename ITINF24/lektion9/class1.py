@@ -1,4 +1,4 @@
 class AddPrint:
-    def add_print()
+    def add_print(self)
     pass
 
