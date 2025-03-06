@@ -10,3 +10,6 @@ lst = {
     ]
 }
 # fmt: on
+
+for el in lst:
+    print(el)
