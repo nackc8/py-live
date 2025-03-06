@@ -1,13 +1,13 @@
 # fmt: off
 global_lst = {
-    "Bakgrund": [
-        "Historia",
-        "Nuläget"
-    ],
-    "Rapport": [
-        "Sverige",
-        "Finland"
-    ]
+    "Bakgrund": {
+        "Historia": False,
+        "Nuläget": False
+    },
+    "Rapport": {
+        "Sverige": False,
+        "Finland": False
+    }
 }
 # fmt: on
 
