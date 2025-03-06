@@ -1,5 +1,5 @@
 # fmt: off
-lst = {
+global_lst = {
     "Bakgrund": [
         "Historia",
         "Nuläget"
@@ -13,8 +13,8 @@ lst = {
 
 
 def indentera(flst):
-    for rubrik, rubriksinnehall in lst.items():
+    for rubrik, rubriksinnehall in flst.items():
         print(rubrik, rubriksinnehall)
 
 
-indentera(lst)
+indentera(global_lst)
