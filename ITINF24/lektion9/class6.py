@@ -7,6 +7,9 @@ class Zoo:
         self.animals = []
 
     def add(a):
+        self.animals.append(a)
+
+    def all_sounds(self):
         
 
 
