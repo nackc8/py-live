@@ -15,12 +15,11 @@ class Eagle(Animal):
         # Anropa konstruktorn i överklassen!
         super().__init__()
 
-
     def sound(self):
         Eagle.total_sounds += 1
-        # self.sounds += 1
-        # stat = f"(tot: {Eagle.total_sounds}, ind: {self.sounds})"
-        # print("Scriiish", stat)
+        self.sounds += 1
+        stat = f"(tot: {Eagle.total_sounds}, ind: {self.sounds})"
+        print("Scriiish", stat)
 
 
 class Donkey:
