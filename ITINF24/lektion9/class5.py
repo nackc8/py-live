@@ -10,7 +10,7 @@ class Animal:
 class Eagle(Animal):
     total_sounds = 0
 
-    # Om egen konstruktor => Inget
+    # Om egen konstruktor => Inget, då behövs eget anrop super().__init__()
     def __init__(self):
         # Anropa konstruktorn i överklassen!
         super().__init__()
