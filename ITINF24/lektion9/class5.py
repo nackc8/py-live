@@ -4,6 +4,7 @@ p = print
 class Animal:
     def __init__(self):
         print("Animal!!!")
+        self.sounds = 0
 
 
 class Eagle(Animal):
@@ -13,7 +14,7 @@ class Eagle(Animal):
     def __init__(self):
         # Anropa konstruktorn i överklassen!
         super().__init__()
-        self.sounds = 0
+
 
     def sound(self):
         Eagle.total_sounds += 1
