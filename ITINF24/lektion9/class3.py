@@ -12,4 +12,4 @@ class Donkey:
 
 
 eagle1 = Eagle()
-p(eagle1)
+p(eagle1.sound())
