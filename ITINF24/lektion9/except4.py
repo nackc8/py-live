@@ -4,14 +4,15 @@
 
 # TypeError - fel datatyp
 # ValueError - rätt typ, men fel värde
+# Alla errors/exceptions ärver av Exception
 
 
 class Hund:
     def __init__(self, name):
         if not isinstance(name, str):
-            raise TypeError()
+            raise TypeError("Name must be a string")
         if name == "":
-            raise ValueError()
+            raise ValueError("Empty name not allowed")
 
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
