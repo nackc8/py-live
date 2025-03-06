@@ -10,7 +10,8 @@ class Zoo:
         self.animals.append(a)
 
     def all_sounds(self):
-        
+        for animal in self.animals:
+            animal.sound()
 
 
 class Animal:
@@ -64,3 +65,10 @@ class Donkey(Animal):
         #            print(" " + self.get_stats(), end="")
 
         print()
+
+
+kolmorden_zoo = Zoo()
+eskilstuna_zoo = Zoo()
+
+
+kolmorden_zoo.add(Eagle())
