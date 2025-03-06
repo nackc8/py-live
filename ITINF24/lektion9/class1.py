@@ -13,6 +13,6 @@ class Greeting:
         pass
 
 
-greet1 = Greeting()
+greet1 = Greeting("Fahrad")
 
 greet1.greet()
