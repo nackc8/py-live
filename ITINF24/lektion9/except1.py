@@ -4,7 +4,7 @@ x = int(input("Skriv ett tal:"))
 
 try:
     resultat = 10 / x
-except Exception as e:
-    print("fel:", e)
+except Exception as vadmanvill:
+    print("fel:", vadmanvill)
 
 print(resultat)
