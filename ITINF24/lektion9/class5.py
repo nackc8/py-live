@@ -9,14 +9,14 @@ class Animal:
 class Eagle(Animal):
     total_sounds = 0
 
-    def __init__(self):
-        self.sounds = 0
+    # def __init__(self):
+    #     self.sounds = 0
 
     def sound(self):
         Eagle.total_sounds += 1
-        self.sounds += 1
-        stat = f"(tot: {Eagle.total_sounds}, ind: {self.sounds})"
-        print("Scriiish", stat)
+        # self.sounds += 1
+        # stat = f"(tot: {Eagle.total_sounds}, ind: {self.sounds})"
+        # print("Scriiish", stat)
 
 
 class Donkey:
