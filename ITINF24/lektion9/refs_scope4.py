@@ -13,6 +13,7 @@ def lst_add_print(ndx, obj):
     lst.append(obj)
     print(lst)
 
+funk_igen = lst_add_print
 
 lst_add_print(1, "Hej")
 
