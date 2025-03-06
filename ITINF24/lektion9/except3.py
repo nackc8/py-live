@@ -7,7 +7,7 @@
 
 class Hund:
     def __init__(self, name):
-        if isinstance(name, str):
+        if not isinstance(name, str):
             print("NEJ! INGEN STRING")
 
         self.name = name
