@@ -84,6 +84,10 @@ var_add_print2 --> 2_fun_inner_fun
 ```
 `lst` är nyskapad, likaså `fun_inner_fun`. Båda skapades av vår fabrik.
 
-### Skapades och anropades
+### Skapadet och anropen
 
-
+```mermaid
+sequenceDiagram
+    Alice->John: Hello John, how are you?
+    Note over Alice,John: A typical interaction
+```
