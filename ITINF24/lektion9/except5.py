@@ -6,7 +6,9 @@
 # ValueError - rätt typ, men fel värde
 # Alla errors/exceptions ärver av Exception
 
-class InvalidDogNameError
+
+class InvalidDogNameError(Exception):
+    pass
 
 
 class Dog:
@@ -14,7 +16,7 @@ class Dog:
         if not isinstance(name, str):
             raise TypeError("Name must be a string")
         if name == "":
-            raise ValueError("Empty name not allowed")
+            raise InvalidDogNameError("Empty name not allowed")
 
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
