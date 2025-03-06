@@ -1,16 +1,16 @@
-
-# En fabrik som ger tillbaka funktioner
-def lst_add_print_factory():
+# En fabrik som ger tillbaka kompletta och
+# användbara funktioner
+def fun_fac():
     # analogt till vanligt skapande: inner = func
-    def inner(ndx, obj):
+    def inner_fun(ndx, obj):
         lst = listor[ndx]
         lst.append(obj)
         print(lst)
 
-    return inner
+    return inner_fun
 
 
-inner_lst_add_print = lst_add_print_factory()
+inner_lst_add_print = fun_fac()
 
 funk_igen = inner_lst_add_print
 
