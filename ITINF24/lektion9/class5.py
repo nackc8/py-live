@@ -8,6 +8,7 @@ class Animal:
         self.sounds = 0
 
     def sound(self):
+        Animal.total_sounds += 1
         self.sounds += 1
 
 
@@ -19,7 +20,6 @@ class Eagle(Animal):
 
     def sound(self):
         super().sound()
-        Animal.total_sounds += 1
         stat = f"(tot: {Animal.total_sounds}, ind: {self.sounds})"
         print("Scriiish", stat)
 
