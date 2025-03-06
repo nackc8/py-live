@@ -38,5 +38,7 @@ try:
     hund1 = Dog("")
 except InvalidDogNameError:
     hund1 = Dog("123")
+except DogNameTypeError:
+    hund1 = Dog("999")
 
 p(hund1.get_sentence())
