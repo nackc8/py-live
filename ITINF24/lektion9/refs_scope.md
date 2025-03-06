@@ -89,9 +89,14 @@ var_add_print2 --> 2_fun_inner_fun
 ```mermaid
 sequenceDiagram
     Note over modulen: add_print1 =
-    modulen->fun_fac: x
+    modulen->>fun_fac: (inga arg)
     Note over fun_fac: Skapar ny lista `lst` och en ny function `inner_fun`
-    fun_fac->inner_fun_1: x
+    fun_fac-->>modulen: funktionspekaren till 1_fun_inner_fun
+
+    Note over modulen: add_print2 =
+    modulen->>fun_fac: (inga arg)
+    Note over fun_fac: Skapar ny lista `lst` och en ny function `inner_fun`
+    fun_fac-->>modulen: funktionspekaren till 2_fun_inner_fun
 ```
 
     Alice->John: Hello John, how are you?
