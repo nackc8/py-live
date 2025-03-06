@@ -1,5 +1,14 @@
 class AddPrint:
-    def 
-    def add_print(self):
-        # lst.append(obj)
-        # print(lst)
+    pass
+
+
+# add_print1 = fun_fac()
+# add_print2 = fun_fac()
+
+# add_print1("Hej")
+
+# add_print2("Hello")
+# add_print2("Super")
+# add_print2("Mario")
+# add_print2("World")
+# add_print1("Benny!")
