@@ -3,17 +3,13 @@
 lst1 = []
 lst2 = []
 
-listor = 
+listor = (lst1, lst2)
 
 
 def lst1_add_print(obj):
     lst1.append(obj)
     print(lst1)
 
-
-def lst2_add_print(obj):
-    lst2.append(obj)
-    print(lst2)
 
 
 lst2_add_print("Hej")
