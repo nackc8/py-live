@@ -6,6 +6,9 @@ class Animal:
         print("Animal!!!")
         self.sounds = 0
 
+    def sound(self):
+        pass
+
 
 class Eagle(Animal):
     total_sounds = 0
