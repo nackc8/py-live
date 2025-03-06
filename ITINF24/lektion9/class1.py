@@ -1,7 +1,7 @@
 class Greeting:
     # Konstruktor
     def __init__(self, name):
-        pass
+        print("I konstruktorn, fick namnet ", name)
 
     def greet(self):
         print("Hello")
