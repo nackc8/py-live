@@ -100,12 +100,9 @@ sequenceDiagram
     Note over modulen: anropen följer
     modulen->add_print1: Hej
     add_print1->1_fun_inner_fun: Hej
+    modulen->add_print2: Hello
     add_print2->2_fun_inner_fun: Hello
+    modulen->add_print2: Hello
+    add_print2->2_fun_inner_fun: Super
 
 ```
-    add_print2_Hello
-    add_print2_Super
-    add_print2_Mario
-    add_print2_World
-    add_print1_Benny
-
