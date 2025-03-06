@@ -19,6 +19,7 @@ class Hund:
         return sentence
 
 
-# fel 1: Fel typ
+# med raise smäller direkt
 hund1 = Hund(34)
+# (innan raise smäller sent) fel 1: Fel typ
 hund1.get_sentence()
