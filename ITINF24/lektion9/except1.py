@@ -1,5 +1,7 @@
 standard_input = "0"
 
+# Inbyggda exceptions: https://docs.python.org/3.11/library/exceptions.html#concrete-exceptions
+
 try:
     x = int(input("Skriv ett tal:"))
     resultat = 10 / x
