@@ -97,6 +97,7 @@ sequenceDiagram
     modulen->>fun_fac: (inga arg)
     Note over fun_fac: Skapar ny lista `lst` och en ny function `inner_fun`
     fun_fac-->>modulen: funktionspekaren till 2_fun_inner_fun
+    Note over modulen: anropen följer
 ```
 
     Alice->John: Hello John, how are you?
