@@ -51,5 +51,5 @@ add_print2 = fun_fac()
 Blir referenser enligt:
 ```mermaid
 flowchart LR
-var_add_print1 --> x
+var_add_print1 --> fun_inner_fun
 ```
