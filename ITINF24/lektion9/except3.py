@@ -3,6 +3,7 @@
 
 class Hund:
     def __init__(self, namn):
+        # Ger TypeError: can only concatenate str (not "int") to str
         mening = f"Min hund " + namn + " är gooo!"
 
 
