@@ -11,5 +11,10 @@ lst = {
 }
 # fmt: on
 
-for rubrik, rubriksinnehall in lst.items():
-    print(rubrik, rubriksinnehall)
+
+def indentera(flst):
+    for rubrik, rubriksinnehall in lst.items():
+        print(rubrik, rubriksinnehall)
+
+
+indentera(lst)
