@@ -11,7 +11,7 @@ global_lst = {
 }
 # fmt: on
 
-# Mål
+# Mål: printad sträng
 #
 # 1. Bakgrund
 # 1.1 Historia
