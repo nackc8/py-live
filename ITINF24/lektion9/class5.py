@@ -2,6 +2,8 @@ p = print
 
 
 class Animal:
+    total_sounds = 0
+
     def __init__(self):
         self.sounds = 0
 
@@ -10,8 +12,6 @@ class Animal:
 
 
 class Eagle(Animal):
-    total_sounds = 0
-
     # Om egen konstruktor => Inget, då behövs eget anrop super().__init__()
     def __init__(self):
         # Anropa konstruktorn i överklassen!
@@ -20,7 +20,7 @@ class Eagle(Animal):
     def sound(self):
         super().sound()
         Eagle.total_sounds += 1
-        stat = f"(tot: {Eagle.total_sounds}, ind: {self.sounds})"
+        stat = f"(tot: {Animal.total_sounds}, ind: {self.sounds})"
         print("Scriiish", stat)
 
 
