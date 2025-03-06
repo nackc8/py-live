@@ -22,7 +22,6 @@ class Eagle(Animal):
     def sound(self):
         super().sound()
         Eagle.total_sounds += 1
-        self.sounds += 1
         stat = f"(tot: {Eagle.total_sounds}, ind: {self.sounds})"
         print("Scriiish", stat)
 
