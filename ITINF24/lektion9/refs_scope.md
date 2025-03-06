@@ -51,7 +51,5 @@ add_print2 = fun_fac()
 Blir referenser enligt:
 ```mermaid
 flowchart LR
-    obj --> list_hello
-    en_till_var --> list_hello
-    sys.getrefcount -->list_hello
+var_add_print1 --> x
 ```
