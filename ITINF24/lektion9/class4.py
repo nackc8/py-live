@@ -2,12 +2,15 @@ p = print
 
 
 class Eagle:
+    total_sounds = 0
+
     def sound(self):
-        self.jiejiej = 
         print("Scriiish")
 
 
 class Donkey:
+    total_sounds = 0
+
     def sound(self):
         print("Ihhh ohhh")
 
