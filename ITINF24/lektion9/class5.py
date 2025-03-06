@@ -29,17 +29,17 @@ class Eagle(Animal):
         print(Eagle.SOUND, self.get_stats())
 
 
-# class Donkey:
-#     total_sounds = 0
+class Donkey:
+    total_sounds = 0
 
-#     def __init__(self):
-#         self.sounds = 0
+    def __init__(self):
+        self.sounds = 0
 
-#     def sound(self):
-#         Donkey.total_sounds += 1
-#         self.sounds += 1
-#         stat = f"(tot: {Donkey.total_sounds}, ind: {self.sounds})"
-#         print("Ihhh ohh ohhh", stat)
+    def sound(self):
+        Donkey.total_sounds += 1
+        self.sounds += 1
+        stat = f"(tot: {Donkey.total_sounds}, ind: {self.sounds})"
+        print("Ihhh ohh ohhh", stat)
 
 
 eagle1 = Eagle()  # Animal!!!
