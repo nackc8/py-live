@@ -11,6 +11,10 @@ class Animal:
         Animal.total_sounds += 1
         self.sounds += 1
 
+    def get_stats(self):
+        stat = f"(tot: {Animal.total_sounds}, ind: {self.sounds})"
+        return stat
+
 
 class Eagle(Animal):
     SOUND = "Scriiish"
@@ -22,8 +26,7 @@ class Eagle(Animal):
 
     def sound(self):
         super().sound()
-        stat = f"(tot: {Animal.total_sounds}, ind: {self.sounds})"
-        print(Eagle.SOUND, stat)
+        print(Eagle.SOUND, self.get_stats())
 
 
 # class Donkey:
