@@ -3,6 +3,7 @@ p = print
 
 class Eagle:
     def sound(self):
+        self.jiejiej = 
         print("Scriiish")
 
 
