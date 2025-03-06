@@ -5,6 +5,7 @@ lst2 = []
 
 listor = (lst1, lst2)
 
+minvar = 123  # Tilldela vanlig variabel
 
 
 def lst_add_print(ndx, obj):
