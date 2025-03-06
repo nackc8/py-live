@@ -88,6 +88,7 @@ var_add_print2 --> 2_fun_inner_fun
 
 ```mermaid
 sequenceDiagram
+    Note over modulen: A typical interaction
     modulen->fun_fac: x
     fun_fac->inner_fun: x
 
@@ -95,5 +96,4 @@ sequenceDiagram
 ```
 
     Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
 
