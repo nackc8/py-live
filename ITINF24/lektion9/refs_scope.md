@@ -98,6 +98,13 @@ sequenceDiagram
     Note over fun_fac: Skapar ny lista `lst` och en ny function `inner_fun`
     fun_fac-->>modulen: funktionspekaren till 2_fun_inner_fun
     Note over modulen: anropen följer
+    add_print1 Hej
+    add_print2 Hello
+    add_print2 Super
+    add_print2 Mario
+    add_print2 World
+    add_print1 Benny
+
 ```
 
     Alice->John: Hello John, how are you?
