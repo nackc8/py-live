@@ -51,7 +51,10 @@ add_print2 = fun_fac()
 Blir referenser enligt:
 ```mermaid
 flowchart LR
-var_add_print1 --> fun_inner_fun
-fun_inner_fun --> lst
+var_add_print1 --> 1_fun_inner_fun
+1_fun_inner_fun --> 1_lst
+var_add_print2 --> 2_fun_inner_fun
+2_fun_inner_fun --> 2_lst
+
 ```
 `lst` är nyskapad, likaså `fun_inner_fun`. Båda skapades av vår fabrik.
