@@ -9,7 +9,7 @@ class Animal:
 class Eagle(Animal):
     total_sounds = 0
 
-    # Om egen konstruktor => Inget 
+    # Om egen konstruktor => Inget
     # def __init__(self):
     #     self.sounds = 0
 
@@ -33,10 +33,10 @@ class Donkey:
         print("Ihhh ohh ohhh", stat)
 
 
-eagle1 = Eagle()
+eagle1 = Eagle()  # Animal!!!
 eagle1.sound()
 
-eagle2 = Eagle()
+eagle2 = Eagle()  # Animal!!!
 eagle2.sound()
 eagle2.sound()
 
