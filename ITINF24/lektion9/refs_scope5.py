@@ -10,12 +10,13 @@ def fun_fac():
     return inner_fun
 
 
-add_print = fun_fac()
+add_print1 = fun_fac()
+add_print2 = fun_fac()
 
-add_print("Hej")
+add_print1("Hej")
 
-add_print("Hello")
-add_print("Super")
-add_print("Mario")
-add_print("World")
-add_print("Benny!")
+add_print2("Hello")
+add_print2("Super")
+add_print2("Mario")
+add_print2("World")
+add_print1("Benny!")
