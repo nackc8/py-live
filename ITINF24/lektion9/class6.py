@@ -31,7 +31,7 @@ class Eagle(Animal):
 
 
 class Donkey(Animal):
-    SOUND = "Ihhh ohh ohhh"
+    SOUND = "Ihhh ohhh"
 
     def __init__(self):
         super().__init__()
