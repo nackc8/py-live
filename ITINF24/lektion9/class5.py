@@ -1,7 +1,9 @@
 p = print
 
+
 class Animal:
-    
+    pass
+
 
 class Eagle:
     total_sounds = 0
