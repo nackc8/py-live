@@ -13,6 +13,8 @@ class Animal:
 
 
 class Eagle(Animal):
+    SOUND = "Scriiish"
+
     # Om egen konstruktor => Inget, då behövs eget anrop super().__init__()
     def __init__(self):
         # Anropa konstruktorn i överklassen!
@@ -21,7 +23,7 @@ class Eagle(Animal):
     def sound(self):
         super().sound()
         stat = f"(tot: {Animal.total_sounds}, ind: {self.sounds})"
-        print("Scriiish", stat)
+        print(Eagle.SOUND, stat)
 
 
 # class Donkey:
