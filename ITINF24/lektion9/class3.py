@@ -2,14 +2,17 @@ p = print
 
 
 class Eagle:
-    def sound():
+    def sound(self):
         print("Scriiish")
 
 
 class Donkey:
-    def sound():
+    def sound(self):
         print("Ihhh ohhh")
 
 
 eagle1 = Eagle()
-p(eagle1.sound())
+eagle1.sound()
+
+donkey = Donkey()
+donkey.sound()
