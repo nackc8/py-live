@@ -52,4 +52,5 @@ Blir referenser enligt:
 ```mermaid
 flowchart LR
 var_add_print1 --> fun_inner_fun
+fun_inner_fun --> lst
 ```
