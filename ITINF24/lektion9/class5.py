@@ -28,7 +28,7 @@ class Donkey:
         Donkey.total_sounds += 1
         self.sounds += 1
         stat = f"(tot: {Donkey.total_sounds}, ind: {self.sounds})"
-        print("Ihhh ohhh", stat)
+        print("Ihhh ohh ohhh", stat)
 
 
 eagle1 = Eagle()
