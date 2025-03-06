@@ -1,5 +1,8 @@
 p = print
 
+# Eller tänkt Animals() (plural)
+class Zoo():
+    def 
 
 class Animal:
     total_sounds = 0
@@ -31,7 +34,7 @@ class Eagle(Animal):
         if stat:
             print(f" {self.get_stats()}", end="")
 
-        print(Eagle.SOUND, self.get_stats())
+        print()
 
 
 class Donkey(Animal):
@@ -52,17 +55,3 @@ class Donkey(Animal):
         #            print(" " + self.get_stats(), end="")
 
         print()
-
-
-eagle1 = Eagle()  # Animal!!!
-eagle1.sound()
-
-eagle2 = Eagle()  # Animal!!!
-eagle2.sound()
-eagle2.sound()
-
-donkey = Donkey()
-donkey.sound(True)
-donkey.sound()
-donkey.sound()
-donkey.sound()
