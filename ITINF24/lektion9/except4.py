@@ -3,6 +3,7 @@
 # Feltyper:
 
 # TypeError - fel datatyp
+# ValueError - rätt typ, men fel värde
 
 
 class Hund:
@@ -10,7 +11,7 @@ class Hund:
         if not isinstance(name, str):
             raise TypeError()
         if name == "":
-            pass
+            raise ValueError()
 
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
