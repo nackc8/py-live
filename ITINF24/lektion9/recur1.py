@@ -26,6 +26,7 @@ def indentera(lst):
     for header, content in lst.items():
         n += 1
         print(n, header, content)
+        indentera()
 
 
 indentera(global_lst)
