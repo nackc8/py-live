@@ -9,6 +9,8 @@ class Hund:
     def __init__(self, name):
         if not isinstance(name, str):
             raise TypeError()
+        if name == "":
+            pass
 
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
@@ -19,7 +21,9 @@ class Hund:
         return sentence
 
 
+p = print
+
 # med raise smäller direkt
-hund1 = Hund(34)
-# (innan raise smäller sent) fel 1: Fel typ
-hund1.get_sentence()
+hund1 = Hund("")
+
+p(hund1.get_sentence())
