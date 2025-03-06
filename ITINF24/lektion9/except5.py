@@ -7,11 +7,11 @@
 # Alla errors/exceptions ärver av Exception
 
 
-class InvalidDogNameError(Exception):
+class InvalidDogNameError(ValueError):
     pass
 
 
-class DogNameTypeError(Exception):
+class DogNameTypeError(TypeError):
     pass
 
 
