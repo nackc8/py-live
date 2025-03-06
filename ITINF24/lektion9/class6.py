@@ -6,7 +6,7 @@ class Zoo:
     def __init__(self):
         self.animals = []
 
-    def add(a):
+    def add(self, a):
         self.animals.append(a)
 
     def all_sounds(self):
