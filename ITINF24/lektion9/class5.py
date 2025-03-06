@@ -8,7 +8,7 @@ class Animal:
 
     def sound(self):
         print("Körs i överklassen")
-        pass
+        self.sounds += 1
 
 
 class Eagle(Animal):
