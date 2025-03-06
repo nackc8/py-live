@@ -6,6 +6,7 @@ lst2 = []
 listor = (lst1, lst2)
 
 
+# En fabrik som ger tillbaka funktioner
 def lst_add_print_factory():
     # analogt till vanligt skapande: inner = func
     def inner(ndx, obj):
