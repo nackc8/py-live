@@ -15,7 +15,11 @@ class Greeting:
 
 
 greet1 = Greeting("Fahrad")
+greet2 = Greeting("My")
 
 greet1.greet()
+greet2.greet()
 greet1.bad()
+greet2.bad()
 greet1.good()
+greet2.good()
