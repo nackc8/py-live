@@ -11,11 +11,9 @@ I din klassmapp finns en katalog för varje lektionsdag som innehåller:
 
 ## Följ lektionen "Live"
 
-## Att följa med "Live"
-
 Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra Bash-skriptet `bin/daystart` på morgonen. Om du använder Windows kan du köra skriptet från "Git Bash" men tyvärr inte från PowerShell.
 
-3. Vid dagens slut sammanfogas allt till `main`.
+1. Vid dagens slut sammanfogas allt till `main`.
 
 Om du vill få de senase ändringarna kontinuerligt så kan du t.ex. använda en liten loop som kör git pull var 5:e sekund:
 
