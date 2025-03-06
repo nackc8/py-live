@@ -6,7 +6,8 @@ class Eagle:
 
     def sound(self):
         Eagle.total_sounds += 1
-        print("Scriiish", Eagle.total_sounds)
+        stat = f"(tot: {Eagle.total_sounds}, ind: {9876})"
+        print("Scriiish", stat)
 
 
 class Donkey:
@@ -14,11 +15,15 @@ class Donkey:
 
     def sound(self):
         Donkey.total_sounds += 1
-        print("Ihhh ohhh", Donkey.total_sounds)
+        stat = f"(tot: {Donkey.total_sounds}, ind: {9876})"
+        print("Ihhh ohhh", stat)
 
 
 eagle1 = Eagle()
 eagle1.sound()
+
+eagle2 = Eagle()
+eagle2.sound()
 
 donkey = Donkey()
 donkey.sound()
