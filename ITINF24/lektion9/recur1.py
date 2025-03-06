@@ -21,11 +21,11 @@ global_lst = {
 # 2.2 Finland
 
 
-def indentera(flst):
+def indentera(lst):
     n = 0
-    for rubrik, rubriksinnehall in flst.items():
+    for header, content in lst.items():
         n += 1
-        print(rubrik, rubriksinnehall)
+        print(n, header, content)
 
 
-resultat = indentera(global_lst)
+indentera(global_lst)
