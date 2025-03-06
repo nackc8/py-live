@@ -1,9 +1,9 @@
 # En fabrik som ger tillbaka kompletta och
 # användbara funktioner
 def fun_fac():
-    # analogt till vanligt skapande: inner = func
-    def inner_fun(ndx, obj):
-        lst = listor[ndx]
+    lst = []
+
+    def inner_fun(obj):
         lst.append(obj)
         print(lst)
 
