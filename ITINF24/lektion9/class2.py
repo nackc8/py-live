@@ -7,8 +7,8 @@ class AddPrint:
         print(self.lista)
 
 
-ap_obj1 = AddPrint()
-ap_obj2 = AddPrint()
+ap_obj1 = AddPrint()  # ny instans, egen self
+ap_obj2 = AddPrint()  # igen..
 
 ap_obj1.add_print("Hej")
 
