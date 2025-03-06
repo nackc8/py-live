@@ -28,4 +28,4 @@ def indentera(flst):
         print(rubrik, rubriksinnehall)
 
 
-indentera(global_lst)
+resultat = indentera(global_lst)
