@@ -2,7 +2,7 @@ class AddPrint:
     def __init__(self):
         self.lista = []
 
-    def add_print(part):
+    def add_print(self, part):
         self.lista.append(part)
         print(self.lista)
 
