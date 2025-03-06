@@ -7,7 +7,7 @@ listor = (lst1, lst2)
 
 
 def lst_add_print(ndx,obj):
-    lst = 
+    lst = listor[ndx]
     lst.append(obj)
     print(lst)
 
