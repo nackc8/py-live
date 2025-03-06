@@ -25,7 +25,7 @@ def indentera(lst, prefix=""):
     n = 0
     for header, content in lst.items():
         n += 1
-        print(prefix, n, header, content)
+        print(prefix, n, header)
         if content:
             indentera(content, f"{str(n)}.")
 
