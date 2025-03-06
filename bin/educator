@@ -41,6 +41,8 @@ timestamp="$(date +%s)"
 save=$(mktemp -d -t "educator-save-$timestamp-XXX")
 mv -v "$root/."{vscode,shellcheckrc,gitignore} "$save" 2>/dev/null || true
 
+killall autocommit || true
+
 if [[ $mode == present ]]; then
 	reset_vscode_profile_educator_present
 else

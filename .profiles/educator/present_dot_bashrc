@@ -76,7 +76,7 @@ ___date_dir="$___dates_dir/d$___datepart"
 export PROMPT_COMMAND=___set_bash_prompt
 export SHELL="$___script_dir/bash_noprofile_norc"
 
-if [[ ! -e $___date_dir || -z $___class || -z $___lession_number ]]; then
+if [[ (! -e $___date_dir) || -z $___class || -z $___lession_number ]]; then
 	if [ -n "$___class" ]; then
 		___class="$(ask --default "$___class" --validate "$___class_validation_re" \
 			"Ange klass: ($___class) ")"
