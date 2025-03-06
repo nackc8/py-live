@@ -3,7 +3,7 @@
 
 class Hund:
     def __init__(self, namn):
-        mening = f"Min hund {namn} är gooo!"
+        mening = f"Min hund " + namn + " är gooo!"
 
 
 # fel 1: Fel typ
