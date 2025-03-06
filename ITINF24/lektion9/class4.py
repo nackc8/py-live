@@ -4,6 +4,9 @@ p = print
 class Eagle:
     total_sounds = 0
 
+    def __init__(self):
+        self.sounds = 0
+
     def sound(self):
         Eagle.total_sounds += 1
         stat = f"(tot: {Eagle.total_sounds}, ind: {9876})"
