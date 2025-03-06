@@ -8,12 +8,14 @@ class Greeting:
         print("Hello", self.name)
 
     def bad(self):
-        pass
+        print("Bad", self.name)
 
     def good(self):
-        pass
+        print("Good", self.name)
 
 
 greet1 = Greeting("Fahrad")
 
 greet1.greet()
+greet1.bad()
+greet1.good()
