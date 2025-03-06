@@ -8,7 +8,7 @@
 class Hund:
     def __init__(self, name):
         if not isinstance(name, str):
-            raise 
+            raise TypeError()
 
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
