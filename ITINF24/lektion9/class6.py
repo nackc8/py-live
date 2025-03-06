@@ -1,8 +1,14 @@
 p = print
 
+
 # Eller tänkt Animals() (plural)
-class Zoo():
-    def 
+class Zoo:
+    def __init__(self):
+        self.animals = []
+
+    def add(a):
+        
+
 
 class Animal:
     total_sounds = 0
