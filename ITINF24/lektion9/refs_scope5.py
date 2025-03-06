@@ -10,14 +10,12 @@ def fun_fac():
     return inner_fun
 
 
-inner_lst_add_print = fun_fac()
+add_print = fun_fac()
 
-funk_igen = inner_lst_add_print
+add_print("Hej")
 
-inner_lst_add_print(1, "Hej")
-
-inner_lst_add_print(0, "Hello")
-inner_lst_add_print(0, "Super")
-inner_lst_add_print(0, "Mario")
-inner_lst_add_print(0, "World")
-inner_lst_add_print(1, "Benny!")
+add_print("Hello")
+add_print("Super")
+add_print("Mario")
+add_print("World")
+add_print("Benny!")
