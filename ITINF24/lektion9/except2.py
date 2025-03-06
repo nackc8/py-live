@@ -1,7 +1,6 @@
-standard_input = "h"
+standard_input = "6"
 
 # Inbyggda exceptions: https://docs.python.org/3.11/library/exceptions.html#concrete-exceptions
-
 
 
 try:
@@ -13,5 +12,7 @@ except ZeroDivisionError as e:
 except Exception as e:
     print("okänt fel:", e)
     resultat = 0  # fix? Inga fel nedan ivf
+finally:
+    print("Detta steg körs allt!")
 
 print(resultat)
