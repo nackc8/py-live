@@ -8,9 +8,8 @@
 class Hund:
     def __init__(self, name):
         if isinstance(name, str):
-            print("JA! STRING")
-        else:
             print("NEJ! INGEN STRING")
+
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
 
