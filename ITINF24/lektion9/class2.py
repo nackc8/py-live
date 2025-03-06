@@ -1,5 +1,9 @@
 class AddPrint:
-    pass
+    def __init__(self):
+        self.lista = []
+
+    def add_print(part):
+        
 
 
 # add_print1 = fun_fac()
