@@ -6,16 +6,16 @@ lst2 = []
 listor = (lst1, lst2)
 
 
-def lst1_add_print(obj):
-    lst1.append(obj)
-    print(lst1)
+def lst_add_print(0,obj):
+    lst.append(obj)
+    print(lst)
 
 
 
-lst2_add_print("Hej")
+lst_add_print(1,"Hej")
 
 lst1_add_print("Hello")
 lst1_add_print("Super")
 lst1_add_print("Mario")
 lst1_add_print("World")
-lst2_add_print("Benny!")
+lst_add_print(1,"Benny!")
