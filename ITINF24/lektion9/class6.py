@@ -35,12 +35,12 @@ class Donkey(Animal):
     def __init__(self):
         super().__init__()
 
-    def sound(self, ):
+    def sound(self, stat=False):
         super().sound()
         if self.sounds > 2:
-            print(Donkey.SOUND.upper(), self.get_stats())
+            print(Donkey.SOUND.upper())
         else:
-            print(Donkey.SOUND, self.get_stats())
+            print(Donkey.SOUND)
 
 
 eagle1 = Eagle()  # Animal!!!
