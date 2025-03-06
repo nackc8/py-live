@@ -2,7 +2,8 @@ p = print
 
 
 class Animal:
-    pass
+    def __init__(self):
+        print("Animal!!!")
 
 
 class Eagle(Animal):
