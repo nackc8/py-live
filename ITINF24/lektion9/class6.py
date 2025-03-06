@@ -38,9 +38,9 @@ class Donkey(Animal):
     def sound(self, stat=False):
         super().sound()
         if self.sounds > 2:
-            print(Donkey.SOUND.upper())
+            print(Donkey.SOUND.upper(), end="")
         else:
-            print(Donkey.SOUND)
+            print(Donkey.SOUND, end="")
 
         if stat:
             print(self.get_stats())
