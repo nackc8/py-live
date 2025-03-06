@@ -72,3 +72,16 @@ eskilstuna_zoo = Zoo()
 
 
 kolmorden_zoo.add(Eagle())
+kolmorden_zoo.add(Eagle())
+kolmorden_zoo.add(Eagle())
+
+kolmorden_zoo.all_sounds()
+
+eskilstuna_zoo.add(Eagle())
+eskilstuna_zoo.add(Donkey())
+eskilstuna_zoo.add(Donkey())
+eskilstuna_zoo.add(Donkey())
+
+eskilstuna_zoo.all_sounds()
+eskilstuna_zoo.all_sounds()
+eskilstuna_zoo.all_sounds()
