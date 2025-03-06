@@ -1,5 +1,5 @@
 class Greeting:
-    # Konstruktor
+    # Konstruktor, tvingar anroparen att skicka med ett positionellt argument
     def __init__(self, name):
         #        print("I konstruktorn, fick namnet ", name)
         self.name = name
