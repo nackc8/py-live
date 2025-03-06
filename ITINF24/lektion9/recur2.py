@@ -11,7 +11,7 @@ global_lst = {
 }
 # fmt: on
 
-# Mål
+# Mål: returnera en sträng med allt nedan
 #
 # 1. Bakgrund
 # 1.1 Historia
