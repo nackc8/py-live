@@ -54,3 +54,4 @@ flowchart LR
 var_add_print1 --> fun_inner_fun
 fun_inner_fun --> lst
 ```
+`lst` är nyskapad, likaså 
