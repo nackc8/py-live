@@ -11,5 +11,5 @@ lst = {
 }
 # fmt: on
 
-for el in lst.items():
-    print(el)
+for k, v in lst.items():
+    print(k, v)
