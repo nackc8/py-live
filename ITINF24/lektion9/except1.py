@@ -1,10 +1,9 @@
 standard_input = "0"
 
-x = int(input("Skriv ett tal:"))
-
 try:
+    x = int(input("Skriv ett tal:"))
     resultat = 10 / x
-except Exception as vadmanvill:
-    print("fel:", vadmanvill)
+except ZeroDivisionError as e:
+    print("fel:", e)
 
 print(resultat)
