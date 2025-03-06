@@ -26,7 +26,7 @@ def indentera(dct, prefix=""):
     n = 0
     for header, content in dct.items():
         n += 1
-        ret = prefix + str(n) + " " + header
+        ret = ret + "\n" + prefix + str(n) + " " + header
         # print(prefix, n, " ", header, sep="")
         if content:
             indentera(content, f"{str(n)}.")
