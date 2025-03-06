@@ -30,6 +30,8 @@ def indentera(dct, prefix=""):
         # print(prefix, n, " ", header, sep="")
         if content:
             indentera(content, f"{str(n)}.")
+    return ret
 
 
-indentera(global_lst)
+result = indentera(global_lst)
+print(result)
