@@ -88,6 +88,8 @@ var_add_print2 --> 2_fun_inner_fun
 
 ```mermaid
 sequenceDiagram
+    fun_fac->
+
     Alice->John: Hello John, how are you?
     Note over Alice,John: A typical interaction
 ```
