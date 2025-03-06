@@ -22,7 +22,9 @@ global_lst = {
 
 
 def indentera(flst):
+    n = 0
     for rubrik, rubriksinnehall in flst.items():
+        n += 1
         print(rubrik, rubriksinnehall)
 
 
