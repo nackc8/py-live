@@ -1,11 +1,11 @@
 class Greeting:
     # Konstruktor
     def __init__(self, name):
-        print("I konstruktorn, fick namnet ", name)
-        self.djijji = 1
+        #        print("I konstruktorn, fick namnet ", name)
+        self.name = name
 
     def greet(self):
-        print("Hello", self.djijji)
+        print("Hello", self.name)
 
     def bad(self):
         pass
