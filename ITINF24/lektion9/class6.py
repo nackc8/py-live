@@ -5,7 +5,6 @@ class Animal:
     total_sounds = 0
 
     def __init__(self):
-        print("Animal")
         self.sounds = 0
 
     def sound(self):
@@ -36,7 +35,7 @@ class Donkey(Animal):
     def __init__(self):
         super().__init__()
 
-    def sound(self):
+    def sound(self, ):
         super().sound()
         if self.sounds > 2:
             print(Donkey.SOUND.upper(), self.get_stats())
