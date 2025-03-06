@@ -37,6 +37,7 @@ class Donkey(Animal):
         super().__init__()
 
     def sound(self):
+        super().sound()
         print(Donkey.SOUND, self.get_stats())
 
 
