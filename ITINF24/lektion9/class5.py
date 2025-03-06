@@ -11,6 +11,7 @@ class Eagle(Animal):
 
     # Om egen konstruktor => Inget
     def __init__(self):
+        super()
         self.sounds = 0
 
     def sound(self):
