@@ -11,6 +11,7 @@ class Zoo:
 
     def all_sounds(self):
         for animal in self.animals:
+            # polymorphism
             animal.sound()
 
 
