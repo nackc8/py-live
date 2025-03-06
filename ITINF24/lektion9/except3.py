@@ -1,12 +1,21 @@
 # Inbyggda exceptions: https://docs.python.org/3.11/library/exceptions.html#concrete-exceptions
 
+# Feltyper:
+
+# TypeError - fel datatyp
+
 
 class Hund:
     def __init__(self, name):
+        if isinstance(name, str):
+            print("JA! STRING")
+        else:
+            print("NEJ! INGEN STRING")
         self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
 
     def get_sentence(self):
+        # TypeError: can only concatenate str (not "int") to str
         sentence = "Min hund " + self.name + " är gooo!"
         return sentence
 
