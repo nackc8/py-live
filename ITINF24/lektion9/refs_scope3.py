@@ -3,6 +3,8 @@
 lst1 = []
 lst2 = []
 
+listor = 
+
 
 def lst1_add_print(obj):
     lst1.append(obj)
