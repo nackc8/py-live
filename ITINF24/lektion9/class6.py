@@ -24,7 +24,7 @@ class Eagle(Animal):
         # Anropa konstruktorn i överklassen!
         super().__init__()
 
-    def sound(self, stat):
+    def sound(self, stat=False):
         super().sound()
         print(Eagle.SOUND, end="")
 
