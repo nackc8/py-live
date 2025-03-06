@@ -2,12 +2,12 @@
 
 
 class Hund:
-    def __init__(self, namn):
-        pass
+    def __init__(self, name):
+        self.name = name
         # Ger TypeError: can only concatenate str (not "int") to str
 
     def get_sentence(self):
-        sentence = f"Min hund " + namn + " är gooo!"
+        sentence = "Min hund " + self.name + " är gooo!"
         return sentence
 
 
