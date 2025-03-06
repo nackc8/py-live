@@ -1,16 +1,3 @@
-# Inte jättebra?
-
-lst1 = []
-lst2 = []
-
-listor = (lst1, lst2)
-
-# En funktion, kan ge tillbaka en funktion
-# som jag kan använda.
-#
-# liknar följande då vi också har en funktionspekare i en variabel:
-# p = print
-
 
 # En fabrik som ger tillbaka funktioner
 def lst_add_print_factory():
