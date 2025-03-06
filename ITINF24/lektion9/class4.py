@@ -14,7 +14,7 @@ class Donkey:
 
     def sound(self):
         Donkey.total_sounds += 1
-        print("Ihhh ohhh")
+        print("Ihhh ohhh", Donkey.total_sounds)
 
 
 eagle1 = Eagle()
