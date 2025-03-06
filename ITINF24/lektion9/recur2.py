@@ -22,10 +22,11 @@ global_lst = {
 
 
 def indentera(dct, prefix=""):
-    
+    ret = ""
     n = 0
     for header, content in dct.items():
         n += 1
+        ret = prefix + str(n) + " "
         print(prefix, n, " ", header, sep="")
         if content:
             indentera(content, f"{str(n)}.")
