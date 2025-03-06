@@ -11,7 +11,8 @@ class Eagle(Animal):
 
     # Om egen konstruktor => Inget
     def __init__(self):
-        super()
+        # Anropa konstruktorn i överklassen!
+        super().__init__()
         self.sounds = 0
 
     def sound(self):
