@@ -1,5 +1,3 @@
-import sys
-
 lst = []
 
 
@@ -8,7 +6,5 @@ def lst_add_print(obj):
     print(lst)
 
 
-obj = ["hello"]
-en_till_var = obj
-print(sys.getrefcount(obj))
-# försvinner först: import refcount, refcount.obj = None, refcount.en_till_var = None
+lst_add_print("Hello")
+lst_add_print("World")
