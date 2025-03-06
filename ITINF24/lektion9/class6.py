@@ -43,7 +43,9 @@ class Donkey(Animal):
             print(Donkey.SOUND, end="")
 
         if stat:
-            print(self.get_stats())
+            print(self.get_stats(), end="")
+
+        print()
 
 
 eagle1 = Eagle()  # Animal!!!
