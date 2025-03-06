@@ -7,4 +7,6 @@ def lst_add_print(obj):
 
 
 lst_add_print("Hello")
+lst_add_print("Super")
+lst_add_print("Mario")
 lst_add_print("World")
