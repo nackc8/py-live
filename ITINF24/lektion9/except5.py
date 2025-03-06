@@ -11,6 +11,10 @@ class InvalidDogNameError(Exception):
     pass
 
 
+class DogNameTypeError(Exception):
+    pass
+
+
 class Dog:
     def __init__(self, name):
         if not isinstance(name, str):
