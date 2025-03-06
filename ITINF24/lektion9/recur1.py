@@ -4,5 +4,8 @@ lst = [
         "Historia",
         "Nuläget"
     ],
-    "Rapport": ["Sverige", "Finland"]
+    "Rapport": [
+        "Sverige",
+        "Finland"
+    ]
 ]
