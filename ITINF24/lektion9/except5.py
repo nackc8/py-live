@@ -30,6 +30,9 @@ class Dog:
 p = print
 
 # med raise smäller direkt
-hund1 = Dog("")
+try:
+    hund1 = Dog("")
+except InvalidDogNameError:
+    hund1 = Dog("123")
 
 p(hund1.get_sentence())
