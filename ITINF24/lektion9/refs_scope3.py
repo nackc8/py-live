@@ -6,7 +6,8 @@ lst2 = []
 listor = (lst1, lst2)
 
 
-def lst_add_print(0,obj):
+def lst_add_print(ndx,obj):
+    lst = 
     lst.append(obj)
     print(lst)
 
@@ -14,8 +15,8 @@ def lst_add_print(0,obj):
 
 lst_add_print(1,"Hej")
 
-lst1_add_print("Hello")
-lst1_add_print("Super")
-lst1_add_print("Mario")
-lst1_add_print("World")
+lst_add_print(0,"Hello2")
+lst_add_print(0,"Super")
+lst_add_print(0,"Mario")
+lst_add_print(0,"World")
 lst_add_print(1,"Benny!")
