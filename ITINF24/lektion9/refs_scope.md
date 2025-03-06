@@ -88,6 +88,7 @@ var_add_print2 --> 2_fun_inner_fun
 
 ```mermaid
 sequenceDiagram
+    modulen->fun_fac: x
     fun_fac->inner_fun: x
 
 
