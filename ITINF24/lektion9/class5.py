@@ -10,8 +10,8 @@ class Eagle(Animal):
     total_sounds = 0
 
     # Om egen konstruktor => Inget
-    # def __init__(self):
-    #     self.sounds = 0
+    def __init__(self):
+        self.sounds = 0
 
     def sound(self):
         Eagle.total_sounds += 1
