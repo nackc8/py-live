@@ -3,6 +3,7 @@
 
 class Hund:
     def __init__(self, namn):
+        pass
         # Ger TypeError: can only concatenate str (not "int") to str
 
     def get_sentence(self):
