@@ -5,6 +5,7 @@ class Eagle:
     total_sounds = 0
 
     def sound(self):
+        total_sounds = 1
         print("Scriiish")
 
 
