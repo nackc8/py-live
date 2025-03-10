@@ -1,5 +1,6 @@
-# Vi läser in en fil.
+import sys
 
+# Vi läser in en fil.
 myfile = open("produkter.txt")
 
 
