@@ -8,4 +8,7 @@ p = print
 # Testa att den finns
 # p("Finns? ", file_path.exists())
 
-with open(file_path)
+with open(file_path) as minfil:
+    content = minfil.read()
+
+parsed = csv.
