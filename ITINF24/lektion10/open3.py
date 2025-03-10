@@ -6,6 +6,4 @@ finfil = open(
 
 finfil_rader = finfil.readlines()
 
-
-
-input("Press enter...")
+print(finfil_rader[-1])
