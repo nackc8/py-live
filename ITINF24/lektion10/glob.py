@@ -7,4 +7,7 @@ import pathlib
 
 cwd = pathlib.Path().cwd()
 
+result = glob.glob("*.txt")
+
 print("cwd", cwd)
+print("result", result)
