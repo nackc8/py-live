@@ -10,4 +10,6 @@ file_path.touch()
 input("Tryck enter för att ta bort filen igen")
 
 # Ger FileNotFoundError om filen inte finns
-file_path.unlink()
+
+try:
+    file_path.unlink()
