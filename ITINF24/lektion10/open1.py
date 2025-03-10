@@ -1,3 +1,6 @@
 # Vi läser in en fil.
 
-open
+myfile = open("produkter.txt")
+
+
+input("Press enter...")
