@@ -4,7 +4,8 @@ import sys
 
 # För att köra i Linux/MacOS
 # 1. Shebang!
-# 2. 
+# 2. chmod +x cat3.py
+
 
 def get_filename():
     if len(sys.argv) != 2:
