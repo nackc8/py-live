@@ -12,5 +12,6 @@ result1 = glob.glob("*.txt")
 print("cwd", cwd)
 print("result1", result1)
 
-result2 = glob.glob("*.py")
+# för att rekursivt få med py-filer, som i underkat/intemig.py
+result2 = glob.glob("*.py", recursive=True)
 print("result2", result2)
