@@ -6,6 +6,6 @@ finfil = open(
 
 finfil_rader = finfil.readlines()
 
-sista_ordet = finfil_rader[-1].
+sista_ordet = finfil_rader[-1].strip()
 
 print(f"Jag gillar {sista_ordet}!")
