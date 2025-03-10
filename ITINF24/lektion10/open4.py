@@ -1,8 +1,8 @@
 # Bara för att hitta filen i samma katalog som vår källkod, vi
 # tittar på detta senare..
 from pathlib import Path
-file_path = Path(__file__).with_name("produkter.txt")
 
+file_path = Path(__file__).with_name("produkter.txt")
 
 
 finfil = open(file_path)
