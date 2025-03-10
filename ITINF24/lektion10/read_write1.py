@@ -7,8 +7,7 @@ file_path = Path(__file__).with_name("nummer.txt")
 # Vi ska skriva.
 myfile = open(file_path, mode="w")
 
-for tal in range(0,10):
-    myfile.w
+myfile.write("First")
 
 
 input("Press enter...")
