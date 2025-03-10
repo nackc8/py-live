@@ -2,17 +2,13 @@
 # tittar på detta senare..
 from pathlib import Path
 
-file_path = Path(__file__).with_name("produkter.txt")
+file_path = Path(__file__).with_name("nummer.txt")
 
-# Vi läser in en fil.
-myfile = open(file_path)
+# Vi ska skriva.
+myfile = open(file_path, mode="w")
 
-# Läs fyra första tecknen
-fyra_forsta = myfile.read(4)
-
-# n, eftersom det var allt som var kvar på raden efter bana
-# max 100 påverkar inte eftersom vår fil inte har så långa rader
-rader = myfile.readline(100)
+for tal in range(0,10):
+    myfile.w
 
 
 input("Press enter...")
