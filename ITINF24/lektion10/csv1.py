@@ -13,7 +13,7 @@ with open(file_path) as minfil:
 
 lines = csv.reader(content)
 
-p()
+x = next(lines)
 
 # for line in lines:
 #     p(", ".join(line))
