@@ -11,4 +11,7 @@ p = print
 with open(file_path) as minfil:
     content = minfil.read()
 
-parsed = csv.reader(content)
+lines = csv.reader(content)
+
+for line in lines:
+    p(line)
