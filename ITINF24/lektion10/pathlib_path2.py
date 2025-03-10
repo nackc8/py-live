@@ -9,4 +9,4 @@ file_path.touch()
 
 input("Tryck enter för att ta bort filen igen")
 
-file_path.
+file_path.unlink()
