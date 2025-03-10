@@ -2,4 +2,4 @@ import os
 
 p = print
 
-p(os.getcwd())
+current_working_directory = os.getcwd())
