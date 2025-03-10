@@ -8,7 +8,7 @@ myfile = open(
 # Läs fyra första tecknen
 fyra_forsta = myfile.read(4)
 
-rader = myfile.
+rader = myfile.readline()
 
 
 input("Press enter...")
