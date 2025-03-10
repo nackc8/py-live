@@ -11,5 +11,6 @@ if not os.path.exists(file):
     print("Ange en existerande fil!", file=sys.stderr)
     sys.exit(2)
 
-with open(file,'r') as fp:
-    content = 
+with open(file, "r") as fp:
+    content = fp.read()
+
