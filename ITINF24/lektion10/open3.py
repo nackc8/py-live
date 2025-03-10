@@ -7,8 +7,9 @@ finfil = open(
 finfil_rader = finfil.readlines()
 
 # Ta bort radmatningen sist med .strip()
-# sista_ordet = finfil_rader[-1].strip()
+sista_ordet = finfil_rader[-1].strip()
 
-sista_ordet = finfil_rader[-1]
 
-print(f"Jag gillar " + sista_ordet + "!")
+# Vad är bäst?
+print(f"Jag gillar {sista_ordet}!")
+print("Jag gillar " + sista_ordet + "!")
