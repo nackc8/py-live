@@ -15,5 +15,5 @@ Skapa körbara skriptfiler för alla operativsystem.
 
 Att hantera kommandoradsargument:
 sys.argv.
-getopt — C-style parser for command line options.
+getopt — C-style parser for command line options. ("för kännedom")
 argparse — Parser for command-line options, arguments, and sub-commands.
