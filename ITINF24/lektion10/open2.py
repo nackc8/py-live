@@ -8,7 +8,10 @@ myfile = open(
 # endast de 100 första tecknen
 rad1 = myfile.readline(100)
 
+# läser vidare på samma rad tills radslut
 rad2 = myfile.readline(100)
+
+rad3 = myfile.readline(100)
 
 
 input("Press enter...")
