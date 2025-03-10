@@ -6,3 +6,7 @@ p = print
 file_path = Path.cwd() / "file_from_pathlib.txt"
 
 file_path.touch()
+
+input("Tryck enter för att ta bort filen igen")
+
+file_path.
