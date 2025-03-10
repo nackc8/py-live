@@ -8,6 +8,3 @@ file_path = Path(__file__).with_name("nummer.txt")
 myfile = open(file_path, mode="w")
 
 myfile.write("First")
-
-
-input("Press enter...")
