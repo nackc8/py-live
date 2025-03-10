@@ -8,6 +8,7 @@ myfile = open(
 # Läs fyra första tecknen
 fyra_forsta = myfile.read(4)
 
+# n, eftersom det var allt som var kvar på raden efter bana
 rader = myfile.readline()
 
 
