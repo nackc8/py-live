@@ -20,10 +20,23 @@ git config --local rebase.autostash true
 
 git fetch
 
-if ! git checkout "$date_ymd" 2>/dev/null; then
+if ! git rev-parse --verify "$date_ymd" 2>/dev/null; then
 	msg <<-EOM
 		Dagens branch verkar inte skapad och pushad ännu.
 		Testa igen om en stund!
 	EOM
-	exit 1
+elif ! git checkout "$0" 2>/dev/null; then
+	git stash push -m "daystart: temporary stash" || true
+	if ! git checkout "$0"; then
+		msg <<-EOM
+			Problem att checka ut dagens branch. Ett sätt som nog löser
+			problemet är att spara de filer du ändrat och vill ha kvar i en
+			annan mapp. Sedan kör du bin/reset.
+		EOM
+		exit 1
+	fi
+	stash_id=$(git stash list | grep "daystart: temporary stash" | head -n1 | cut -d: -f1 || true)
+	if [[ $stash_id != "" ]]; then
+		git stash pip "$stash_id"
+	fi
 fi
