@@ -7,9 +7,11 @@ file_path = Path(__file__).with_name("nummer.txt")
 # Vi ska skriva.
 myfile = open(file_path, mode="w")
 
-for _ in range(100):
-    
+for i in range(100):
     myfile.write("More! ")
+    # flusha var femte snurr
+    if i % 5 == 0:
+        myfile.flush()
 
 myfile.close()
 
