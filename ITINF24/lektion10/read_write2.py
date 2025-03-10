@@ -10,6 +10,6 @@ myfile = open(file_path, mode="w")
 for _ in range(100):
     myfile.write("More! ")
 
-myfile.
+myfile.close()
 
 input("Hello")
