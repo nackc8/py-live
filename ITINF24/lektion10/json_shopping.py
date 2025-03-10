@@ -12,4 +12,6 @@ class Cart:
         self.content[article] = self.content.get(article, 0) + qty
 
     def save(self):
-        json.dumps
+        content_json = json.dumps(self.content)
+        with open(json_path, 'w') as flp:
+            flp.
