@@ -4,8 +4,7 @@ Läsa och skriva filer✅
 Översikt:
 
 os.path — Common pathname manipulations.✅
-
-pathlib — Object-oriented filesystem paths.
+pathlib — Object-oriented filesystem paths.✅
 
 csv — CSV File Reading and Writing.
 json — JSON encoder and decoder.
