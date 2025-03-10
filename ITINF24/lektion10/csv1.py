@@ -14,4 +14,4 @@ with open(file_path) as minfil:
 lines = csv.reader(content)
 
 for line in lines:
-    p(line)
+    p(", ".join(line))
