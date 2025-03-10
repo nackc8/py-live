@@ -16,9 +16,12 @@ def get_filename():
     return file
 
 
+def cat(filename):
+    with open(filename, "r") as fp:
+        content = fp.read()
+
+    print(content)
+
+
 file = get_filename()
-
-with open(file, "r") as fp:
-    content = fp.read()
-
-print(content)
+cat(file)
