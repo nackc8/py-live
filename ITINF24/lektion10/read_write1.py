@@ -7,7 +7,7 @@ file_path = Path(__file__).with_name("nummer.txt")
 # Vi ska skriva.
 myfile = open(file_path, mode="w")
 
-for _ in range(100):
+for _ in range(100000):
     myfile.write("More! ")
 
 input("Hello")
