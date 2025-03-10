@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
 import os
 import sys
 
+# För att köra i Linux/MacOS
+# 1. Shebang!
+# 2. 
 
 def get_filename():
     if len(sys.argv) != 2:
