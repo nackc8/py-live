@@ -10,7 +10,7 @@ pathlib — Object-oriented filesystem paths.✅
 json — JSON encoder and decoder.✅
 glob — Unix style pathname pattern expansion.✅
 
-Skript och argument.
+Skript och argument.✅
 Skapa körbara skriptfiler för alla operativsystem.
 
 Att hantera kommandoradsargument:
