@@ -14,7 +14,7 @@ class Cart:
     def load(self):
         with open(json_path, "r") as flp:
             content_json = flp.read()
-        parsed = json.load(content_json)
+        parsed = json.loads(content_json)
         self.content = parsed
 
     def save(self):
@@ -23,9 +23,9 @@ class Cart:
             flp.write(content_json)
 
 
-# koekoe
+# koekoeijeiijieijijejijie
 
 cart1 = Cart()
 cart1.load()
-cart1.add("Banan", 3)
+cart1.add("Banan", 1)
 cart1.save()
