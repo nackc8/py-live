@@ -1,4 +1,5 @@
 import sys
+import os
 
 if len(sys.argv) != 2:
     print("Ange en fil som argument!", file=sys.stderr)
@@ -6,5 +7,6 @@ if len(sys.argv) != 2:
 
 file = sys.argv[1]
 
+os.path.exists(file)
 
 print(sys.argv)
