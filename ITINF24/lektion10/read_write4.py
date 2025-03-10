@@ -4,12 +4,10 @@ from pathlib import Path
 
 file_path = Path(__file__).with_name("nummer.txt")
 
-# Vi ska skriva.
-myfile = open(file_path, mode="w")
+# Vi använder with för att automatiskt stänga filen
 
-for _ in range(100):
-    myfile.write("More! ")
-
-myfile.close()
+with open(file_path, mode="w"):
+    for _ in range(100):
+        myfile.write("More! ")
 
 input("Hello")
