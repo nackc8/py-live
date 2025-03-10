@@ -1,0 +1,114 @@
+{
+   "blockdevices": [
+      {
+         "name": "nvme0n1",
+         "maj:min": "259:0",
+         "rm": false,
+         "size": "1.8T",
+         "ro": false,
+         "type": "disk",
+         "mountpoints": [
+             null
+         ],
+         "children": [
+            {
+               "name": "nvme0n1p1",
+               "maj:min": "259:1",
+               "rm": false,
+               "size": "100M",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   "/boot/efi"
+               ]
+            },{
+               "name": "nvme0n1p2",
+               "maj:min": "259:2",
+               "rm": false,
+               "size": "16M",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   null
+               ]
+            },{
+               "name": "nvme0n1p3",
+               "maj:min": "259:3",
+               "rm": false,
+               "size": "292.1G",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   null
+               ]
+            },{
+               "name": "nvme0n1p4",
+               "maj:min": "259:4",
+               "rm": false,
+               "size": "769M",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   null
+               ]
+            },{
+               "name": "nvme0n1p5",
+               "maj:min": "259:5",
+               "rm": false,
+               "size": "954M",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   "/boot"
+               ]
+            },{
+               "name": "nvme0n1p6",
+               "maj:min": "259:6",
+               "rm": false,
+               "size": "89.9G",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   null
+               ],
+               "children": [
+                  {
+                     "name": "root_decrypt",
+                     "maj:min": "253:0",
+                     "rm": false,
+                     "size": "89.9G",
+                     "ro": false,
+                     "type": "crypt",
+                     "mountpoints": [
+                         "/"
+                     ]
+                  }
+               ]
+            },{
+               "name": "nvme0n1p11",
+               "maj:min": "259:7",
+               "rm": false,
+               "size": "1.4T",
+               "ro": false,
+               "type": "part",
+               "mountpoints": [
+                   null
+               ],
+               "children": [
+                  {
+                     "name": "shared_decrypt",
+                     "maj:min": "253:1",
+                     "rm": false,
+                     "size": "1.4T",
+                     "ro": false,
+                     "type": "crypt",
+                     "mountpoints": [
+                         "/shared"
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

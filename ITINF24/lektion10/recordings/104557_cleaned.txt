@@ -1,0 +1,28 @@
+Script started on 2025-03-10 10:45:57+01:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="109" LINES="5"]
+ITINF24/lektion10
+$ /bin/python3
+Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+ITINF24/lektion10
+$ ITINF24/lektion10
+$ ls
+class1.py  langfil.txt	open1.py  open2.py  open3.py  open4.py	produkter.txt  recordings
+ITINF24/lektion10
+$ for x in o
+penÂ*; $r$e$a$d$_$
+
+
+; dondo
+bash: read_open1.py: command not found
+bash: read_open2.py: command not found
+bash: read_open3.py: command not found
+bash: read_open4.py: command not found
+ITINF24/lektion10
+$ for x in open*; do read_$x; donmv $x ITINF24/lektion10
+$ for x in open*; do mv $x read_$x; don
+ITINF24/lektion10
+$ exit
+exit
+
+Script done on 2025-03-10 11:01:26+01:00 [COMMAND_EXIT_CODE="0"]

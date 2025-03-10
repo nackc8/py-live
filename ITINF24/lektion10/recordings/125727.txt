@@ -1,0 +1,114 @@
+Script started on 2025-03-10 12:57:27+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="87" LINES="9"]
+[?2004h[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/pathlib_path2.py
+[?2004l[?2004h[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/pathlib_path2.py
+[?2004lTryck enter för att ta bort filen igen
+[?2004h[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/pathlib_path2.py
+[?2004lTryck enter för att ta bort filen igen
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/pathlib_path2.py", line 12, in <module>
+    file_path.unlink()
+  File "/usr/lib/python3.11/pathlib.py", line 1148, in unlink
+    os.unlink(self)
+FileNotFoundError: [Errno 2] No such file or directory: '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/file_from_pathlib.txt'
+[?2004h[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/pathlib_path3.py
+[?2004lTryck enter för att ta bort filen igen
+Någon annan har visst tagit bort filen
+[?2004h[94mITINF24/lektion10
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+cwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+[?2004h[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob.py
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob.py", line 1, in <module>
+    import glob
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob.py", line 10, in <module>
+    result = glob.glob("*.txt")
+             ^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable
+[?2004h[94mITINF24/lektion10
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+result ['langfil.txt', 'produkter.txt', 'nummer.txt']
+[?2004h[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+result1 ['langfil.txt', 'produkter.txt', 'nummer.txt']
+result2 ['pathlib_path1.py', 'read_write2.py', 'csv1.py', 'read_write4.py', 'os_path1.py', 'json_read2.py', 'glob1.py', 'read_open4.py', 'json_read.py', 'pathlib_path3.py', 'class1.py', 'pathlib_path2.py', 'read_write1.py', 'read_open3.py', 'pwd.py', 'json_shopping.py', 'read_open2.py', 'read_write3.py', 'read_open1.py']
+[?2004h[94mITINF24/lektion10
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py[A[K
+[K[A[C[C/bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+result1 ['langfil.txt', 'produkter.txt', 'nummer.txt']
+result2 ['pathlib_path1.py', 'read_write2.py', 'csv1.py', 'read_write4.py', 'os_path1.py', 'json_read2.py', 'glob1.py', 'read_open4.py', 'json_read.py', 'pathlib_path3.py', 'class1.py', 'pathlib_path2.py', 'read_write1.py', 'read_open3.py', 'pwd.py', 'json_shopping.py', 'read_open2.py', 'read_write3.py', 'read_open1.py']
+[?2004h[94mITINF24/lektion10
+(B[m$ [H[2J[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+result1 ['langfil.txt', 'produkter.txt', 'nummer.txt']
+result2 ['pathlib_path1.py', 'read_write2.py', 'csv1.py', 'read_write4.py', 'os_path1.py', 'json_read2.py', 'glob1.py', 'read_open4.py', 'json_read.py', 'pathlib_path3.py', 'class1.py', 'pathlib_path2.py', 'read_write1.py', 'read_open3.py', 'pwd.py', 'json_shopping.py', 'read_open2.py', 'read_write3.py', 'read_open1.py']
+[?2004h[94mITINF24/lektion10
+(B[m$ [H[2J[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+result1 ['langfil.txt', 'produkter.txt', 'nummer.txt']
+result2 ['pathlib_path1.py', 'read_write2.py', 'csv1.py', 'read_write4.py', 'os_path1.py', 'json_read2.py', 'glob1.py', 'read_open4.py', 'json_read.py', 'pathlib_path3.py', 'class1.py', 'pathlib_path2.py', 'read_write1.py', 'read_open3.py', 'pwd.py', 'json_shopping.py', 'read_open2.py', 'read_write3.py', 'read_open1.py', 'underkat/intemig.py']
+[?2004h[94mITINF24/lektion10
+(B[m$ [H[2J[94mITINF24/lektion10
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/glob1.py
+[?2004lcwd /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10
+result1 ['langfil.txt', 'produkter.txt', 'nummer.txt']
+result2 ['underkat/intemig.py']
+[?2004h[94mITINF24/lektion10
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion10
+(B[m$ python3 [K[K3[K3 args1.py 
+[?2004l['args1.py']
+[?2004h[94mITINF24/lektion10
+(B[m$ touch args1.bash
+[?2004l[?2004h[94mITINF24/lektion10
+(B[m$ code args1.bash 
+[?2004l[?2004h[94mITINF24/lektion10
+(B[m$ bash args1..[Kbash [H[2J[94mITINF24/lektion10
+(B[m$ bash args1.bash 
+[?2004largs1.bash
+[?2004h[94mITINF24/lektion10
+(B[m$ bash args1.bash [H[2J[94mITINF24/lektion10
+(B[m$ bash args1.bash 
+[?2004l
+[?2004h[94mITINF24/lektion10
+(B[m$ bash args1.bash eioej
+[?2004leioej
+[?2004h[94mITINF24/lektion10
+(B[m$ [H[2J[94mITINF24/lektion10
+(B[m$ bash args1.bash eioej
+[?2004largs1.bash
+[?2004h[94mITINF24/lektion10
+(B[m$ bash args1.bash eioej[K[C[Ccode[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch args1.bash[C[Cpython3 args1.py [H[2J[94mITINF24/lektion10
+(B[m$ python3 args1.py helo[Klo world
+[?2004l['args1.py', 'hello', 'world']
+[?2004h[94mITINF24/lektion10
+(B[m$ python3 args1.py hello world[H[2J[94mITINF24/lektion10
+(B[m$ python3 args1.py hello world'[K"[1@:[1P[1@"[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l['args1.py', 'hello world']
+[?2004h[94mITINF24/lektion10
+(B[m$ python3 args1.py "hello world"[H[2J[94mITINF24/lektion10
+(B[m$ python3 args1.py "hello world" "hellooooo"
+[?2004l['args1.py', 'hello world', 'hellooooo']
+[?2004h[94mITINF24/lektion10
+(B[m$ python3 args1.py "hello world" "hellooooo"[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@a[4@t.py[H[2J[94mITINF24/lektion10
+(B[m$ python3 cat.py "hello world" "hellooooo"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lAnge en fil som argument!
+[?2004h[94mITINF24/lektion10
+(B[m$ python3 cat.py "hello world" "hellooooo"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion10
+(B[m$ python3 cat.py
+[?2004lAnge en fil som argument!
+[?2004h[94mITINF24/lektion10
+(B[m$ python3 cat.py "hello"
+[?2004l['cat.py', 'hello']
+[?2004h[94mITINF24/lektion10
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 cat.py "hello"[H[2J[

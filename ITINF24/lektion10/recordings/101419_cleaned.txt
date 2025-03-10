@@ -1,0 +1,35 @@
+Script started on 2025-03-10 10:14:19+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="109" LINES="5"]
+ITINF24/lektion10
+$  /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42727 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open1.py 
+Press enter...ITINF24/lektion10
+$ ^C
+
+ITINF24/lektion10
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 49289 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open1.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44897 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open1.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57299 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open1.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59577 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open1.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 60933 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open1.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 53987 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open2.py 
+Press enter...$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34805 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open3.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52189 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/open3.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 47973 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/read_write1.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-
