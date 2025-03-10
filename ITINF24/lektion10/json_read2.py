@@ -12,3 +12,6 @@ print("keys:", json_loaded.keys())
 
 for el in json_loaded["blockdevices"]:
     print(el["name"])
+
+for el in json_loaded["blockdevices"][0]["children"]:
+    print(el["name"])
