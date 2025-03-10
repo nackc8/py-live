@@ -7,7 +7,8 @@ file_path = Path(__file__).with_name("nummer.txt")
 # Vi använder with för att automatiskt stänga filen
 
 with open(file_path, mode="w") as myfile:
-    for _ in range(100):
+    # Använd gärna en conditional breakpoint: i == 97
+    for i in range(100):
         myfile.write("More! ")
 
 input("Hello")
