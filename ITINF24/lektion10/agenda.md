@@ -8,7 +8,7 @@ Läsa och skriva filer✅
 os.path — Common pathname manipulations.✅
 pathlib — Object-oriented filesystem paths.✅
 
-json — JSON encoder and decoder.
+json — JSON encoder and decoder.✅
 glob — Unix style pathname pattern expansion.
 
 Att hantera kommandoradsargument:
