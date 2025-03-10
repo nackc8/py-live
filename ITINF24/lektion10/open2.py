@@ -5,7 +5,8 @@ myfile = open(
     "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/langfil.txt"
 )
 
-rader = myfile.readline(101)
+# endast de 100 första tecknen
+rader = myfile.readline(100)
 
 
 input("Press enter...")
