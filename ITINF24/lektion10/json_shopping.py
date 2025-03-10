@@ -26,5 +26,6 @@ class Cart:
 # koekoe
 
 cart1 = Cart()
+cart1.load()
 cart1.add("Banan", 3)
 cart1.save()
