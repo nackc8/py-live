@@ -6,7 +6,9 @@ myfile = open(
 )
 
 # endast de 100 första tecknen
-rader = myfile.readline(100)
+rad1 = myfile.readline(100)
+
+rad2 = myfile.readline(100)
 
 
 input("Press enter...")
