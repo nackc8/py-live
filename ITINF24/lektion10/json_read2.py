@@ -1,13 +1,11 @@
 import json
+from pathlib import Path
 
-json_content = '{ "greeting": "hello", "year": 123  }'
+json_path = Path(__file__).with_name("lsblk-j.json")
+
+with open(json_path) as filehandle:
+    json_content = filehandle.read()
 
 json_loaded = json.loads(json_content)
 
-print(type(json_loaded))
-
-print(json_loaded["greeting"])
-print(type(json_loaded["greeting"]))
-
-print(json_loaded["year"])
-print(type(json_loaded["year"]))
+print("keys:", json_loaded.keys())
