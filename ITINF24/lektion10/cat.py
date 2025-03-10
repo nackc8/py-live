@@ -14,3 +14,4 @@ if not os.path.exists(file):
 with open(file, "r") as fp:
     content = fp.read()
 
+print(content)
