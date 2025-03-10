@@ -5,7 +5,7 @@ myfile = open(
     "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/langfil.txt"
 )
 
-rader = myfile.readline(100)
+rader = myfile.readline(101)
 
 
 input("Press enter...")
