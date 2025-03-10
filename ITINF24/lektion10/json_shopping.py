@@ -14,4 +14,4 @@ class Cart:
     def save(self):
         content_json = json.dumps(self.content)
         with open(json_path, 'w') as flp:
-            flp.
+            flp.write()
