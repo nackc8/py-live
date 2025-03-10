@@ -1,15 +1,10 @@
 import sys
 
-# Vi läser in en fil.
+# Vi läser in en fil med en rad som är bredare än 100
 myfile = open(
-    "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/produkter.txt"
+    "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion10/langfil.txt"
 )
 
-# Läs fyra första tecknen
-fyra_forsta = myfile.read(4)
-
-# n, eftersom det var allt som var kvar på raden efter bana
-# max 100 påverkar inte eftersom vår fil inte har så långa rader
 rader = myfile.readline(100)
 
 
