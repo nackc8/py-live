@@ -1,3 +1,4 @@
 import csv
+from pathlib import Path
 
-with open()
+file_path = Path(__file__).with_name("produkter.txt")
