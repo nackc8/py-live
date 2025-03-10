@@ -7,7 +7,10 @@ import pathlib
 
 cwd = pathlib.Path().cwd()
 
-result = glob.glob("*.txt")
+result1 = glob.glob("*.txt")
 
 print("cwd", cwd)
-print("result", result)
+print("result1", result1)
+
+result2 = glob.glob("*.py")
+print("result2", result2)
