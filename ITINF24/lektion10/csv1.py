@@ -13,7 +13,9 @@ with open(file_path) as minfil:
 
 lines = csv.reader(content)
 
-for line in lines:
-    p(", ".join(line))
+p()
+
+# for line in lines:
+#     p(", ".join(line))
 
 # PAUS
