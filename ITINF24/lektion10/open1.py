@@ -1,4 +1,8 @@
-import sys
+# Bara för att hitta filen i samma katalog som vår källkod, vi
+# tittar på detta senare..
+from pathlib import Path
+
+file_path = Path(__file__).with_name("produkter.txt")
 
 # Vi läser in en fil.
 myfile = open(
