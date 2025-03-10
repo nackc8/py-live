@@ -11,6 +11,7 @@ input("Tryck enter för att ta bort filen igen")
 
 # Ger FileNotFoundError om filen inte finns
 
+# Med felhantering
 try:
     file_path.unlink()
 except FileNotFoundError:
