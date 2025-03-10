@@ -23,6 +23,8 @@ class Cart:
             flp.write(content_json)
 
 
+# koekoe
+
 cart1 = Cart()
-cart1.add("Banan", 1)
+cart1.add("Banan", 3)
 cart1.save()
