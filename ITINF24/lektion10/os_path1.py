@@ -2,6 +2,7 @@ import os
 
 p = print
 
-current_working_directory = os.getcwd()
+cwd = os.getcwd()
 
-print(current_working_directory)
+p("cwd", cwd)
+p("basename", os.path.basename(cwd))
