@@ -6,10 +6,10 @@ Läsa och skriva filer✅
 os.path — Common pathname manipulations.✅
 pathlib — Object-oriented filesystem paths.✅
 
-csv — CSV File Reading and Writing.
 
 json — JSON encoder and decoder.
 glob — Unix style pathname pattern expansion.
+csv — CSV File Reading and Writing.
 
 Att hantera kommandoradsargument:
 sys.argv.
