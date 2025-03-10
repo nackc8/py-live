@@ -11,4 +11,4 @@ json_loaded = json.loads(json_content)
 print("keys:", json_loaded.keys())
 
 for el in json_loaded["blockdevices"]:
-    print(el)
+    print(el["name"])
