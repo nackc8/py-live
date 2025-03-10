@@ -16,7 +16,16 @@ def get_filename():
     return file
 
 
---uppercase
+# Vårt program fixar inte situationerna nedan:
+#
+# ITINF24/lektion10
+# $ cat --myskofil.txt
+# cat: unrecognized option '--myskofil.txt'
+# Try 'cat --help' for more information.
+# ITINF24/lektion10
+# $ cat -- --myskofil.txt
+# Mysko innehåll!
+# ITINF24/lektion10
 
 
 def cat(filename):
