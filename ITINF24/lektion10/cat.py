@@ -1,10 +1,7 @@
 import sys
 
-# pos 0 - skriptet!
+if len(sys.argv) != 2:
+    print("Ange en fil som argument!")
+
+
 print(sys.argv)
-
-# $ python3 args1.py hello world
-# ['args1.py', 'hello', 'world']
-
-# $ python3 args1.py "hello world"
-# ['args1.py', 'hello world']
