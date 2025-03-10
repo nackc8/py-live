@@ -11,6 +11,7 @@ for i in range(100):
     myfile.write("More! ")
     # flusha var femte snurr
     if i % 5 == 0:
+        # skriver buffern till disk
         myfile.flush()
 
 myfile.close()
