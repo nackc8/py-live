@@ -11,6 +11,12 @@ class Cart:
     def add(self, article, qty):
         self.content[article] = self.content.get(article, 0) + qty
 
+    def load(self):
+        with open(json_path, "r") as flp:
+            content_json = flp.read()
+        parsed = json.load(content_json)
+        self.content = parsed
+
     def save(self):
         content_json = json.dumps(self.content)
         with open(json_path, "w") as flp:
@@ -18,5 +24,5 @@ class Cart:
 
 
 cart1 = Cart()
-cart1.add("Banan", 100)
+cart1.add("Banan", 1)
 cart1.save()
