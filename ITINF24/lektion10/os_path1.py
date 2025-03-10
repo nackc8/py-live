@@ -1,3 +1,5 @@
 import os
 
-os.getcwd()
+p = print
+
+p(os.getcwd())
