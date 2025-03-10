@@ -1,11 +1,12 @@
-Översikt:
-
 Repetition av klasser✅
 Läsa och skriva filer✅
 
-os.path — Common pathname manipulations.
+Översikt:
+
+os.path — Common pathname manipulations.✅
 
 pathlib — Object-oriented filesystem paths.
+
 csv — CSV File Reading and Writing.
 json — JSON encoder and decoder.
 glob — Unix style pathname pattern expansion.
