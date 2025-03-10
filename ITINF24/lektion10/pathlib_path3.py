@@ -13,3 +13,5 @@ input("Tryck enter för att ta bort filen igen")
 
 try:
     file_path.unlink()
+except FileNotFoundError:
+    print("Någon annan har visst tagit bort filen")
