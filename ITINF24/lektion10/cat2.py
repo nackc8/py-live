@@ -2,7 +2,7 @@ import os
 import sys
 
 
-def validate_args():
+def get_filename():
     if len(sys.argv) != 2:
         print("Ange en fil som argument!", file=sys.stderr)
         sys.exit(1)
@@ -13,8 +13,10 @@ def validate_args():
         print("Ange en existerande fil!", file=sys.stderr)
         sys.exit(2)
 
+    return file
 
-validate_args()
+
+file = get_filename()
 
 with open(file, "r") as fp:
     content = fp.read()
