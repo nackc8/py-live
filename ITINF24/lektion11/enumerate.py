@@ -1,5 +1,12 @@
 lst = ["ove", "mohammed", "xi", "eva"]
 
-lst2 = enumerate(lst, 1)
+lst2 = list(enumerate(lst, 1))
 
-print(list(lst2))
+print(lst2)
+
+# dålig kod för den som kan enumerate
+# men inte len()
+
+length = lst2[-1][0]
+
+print("Length: ", length)
