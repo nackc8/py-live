@@ -45,4 +45,102 @@ TypeError: ArgumentParser.__init__() got an unexpected keyword argument 'help'
 (B[m$ ./lion_alfa1.py -h
 [?2004lusage: Lion
 Lion: error: unrecognized arguments: -h
-[?2004h
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h]
+
+Like Cat, but slower and with more functionality
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h]
+
+Like Cat, but slower and with more functionality
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py
+[?2004lusage: Lion [-h] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt 
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./lion_alfa1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt 
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa1.py", line 16, in <module>
+    print("filename:", parser.filename)
+                       ^^^^^^^^^^^^^^^
+AttributeError: 'ArgumentParser' object has no attribute 'filename'
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt 
+[?2004lfilename: frukt.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_argparse.py  cat_plain2.py	enumerate.py   parse_plain1.py
+cat_dagsmal.txt  cat_plain3.py	frukt.txt      recordings
+cat_plain1.py	 cat_plain4.py	lion_alfa1.py  --show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls./lion_alfa1.py frukt.txt [K[K[K[K[K[K[K[K[K[K[7m--show-filename[27m--show-filename
+[?2004lusage: Lion [-h] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py --show-filename[C[C-show-filename[C[C-show-filename --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -- --show-filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfilename: --show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -- --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -- --show-filename[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kh
+[?2004lusage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename    The filename to show
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py 
+[?2004lusage: Lion [-h] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt
+[?2004lburk.txt
+hej
+jopp
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ 

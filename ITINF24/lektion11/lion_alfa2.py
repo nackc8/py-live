@@ -12,10 +12,8 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("filename", help="The filename to show")
-parser.add_argument("-f")
-
-#  if arg == "-f" or arg == "--show-filename":
-#     elif arg == "-n" or arg == "--number":
+parser.add_argument("-f", "--show-filename")
+parser.add_argument("-n", "--number")
 
 values = parser.parse_args(sys.argv[1:])
 
@@ -29,5 +27,3 @@ output_list = logic.process(filepath)
 
 for line in output_list:
     print(line)
-
-
