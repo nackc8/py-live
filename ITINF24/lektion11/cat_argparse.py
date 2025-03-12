@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(
     epilog="End of description",
 )
 
-parser.parse_args()
+parser.parse_args(sys.argv)
 
 
 # for filename in filenames:
