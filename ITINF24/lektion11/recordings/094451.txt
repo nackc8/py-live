@@ -603,4 +603,73 @@ Subsystem	sftp	/usr/lib/openssh/sftp-server
 #	PermitTTY no
 #	ForceCommand cvs server
 [?2004h[94mITINF24/lektion11
-(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ 
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[C[C frukt.txt- frukt.txtb frukt.txt[1P frukt.txtn frukt.txt[1P frukt.txt[1P frukt.txt[1Pfrukt.txt[C[1@-[1@n[1@ [1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C -b[KnD -nD -n[1P -n[1P -n[C[C[C[K[K[K-frukt.txtnfrukt.txt frukt.txt
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain3.py", line 30, in <module>
+    with open(filename) as fp:
+         ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '-n'
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./cat_plain3.py -f -n frukt.txt[C[1P[1@4[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -f -n frukt.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfrukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -f -n frukt.txt[1P frukt.txt[1P frukt.txt[1Pfrukt.txt
+[?2004lfrukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -f frukt.txt[1P frukt.txt[1P frukt.txt
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py  frukt.txt[C[C[K./cat_plain4.py  frukt.txt- frukt.txtn frukt.txt
+[?2004l1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -n frukt.txt[C frukt.txt- frukt.txtf frukt.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -n -f frukt.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfrukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_dagsmal.txt  cat_plain2.py	cat_plain4.py  frukt.txt	recordings
+cat_plain1.py	 cat_plain3.py	enumerate.py   parse_plain1.py	--show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ls./cat_plain4.py -n -f frukt.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K --show-filename
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename
+[?2004lHörru! Ange minst ett filnamn
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename[C --show-filename+ --show-filename+ --show-filename[1P --show-filename[1P --show-filename- --show-filename- --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -- --show-filename
