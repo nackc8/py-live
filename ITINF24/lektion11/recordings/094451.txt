@@ -400,4 +400,73 @@ The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
 The version control method may be selected via the --backup option or through
 the VERSION_CONTROL environment variable.  Here are the values:
 
-  n
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+[?2004h[94mITINF24/lektion11
+(B[m$ mv --help --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ mv --help --show-filename[C[C[6@./cat_plain2.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv -- --help --show-filename
+[?2004lmv: cannot stat '--help': No such file or directory
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ pth[K[Kython3 cat_pa[Klain3.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py frukt.txt 
+[?2004larg (0, 'frukt.txt')
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py frukt.txt [K[K[K[K[K[K[K[K[K[K-f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt 
+[?2004larg (1, 'frukt.txt')
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt 
+[?2004larg frukt.txt
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt 
+[?2004lused_args_count 1
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt [C[C[K./cat_plain3.py frukt.txt 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py frukt.txt [1@-[C[1@f[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -ffrukt.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+[?2004lfrukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain3
