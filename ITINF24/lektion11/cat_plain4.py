@@ -20,6 +20,8 @@ for arg in args:
         show_linenumbers = True
         used_args_count += 1
     # -- separerar flaggor från filnamn
+    #  ./cat_plain4.py -n -- --show-filename  funkar nu, då --show-filename tolkas
+    # som ett filnamn.
     elif arg == "--":
         used_args_count += 1
         break
