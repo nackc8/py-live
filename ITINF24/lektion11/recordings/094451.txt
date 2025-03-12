@@ -1,0 +1,52 @@
+Script started on 2025-03-12 09:44:51+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="68" LINES="4"]
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ python3 
+parse_plain1.py  recordings/      
+[94mITINF24/lektion11
+(B[m$ python3 parse_plain1.py [H[2J[94mITINF24/lektion11
+(B[m$ python3 parse_plain1.py [1@c[1@l[1@e[1@a[1@r[1@;[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[H[2J[3J['parse_plain1.py']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py ett två tre
+[?2004l[H[2J[3J['parse_plain1.py', 'ett', 'två', 'tre']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py ett två tre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py ++[K[K--help
+[?2004l[H[2J[3J['parse_plain1.py', '--help']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py --help[K[K[K[K[Ke[K[Koijeo oijeoije oijoiej[H[2J[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py oijeo oijeoije oijoiej
+[?2004l[H[2J[3J['parse_plain1.py', 'oijeo', 'oijeoije', 'oijoiej']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py oijeo oijeoije oijoiej[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K++[K[K--help [K[K[K[K[K[K[K.[K-v[K[K--fijie[K jiejie[K[K[K[K[K[K[K[K[K [K[Kjieji uuuu [K[K[K[K[K[K[K[K[K[K[K[K[K[K-vf [K[K [K[K[K[K^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ chmod _[K?[K+x parse_plain1.py 
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./parse_plain1.py ett tv[[Kå
+[?2004l['./parse_plain1.py', 'ett', 'två']
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ man cat
+[?2004l[?1049h[22;0;0t[?1h=CAT(1)                     User Commands                    CAT(1)[m
+[m
+[1mNAME[0m[m
+       cat - concatenate files and print on the standard output[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7m Manual page cat(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Concatenate FILE(s) to standard output.[m
+[7m Manual page cat(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       With no FILE, or when FILE is -, read standard input.[m
+[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-A[0m, [1m--show-all[0m[m
+[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              equivalent to [1m-vET[0m[m
+[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m, [1m--number-nonblank[0m[m
+[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number nonempty output lines, overrides [1m-n[0m[m
+[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat
