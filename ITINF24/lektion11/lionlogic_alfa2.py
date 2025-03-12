@@ -1,4 +1,5 @@
-def process(filenames,show_filename,show_linenumbers):
+def process(filenames, show_filename, show_linenumbers):
+    finish = []
     for filename in filenames:
         with open(filename) as fp:
             contentlines = fp.readlines()
