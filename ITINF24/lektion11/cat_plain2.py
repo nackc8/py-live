@@ -19,7 +19,8 @@ else:
 with open(filename) as fp:
     content = fp.readlines()
 
-# 
+# lite nytt: är samma som att skriva
+# if show_filename == True
 if show_filename:
     print()
 
