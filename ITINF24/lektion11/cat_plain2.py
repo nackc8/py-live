@@ -7,8 +7,12 @@ if len(sys.argv) < 2:
 
 filename = sys.argv[1]
 
-for arg in sys.argv[1:]:
-    print("arg", arg)
+# for arg in sys.argv[1:]:
+#     print("arg", arg)
+
+show_filename = False
+if sys.argv[1] == "-f" or sys.argv[1] == "--show-filename":
+    show_filename = True
 
 with open(filename) as fp:
     content = fp.readlines()
