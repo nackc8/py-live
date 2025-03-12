@@ -11,7 +11,7 @@ show_filename = False
 
 args = sys.argv[1:]
 
-for used_args_count, arg in enumerate(args):
+for used_args_count, arg in enumerate(args, 1):
     if arg == "-f" or arg == "--show-filename":
         show_filename = True
     if arg == "--":
