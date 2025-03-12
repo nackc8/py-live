@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 import argparse
+import sys
 
 parser = argparse.ArgumentParser(
     prog="Lion",
     description="Like Cat, but slower but with more functionality",
     epilog="End of description",
 )
+
+parser.parse_args()
 
 
 # for filename in filenames:
