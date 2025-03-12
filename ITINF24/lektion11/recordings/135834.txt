@@ -77,4 +77,93 @@ citron
 5 citron
 [?2004h[94mITINF24/lektion11
 (B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
-(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K[K[K[K[K[K[K[K[K[K
+(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kh[H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -h
+[?2004lpython3: can't open file '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lion_alfa2.py': [Errno 2] No such file or directory
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./
+cat_argparse.py     cat_plain3.py       lion_alfa1.py       __pycache__/
+cat_dagsmal.txt     cat_plain4.py       lion_alfa3.py       recordings/
+cat_plain1.py       enumerate.py        lionlogic_alfa2.py  --show-filename
+cat_plain2.py       frukt.txt           parse_plain1.py     
+[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py [H[2J[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py -h
+[?2004lusage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[K(B[m$ python3 ./lion_alfa3.py -h[H[2J[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py -h
+[?2004lusage: Lion [-h] [-f] [-n] filename [filename ...]
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filenames to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py -h[H[2J[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py -h[K[K-h[H[2J[94mITINF24/lektion11
+(B[m$ python3 ./lion_alfa3.py -h
+[?2004lusage: Lion [-h] [-f] [-n] filename [filename ...]
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filenames to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_argparse.py  cat_plain2.py	enumerate.py   lion_alfa3.py	   __pycache__
+cat_dagsmal.txt  cat_plain3.py	frukt.txt      lionlogic_alfa2.py  recordings
+cat_plain1.py	 cat_plain4.py	lion_alfa1.py  parse_plain1.py	   --show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion[H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt 
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion.py", line 30, in <module>
+    for filename in values.filenames:
+                    ^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'filenames'. Did you mean: 'filename'?
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt [K[K[K[K[K[K[K[K[K[K-jh[K[Kj[Kh
+[?2004lusage: Lion [-h] [-f] [-n] file [file ...]
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  file                 The filenames to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion

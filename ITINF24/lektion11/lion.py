@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
     epilog="End of description",
 )
 
-parser.add_argument("filename", nargs="+", help="The filenames to show")
+parser.add_argument("file", nargs="+", help="The filenames to show")
 parser.add_argument(
     "-f",
     "--show-filename",
@@ -27,14 +27,14 @@ parser.add_argument(
 
 values = parser.parse_args(sys.argv[1:])
 
-for filename in values.filenames:
+for filename in values.file:
     filepath = Path(filename)
 
     if not filepath.exists():
         print(f"error: File does not exist: {filepath}", file=sys.stderr)
         sys.exit(1)
 
-output_list = logic.process(values.filenames, values.show_filename, values.number)
+output_list = logic.process(values.file, values.show_filename, values.number)
 
 for line in output_list:
     print(line, end="")
