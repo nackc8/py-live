@@ -9,8 +9,6 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("filename")
+values = parser.parse_args(sys.argv[1:])
 
-
-parser.parse_args(sys.argv[1:])
-
-print("filename:", parser.filename)
+print("filename:", values.filename)
