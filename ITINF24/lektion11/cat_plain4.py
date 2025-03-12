@@ -28,6 +28,10 @@ for arg in args:
 # Ta bort flaggorna från loopen ovan, och behåll endast filnamnen.
 filenames = args[used_args_count:]
 
+if len(filenames) == 0:
+    print("Hörru! Ange minst ett filnamn", file=sys.stderr)
+    sys.exit(1)
+
 for filename in filenames:
     with open(filename) as fp:
         contentlines = fp.readlines()
