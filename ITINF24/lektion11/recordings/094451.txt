@@ -1,0 +1,675 @@
+Script started on 2025-03-12 09:44:51+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="68" LINES="4"]
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ python3 
+parse_plain1.py  recordings/      
+[94mITINF24/lektion11
+(B[m$ python3 parse_plain1.py [H[2J[94mITINF24/lektion11
+(B[m$ python3 parse_plain1.py [1@c[1@l[1@e[1@a[1@r[1@;[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[H[2J[3J['parse_plain1.py']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py ett två tre
+[?2004l[H[2J[3J['parse_plain1.py', 'ett', 'två', 'tre']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py ett två tre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py ++[K[K--help
+[?2004l[H[2J[3J['parse_plain1.py', '--help']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py --help[K[K[K[K[Ke[K[Koijeo oijeoije oijoiej[H[2J[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py oijeo oijeoije oijoiej
+[?2004l[H[2J[3J['parse_plain1.py', 'oijeo', 'oijeoije', 'oijoiej']
+[?2004h[94mITINF24/lektion11
+(B[m$ clear; python3 parse_plain1.py oijeo oijeoije oijoiej[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K++[K[K--help [K[K[K[K[K[K[K.[K-v[K[K--fijie[K jiejie[K[K[K[K[K[K[K[K[K [K[Kjieji uuuu [K[K[K[K[K[K[K[K[K[K[K[K[K[K-vf [K[K [K[K[K[K^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ chmod _[K?[K+x parse_plain1.py 
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./parse_plain1.py ett tv[[Kå
+[?2004l['./parse_plain1.py', 'ett', 'två']
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ man cat
+[?2004l[?1049h[22;0;0t[?1h=CAT(1)                     User Commands                    CAT(1)[m
+[m
+[1mNAME[0m[m
+       cat - concatenate files and print on the standard output[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcat[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[7m Manual page cat(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7m Manual page cat(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Concatenate FILE(s) to standard output.[m
+[7m Manual page cat(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       With no FILE, or when FILE is -, read standard input.[m
+[7m Manual page cat(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-A[0m, [1m--show-all[0m[m
+[7m Manual page cat(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              equivalent to [1m-vET[0m[m
+[7m Manual page cat(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m, [1m--number-nonblank[0m[m
+[7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number nonempty output lines, overrides [1m-n[0m[m
+[7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m     equivalent to [1m-vE[0m[m
+[7m Manual page cat(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-E[0m, [1m--show-ends[0m[m
+[7m Manual page cat(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display $ at end of each line[m
+[7m Manual page cat(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--number[0m[m
+[7m Manual page cat(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number all output lines[m
+[7m Manual page cat(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--squeeze-blank[0m[m
+[7m Manual page cat(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              suppress repeated empty output lines[m
+[7m Manual page cat(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m     equivalent to [1m-vT[0m[m
+[7m Manual page cat(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--show-tabs[0m[m
+[7m Manual page cat(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display TAB characters as ^I[m
+[7m Manual page cat(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m     (ignored)[m
+[7m Manual page cat(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--show-nonprinting[0m[m
+[7m Manual page cat(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use ^ and M- notation, except for LFD and TAB[m
+[7m Manual page cat(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page cat(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page cat(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page cat(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cat f - g[m
+[7m Manual page cat(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Output  f's  contents, then standard input, then g's[m
+[7m Manual page cat(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              contents.[m
+[7m Manual page cat(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[9;1H[K[7m Manual page cat(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[9;1H[K[7m Manual page cat(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use ^ and M- notation, except for LFD and TAB[m
+[9;1H[K[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-v[0m, [1m--show-nonprinting[0m[m
+[9;1H[K[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[9;1H[K[7m Manual page cat(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+       cat f - g[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ man cat[C[C./parse_plain1.py ett två[H[2J[94mITINF24/lektion11
+(B[m$ ./parse_plain1.py ett två[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@a[11@t_plain1.py[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K+n[K[K-n /etc/sshd/[K[K/sshd_config
+[?2004l['./cat_plain1.py', '-n', '/etc/ssh/sshd_config']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py -n /etc/ssh/sshd_config[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py -n /etc/ssh/sshd_config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/etc/ssh/sshd_config
+[?2004l['./cat_plain1.py', '/etc/ssh/sshd_config']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije
+[?2004l['./cat_plain1.py', '/etc/ssh/sshd_config', '/etc/sshd/jije']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[C
+[?2004lFel antal arg!
+['./cat_plain1.py', '/etc/ssh/sshd_config', '/etc/sshd/jije']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije
+[?2004lFel antal arg!
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config
+[?2004l['./cat_plain1.py', '/etc/ssh/sshd_config']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config
+[?2004lfilnamn /etc/ssh/sshd_config
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfrukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt 
+[?2004lfrukt.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt 
+[?2004l['banan\n', 'äpple\n', 'hund\n', 'katt\n', 'citron\n']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt 
+[?2004lbanan
+
+äpple
+
+hund
+
+katt
+
+citron
+
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py frukt.txt [1P[1@2[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lFår inte vara tomt!
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt [C[C[K./cat_plain2.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt 
+[?2004larg ./cat_plain2.py
+arg frukt.txt
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt [K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py
+[?2004lFår inte vara tomt!
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt 
+[?2004larg ./cat_plain2.py
+arg frukt.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt 
+[?2004larg frukt.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt  -f[K[K[K[K[C[C[C frukt.txt- frukt.txtf frukt.txt[1P frukt.txt[1P frukt.txt[1Pfrukt.txt[C[C[C[C[C[C[C[C[C[C -f[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py frukt.txt[C frukt.txt- frukt.txtf frukt.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py -f frukt.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfrukt.txt
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py -f frukt.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py -f frukt.txt
+[?2004lfrukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ cp fer[K[Krukt.txt -- --help[H[2J[94mITINF24/lektion11
+(B[m$ cp frukt.txt -- --help
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_dagsmal.txt  cat_plain2.py	--help		 recordings
+cat_plain1.py	 frukt.txt	parse_plain1.py
+[?2004h[94mITINF24/lektion11
+(B[m$ lscp frukt.txt -- --help[C[C./cat_plain2.py -f frukt.txt[K[K[K[K[K[K[K[K[K[K[K[K--h3[Kelp[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py --help
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ mv --help --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ mv --help --show-filename
+[?2004lUsage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+[?2004h[94mITINF24/lektion11
+(B[m$ mv --help --show-filename[C[C[C[C[C[C[C[C[C[C[C[C-show-filename[C[C-show-filename --show-filename
+[?2004lUsage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_dagsmal.txt  cat_plain2.py	--help		 recordings
+cat_plain1.py	 frukt.txt	parse_plain1.py
+[?2004h[94mITINF24/lektion11
+(B[m$ mv -- --help --show-filename
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_dagsmal.txt  cat_plain2.py	parse_plain1.py  --show-filename
+cat_plain1.py	 frukt.txt	recordings
+[?2004h[94mITINF24/lektion11
+(B[m$ lsmv -- --help --show-filename[C[Cls[Kmv --help -- --show-filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pshow-filename[C[C[3P./cat_plain2.py --help[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py --help[K[K[K[Kshow-filename
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain2.py", line 13, in <module>
+    filename = sys.argv[2]
+               ~~~~~~~~^^^
+IndexError: list index out of range
+[?2004h[94mITINF24/lektion11
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py --show-filename
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain2.py", line 13, in <module>
+    filename = sys.argv[2]
+               ~~~~~~~~^^^
+IndexError: list index out of range
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain2.py --show-filename[C[Cls[Kmv -- --help --show-filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[1P[C[1P
+[?2004lUsage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+[?2004h[94mITINF24/lektion11
+(B[m$ mv --help --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ mv --help --show-filename[C[C[6@./cat_plain2.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv -- --help --show-filename
+[?2004lmv: cannot stat '--help': No such file or directory
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ pth[K[Kython3 cat_pa[Klain3.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py frukt.txt 
+[?2004larg (0, 'frukt.txt')
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py frukt.txt [K[K[K[K[K[K[K[K[K[K-f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt 
+[?2004larg (1, 'frukt.txt')
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt 
+[?2004larg frukt.txt
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt 
+[?2004lused_args_count 1
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ python3 cat_plain3.py -f frukt.txt [C[C[K./cat_plain3.py frukt.txt 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py frukt.txt [1@-[C[1@f[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -ffrukt.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ 
+[?2004lfrukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_config
+[?2004lfrukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+/etc/ssh/sshd_config:
+
+
+# This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+	 
+# This sshd was compiled with PATH=/usr/local/bin:/usr/bin:/bin:/usr/games
+    
+# The strategy used for options in the default sshd_config shipped with
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override the
+# default value.
+
+Include /etc/ssh/sshd_config.d/*.conf
+
+#Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+ #HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+#HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Ciphers and keying
+#RekeyLimit default none
+
+# Logging
+#SyslogFacility AUTH
+#LogLevel INFO
+
+# Authentication:
+
+#LoginGraceTime 2m
+#PermitRootLogin prohibit-password
+#StrictModes yes
+#MaxAuthTries 6
+#MaxSessions 10
+
+#PubkeyAuthentication yes
+
+# Expect .ssh/authorized_keys2 to be disregarded by default in future.
+#AuthorizedKeysFile	.ssh/authorized_keys .ssh/authorized_keys2
+
+#AuthorizedPrincipalsFile none
+
+#AuthorizedKeysCommand none
+#AuthorizedKeysCommandUser nobody
+
+# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+#HostbasedAuthentication no
+# Change to yes if you don't trust ~/.ssh/known_hosts for
+# HostbasedAuthentication
+#IgnoreUserKnownHosts no
+# Don't read the user's ~/.rhosts and ~/.shosts files
+#IgnoreRhosts yes
+
+# To disable tunneled clear text passwords, change to no here!
+#PasswordAuthentication yes
+#PermitEmptyPasswords no
+
+# Change to yes to enable challenge-response passwords (beware issues with
+# some PAM modules and threads)
+  KbdInteractiveAuthentication no
+
+# Kerberos options
+#KerberosAuthentication no
+#KerberosOrLocalPasswd yes
+#KerberosTicketCleanup yes
+#KerberosGetAFSToken no
+
+# GSSAPI options
+#GSSAPIAuthentication no
+#GSSAPICleanupCredentials yes
+#GSSAPIStrictAcceptorCheck yes
+#GSSAPIKeyExchange no
+
+# Set this to 'yes' to enable PAM authentication, account processing,
+# and session processing. If this is enabled, PAM authentication will
+# be allowed through the KbdInteractiveAuthentication and
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication via KbdInteractiveAuthentication may bypass
+# the setting of "PermitRootLogin prohibit-password".
+# If you just want the PAM account and session checks to run without
+# PAM authentication, then enable this but set PasswordAuthentication
+# and KbdInteractiveAuthentication to 'no'.
+ UsePAM yes
+
+#AllowAgentForwarding yes
+#AllowTcpForwarding yes
+#GatewayPorts no
+X11Forwarding yes
+#X11DisplayOffset 10
+#X11UseLocalhost yes
+#PermitTTY yes
+PrintMotd no
+#PrintLastLog yes
+#TCPKeepAlive yes
+#PermitUserEnvironment no
+#Compression delayed
+#ClientAliveInterval 0
+#ClientAliveCountMax 3
+#UseDNS no
+#PidFile /run/sshd.pid
+#MaxStartups 10:30:100
+#PermitTunnel no
+#ChrootDirectory none
+#VersionAddendum none
+
+# no default banner path
+#Banner none
+
+# Allow client to pass locale environment variables
+AcceptEnv LANG LC_*
+
+# override default of no subsystems
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+
+# Example of overriding settings on a per-user basis
+#Match User anoncvs
+#	X11Forwarding no
+#	AllowTcpForwarding no
+#	PermitTTY no
+#	ForceCommand cvs server
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[C[C frukt.txt- frukt.txtb frukt.txt[1P frukt.txtn frukt.txt[1P frukt.txt[1P frukt.txt[1Pfrukt.txt[C[1@-[1@n[1@ [1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C -b[KnD -nD -n[1P -n[1P -n[C[C[C[K[K[K-frukt.txtnfrukt.txt frukt.txt
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain3.py", line 30, in <module>
+    with open(filename) as fp:
+         ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '-n'
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./cat_plain3.py -f -n frukt.txt[C[1P[1@4[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -f -n frukt.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfrukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -f -n frukt.txt[1P frukt.txt[1P frukt.txt[1Pfrukt.txt
+[?2004lfrukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -f frukt.txt[1P frukt.txt[1P frukt.txt
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py  frukt.txt[C[C[K./cat_plain4.py  frukt.txt- frukt.txtn frukt.txt
+[?2004l1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -n frukt.txt[C frukt.txt- frukt.txtf frukt.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -n -f frukt.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfrukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_dagsmal.txt  cat_plain2.py	cat_plain4.py  frukt.txt	recordings
+cat_plain1.py	 cat_plain3.py	enumerate.py   parse_plain1.py	--show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ls./cat_plain4.py -n -f frukt.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K --show-filename
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename
+[?2004lHörru! Ange minst ett filnamn
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py --show-filename[C --show-filename+ --show-filename+ --show-filename[1P --show-filename[1P --show-filename- --show-filename- --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain4.py -- --show-filename

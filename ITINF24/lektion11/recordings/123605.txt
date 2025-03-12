@@ -1,0 +1,146 @@
+Script started on 2025-03-12 12:36:05+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="75" LINES="7"]
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3[H[2J[94mITINF24/lektion11
+(B[m$ python3 ./parse_plain1.py hej hopp
+[?2004l['./parse_plain1.py', 'hej', 'hopp']
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 ./parse_plain1.py hej hopp[H[2J[94mITINF24/lektion11
+(B[m$ python3 ./parse_plain1.py hej hopp
+[?2004l['__breakpointhook__', '__displayhook__', '__doc__', '__excepthook__', '__interactivehook__', '__loader__', '__name__', '__package__', '__spec__', '__stderr__', '__stdin__', '__stdout__', '__unraisablehook__', '_base_executable', '_clear_type_cache', '_current_exceptions', '_current_frames', '_debugmallocstats', '_framework', '_getframe', '_getquickenedcount', '_git', '_home', '_stdlib_dir', '_xoptions', 'abiflags', 'addaudithook', 'api_version', 'argv', 'audit', 'base_exec_prefix', 'base_prefix', 'breakpointhook', 'builtin_module_names', 'byteorder', 'call_tracing', 'copyright', 'displayhook', 'dont_write_bytecode', 'exc_info', 'excepthook', 'exception', 'exec_prefix', 'executable', 'exit', 'flags', 'float_info', 'float_repr_style', 'get_asyncgen_hooks', 'get_coroutine_origin_tracking_depth', 'get_int_max_str_digits', 'getallocatedblocks', 'getdefaultencoding', 'getdlopenflags', 'getfilesystemencodeerrors', 'getfilesystemencoding', 'getprofile', 'getrecursionlimit', 'getrefcount', 'getsizeof', 'getswitchinterval', 'gettrace', 'hash_info', 'hexversion', 'implementation', 'int_info', 'intern', 'is_finalizing', 'maxsize', 'maxunicode', 'meta_path', 'modules', 'orig_argv', 'path', 'path_hooks', 'path_importer_cache', 'platform', 'platlibdir', 'prefix', 'pycache_prefix', 'set_asyncgen_hooks', 'set_coroutine_origin_tracking_depth', 'set_int_max_str_digits', 'setdlopenflags', 'setprofile', 'setrecursionlimit', 'setswitchinterval', 'settrace', 'stderr', 'stdin', 'stdlib_module_names', 'stdout', 'thread_info', 'unraisablehook', 'version', 'version_info', 'warnoptions']
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ mv cat_argparse.py lion_alfa1.py
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -0[K-[Kh
+[?2004lusage: Lion [-h]
+
+Like Cat, but slower and with more functionality
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./lion_alfa1.py -h[K(B[m$ ./lion_alfa1.py -h[K(B[m$ ./lion_alfa1.py -h[K(B[m$ ./lion_alfa1.py -h[K(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h]
+
+Like Cat, but slower and with more functionality
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa1.py", line 5, in <module>
+    parser = argparse.ArgumentParser(
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ArgumentParser.__init__() got an unexpected keyword argument 'help'
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion
+Lion: error: unrecognized arguments: -h
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h]
+
+Like Cat, but slower and with more functionality
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h]
+
+Like Cat, but slower and with more functionality
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h
+[?2004lusage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -h[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py
+[?2004lusage: Lion [-h] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt 
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./lion_alfa1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt 
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa1.py", line 16, in <module>
+    print("filename:", parser.filename)
+                       ^^^^^^^^^^^^^^^
+AttributeError: 'ArgumentParser' object has no attribute 'filename'
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py frukt.txt 
+[?2004lfilename: frukt.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls
+[?2004lcat_argparse.py  cat_plain2.py	enumerate.py   parse_plain1.py
+cat_dagsmal.txt  cat_plain3.py	frukt.txt      recordings
+cat_plain1.py	 cat_plain4.py	lion_alfa1.py  --show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ls./lion_alfa1.py frukt.txt [K[K[K[K[K[K[K[K[K[K[7m--show-filename[27m--show-filename
+[?2004lusage: Lion [-h] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py --show-filename[C[C-show-filename[C[C-show-filename --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -- --show-filename[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfilename: --show-filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -- --show-filename[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa1.py -- --show-filename[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kh
+[?2004lusage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename    The filename to show
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py 
+[?2004lusage: Lion [-h] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt
+[?2004lburk.txt
+hej
+jopp
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ 

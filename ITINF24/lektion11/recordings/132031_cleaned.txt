@@ -1,0 +1,161 @@
+Script started on 2025-03-12 13:20:31+01:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="87" LINES="6"]
+ITINF24/lektion11
+$ /bin/python3
+Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("")
+
+>>> 
+ITINF24/lektion11
+./cat_argparse.py -hITINF24/lektion11
+./li/python3arse.py -h
+on_al
+fa2.py burk,.txt
+error: File does not exist: burk.txt
+burk.txt
+hej
+jopp
+ITINF24/lektion11
+$ ./lion_alfa2.py burk.txtITINF24/lektion11
+$ ./lion_alfa2.py burk.txt
+error: File does not exist: burk.txt
+ITINF24/lektion11
+$ echo $?ITINF24/lektion11
+$ echo $?
+1
+ITINF24/lektion11
+./lion_alfa2.py burk.txtITINF24/lektion11
+$ ./lion_alfa2.py burk.txt
+error: File does not exist: burk.txt
+ITINF24/lektion11
+$ ./lion_alfa2.py burk.txtITINF24/lektion11
+$ ./lion_alfa2.py burk.tx0/+-hITINF24/lektion11
+$ ./lion_alfa2.py -h
+usage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename    The filename to show
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./lion_alfa2.py -h
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa2.py", line 6, in <module>
+    import lionlogic_alfa2 as logic
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lionlogic_alfa2.py", line 5, in <module>
+    for filename in filenames:
+                    ^^^^^^^^^
+NameError: name 'filenames' is not defined
+ITINF24/lektion11
+$ ./lion_alfa2.py -hITINF24/lektion11
+$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f SHOW_FILENAME] [-n NUMBER] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename              The filename to show
+
+options:
+  -h, --help            show this help message and exit
+  -f SHOW_FILENAME, --show-filename SHOW_FILENAME
+  -n NUMBER, --number NUMBER
+
+End of description
+ITINF24/lektion11
+$ ./lion_alfa2.py -f frukt.txt 
+usage: Lion [-h] [-f SHOW_FILENAME] [-n NUMBER] filename
+Lion: error: the following arguments are required: filename
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./lion_alfa2.py -f frukt.txth
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa2.py", line 15, in <module>
+    parser.add_argument("-f", "--show-filename", nargs=0)
+  File "/usr/lib/python3.11/argparse.py", line 1455, in add_argument
+    action = action_class(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 943, in __init__
+    raise ValueError('nargs for store actions must be != 0; if you '
+ValueError: nargs for store actions must be != 0; if you have nothing to store, actions such as store true or store const may be more appropriate
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f] [-n NUMBER] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename              The filename to show
+
+options:
+  -h, --help            show this help message and exit
+  -f, --show-filename
+  -n NUMBER, --number NUMBER
+
+End of description
+ITINF24/lektion11
+$ ./lion_alfa2.py -f frukt.txt ITINF24/lektion11
+$ ./lion_alfa2.py -f frukt.txt 
+frukt.txt
+hej
+jopp
+ITINF24/lektion11
+$ ./lion_alfa2.py -f frukt.txt ITINF24/lektion11
+$ ./lion_alfa2.py -f frukt.txth
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename
+  -n, --number
+
+End of description
+ITINF24/lektion11
+$ ./lion_alfa2.py -hITINF24/lektion11
+$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+ITINF24/lektion11
+$ ./lion_alfa2.py -hITINF24/lektion11
+$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and
+                       exit
+  -f, --show-filename  Prints the filename before
+                       its contents.
+  -n, --number         Add a line number to the
+                       beginning of each line.
+
+End of description
+ITINF24/lektion11
+$ ./lion_alfa2.py -h

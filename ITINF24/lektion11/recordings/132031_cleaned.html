@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>132031.txt</title>
+</head>
+<body>
+<pre>Script started on 2025-03-12 13:20:31+01:00 [TERM=&quot;xterm-256color&quot; TTY=&quot;/dev/pts/5&quot; COLUMNS=&quot;87&quot; LINES=&quot;6&quot;]
+<span style="color:#5c5cff;">ITINF24/lektion11
+</span>$ /bin/python3
+Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt; print(&quot;&quot;)
+
+&gt;&gt;&gt; 
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">le="color:#5c5cff;">ITINF24/lektion11
+./li/python3at_argparse.py -h
+on_al
+fa2.py burk,.txt
+error: File does not exist: burk.txt
+burk.txt
+hej
+jopp
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">.txt<span style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py burk.txt
+error: File does not exist: burk.txt
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">color:#5c5cff;">ITINF24/lektion11
+</span>$ echo $?
+1
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;"> style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py burk.txt
+error: File does not exist: burk.txt
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">.txt<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">.tx0/+-h<span style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -h
+usage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename    The filename to show
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion11
+$ ./lion_alfa2.py -h
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa2.py&quot;, line 6, in &lt;module&gt;
+    import lionlogic_alfa2 as logic
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lionlogic_alfa2.py&quot;, line 5, in &lt;module&gt;
+    for filename in filenames:
+                    ^^^^^^^^^
+NameError: name &apos;filenames&apos; is not defined
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f SHOW_FILENAME] [-n NUMBER] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename              The filename to show
+
+options:
+  -h, --help            show this help message and exit
+  -f SHOW_FILENAME, --show-filename SHOW_FILENAME
+  -n NUMBER, --number NUMBER
+
+End of description
+<span style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -f frukt.txt 
+usage: Lion [-h] [-f SHOW_FILENAME] [-n NUMBER] filename
+Lion: error: the following arguments are required: filename
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -f frukt.txth
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa2.py&quot;, line 15, in &lt;module&gt;
+    parser.add_argument(&quot;-f&quot;, &quot;--show-filename&quot;, nargs=0)
+  File &quot;/usr/lib/python3.11/argparse.py&quot;, line 1455, in add_argument
+    action = action_class(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/usr/lib/python3.11/argparse.py&quot;, line 943, in __init__
+    raise ValueError(&apos;nargs for store actions must be != 0; if you &apos;
+ValueError: nargs for store actions must be != 0; if you have nothing to store, actions such as store true or store const may be more appropriate
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f] [-n NUMBER] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename              The filename to show
+
+options:
+  -h, --help            show this help message and exit
+  -f, --show-filename
+  -n NUMBER, --number NUMBER
+
+End of description
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">rukt.txt <span style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -f frukt.txt 
+frukt.txt
+hej
+jopp
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">rukt.txt <span style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -f frukt.txth
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename
+  -n, --number
+
+End of description
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+<span style="color:#5c5cff;">ITINF24/lektion11
+<span style="color:#5c5cff;">le="color:#5c5cff;">ITINF24/lektion11
+</span>$ ./lion_alfa2.py -h
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and
+                       exit
+  -f, --show-filename  Prints the filename before
+                       its contents.
+  -n, --number         Add a line number to the
+                       beginning of each line.
+
+End of description
+<span style="color:#5c5cff;">ITINF24/lektion11
+$ ./lion_alfa2.py 
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->
