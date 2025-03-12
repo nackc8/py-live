@@ -1,5 +1,5 @@
 
-#   cat [OPTION]... [FILE]...
+#   lion [OPTION]... [FILE]...
 # -b, --number-nonblank
 # -n, --number
 # -s, --squeeze-blank
