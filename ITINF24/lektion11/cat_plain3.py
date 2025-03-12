@@ -9,7 +9,7 @@ show_filename = False
 
 args = sys.argv[1:]
 
-for arg in enumerate(args):
+for line_no, arg in enumerate(args):
     if arg == "-f" or arg == "--show-filename":
         show_filename = True
     if arg == "--":
