@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import sys
 
-sys.argv = ["skriptsokvag/skriptnamn", "-f", "frukt.txt"]
+# endast för test, simulera argument:
+# sys.argv = ["skriptsokvag/skriptnamn", "-f", "frukt.txt"]
 
 if len(sys.argv) < 2:
     print("Får inte vara tomt!", file=sys.stderr)
@@ -25,13 +26,14 @@ for arg in args:
 # filnamnen.
 filenames = args[used_args_count:]
 
-with open(filename) as fp:
-    content = fp.readlines()
+for filename in filenames:
+    with open(filename) as fp:
+        content = fp.readlines()
 
-# lite nytt: är samma som att skriva
-# if show_filename == True
-if show_filename:
-    print(filename, ":", sep="", end="\n\n")
+    # lite nytt: är samma som att skriva
+    # if show_filename == True
+    if show_filename:
+        print(filename, ":", sep="", end="\n\n")
 
-for line in content:
-    print(line, end="")
+    for line in content:
+        print(line, end="")
