@@ -6,7 +6,7 @@ parser = argparse.ArgumentParser(
     prog="Lion",
     description="Like Cat, but slower and with more functionality",
     epilog="End of description",
-    help=False,
+    add_help=True,
 )
 
 parser.parse_args(sys.argv[1:])
