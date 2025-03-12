@@ -9,13 +9,13 @@ show_filename = False
 
 args = sys.argv[1:]
 
-for line_no, arg in enumerate(args):
+for used_args_count, arg in enumerate(args):
     if arg == "-f" or arg == "--show-filename":
         show_filename = True
     if arg == "--":
         break
 
-print("arg", arg)
+print("used_args_count", used_args_count)
 
 
 with open(filename) as fp:
