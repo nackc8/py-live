@@ -1,0 +1,80 @@
+Script started on 2025-03-12 13:58:34+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="92" LINES="8"]
+[?2004h[94mITINF24/lektion11
+(B[m$  /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46833 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lion_alfa2.py 
+[?2004l[?2004h[94mITINF24/lektion11
+(B[m$  /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46833 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lion_alfa2.py [A[A[C[C[K
+[K
+[K[A[A[C[C[H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py 
+[?2004lbanan
+
+äpple
+
+hund
+
+katt
+
+citron
+
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 lion_alfa2.py [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 lion_alfa2.py [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py [C[1@ [1@-[1@n
+[?2004lUnknown option: -n
+usage: python3 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 -n lion_alfa2.py [1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C-n fgr[K[Krukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n frukt.txt 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 lion_alfa2.py -n frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt [K(B[m$ python3 lion_alfa2.py -n frukt.txt 
+[?2004l1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n frukt.txt [C[1@ [1@-[1@f
+[?2004lfrukt.txt:
+
+"1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n -f frukt.txt 
+[?2004lfrukt.txt:
+
+"1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K(B[m$ python3 lion_alfa2.py -n -f frukt.txt [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n -f frukt.txt 
+[?2004lfrukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ python3 lion_alfa2.py -n -f frukt.txt [K[K[K[K[K[K[K[K[K[K
