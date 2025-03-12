@@ -15,3 +15,5 @@ values = parser.parse_args(sys.argv[1:])
 
 output_list = logic.process(values.filename)
 
+for line in output_list:
+    print(line)
