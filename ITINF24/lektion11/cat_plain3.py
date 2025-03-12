@@ -10,11 +10,13 @@ if len(sys.argv) < 2:
 show_filename = False
 
 args = sys.argv[1:]
-
-for used_args_count, arg in enumerate(args, 1):
+used_args_count = 0
+for arg in args:
     if arg == "-f" or arg == "--show-filename":
         show_filename = True
+        used_args_count += 1
     if arg == "--":
+        used_args_count += 1
         break
 
 print("used_args_count", used_args_count)
