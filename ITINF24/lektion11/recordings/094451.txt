@@ -49,4 +49,34 @@ parse_plain1.py  recordings/
 [7m Manual page cat(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[0m, [1m--number-nonblank[0m[m
 [7m Manual page cat(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number nonempty output lines, overrides [1m-n[0m[m
 [7m Manual page cat(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cat
+[7m Manual page cat(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e[0m     equivalent to [1m-vE[0m[m
+[7m Manual page cat(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-E[0m, [1m--show-ends[0m[m
+[7m Manual page cat(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display $ at end of each line[m
+[7m Manual page cat(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--number[0m[m
+[7m Manual page cat(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              number all output lines[m
+[7m Manual page cat(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--squeeze-blank[0m[m
+[7m Manual page cat(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              suppress repeated empty output lines[m
+[7m Manual page cat(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m     equivalent to [1m-vT[0m[m
+[7m Manual page cat(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--show-tabs[0m[m
+[7m Manual page cat(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display TAB characters as ^I[m
+[7m Manual page cat(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m     (ignored)[m
+[7m Manual page cat(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--show-nonprinting[0m[m
+[7m Manual page cat(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use ^ and M- notation, except for LFD and TAB[m
+[7m Manual page cat(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page cat(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page cat(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page cat(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cat f - g[m
+[7m Manual page cat(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Output  f's  contents, then standard input, then g's[m
+[7m Manual page cat(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              contents.[m
+[7m Manual page cat(1) line 42 (press h for help 
