@@ -2,6 +2,8 @@
 import argparse
 import sys
 
+import lionlogic_alfa2 as logic
+
 parser = argparse.ArgumentParser(
     prog="Lion",
     description="Like Cat, but slower and with more functionality",
@@ -11,4 +13,5 @@ parser = argparse.ArgumentParser(
 parser.add_argument("filename", help="The filename to show")
 values = parser.parse_args(sys.argv[1:])
 
-print("filename:", values.filename)
+output_list = logic.process(values.filename)
+
