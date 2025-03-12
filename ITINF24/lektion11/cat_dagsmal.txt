@@ -1,6 +1,5 @@
 
 #   lion [OPTION]... [FILE]...
-# -b, --number-nonblank
 # -n, --number
 # -s, --squeeze-blank
 # -f --show-filename    <-- eget påhitt
