@@ -8,11 +8,12 @@ if len(sys.argv) < 2:
 show_filename = False
 
 for arg in sys.argv[1:]:
-    if arg == '-f' or arg == '--show-filename':
+    if arg == "-f" or arg == "--show-filename":
         show_filename = True
-    if arg == '--':
-        
-    print("arg", arg)
+    if arg == "--":
+        break
+
+print("arg", arg)
 
 
 with open(filename) as fp:
