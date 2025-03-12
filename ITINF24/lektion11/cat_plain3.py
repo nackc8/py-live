@@ -15,8 +15,10 @@ for arg in args:
     if arg == "-f" or arg == "--show-filename":
         show_filename = True
         used_args_count += 1
-    if arg == "--":
+    elif arg == "--":
         used_args_count += 1
+        break
+    else:
         break
 
 print("used_args_count", used_args_count)
