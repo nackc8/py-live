@@ -37,5 +37,7 @@ for filename in filenames:
     if show_filename:
         print(filename, ":", sep="", end="\n\n")
 
-    for line in contentlines:
-        print(line, end="")
+    for lineno_line_tuple in enumerate(contentlines, 1):
+        if show_linenumbers:
+            lineno = 
+        print(lineno_line_tuple, end="")
