@@ -13,3 +13,4 @@ parser.add_argument("filename")
 
 parser.parse_args(sys.argv[1:])
 
+print("filename:", parser.filename)
