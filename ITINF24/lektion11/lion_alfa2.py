@@ -33,7 +33,7 @@ if not filepath.exists():
     print(f"error: File does not exist: {filepath}", file=sys.stderr)
     sys.exit(1)
 
-output_list = logic.process([filepath], )
+output_list = logic.process([filepath], values.sh )
 
 for line in output_list:
     print(line)
