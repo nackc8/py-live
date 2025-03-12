@@ -5,6 +5,7 @@ import sys
 # -b, --number-nonblank
 # -n, --number
 # -s, --squeeze-blank
+# -x ORD
 #   --help display this help and exit
 #        --version
 #               output version information and exit
