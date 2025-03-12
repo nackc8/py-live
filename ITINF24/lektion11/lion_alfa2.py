@@ -39,4 +39,4 @@ if not filepath.exists():
 output_list = logic.process([filepath], values.show_filename, values.number)
 
 for line in output_list:
-    print(line)
+    print(line, end="")
