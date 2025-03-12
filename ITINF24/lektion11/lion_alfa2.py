@@ -17,7 +17,7 @@ values = parser.parse_args(sys.argv[1:])
 filepath = Path(values.filename)
 
 if not filepath.exists():
-    print("Error: File does not exist: ")
+    print(f"error: File does not exist: {filepath}")
 
 output_list = logic.process(filepath)
 
