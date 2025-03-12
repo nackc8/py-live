@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(
     epilog="End of description",
 )
 
-parser.add_argument("filename")
+parser.add_argument("filename", help="The filename to show")
 values = parser.parse_args(sys.argv[1:])
 
 print("filename:", values.filename)
