@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-sys.argv = ["skriptnamn", "-f"]
+sys.argv = ["skriptnamn", "-f", "frukt.txt"]
 
 if len(sys.argv) < 2:
     print("Får inte vara tomt!", file=sys.stderr)
