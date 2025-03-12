@@ -5,9 +5,9 @@ import sys
 # -b, --number-nonblank
 # -n, --number
 # -s, --squeeze-blank
-# -f --show-filename
-# -i --indent content
-# --indent-symbol SYMBOL
+# -f --show-filename    <-- eget påhitt
+# -i --indent content   <-- eget påhitt
+# --indent-symbol SYMBOL  <-- eget påhitt
 #
 #   --help display this help and exit
 #        --version
