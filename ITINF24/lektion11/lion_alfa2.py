@@ -6,7 +6,7 @@ from pathlib import Path
 import lionlogic_alfa2 as logic
 
 # Fake för test
-sys.argv = ["./lion_alfa2.py", "frukt.txt"]
+# sys.argv = ["./lion_alfa2.py", "frukt.txt"]
 
 parser = argparse.ArgumentParser(
     prog="Lion",
