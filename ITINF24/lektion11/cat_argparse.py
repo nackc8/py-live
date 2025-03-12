@@ -4,7 +4,7 @@ import sys
 
 parser = argparse.ArgumentParser(
     prog="Lion",
-    description="Like Cat, but slower but with more functionality",
+    description="Like Cat, but slower and with more functionality",
     epilog="End of description",
 )
 
