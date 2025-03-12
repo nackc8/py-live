@@ -10,4 +10,5 @@ filename = sys.argv[1]
 with open(filename) as fp:
     content = fp.readlines()
 
-print(content)
+for line in content:
+    print(line)
