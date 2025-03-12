@@ -79,4 +79,68 @@ parse_plain1.py  recordings/
 [7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cat f - g[m
 [7m Manual page cat(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Output  f's  contents, then standard input, then g's[m
 [7m Manual page cat(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              contents.[m
-[7m Manual page cat(1) line 42 (press h for help 
+[7m Manual page cat(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
+[9;1H[K[7m Manual page cat(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[9;1H[K[7m Manual page cat(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use ^ and M- notation, except for LFD and TAB[m
+[9;1H[K[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-v[0m, [1m--show-nonprinting[0m[m
+[9;1H[K[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[9;1H[K[7m Manual page cat(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cat(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[H[2J[H              use ^ and M- notation, except for LFD and TAB[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+[1mEXAMPLES[0m[m
+       cat f - g[m
+[7m Manual page cat(1) line 39 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ man cat[C[C./parse_plain1.py ett två[H[2J[94mITINF24/lektion11
+(B[m$ ./parse_plain1.py ett två[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@a[11@t_plain1.py[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K+n[K[K-n /etc/sshd/[K[K/sshd_config
+[?2004l['./cat_plain1.py', '-n', '/etc/ssh/sshd_config']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py -n /etc/ssh/sshd_config[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py -n /etc/ssh/sshd_config[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/etc/ssh/sshd_config
+[?2004l['./cat_plain1.py', '/etc/ssh/sshd_config']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije
+[?2004l['./cat_plain1.py', '/etc/ssh/sshd_config', '/etc/sshd/jije']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[C
+[?2004lFel antal arg!
+['./cat_plain1.py', '/etc/ssh/sshd_config', '/etc/sshd/jije']
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije
+[?2004lFel antal arg!
+[?2004h[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_plain1.py /etc/ssh/sshd_config
+[?2004l['./cat_plain1.py', '/etc/ssh/sshd_config']
+[?2004h[9
