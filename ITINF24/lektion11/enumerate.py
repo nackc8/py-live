@@ -1,3 +1,3 @@
 lst = ["ove", "mohammed", "xi", "eva"]
 
-enumerate()
+lst2 = enumerate(lst)
