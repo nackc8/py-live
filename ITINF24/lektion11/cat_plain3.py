@@ -7,7 +7,9 @@ if len(sys.argv) < 2:
 
 show_filename = False
 
-for arg in sys.argv[1:]:
+args = sys.argv[1:]
+
+for arg in args:
     if arg == "-f" or arg == "--show-filename":
         show_filename = True
     if arg == "--":
