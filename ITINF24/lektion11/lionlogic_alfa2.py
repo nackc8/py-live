@@ -1,5 +1,4 @@
 def process(filename):
-    return [filename, "hej", "jopp"]
 
 
 # for filename in filenames:
