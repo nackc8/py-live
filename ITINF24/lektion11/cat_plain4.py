@@ -19,6 +19,7 @@ for arg in args:
     elif arg == "-n" or arg == "--number":
         show_linenumbers = True
         used_args_count += 1
+    # -- separerar flaggor från filnamn
     elif arg == "--":
         used_args_count += 1
         break
