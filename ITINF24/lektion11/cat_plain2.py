@@ -7,7 +7,7 @@ if len(sys.argv) < 2:
 
 filename = sys.argv[1]
 
-for arg in sys.argv:
+for arg in sys.argv[1:]:
     print("arg", arg)
 
 with open(filename) as fp:
