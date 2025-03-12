@@ -1,0 +1,761 @@
+Script started on 2025-03-12 09:44:51+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="68" LINES="4"]
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ pytho
+n3
+ 
+
+parse_plain1.py  recordings/      
+ITINF24/lektion11
+$ python3 parse_plain1.py ITINF24/lektion11
+$ python3 parse_plain1.py
+
+
+
+
+
+
+
+
+
+clear; 
+
+
+
+
+
+
+
+['parse_plain1.py']
+ITINF24/lektion11
+$ clear; python3 parse_plain1.py ett två tre
+['parse_plain1.py', 'ett', 'två', 'tre']
+ITINF24/lektion11
+$ clear; python3 parse_plain1.py ett två tr
+
+
+
+
+
+
+ITINF24/lektion11
+$ clear; python3 parse_plain1.py +--help
+['parse_plain1.py', '--help']
+ITINF24/lektion11
+$ clear; python3 parse_plain1.py --hele
+oijeo oijeoije oijoiejITINF24/lektion11
+$ clear; python3 parse_plain1.py oijeo oijeoije oijoiej
+['parse_plain1.py', 'oijeo', 'oijeoije', 'oijoiej']
+ITINF24/lektion11
+$ clear; python3 parse_plain1.py oijeo oijeoije oijoie+--help---fiji jiejijieji uuuu-vf
+^C
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ chmod +x parse_plain1.py 
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./parse_plain1.py ett två
+['./parse_plain1.py', 'ett', 'två']
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ man cat
+CAT(1)                     User Commands                    CAT(1)
+
+NAME
+       cat - concatenate files and print on the standard output
+
+SYNOPSIS
+       cat [OPTION]... [FILE]...
+
+DESCRIPTIONe cat(1) line 1 (press h for help or q to quit)
+       Concatenate FILE(s) to standard output.r q to quit)
+ ESESCOBpage cat(1) line 3 (press h for help or q to quit)
+       With no FILE, or when FILE is -, read standard input.
+ ESESCOBpage cat(1) line 5 (press h for help or q to quit)
+       -A, --show-alline 6 (press h for help or q to quit)
+              equivalent to -vETs h for help or q to quit)
+ ESESCOBpage cat(1) line 8 (press h for help or q to quit)
+       -b, --number-nonblankpress h for help or q to quit)
+              number nonempty output lines, overrides -nit)
+ ESESCOBpage cat(1) line 11 (press h for help or q to quit)
+       -e     equivalent to -vEess h for help or q to quit)
+ ESESCOBpage cat(1) line 13 (press h for help or q to quit)
+       -E, --show-endsne 14 (press h for help or q to quit)
+              display $ at end of each linelp or q to quit)
+ ESESCOBpage cat(1) line 16 (press h for help or q to quit)
+       -n, --number line 17 (press h for help or q to quit)
+              number all output linesfor help or q to quit)
+ ESESCOBpage cat(1) line 19 (press h for help or q to quit)
+       -s, --squeeze-blank0 (press h for help or q to quit)
+              suppress repeated empty output lines to quit)
+ ESESCOBpage cat(1) line 22 (press h for help or q to quit)
+       -t     equivalent to -vTess h for help or q to quit)
+ ESESCOBpage cat(1) line 24 (press h for help or q to quit)
+       -T, --show-tabsne 25 (press h for help or q to quit)
+              display TAB characters as ^Ielp or q to quit)
+ ESESCOBpage cat(1) line 27 (press h for help or q to quit)
+       -u     (ignored)e 28 (press h for help or q to quit)
+ ESESCOBpage cat(1) line 29 (press h for help or q to quit)
+       -v, --show-nonprintingpress h for help or q to quit)
+              use ^ and M- notation, except for LFD and TAB
+ ESESCOBpage cat(1) line 32 (press h for help or q to quit)
+       --help display this help and exit help or q to quit)
+ ESESCOBpage cat(1) line 34 (press h for help or q to quit)
+       --version(1) line 35 (press h for help or q to quit)
+              output version information and exitq to quit)
+ ESESCOBpage cat(1) line 37 (press h for help or q to quit)
+EXAMPLESpage cat(1) line 38 (press h for help or q to quit)
+       cat f - g(1) line 39 (press h for help or q to quit)
+              Output  f's  contents, then standard input, then g's
+              contents.e 41 (press h for help or q to quit)
+M       --help display this help and exithelp or q to quit)
+MESESCOApage cat(1) line 41 (press h for help or q to quit)
+M              use ^ and M- notation, except for LFD and TAB
+M       -v, --show-nonprintingress h for help or q to quit)
+MESESCOApage cat(1) line 38 (press h for help or q to quit)
+ ESESCOBpage cat(1) line 37 (press h for help or q to quit)
+EXAMPLESpage cat(1) line 38 (press h for help or q to quit)
+ Manual page cat(1) line 39 (press h for help or q to quit)              use ^ and M- notation, except for LFD and TAB
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+EXAMPLES
+ Manual page cat(1) line 39 (press h for help or q to quit)              use ^ and M- notation, except for LFD and TAB
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+EXAMPLES
+ Manual page cat(1) line 39 (press h for help or q to quit)              use ^ and M- notation, except for LFD and TAB
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+EXAMPLES
+ Manual page cat(1) line 39 (press h for help or q to quit)              use ^ and M- notation, except for LFD and TAB
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+EXAMPLES
+       cat f - g
+>ITINF24/lektion11) line 39 (press h for help or q to quit)
+./parse_plain1.py ett tvåITINF24/lektion11
+$ ./parse_plain1.py ett tv�cat_plain1.py
+
+
+
+
+
+
+
+
+
+
++-n /etc/sshd/sshd_config
+['./cat_plain1.py', '-n', '/etc/ssh/sshd_config']
+ITINF24/lektion11
+$ ./cat_plain1.py -n /etc/ssh/sshd_configITINF24/lektion11
+$ ./cat_plain1.py -n /etc/ssh/sshd_confi/etc/ssh/sshd
+_config
+['./cat_plain1.py', '/etc/ssh/sshd_config']
+ITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije
+['./cat_plain1.py', '/etc/ssh/sshd_config', '/etc/sshd/jije']
+ITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jijeITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jij
+Fel antal arg!
+['./cat_plain1.py', '/etc/ssh/sshd_config', '/etc/sshd/jije']
+ITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jijeITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jije
+Fel antal arg!
+ITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config /etc/sshd/jijITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config
+['./cat_plain1.py', '/etc/ssh/sshd_config']
+ITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_configITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_config
+filnamn /etc/ssh/sshd_config
+ITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_configITINF24/lektion11
+$ ./cat_plain1.py /etc/ssh/sshd_confifrukt.txt ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt 
+frukt.txt
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt 
+['banan\n', 'äpple\n', 'hund\n', 'katt\n', 'citron\n']
+ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt 
+banan
+
+äpple
+
+hund
+
+katt
+
+citron
+
+ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt 
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt 
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain1.py frukt.txt2ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt
+Får inte vara tomt!
+ITINF24/lektion11
+./cat_plain2.py frukt.txt ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt 
+arg ./cat_plain2.py
+arg frukt.txt
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain2.py frukt.txtITINF24/lektion11
+$ ./cat_plain2.py
+Får inte vara tomt!
+ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt 
+arg ./cat_plain2.py
+arg frukt.txt
+ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt 
+arg frukt.txt
+ITINF24/lektion11
+$ ./cat_plain2.py frukt.txt  - frukt.tx- frukt.txf frukt.tx frukt.tx frukt.txfrukt.tx
+
+
+
+
+ -ITINF24/lektion11
+$ ./cat_plain2.py frukt.tx
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain2.py frukt.tx frukt.tx- frukt.txf frukt.txITINF24/lektion11
+$ ./cat_plain2.py -f frukt.tx
+frukt.txt
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain2.py -f frukt.txtITINF24/lektion11
+$ ./cat_plain2.py -f frukt.txt
+frukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ cp ferukt.txt -- --helpITINF24/lektion11
+$ cp frukt.txt -- --help
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ls
+cat_dagsmal.txt  cat_plain2.py	--help		 recordings
+cat_plain1.py	 frukt.txt	parse_plain1.py
+ITINF24/lektion11
+./cat_plain2.py -f frukt.tx--helpITINF24/lektion11
+$ ./cat_plain2.py --help
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ mv --help --show-filenameITINF24/lektion11
+$ mv --help --show-filename
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+ITINF24/lektion11
+$ mv --help --show-filenam-show-filenam-show-filenam --show-filenam
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ls
+cat_dagsmal.txt  cat_plain2.py	--help		 recordings
+cat_plain1.py	 frukt.txt	parse_plain1.py
+ITINF24/lektion11
+$ mv -- --help --show-filename
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ls
+cat_dagsmal.txt  cat_plain2.py	parse_plain1.py  --show-filename
+cat_plain1.py	 frukt.txt	recordings
+ITINF24/lektion11
+./cat_plain2.py --helpITINF24/lektion11
+$ ./cat_plain2.py --helshow-filename
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain2.py", line 13, in <module>
+    filename = sys.argv[2]
+               ~~~~~~~~^^^
+IndexError: list index out of range
+ITINF24/lektion11
+$ 
+ITINF24/lektion11
+$ 
+ITINF24/lektion11
+$ ./cat_plain2.py --show-filename
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain2.py", line 13, in <module>
+    filename = sys.argv[2]
+               ~~~~~~~~^^^
+IndexError: list index out of range
+ITINF24/lektion11
+$ ITINF24/lektion11
+lsmv -- --help --show-filenamname
+
+
+
+
+
+
+
+
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  -u, --update                 move only when the SOURCE file is newer
+                                 than the destination file or when the
+                                 destination file is missing
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+ITINF24/lektion11
+$ mv --help --show-filenameITINF24/lektion11
+lsmv -- --help --show-filename
+mv: cannot stat '--help': No such file or directory
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ptython3 cat_pa
+l
+ain3.py frukt.txt ITINF24/lektion11
+$ python3 cat_plain3.py frukt.txt 
+arg (0, 'frukt.txt')
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+ITINF24/lektion11
+$ python3 cat_plain3.py frukt.txt ITINF24/lektion11
+$ python3 cat_plain3.py frukt.txt-f frukt.txt ITINF24/lektion11
+$ python3 cat_plain3.py -f frukt.txt 
+arg (1, 'frukt.txt')
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+ITINF24/lektion11
+$ python3 cat_plain3.py -f frukt.txt ITINF24/lektion11
+$ python3 cat_plain3.py -f frukt.txt 
+arg frukt.txt
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+ITINF24/lektion11
+$ python3 cat_plain3.py -f frukt.txt ITINF24/lektion11
+$ python3 cat_plain3.py -f frukt.txt 
+used_args_count 1
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/cat_plain3.py", line 21, in <module>
+    with open(filename) as fp:
+              ^^^^^^^^
+NameError: name 'filename' is not defined
+ITINF24/lektion11
+$ ITINF24/lektion11
+./cathon3 cat_plain3.py -f frukt.txt 
+t_plain3.py frukt.txt 
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain3.py frukt.txt-ITINF24/lektion11
+$ ./cat_plain3.py -ffrukt.txt 
+frukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain3.py -f frukt.txt ITINF24/lektion11
+$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd
+_config
+frukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+/etc/ssh/sshd_config:
+
+
+# This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+	 
+# This sshd was compiled with PATH=/usr/local/bin:/usr/bin:/bin:/usr/games
+    
+# The strategy used for options in the default sshd_config shipped with
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override the
+# default value.
+
+Include /etc/ssh/sshd_config.d/*.conf
+
+#Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+ #HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+#HostKey /etc/ssh/ssh_host_ed25519_key
+
+# Ciphers and keying
+#RekeyLimit default none
+
+# Logging
+#SyslogFacility AUTH
+#LogLevel INFO
+
+# Authentication:
+
+#LoginGraceTime 2m
+#PermitRootLogin prohibit-password
+#StrictModes yes
+#MaxAuthTries 6
+#MaxSessions 10
+
+#PubkeyAuthentication yes
+
+# Expect .ssh/authorized_keys2 to be disregarded by default in future.
+#AuthorizedKeysFile	.ssh/authorized_keys .ssh/authorized_keys2
+
+#AuthorizedPrincipalsFile none
+
+#AuthorizedKeysCommand none
+#AuthorizedKeysCommandUser nobody
+
+# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+#HostbasedAuthentication no
+# Change to yes if you don't trust ~/.ssh/known_hosts for
+# HostbasedAuthentication
+#IgnoreUserKnownHosts no
+# Don't read the user's ~/.rhosts and ~/.shosts files
+#IgnoreRhosts yes
+
+# To disable tunneled clear text passwords, change to no here!
+#PasswordAuthentication yes
+#PermitEmptyPasswords no
+
+# Change to yes to enable challenge-response passwords (beware issues with
+# some PAM modules and threads)
+  KbdInteractiveAuthentication no
+
+# Kerberos options
+#KerberosAuthentication no
+#KerberosOrLocalPasswd yes
+#KerberosTicketCleanup yes
+#KerberosGetAFSToken no
+
+# GSSAPI options
+#GSSAPIAuthentication no
+#GSSAPICleanupCredentials yes
+#GSSAPIStrictAcceptorCheck yes
+#GSSAPIKeyExchange no
+
+# Set this to 'yes' to enable PAM authentication, account processing,
+# and session processing. If this is enabled, PAM authentication will
+# be allowed through the KbdInteractiveAuthentication and
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication via KbdInteractiveAuthentication may bypass
+# the setting of "PermitRootLogin prohibit-password".
+# If you just want the PAM account and session checks to run without
+# PAM authentication, then enable this but set PasswordAuthentication
+# and KbdInteractiveAuthentication to 'no'.
+ UsePAM yes
+
+#AllowAgentForwarding yes
+#AllowTcpForwarding yes
+#GatewayPorts no
+X11Forwarding yes
+#X11DisplayOffset 10
+#X11UseLocalhost yes
+#PermitTTY yes
+PrintMotd no
+#PrintLastLog yes
+#TCPKeepAlive yes
+#PermitUserEnvironment no
+#Compression delayed
+#ClientAliveInterval 0
+#ClientAliveCountMax 3
+#UseDNS no
+#PidFile /run/sshd.pid
+#MaxStartups 10:30:100
+#PermitTunnel no
+#ChrootDirectory none
+#VersionAddendum none
+
+# no default banner path
+#Banner none
+
+# Allow client to pass locale environment variables
+AcceptEnv LANG LC_*
+
+# override default of no subsystems
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+
+# Example of overriding settings on a per-user basis
+#Match User anoncvs
+#	X11Forwarding no
+#	AllowTcpForwarding no
+#	PermitTTY no
+#	ForceCommand cvs server
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_confi
+
+
+
+
+
+
+
+
+
+
+^C
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ./cat_plain3.py -f frukt.txt /etc/ssh/sshd_confi frukt.tx- frukt.txb frukt.tx frukt.txn frukt.tx frukt.tx frukt.txfrukt.txn
+ -
+D -
+D - - -
+-frukt.txnfrukt.tx frukt.tx
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./cat_plain3.py", line 30, in <module>
+    with open(filename) as fp:
+         ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '-n'
+ITINF24/lektion11
+$ ./cat_plain3.py -f -n frukt.tx4ITINF24/lektion11
+$ ./cat_plain4.py -f -n frukt.tx
+
+
+
+
+
+
+
+
+
+frukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ ./cat_plain4.py -f -n frukt.tx frukt.tx frukt.txfrukt.tx
+frukt.txt:
+
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain4.py -f frukt.tx frukt.tx frukt.tx
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ ./cat_plain4.py  frukt.txt
+./cat_plain4.py  frukt.tx- frukt.txn frukt.tx
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ ./cat_plain4.py -n frukt.tx frukt.tx- frukt.txf frukt.txITINF24/lektion11
+$ ./cat_plain4.py -n -f frukt.tx
+frukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ls
+cat_dagsmal.txt  cat_plain2.py	cat_plain4.py  frukt.txt	recordings
+cat_plain1.py	 cat_plain3.py	enumerate.py   parse_plain1.py	--show-filename
+ITINF24/lektion11
+$ l./cat_plain4.py -n -f frukt.tx --show-filename
+ITINF24/lektion11
+$ ./cat_plain4.py --show-filenam
+
+ITINF24/lektion11
+$ ./cat_plain4.py --show-filename
+ITINF24/lektion11
+$ ./cat_plain4.py --show-filenameITINF24/lektion11
+$ ./cat_plain4.py --show-filename
+Hörru! Ange minst ett filnamn
+ITINF24/lektion11
+$ ./cat_plain4.py --show-filenam --show-filenam+ --show-filenam+ --show-filenam --show-filenam --show-filenam- --show-filenam- --show-filenamITINF24/lektion11
+$ ./cat_plain4.py -- --show-filenam
