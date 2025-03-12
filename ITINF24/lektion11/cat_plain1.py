@@ -8,6 +8,6 @@ if len(sys.argv) != 2:
 filename = sys.argv[1]
 
 with open(filename) as fp:
-    content = fp.
+    content = fp.readlines()
 
 print("filnamn", filename)
