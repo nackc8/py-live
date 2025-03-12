@@ -5,7 +5,7 @@ def process(filenames, show_filename, show_linenumbers):
             contentlines = fp.readlines()
 
         if show_filename:
-            new_line = f'{filename}:\n\n"'
+            new_line = f"{filename}:\n\n"
             output_lines.append(new_line)
 
         for lineno_line_tuple in enumerate(contentlines, 1):
