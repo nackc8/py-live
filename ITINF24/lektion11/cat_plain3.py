@@ -22,7 +22,7 @@ for arg in args:
         break
 
 print("used_args_count", used_args_count)
-args = args[used_args_count:]
+filenames = args[used_args_count:]
 
 with open(filename) as fp:
     content = fp.readlines()
