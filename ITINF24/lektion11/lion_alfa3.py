@@ -27,7 +27,7 @@ parser.add_argument(
 
 values = parser.parse_args(sys.argv[1:])
 
-filepath = Path(values.filename)
+filepath = Path(values.filenames)
 
 if not filepath.exists():
     print(f"error: File does not exist: {filepath}", file=sys.stderr)
