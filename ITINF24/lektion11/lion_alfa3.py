@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
     epilog="End of description",
 )
 
-parser.add_argument("filename", help="The filename to show")
+parser.add_argument("filename", nargs="+", help="The filenames to show")
 parser.add_argument(
     "-f",
     "--show-filename",
