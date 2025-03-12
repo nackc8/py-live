@@ -13,5 +13,5 @@ for arg in sys.argv:
 with open(filename) as fp:
     content = fp.readlines()
 
-for line in content:
-    print(line, end="")
+# for line in content:
+#     print(line, end="")
