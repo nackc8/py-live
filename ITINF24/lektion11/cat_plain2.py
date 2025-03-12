@@ -22,7 +22,7 @@ with open(filename) as fp:
 # lite nytt: är samma som att skriva
 # if show_filename == True
 if show_filename:
-    print()
+    print(filename)
 
 for line in content:
     print(line, end="")
