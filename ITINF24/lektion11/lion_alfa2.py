@@ -12,7 +12,7 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("filename", help="The filename to show")
-parser.add_argument("-f", "--show-filename", action="store_true")
+parser.add_argument("-f", "--show-filename", action="store_true", help="")
 parser.add_argument("-n", "--number", action="store_true")
 
 values = parser.parse_args(sys.argv[1:])
