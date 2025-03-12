@@ -1,0 +1,183 @@
+Script started on 2025-03-12 13:58:34+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="92" LINES="8"]
+ITINF24/lektion11
+$  /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46833 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lion_alfa2.py 
+ITINF24/lektion11
+$  /usr/bin/env /bin/python3 /shared/kent/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 46833 -- /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lion_alfa2.py 
+
+ITINF24/lektion11
+$ python3 li
+on_a
+lfa2.py ITINF24/lektion11
+$ python3 lion_alfa2.py 
+banan
+
+äpple
+
+hund
+
+katt
+
+citron
+
+ITINF24/lektion11
+$ python3 lion_alfa2.py ITINF24/lektion11
+$ python3 lion_alfa2.py 
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ python3 lion_alfa2.py ITINF24/lektion11
+$ python3 lion_alfa2.py-n
+Unknown option: -n
+usage: python3 [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+ITINF24/lektion11
+$ python3 -n lion_alfa2.py
+
+
+
+
+
+
+
+-n fgrukt.txt ITINF24/lektion11
+$ python3 lion_alfa2.py -n frukt.txt 
+banan
+äpple
+hund
+katt
+citron
+ITINF24/lektion11
+$ python3 lion_alfa2.py -n frukt.txt ITINF24/lektion11
+$ python3 lion_alfa2.py -n frukt.txt 
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ python3 lion_alfa2.py -n frukt.txt-f
+frukt.txt:
+
+"1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ python3 lion_alfa2.py -n -f frukt.txt 
+frukt.txt:
+
+"1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ python3 lion_alfa2.py -n -f frukt.txt ITINF24/lektion11
+$ python3 lion_alfa2.py -n -f frukt.txt 
+frukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ python3 lion_alfa2.py -n -f frukt.txthITINF24/lektion11
+$ python3 lion_alfa2.py -h
+python3: can't open file '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lion_alfa2.py': [Errno 2] No such file or directory
+ITINF24/lektion11
+$ python3 lion_alfa2.py -./
+
+cat_argparse.py     cat_plain3.py       lion_alfa1.py       __pycache__/
+cat_dagsmal.txt     cat_plain4.py       lion_alfa3.py       recordings/
+cat_plain1.py       enumerate.py        lionlogic_alfa2.py  --show-filename
+cat_plain2.py       frukt.txt           parse_plain1.py     
+ITINF24/lektion11
+$ python3 ./li
+on_a
+lfa3.py ITINF24/lektion11
+$ python3 ./lion_alfa3.py -h
+usage: Lion [-h] [-f] [-n] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filename to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+ITINF24/lektion11
+$ python3 ./lion_alfa3.py -hITINF24/lektion11
+$ python3 ./lion_alfa3.py -h
+usage: Lion [-h] [-f] [-n] filename [filename ...]
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filenames to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+ITINF24/lektion11
+$ python3 ./lion_alfa3.py -hITINF24/lektion11
+$ python3 ./lion_alfa3.py --hITINF24/lektion11
+$ python3 ./lion_alfa3.py -h
+usage: Lion [-h] [-f] [-n] filename [filename ...]
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename             The filenames to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+ITINF24/lektion11
+$ ITINF24/lektion11
+$ ls
+cat_argparse.py  cat_plain2.py	enumerate.py   lion_alfa3.py	   __pycache__
+cat_dagsmal.txt  cat_plain3.py	frukt.txt      lionlogic_alfa2.py  recordings
+cat_plain1.py	 cat_plain4.py	lion_alfa1.py  parse_plain1.py	   --show-filename
+ITINF24/lektion11
+$ ./li
+onITINF24/lektion11
+$ ./lion.py frukt.txt 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion.py", line 30, in <module>
+    for filename in values.filenames:
+                    ^^^^^^^^^^^^^^^^
+AttributeError: 'Namespace' object has no attribute 'filenames'. Did you mean: 'filename'?
+ITINF24/lektion11
+$ ./lion.py frukt.txt ITINF24/lektion11
+$ ./lion.py frukt.txt-jh
+usage: Lion [-h] [-f] [-n] file [file ...]
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  file                 The filenames to show
+
+options:
+  -h, --help           show this help message and exit
+  -f, --show-filename  Prints the filename before its contents.
+  -n, --number         Add a line number to the beginning of each line.
+
+End of description
+ITINF24/lektion11
+$ ./lion

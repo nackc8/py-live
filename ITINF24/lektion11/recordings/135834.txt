@@ -166,4 +166,62 @@ options:
 
 End of description
 [?2004h[94mITINF24/lektion11
-(B[m$ ./lion
+(B[m$ ./lion.py -h[K[K[H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py bur[K[K[Kfrukt.txt 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt burk.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt burk.txt
+[?2004lerror: File does not exist: burk.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt burk.txt[K[K[K[K[K[K[K[K[C[C[C[C[C[C[C[C[C[C-- --show-filename [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt -- --show-filename 
+[?2004lbanan
+äpple
+hund
+katt
+citron
+banan
+äpple
+hund
+katt
+citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion.py frukt.txt -- --show-filename [C[1@ [1@-[1@n[H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py -n frukt.txt -- --show-filename [C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion.py -n frukt.txt -- --show-filename [C[1@ [1@-[1@-[1@s[1@h[1@o[1@w[1@-[1@f[1@i[1@l[1@e[1@n[1@a[1@m[1@e[H[2J[94mITINF24/lektion11
+(B[m$ ./lion.py -n --show-filename frukt.txt -- --show-filename [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lfrukt.txt:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+--show-filename:
+
+1 banan
+2 äpple
+3 hund
+4 katt
+5 citron
+[?2004h[94mITINF24/lektion11
+(B[m$ [?2004l
+exit
+
+Script done on 2025-03-12 14:10:22+01:00 [COMMAND_EXIT_CODE="0"]
