@@ -21,7 +21,8 @@ for arg in args:
     else:
         break
 
-print("used_args_count", used_args_count)
+# Ta bort flaggorna från loopen ovan, och behåll endast
+# filnamnen.
 filenames = args[used_args_count:]
 
 with open(filename) as fp:
