@@ -1,0 +1,100 @@
+Script started on 2025-03-12 13:20:31+01:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="87" LINES="6"]
+[?2004h[94mITINF24/lektion11
+(B[m$ /bin/python3
+[?2004lPython 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("")
+
+>>> 
+[?2004h[94mITINF24/lektion11
+(B[m$ /bin/python3[C[C./cat_argparse.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./cat_argparse.py -h[C[C[8P/bin/python3[C[C[K./lion_alfa2.py burk,t[K[K.txt
+[?2004lerror: File does not exist: burk.txt
+burk.txt
+hej
+jopp
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt
+[?2004lerror: File does not exist: burk.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ echo $?[H[2J[94mITINF24/lektion11
+(B[m$ echo $?
+[?2004l1
+[?2004h[94mITINF24/lektion11
+(B[m$ echo $?[C[C./lion_alfa2.py burk.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt
+[?2004lerror: File does not exist: burk.txt
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py burk.txt[K[K[K[K[K[K[K[K00[K[K//[K[K+h[K[K-h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py -h
+[?2004lusage: Lion [-h] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename    The filename to show
+
+options:
+  -h, --help  show this help message and exit
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./lion_alfa2.py -h
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa2.py", line 6, in <module>
+    import lionlogic_alfa2 as logic
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/lionlogic_alfa2.py", line 5, in <module>
+    for filename in filenames:
+                    ^^^^^^^^^
+NameError: name 'filenames' is not defined
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py -h[H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py -h
+[?2004lusage: Lion [-h] [-f SHOW_FILENAME] [-n NUMBER] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename              The filename to show
+
+options:
+  -h, --help            show this help message and exit
+  -f SHOW_FILENAME, --show-filename SHOW_FILENAME
+  -n NUMBER, --number NUMBER
+
+End of description
+[?2004h[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py -h[Kf frukt.txt 
+[?2004lusage: Lion [-h] [-f SHOW_FILENAME] [-n NUMBER] filename
+Lion: error: the following arguments are required: filename
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py -f frukt.txt [K[K[K[K[K[K[K[K[K[K[K[Kh
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion11/./lion_alfa2.py", line 15, in <module>
+    parser.add_argument("-f", "--show-filename", nargs=0)
+  File "/usr/lib/python3.11/argparse.py", line 1455, in add_argument
+    action = action_class(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/argparse.py", line 943, in __init__
+    raise ValueError('nargs for store actions must be != 0; if you '
+ValueError: nargs for store actions must be != 0; if you have nothing to store, actions such as store true or store const may be more appropriate
+[?2004h[94mITINF24/lektion11
+(B[m$ [H[2J[94mITINF24/lektion11
+(B[m$ ./lion_alfa2.py -h
+[?2004lusage: Lion [-h] [-f] [-n NUMBER] filename
+
+Like Cat, but slower and with more functionality
+
+positional arguments:
+  filename              The filename to show
+
+options:
+  -h, --help            show this help message and exit
+  -f, --show-filename
+  -n NUMBER, --number NUMBER
+
+End of descripti
