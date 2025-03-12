@@ -12,6 +12,11 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument("filename", help="The filename to show")
+parser.add_argument("-f")
+
+#  if arg == "-f" or arg == "--show-filename":
+#     elif arg == "-n" or arg == "--number":
+
 values = parser.parse_args(sys.argv[1:])
 
 filepath = Path(values.filename)
