@@ -10,4 +10,4 @@ filename = sys.argv[1]
 with open(filename) as fp:
     content = fp.readlines()
 
-print(filename)
+print(content)
