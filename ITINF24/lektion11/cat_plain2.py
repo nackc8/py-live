@@ -19,7 +19,9 @@ else:
 with open(filename) as fp:
     content = fp.readlines()
 
-
+# 
+if show_filename:
+    print()
 
 for line in content:
     print(line, end="")
