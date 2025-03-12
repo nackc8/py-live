@@ -5,6 +5,9 @@ from pathlib import Path
 
 import lionlogic_alfa2 as logic
 
+# Fake för test
+sys.argv = ["./lion_alfa2.py", "frukt.txt"]
+
 parser = argparse.ArgumentParser(
     prog="Lion",
     description="Like Cat, but slower and with more functionality",
@@ -33,7 +36,7 @@ if not filepath.exists():
     print(f"error: File does not exist: {filepath}", file=sys.stderr)
     sys.exit(1)
 
-output_list = logic.process([filepath], values.sh )
+output_list = logic.process([filepath], values.sh)
 
 for line in output_list:
     print(line)
