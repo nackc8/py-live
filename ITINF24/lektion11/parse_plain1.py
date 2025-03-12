@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 import sys
 
-print(sys.argv)
+print(dir(sys))
+# print(sys.argv)
