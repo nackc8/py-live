@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
-import sys
+import argparse
 
+parser = argparse.ArgumentParser(
+    prog="Lion",
+    description="Like Cat, but slower but with more functionality",
+    epilog="End of description",
+)
 
 
 # for filename in filenames:
