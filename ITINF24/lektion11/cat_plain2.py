@@ -7,6 +7,9 @@ if len(sys.argv) > 1:
 
 filename = sys.argv[1]
 
+for arg in sys.argv:
+    print("arg", arg)
+
 with open(filename) as fp:
     content = fp.readlines()
 
