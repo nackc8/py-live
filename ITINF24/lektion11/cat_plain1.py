@@ -11,4 +11,4 @@ with open(filename) as fp:
     content = fp.readlines()
 
 for line in content:
-    print(line)
+    print(line, end="")
