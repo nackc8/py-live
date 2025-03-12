@@ -38,6 +38,8 @@ for filename in filenames:
         print(filename, ":", sep="", end="\n\n")
 
     for lineno_line_tuple in enumerate(contentlines, 1):
+        lineno = lineno_line_tuple[0]
+        line = lineno_line_tuple[1]
         if show_linenumbers:
-            lineno = 
+            lineno =
         print(lineno_line_tuple, end="")
