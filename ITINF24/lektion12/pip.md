@@ -26,5 +26,8 @@ Windows
 
 https://docs.python.org/3.11/library/venv.html#how-venvs-work
 
+Lista paket just nu:
+
+
 
 [1]: https://docs.python.org/3.11/library/venv.html
