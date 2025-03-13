@@ -13,6 +13,7 @@ def greet(name=None):
     else:
         return f"Hello {name}!"
 
+greet
 
 if __name__ == "__main__":
     import doctest
