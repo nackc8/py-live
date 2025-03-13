@@ -2,6 +2,7 @@ from cat_math import human_to_cat_years as htc
 
 
 def prod(a, b):
+    assert isinstance(a, int)
     return a * b
 
 
