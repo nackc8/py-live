@@ -61,6 +61,6 @@ pytest==8.3.5
 
 Spara i en fil, konventionen requirements.txt
 
-
+pip freeze >requirements.txt
 
 [1]: https://docs.python.org/3.11/library/venv.html
