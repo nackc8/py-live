@@ -41,4 +41,18 @@ Collecting pytest
   Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
 Collecting iniconfig
 
+$ pip list
+Package    Version
+---------- -------
+iniconfig  2.0.0
+packaging  24.2
+pip        23.0.1
+pluggy     1.5.0
+pytest     8.3.5
+setuptools 66.1.1
+
+Frys miljön för att kunna använda den senare:
+
+
+
 [1]: https://docs.python.org/3.11/library/venv.html
