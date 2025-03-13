@@ -10,3 +10,4 @@ def greet(name=None):
         return f"Hello {name}!"
 
 
+print(greet.__doc__)
