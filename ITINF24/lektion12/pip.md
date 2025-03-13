@@ -28,6 +28,17 @@ https://docs.python.org/3.11/library/venv.html#how-venvs-work
 
 Lista paket just nu:
 
+$ pip list
+Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
 
+Installera pytest
+
+$ pip install pytest
+Collecting pytest
+  Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
+Collecting iniconfig
 
 [1]: https://docs.python.org/3.11/library/venv.html
