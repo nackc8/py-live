@@ -22,4 +22,54 @@ ModuleNotFoundError: No module named 'modden'
 [?2004h[94mITINF24 (B[m$ (reverse-i-search)`': [30@e': python3 l[7me[27mktion12/syspath.pyc': [7mec[27mho 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@h': [7mech[27m[1@o': [7mecho[27m[16P[94mITINF24 (B[m$ echo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  ^C[?2004l[?2004h[?2004l
 [?2004h[94mITINF24 (B[m$ python3 lektion12/syspath.py [C[C[C[C[C[C[C[C[C[Cecho 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py[C[C[C[C[C[C[C[C[C[C[30Ppython3 lektion12/syspath.py [H[2J[94mITINF24 (B[m$ python3 lektion12/syspath.py 
 [?2004lHELLO FROM MINMODD
-['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/tmp/minmodd']
+[?2004h[94mITINF24 (B[m$ [H[2J[94mITINF24 (B[m$ echo ¤[K$PATH lektion[K[K[K[K[K[K[K[K[K[K[KYDEVD_DISABLE_FILE_VALIDATION lektion[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KTHONPATH
+[?2004l
+[?2004h[94mITINF24 (B[m$ PY[K[Kecho $PYTHONPATH[C[C[C[C[C[C[C[C[C[Cpython3 lektion12/syspath.py [1@P[1@Y[1@T[1@H[1@O[1@N[1@P[1@A[1@T[1@H[1@ [1@=[1@/[1@t[1@m[1@p[1@/[1@m[1@,[1@i[1P[1P[1@i[1@n[1@m[1@o[1@d[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J[94mITINF24 (B[m$ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath.py 
+[?2004lpython3: can't open file '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py': [Errno 2] No such file or directory
+[?2004h[94mITINF24 (B[m$ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath.py [1@2[H[2J[94mITINF24 (B[m$ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath2.py [C[C[C[C[K
+[?2004lHELLO FROM MINMODD
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/tmp/minmodd', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [H[2J[94mITINF24 (B[m$ python3
+[?2004lPython 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hej")
+hej
+>>> [H[2J>>> import sys
+>>> 
+>>> print(sys.
+sys.abiflags                               sys.hash_info
+sys.addaudithook(                          sys.hexversion
+sys.api_version                            sys.implementation
+sys.argv                                   sys.int_info
+sys.audit(                                 sys.intern(
+sys.base_exec_prefix                       sys.is_finalizing()
+sys.base_prefix                            sys.maxsize
+sys.breakpointhook(                        sys.maxunicode
+sys.builtin_module_names                   sys.meta_path
+sys.byteorder                              sys.modules
+sys.call_tracing(                          sys.orig_argv
+--More--[Ksys.copyright                              sys.path
+sys.displayhook(                           sys.path_hooks
+sys.dont_write_bytecode                    sys.path_importer_cache
+sys.exc_info()                             sys.platform
+sys.excepthook(                            sys.platlibdir
+sys.exception()                            sys.prefix
+sys.exec_prefix                            sys.ps1
+sys.executable                             sys.ps2
+sys.exit(                                  sys.pycache_prefix
+sys.flags                                  sys.set_asyncgen_hooks(
+sys.float_info                             sys.set_coroutine_origin_tracking_depth(
+--More--[Ksys.float_repr_style                       sys.set_int_max_str_digits(
+sys.get_asyncgen_hooks()                   sys.setdlopenflags(
+sys.get_coroutine_origin_tracking_depth()  sys.setprofile(
+sys.get_int_max_str_digits()               sys.setrecursionlimit(
+sys.getallocatedblocks()                   sys.setswitchinterval(
+sys.getdefaultencoding()                   sys.settrace(
+sys.getdlopenflags()                       sys.stderr
+sys.getfilesystemencodeerrors()            sys.stdin
+sys.getfilesystemencoding()                sys.stdlib_module_names
+sys.getprofile()                           sys.stdout
+sys.getrecursionlimit()                    sys.thread_info
+--More--[Ksys.getrefcount(                           sys.unraisablehook(
+sys.getsizeof
