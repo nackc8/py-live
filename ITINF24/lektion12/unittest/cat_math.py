@@ -1,1 +1,2 @@
-def human_to_cat_years
+def human_to_cat_years(human_years):
+    pass
