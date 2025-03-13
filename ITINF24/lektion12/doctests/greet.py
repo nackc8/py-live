@@ -8,12 +8,14 @@ def greet(name=None):
     >>> greet("Urban")
     'Hello Urban!'
 
-    >>> greet("")
+    >>> greet()
+    'Hello stranger things!'
     """
     if name is None:
         return "Hello stranger!"
     else:
         return f"Hello {name}!"
+
 
 greet
 
