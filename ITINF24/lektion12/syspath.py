@@ -1,7 +1,11 @@
 import sys
 
+sys.path.append("/tmp/minmodd")
+
 import modden
 
-# sys.path.append("/etc")
+# extern fil enligt:
+# echo 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py
+
 
 print(sys.path)

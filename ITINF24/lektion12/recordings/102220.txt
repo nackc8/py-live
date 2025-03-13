@@ -1,0 +1,25 @@
+Script started on 2025-03-13 10:22:20+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="5"]
+[?2004h[94mITINF24/lektion12
+(B[m$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ky
+[?2004l['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion12
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ pytoh=[K[K[Khon 3[K[K3 syspath.py 
+[?2004l['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24/lektion12
+(B[m$ cd ..
+[?2004l[?2004h[94mITINF24 (B[m$ cd ..python3 syspath.py [H[2J[94mITINF24 (B[m$ python3 syspath.py [K[K[K[K[K[K[K[K[K[K[Klektion12/sts[K[Kyspath.py 
+[?2004l['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+[?2004h[94mITINF24 (B[m$ python3 lektion12/syspath.py [H[2J[94mITINF24 (B[m$ python3 lektion12/syspath.py 
+[?2004l['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/etc']
+[?2004h[94mITINF24 (B[m$ mki[Kdir /tmp/minmodd
+[?2004l[?2004h[94mITINF24 (B[m$ echo ''p'r'i'n't'('"'H'E'L'L'O' 'F'R'O'M' 'M'I'N'M'<'O'D'D'[1P'[1P'[1P'[1P'O'D'D'"')'[C > /tmp/minmodd/midden[K[K[K[K[Kodden.py
+[?2004l[?2004h[94mITINF24 (B[m$ echo 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py[C[C[C[C[C[C[C[C[C[Cmkdir /tmp/minmodd[K[C[C[C[C[C[C[C[C[C[Cpython3 lektion12/syspath.py [H[2J[94mITINF24 (B[m$ python3 lektion12/syspath.py 
+[?2004lTraceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py", line 3, in <module>
+    import modden
+ModuleNotFoundError: No module named 'modden'
+[?2004h[94mITINF24 (B[m$ (reverse-i-search)`': [30@e': python3 l[7me[27mktion12/syspath.pyc': [7mec[27mho 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@h': [7mech[27m[1@o': [7mecho[27m[16P[94mITINF24 (B[m$ echo[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  ^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24 (B[m$ python3 lektion12/syspath.py [C[C[C[C[C[C[C[C[C[Cecho 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py[C[C[C[C[C[C[C[C[C[C[30Ppython3 lektion12/syspath.py [H[2J[94mITINF24 (B[m$ python3 lektion12/syspath.py 
+[?2004lHELLO FROM MINMODD
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/
