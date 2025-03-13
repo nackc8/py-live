@@ -1,6 +1,6 @@
 import sys
 
-import minmodd
+import modden
 
 # sys.path.append("/etc")
 
