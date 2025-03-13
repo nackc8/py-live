@@ -63,4 +63,7 @@ Spara i en fil, konventionen requirements.txt
 
 pip freeze >requirements.txt
 
+Checka in med git!
+
+
 [1]: https://docs.python.org/3.11/library/venv.html
