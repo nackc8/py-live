@@ -13,6 +13,9 @@ class TestStringMethods(unittest.TestCase):
     def test_three(self):
         self.assertEqual(htc(3), 28)
 
+    def test_four(self):
+        self.assertEqual(htc(4), 32)
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
