@@ -1,3 +1,4 @@
+import pytest
 from cat_math import human_to_cat_years as htc
 
 
@@ -22,4 +23,4 @@ def test_eighteen():
 
 
 if __name__ == "__main__":
-    unittest.main(verbosity=2)
+    pytest.main()
