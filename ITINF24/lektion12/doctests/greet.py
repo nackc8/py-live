@@ -8,6 +8,3 @@ def greet(name=None):
         return "Hello stranger!"
     else:
         return f"Hello {name}!"
-
-
-print(greet.__doc__)
