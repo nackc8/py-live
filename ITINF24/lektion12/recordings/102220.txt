@@ -72,4 +72,95 @@ sys.getfilesystemencoding()                sys.stdlib_module_names
 sys.getprofile()                           sys.stdout
 sys.getrecursionlimit()                    sys.thread_info
 --More--[Ksys.getrefcount(                           sys.unraisablehook(
-sys.getsizeof
+sys.getsizeof(                             sys.version
+sys.getswitchinterval()                    sys.version_info
+sys.gettrace()                             sys.warnoptions
+>>> print(sys.platform([K)[H[2J>>> print(sys.platform)
+linux
+>>> 
+[?2004h[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [K[94mITINF24 (B[m$ [H[2J[94mITINF24 (B[m$ ls
+[?2004llektion1   lektion11  lektion2	lektion5  lektion7
+lektion10  lektion12  lektion4	lektion6  lektion9
+[?2004h[94mITINF24 (B[m$ cd lektion12/
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004ldoctests  ex_import_vs_script  recordings  syspath
+[?2004h[94mITINF24/lektion12
+(B[m$ cdd[K doctests/
+[?2004l[?2004h[94mITINF24/lektion12/doctests
+(B[m$ [H[2J[94mITINF24/lektion12/doctests
+(B[m$ ls
+[?2004lgreet.py
+[?2004h[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py [H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py 
+[?2004l**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet.py", line 8, in __main__.greet
+Failed example:
+    greet("Urban")
+Expected:
+    Hello Urban!
+Got:
+    'Hello Urban!'
+**********************************************************************
+1 items had failures:
+   1 of   1 in __main__.greet
+***Test Failed*** 1 failures.
+[?2004h[94mITINF24/lektion12/doctests
+(B[m$ [K(B[m$ python3 greet.py [H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py 
+[?2004l[?2004h[94mITINF24/lektion12/doctests
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py 
+[?2004l**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet.py", line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    'Hello stranger things!'
+Got:
+    'Hello stranger!'
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+***Test Failed*** 1 failures.
+[?2004h[94mITINF24/lektion12/doctests
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 greet.py [H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py 
+[?2004l[?2004h[94mITINF24/lektion12/doctests
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 greet.py [H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py 
+[?2004l[?2004h[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py 
+[?2004l[?2004h[94mITINF24/lektion12/doctests
+(B[m$ python3 greet.py [C[C[Kpython3 greet.py [1@2[H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet2.py [H[2J[94mITINF24/lektion12/doctests
+(B[m$ python3 greet2.py 
+[?2004lTrying:
+    greet("Urban")
+Expecting:
+    'Hello Urban!'
+ok
+Trying:
+    greet()
+Expecting:
+    'Hello stranger!!'
+**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet2.py", line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    'Hello stranger!!'
+Got:
+    'Hello stranger!'
+1 items had no tests:
+    __main__
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+2 tests in 2 items.
+1 passed and 1 failed.
+***Test Failed*** 1 failures.
+[?2004h[94mITINF24/lektion12/doctests
+(B[m$ pyt

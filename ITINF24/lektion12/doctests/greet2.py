@@ -17,16 +17,6 @@ def greet(name=None):
         return f"Hello {name}!"
 
 
-def upperize(msg):
-    """
-    For people who don't like to use .upper()
-
-    >>> upperize("hello")
-    'HELLO'
-    """
-    return msg.upper()
-
-
 if __name__ == "__main__":
     import doctest
 
