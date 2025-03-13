@@ -8,5 +8,5 @@ Steg:
 
 Producerar:
 
-1. Skapar en testsvit!
-2. 
+1. Kod
+2. Skapar en testsvit!
