@@ -65,5 +65,9 @@ pip freeze >requirements.txt
 
 Checka in med git!
 
+Installera requirements.txt:
+
+
+
 
 [1]: https://docs.python.org/3.11/library/venv.html
