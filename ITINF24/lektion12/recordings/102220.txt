@@ -287,4 +287,100 @@ years.7'
 [?2004h[94mITINF24/lektion12
 (B[m$ fold cat_years.py -w 25 -s[1P -s[1P -s3 -s0 -s
 [?2004lThe first year of your cat's 
-l
+life is considered the 
+equivalent of 15 human years. 
+The second year adds nine 
+more human years, so 2 cat 
+years are approximately 24 
+human years. After this, each 
+additional human year is four 
+“cat years” i.e., age 3 
+will be 28 human years.7'
+[?2004h[94mITINF24/lektion12
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 [H[2J[94mITINF24/lektion12
+(B[m$ python3 [K[K[K[K[K[K[K[Kcd unittest/
+[?2004l[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004l.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_upper (__main__.TestStringMethods.test_upper) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... FAIL
+
+======================================================================
+FAIL: test_one (__main__.TestStringMethods.test_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 8, in test_one
+    self.assertEqual(htc(1), 15)
+AssertionError: None != 15
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... ok
+test_two (__main__.TestStringMethods.test_two) ... FAIL
+
+======================================================================
+FAIL: test_two (__main__.TestStringMethods.test_two)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 11, in test_two
+    self.assertEqual(htc(2), 24)
+AssertionError: 15 != 24
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... FAIL
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+======================================================================
+FAIL: test_three (__main__.TestStringMethods.test_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 14, in test_three
+    self.assertEqual(htc(3), 28)
+AssertionError: 24 
