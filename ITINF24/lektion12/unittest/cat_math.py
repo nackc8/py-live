@@ -3,7 +3,7 @@ def human_to_cat_years(human_years):
         return 15
     elif human_years == 2:
         return 24
-    elif human_years == 4:
-        return 32
-    else:
+    elif human_years == 3:
         return 28
+    else:
+        return 32

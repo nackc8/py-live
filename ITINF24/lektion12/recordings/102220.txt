@@ -383,4 +383,87 @@ FAIL: test_three (__main__.TestStringMethods.test_three)
 Traceback (most recent call last):
   File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 14, in test_three
     self.assertEqual(htc(3), 28)
-AssertionError: 24 
+AssertionError: 24 != 28
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ ls
+[?2004lcat_math.py  cat_math_test.py  cat_years_definition.txt  __pycache__
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ cp cat_math.py cat_math_test.py [1P[1P[1@f[1@p[1@r[C[1P[1P[1@o[1@r[C[1@ [1@x[C[1@ [1@i[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K; cp $x $[K1_$x; done[1@d[1@o[1@ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ for x in cat_math.py cat_math_test.py; do cp $x 1_$x; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ ls
+[?2004l1_cat_math.py	    cat_math.py       cat_years_definition.txt
+1_cat_math_test.py  cat_math_test.py  __pycache__
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ lsfor x in cat_math.py cat_math_test.py; do cp $x 1_$x; done[C[Cls[Kpython3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_four (__main__.TestStringMethods.test_four) ... FAIL
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+======================================================================
+FAIL: test_four (__main__.TestStringMethods.test_four)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 17, in test_four
+    self.assertEqual(htc(4), 32)
+AssertionError: 28 != 32
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+--
