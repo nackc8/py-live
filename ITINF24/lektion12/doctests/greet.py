@@ -6,7 +6,7 @@ def greet(name=None):
     """Greets a fellow or named person
 
     >>> greet("Urban")
-    Hello Urban!
+    'Hello Urban!'
     """
     if name is None:
         return "Hello stranger!"
