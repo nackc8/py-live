@@ -9,7 +9,7 @@ def greet(name=None):
     'Hello Urban!'
 
     >>> greet()
-    'Hello stranger!'
+    'Hello stranger!!'
     """
     if name is None:
         return "Hello stranger!"
@@ -17,9 +17,7 @@ def greet(name=None):
         return f"Hello {name}!"
 
 
-greet
-
 if __name__ == "__main__":
     import doctest
 
-    doctest.testmod()
+    doctest.testmod(verbose=True)
