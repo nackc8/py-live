@@ -18,7 +18,7 @@ def studder(msg):
     return output
 
 
-print("My name is:", __name__)
+print("(remove this line in prod) My name is:", __name__)
 
 # Vid import: __name__ == "studder"
 if __name__ == "__main__":
