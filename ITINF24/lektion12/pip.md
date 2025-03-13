@@ -15,8 +15,13 @@ python -m venv .venv
 
 Aktivera miljön för att installera paket i den:
 
+Linux
 ```bash
 source .venv/bin/activate
+```
+Windows
+```powershell
+.venv>\Scripts\Activate.ps1
 ```
 
 https://docs.python.org/3.11/library/venv.html#how-venvs-work
