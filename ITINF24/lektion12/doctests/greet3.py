@@ -2,6 +2,15 @@
 #
 # doctest — Test interactive Python examples
 #
+"""
+Fantastic module that greets people, or GREATS people.
+
+You can even uppercase greetings!
+>>> upperize(greet())
+'HELLO STRANGER!'
+"""
+
+
 def greet(name=None):
     """Greets a fellow or named person
 
@@ -9,7 +18,7 @@ def greet(name=None):
     'Hello Urban!'
 
     >>> greet()
-    'Hello stranger!!'
+    'Hello stranger!'
     """
     if name is None:
         return "Hello stranger!"
