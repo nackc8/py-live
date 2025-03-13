@@ -13,5 +13,10 @@ Skapa en ny miljö i katalogen .venv:
 python -m venv .venv
 ```
 
+Aktivera miljön för att installera paket i den:
+
+```bash
+
+```
 
 [1]: https://docs.python.org/3.11/library/venv.html
