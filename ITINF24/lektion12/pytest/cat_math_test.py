@@ -23,4 +23,4 @@ def test_eighteen():
 
 
 if __name__ == "__main__":
-    pytest.main()
+    pytest.main(["-v"])
