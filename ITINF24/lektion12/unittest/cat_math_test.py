@@ -1,6 +1,6 @@
 import unittest
 
-import cat_math
+from cat_math import human_to_cat_years as htc
 
 
 class TestStringMethods(unittest.TestCase):
