@@ -53,6 +53,14 @@ setuptools 66.1.1
 
 Frys miljön för att kunna använda den senare:
 
+$ pip freeze
+iniconfig==2.0.0
+packaging==24.2
+pluggy==1.5.0
+pytest==8.3.5
+
+Spara i en fil, konventionen requirements.txt
+
 
 
 [1]: https://docs.python.org/3.11/library/venv.html
