@@ -1,0 +1,69 @@
+Script started on 2025-03-13 09:12:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="92" LINES="8"]
+[?2004h[94mITINF24/lektion12
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004lex1_import_vs_script.py  recordings
+[?2004h[94mITINF24/lektion12
+(B[m$ cd ex1_import_vs_script.py/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K,mv[K[K[Kmvex[K[K ex1_import_vs_script.py/[K[K[K[K{/p[K[K.py}[K,}
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004lex1_import_vs_script  recordings
+[?2004h[94mITINF24/lektion12
+(B[m$ cd ex1_import_vs_script[H[2J[94mITINF24/lektion12
+(B[m$ cd ex1_import_vs_script
+[?2004l[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ls
+[?2004lstudder.py
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ chmod +x studder.py [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ chmod +x studder.py 
+[?2004l[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ ./studder.py [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py 
+[?2004lhja
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py 
+[?2004lhja
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py 
+[?2004lhja
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [7m/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/ex1_import_vs_script.py[27m[7m/[27m[7mstudder.py[27m[A[C[C/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/ex1_import_vs_script.py/studder.py[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ls
+[?2004lstudder.py
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./st[K[K[K[Kcd ..
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004lex1_import_vs_script  recordings
+[?2004h[94mITINF24/lektion12
+(B[m$ cd ex1_import_vs_script/
+[?2004l[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ls
+[?2004lstudder.py
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./sst[Kt[K[Ktud[K[K[K[K[K[Kchmod +x studder.py 
+[?2004l[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py [H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py 
+[?2004lUsage: studder.py MSG
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py hejsan hoppsan[H[2J[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.py hejsan hoppsan
+[?2004lUsage: studder.py MSG
+[?2004h[94mITINF24/lektion12/ex1_import_vs_script
+(B[m$ ./studder.p

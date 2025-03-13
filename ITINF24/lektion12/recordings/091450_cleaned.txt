@@ -1,0 +1,75 @@
+Script started on 2025-03-13 09:14:50+01:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="92" LINES="8"]
+ITINF24/lektion12
+$ git checkout mainITINF24/lektion12
+$ git checkout maistatus
+On branch 250313
+Your branch is up to date with 'origin/250313'.
+
+nothing to commit, working tree clean
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ bin/reset ^C
+ITINF24/lektion12
+$ git push
+Everything up-to-date
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ git pulbranchITINF24/lektion12
+$ git branch
+  250312
+* 250313
+  main
+>ITINF24/lektion12
+$ bin/reset ^C
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ bin/re
+s
+et   ^C
+ITINF24/lektion12
+$ code bin
+/d
+
+
+
+
+
+
+cd ..
+ITINF24 $ cd ..
+$ $ code bin
+
+
+
+
+
+bin
+/educator --edit
+created directory '/tmp/educator-save-1741853968-mJX/.vscode'
+copied '/shared/kent/Documents/nackademin/python/py-live/.vscode/extensions.json' -> '/tmp/educator-save-1741853968-mJX/.vscode/extensions.json'
+copied '/shared/kent/Documents/nackademin/python/py-live/.vscode/tasks.json' -> '/tmp/educator-save-1741853968-mJX/.vscode/tasks.json'
+copied '/shared/kent/Documents/nackademin/python/py-live/.vscode/settings.json' -> '/tmp/educator-save-1741853968-mJX/.vscode/settings.json'
+removed '/shared/kent/Documents/nackademin/python/py-live/.vscode/extensions.json'
+removed '/shared/kent/Documents/nackademin/python/py-live/.vscode/settings.json'
+removed '/shared/kent/Documents/nackademin/python/py-live/.vscode/tasks.json'
+removed directory '/shared/kent/Documents/nackademin/python/py-live/.vscode'
+copied '/shared/kent/Documents/nackademin/python/py-live/.shellcheckrc' -> '/tmp/educator-save-1741853968-mJX/.shellcheckrc'
+removed '/shared/kent/Documents/nackademin/python/py-live/.shellcheckrc'
+copied '/shared/kent/Documents/nackademin/python/py-live/.gitignore' -> '/tmp/educator-save-1741853968-mJX/.gitignore'
+removed '/shared/kent/Documents/nackademin/python/py-live/.gitignore'
+ln (hard) '/shared/kent/Documents/nackademin/python/py-live/.gitignore' => '/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/dot_gitignore'
+ln '/shared/kent/Documents/nackademin/python/py-live/.vscode/extensions.json' -> '../.profiles/educator/dot_vscode/extensions.json'
+ln '/shared/kent/Documents/nackademin/python/py-live/.vscode/tasks.json' -> '../.profiles/educator/dot_vscode/tasks.json'
+ln '/shared/kent/Documents/nackademin/python/py-live/.shellcheckrc' -> '.profiles/educator/dot_shellcheckrc'
+ln '/shared/kent/Documents/nackademin/python/py-live/.vscode/settings.json' -> '../.profiles/educator_edit/dot_vscode/settings.json'
+cp '/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/dot_vscode/tasks.json' -> '/shared/kent/Documents/nackademin/python/py-live/.vscode/tasks.json'
+$ bin/educator --edi
+
+Utbildarläget skriver över filer och inställningar som då går förlorade. Det gör det även svårare 
+att hänga med "live" eftersom det blir möjligt att ändra filer, vilka kan orsaka konflikter när du 
+hämtar uppdateringar. 
+
+Är du säker på att du vill slå på utbildarläget? (j/N)  j
+created directory '/tmp/educator-save-1741854155-5Wk/.vscode'
+copied '/shared/kent/Documents/nackademin/python/py-live/.vscode/extensions.json' -> '/tmp/educator-save-1741854155-5Wk/.vscode/extensions.json'
+copied '/shared/kent/Documents/nackademin/python/py-live/.vscode/settings.json' -> '/tmp/
