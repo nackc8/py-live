@@ -149,4 +149,147 @@ ruamel.yaml.clib   0.2.7
 scour              0.38.2
 selinux            3.4
 setuptools         66.1.1
-sim
+simplejson         3.18.3
+six                1.16.0
+sniffio            1.2.0
+soupsieve          2.3.2
+SQLAlchemy         1.4.46
+subprocess-tee     0.4.1
+tenacity           8.2.1
+tornado            6.2
+tqdm               4.64.1
+Unidecode          1.3.6
+uritemplate        4.1.1
+urllib3            1.26.12
+userpath           1.8.0
+vboxapi            1.0
+wadllib            1.3.6
+watchdog           2.2.1
+wcmatch            8.4
+webcolors          1.11.1
+webencodings       0.5.1
+wheel              0.38.4
+xdg                5
+xlrd               1.2.0
+xmltodict          0.13.0
+yamllint           1.29.0
+[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004ldoctests  ex_import_vs_script  pip.md  recordings  syspath  TDD.md  unittest  virtual_env
+[?2004h[94mITINF24/lektion12
+(B[m$ cd virtual_env/
+[?2004l[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ ls
+[?2004lrequirements.txt
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ ls -a[H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ ls -a
+[?2004l.  ..  requirements.txt
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 -m venv .venv
+[?2004l[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ pip list
+[?2004lPackage            Version
+------------------ ------------
+agate              1.6.3
+agate-dbf          0.2.2
+agate-excel        0.2.5
+agate-sql          0.5.8
+ansible            7.7.0
+ansible-compat     3.0.1
+ansible-core       2.14.18
+ansible-lint       6.13.1
+anyio              3.6.2
+apache-libcloud    3.4.1
+argcomplete        2.0.0
+attrs              22.2.0
+Babel              2.10.3
+beautifulsoup4     4.11.2
+black              23.1.0
+blinker            1.5
+bracex             2.2.1
+Brlapi             0.8.4
+certifi            2022.9.24
+chardet            5.1.0
+charset-normalizer 3.0.1
+click              8.1.3
+colorama           0.4.6
+cryptography       38.0.4
+cssselect          1.2.0
+csvkit             1.0.7
+cupshelpers        1.0
+dbfread            2.0.7
+dbus-python        1.3.2
+deprecation        2.0.7
+distro             1.8.0
+distro-info        1.5+deb12u1
+dnspython          2.3.0
+enrich             1.2.7
+et-xmlfile         1.0.1
+filelock           3.9.0
+ghp-import         2.1.0
+gpg                1.18.0
+greenlet           2.0.2
+h11                0.14.0
+h2                 4.1.0
+hpack              4.0.0
+html5lib           1.1
+httpcore           0.16.3
+httplib2           0.20.4
+httpx              0.23.3
+hyperframe         6.0.0
+idna               3.3
+img2pdf            0.4.4
+iniconfig          1.1.1
+iotop              0.6
+isodate            0.6.1
+jdcal              1.0
+Jinja2             3.1.2
+jmespath           1.0.1
+joblib             1.2.0
+jsonpointer        2.3
+jsonschema         4.10.3
+lazr.restfulclient 0.14.5
+lazr.uri           1.0.6
+leather            0.3.4
+libevdev           0.5
+libvirt-python     9.0.0
+livereload         2.6.3
+lockfile           0.12.2
+louis              3.24.0
+lunr               0.6.2
+lxml               4.9.2
+Mako               1.2.4.dev0
+Markdown           3.4.1
+markdown-it-py     2.1.0
+MarkupSafe         2.1.2
+mdurl              0.1.2
+mergedeep          1.3.4
+mkdocs             1.4.2
+more-itertools     8.10.0
+mypy-extensions    0.4.3
+netaddr            0.8.0
+nltk               3.8
+ntlm-auth          1.4.0
+numpy              1.24.2
+oauthlib           3.2.2
+olefile            0.46
+openpyxl           3.0.9
+packaging          23.0
+parsedatetime      2.6
+passlib            1.7.4
+pathspec           0.11.0
+pbr                5.10.0
+pikepdf            6.0.0+dfsg
+Pillow             9.4.0
+pip                23.0.1
+pipx               1.1.0
+platformdirs       2.6.0
+pluggy             1.0.0+repack
+psutil             5.9.4
+py                 1.11.0
+pycairo            1.20.1
+pycups             2.0.1
+pycurl     
