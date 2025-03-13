@@ -7,5 +7,4 @@ years are approximately 24
 human years. After this, each
 additional human year is four
 “cat years” i.e., age 3
-will be 28 human years.7''
-'
+will be 28 human years.
