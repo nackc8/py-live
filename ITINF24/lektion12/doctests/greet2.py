@@ -20,4 +20,5 @@ def greet(name=None):
 if __name__ == "__main__":
     import doctest
 
+    # Verbose skriver ut de som går bra också
     doctest.testmod(verbose=True)
