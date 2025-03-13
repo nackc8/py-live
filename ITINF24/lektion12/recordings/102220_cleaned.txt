@@ -1,0 +1,974 @@
+Script started on 2025-03-13 10:22:20+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="5"]
+ITINF24/lektion12
+y /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py 
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ pytohhon 3 syspath.py 
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+ITINF24/lektion12
+$ cd ..
+ITINF24 $ cd .python3 syspath.py ITINF24 $ python3 syspath.pylek
+tion12/sts
+yspath.py 
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+ITINF24 $ python3 lektion12/syspath.py ITINF24 $ python3 lektion12/syspath.py 
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/etc']
+ITINF24 $ mkdir /tmp/minmodd
+ITINF24 $ echo 'print("HELLO FROM MINM<ODDODD") > /tmp/minmodd/middeodden.py
+python3 lektion12/syspath.py ITINF24 $ python3 lektion12/syspath.py y
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py", line 3, in <module>
+    import modden
+ModuleNotFoundError: No module named 'modden'
+ITINF24 $ echhoch)`':e': python3 lektion12/syspath.pc': echo 'print("HELLO FROM MINMODD")' > /tmp/minmodd/modden.py
+
+
+
+
+
+  ^C
+python3 lektion12/syspath.py ITINF24 $ python3 lektion12/syspath.py 
+HELLO FROM MINMODD
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/tmp/minmodd']
+ITINF24 $ ITINF24 $ echo �$PATH 
+lektioYDEVD_DISABLE_FILE_VALIDATION 
+lektioTHONPATH
+
+python3 lektion12/syspath.pyPYTHONPATH=/tmp/m,inmodd
+
+
+
+
+
+
+
+ITINF24 $ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath.py 
+python3: can't open file '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py': [Errno 2] No such file or directory
+ITINF24 $ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath.py2ITINF24 $ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath2.py
+HELLO FROM MINMODD
+['/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12', '/tmp/minmodd', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+ITINF24 $ ITINF24 $ python3
+Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("hej")
+hej
+>>> >>> import sys
+>>> 
+>>> print(sys.
+
+sys.abiflags                               sys.hash_info
+sys.addaudithook(                          sys.hexversion
+sys.api_version                            sys.implementation
+sys.argv                                   sys.int_info
+sys.audit(                                 sys.intern(
+sys.base_exec_prefix                       sys.is_finalizing()
+sys.base_prefix                            sys.maxsize
+sys.breakpointhook(                        sys.maxunicode
+sys.builtin_module_names                   sys.meta_path
+sys.byteorder                              sys.modules
+sys.call_tracing(                          sys.orig_argv
+sys.copyright                              sys.path
+sys.displayhook(                           sys.path_hooks
+sys.dont_write_bytecode                    sys.path_importer_cache
+sys.exc_info()                             sys.platform
+sys.excepthook(                            sys.platlibdir
+sys.exception()                            sys.prefix
+sys.exec_prefix                            sys.ps1
+sys.executable                             sys.ps2
+sys.exit(                                  sys.pycache_prefix
+sys.flags                                  sys.set_asyncgen_hooks(
+sys.float_info                             sys.set_coroutine_origin_tracking_depth(
+sys.float_repr_style                       sys.set_int_max_str_digits(
+sys.get_asyncgen_hooks()                   sys.setdlopenflags(
+sys.get_coroutine_origin_tracking_depth()  sys.setprofile(
+sys.get_int_max_str_digits()               sys.setrecursionlimit(
+sys.getallocatedblocks()                   sys.setswitchinterval(
+sys.getdefaultencoding()                   sys.settrace(
+sys.getdlopenflags()                       sys.stderr
+sys.getfilesystemencodeerrors()            sys.stdin
+sys.getfilesystemencoding()                sys.stdlib_module_names
+sys.getprofile()                           sys.stdout
+sys.getrecursionlimit()                    sys.thread_info
+sys.getrefcount(                           sys.unraisablehook(
+sys.getsizeof(                             sys.version
+sys.getswitchinterval()                    sys.version_info
+sys.gettrace()                             sys.warnoptions
+>>> print(sys.
+pl
+atform)>>> print(sys.platform)
+linux
+>>> 
+ITINF24 $ ITINF24 $ ls
+lektion1   lektion11  lektion2	lektion5  lektion7
+lektion10  lektion12  lektion4	lektion6  lektion9
+ITINF24 $ cd lek
+tion12/
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ ls
+doctests  ex_import_vs_script  recordings  syspath
+ITINF24/lektion12
+$ cd doctests/
+ITINF24/lektion12/doctests
+$ ITINF24/lektion12/doctests
+$ ls
+greet.py
+ITINF24/lektion12/doctests
+$ python3 greet.py ITINF24/lektion12/doctests
+$ python3 greet.py 
+**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet.py", line 8, in __main__.greet
+Failed example:
+    greet("Urban")
+Expected:
+    Hello Urban!
+Got:
+    'Hello Urban!'
+**********************************************************************
+1 items had failures:
+   1 of   1 in __main__.greet
+***Test Failed*** 1 failures.
+ITINF24/lektion12/doctests
+$ python3 greet.py ITINF24/lektion12/doctests
+$ python3 greet.py 
+ITINF24/lektion12/doctests
+$ ITINF24/lektion12/doctests
+$ python3 greet.py 
+**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet.py", line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    'Hello stranger things!'
+Got:
+    'Hello stranger!'
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+***Test Failed*** 1 failures.
+ITINF24/lektion12/doctests
+$ python3 greet.py ITINF24/lektion12/doctests
+$ python3 greet.py 
+ITINF24/lektion12/doctests
+$ python3 greet.py ITINF24/lektion12/doctests
+$ python3 greet.py 
+ITINF24/lektion12/doctests
+$ python3 greet.py 
+ITINF24/lektion12/doctests
+python3 greet.py2ITINF24/lektion12/doctests
+$ python3 greet2.pyITINF24/lektion12/doctests
+$ python3 greet2.py
+Trying:
+    greet("Urban")
+Expecting:
+    'Hello Urban!'
+ok
+Trying:
+    greet()
+Expecting:
+    'Hello stranger!!'
+**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet2.py", line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    'Hello stranger!!'
+Got:
+    'Hello stranger!'
+1 items had no tests:
+    __main__
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+2 tests in 2 items.
+1 passed and 1 failed.
+***Test Failed*** 1 failures.
+ITINF24/lektion12/doctests
+$ python3 greet2.py ITINF24/lektion12/doctests
+$ python3 greet2.py3
+ITINF24/lektion12/doctests
+$ python3 greet3.pyITINF24/lektion12/doctests
+$ python3 greet3.py
+Trying:
+    greet("Urban")
+Expecting:
+    'Hello Urban!'
+ok
+Trying:
+    greet()
+Expecting:
+    'Hello stranger!!'
+**********************************************************************
+File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet3.py", line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    'Hello stranger!!'
+Got:
+    'Hello stranger!'
+Trying:
+    upperize("hello")
+Expecting:
+    'HELLO'
+ok
+1 items had no tests:
+    __main__
+1 items passed all tests:
+   1 tests in __main__.upperize
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+3 tests in 3 items.
+2 passed and 1 failed.
+***Test Failed*** 1 failures.
+ITINF24/lektion12/doctests
+$ python3 greet3.pyITINF24/lektion12/doctests
+$ python3 greet3.py
+Trying:
+    upperize(greet())
+Expecting:
+    'HELLO STRANGER!'
+ok
+Trying:
+    greet("Urban")
+Expecting:
+    'Hello Urban!'
+ok
+Trying:
+    greet()
+Expecting:
+    'Hello stranger!'
+ok
+Trying:
+    upperize("hello")
+Expecting:
+    'HELLO'
+ok
+3 items passed all tests:
+   1 tests in __main__
+   2 tests in __main__.greet
+   1 tests in __main__.upperize
+4 tests in 3 items.
+4 passed and 0 failed.
+Test passed.
+ITINF24/lektion12/doctests
+$ python3 greet3.py^C
+ITINF24/lektion12/doctests
+$ ITINF24/lektion12/doctests
+$ cd ..
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ ls
+cat_years.py  doctests	ex_import_vs_script  recordings  syspath
+ITINF24/lektion12
+$ fold cat_years.py 
+The first year of your cat's life is considered the equivalent of 15 human years
+. The second year adds nine more human years, so 2 cat years are approximately 2
+4 human years. After this, each additional human year is four “cat years” i.
+e., age 3 will be 28 human years.7'
+ITINF24/lektion12
+$ fold cat_years.py -w 30
+The first year of your cat's l
+ife is considered the equivale
+nt of 15 human years. The seco
+nd year adds nine more human y
+ears, so 2 cat years are appro
+ximately 24 human years. After
+ this, each additional human y
+ear is four “cat years” i.
+e., age 3 will be 28 human yea
+rs.7'
+ITINF24/lektion12
+$ fold cat_years.py -w 30 -s
+The first year of your cat's 
+life is considered the 
+equivalent of 15 human years. 
+The second year adds nine 
+more human years, so 2 cat 
+years are approximately 24 
+human years. After this, each 
+additional human year is four 
+“cat years” i.e., age 3 
+will be 28 human years.7'
+ITINF24/lektion12
+$ fold cat_years.py -w 30 - - -2 -5 -ITINF24/lektion12
+$ fold cat_years.py -w 25 -
+The first year of your 
+cat's life is considered 
+the equivalent of 15 
+human years. The second 
+year adds nine more 
+human years, so 2 cat 
+years are approximately 
+24 human years. After 
+this, each additional 
+human year is four 
+“cat years” i.e., 
+age 3 will be 28 human 
+years.7'
+ITINF24/lektion12
+$ fold cat_years.py -w 25 - - -3 -0 -
+The first year of your cat's 
+life is considered the 
+equivalent of 15 human years. 
+The second year adds nine 
+more human years, so 2 cat 
+years are approximately 24 
+human years. After this, each 
+additional human year is four 
+“cat years” i.e., age 3 
+will be 28 human years.7'
+ITINF24/lektion12
+$ python3 ITINF24/lektion12
+$ python3
+
+
+
+
+
+
+
+
+cd unittest/
+ITINF24/lektion12/unittest
+$ python3 ITINF24/lektion12/unittest
+$ python3 cat_m
+ath_test.py 
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_upper (__main__.TestStringMethods.test_upper) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... FAIL
+
+======================================================================
+FAIL: test_one (__main__.TestStringMethods.test_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 8, in test_one
+    self.assertEqual(htc(1), 15)
+AssertionError: None != 15
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_two (__main__.TestStringMethods.test_two) ... FAIL
+
+======================================================================
+FAIL: test_two (__main__.TestStringMethods.test_two)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 11, in test_two
+    self.assertEqual(htc(2), 24)
+AssertionError: 15 != 24
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... FAIL
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+======================================================================
+FAIL: test_three (__main__.TestStringMethods.test_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 14, in test_three
+    self.assertEqual(htc(3), 28)
+AssertionError: 24 != 28
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+$ ls
+cat_math.py  cat_math_test.py  cat_years_definition.txt  __pycache__
+ITINF24/lektion12/unittest
+$ cp ca
+t_m
+ath.py cat
+_m
+ath_test.pyfprorxin
+
+
+
+
+
+
+
+; cp $x 1_$x; dondo ITINF24/lektion12/unittest
+$ for x in cat_math.py cat_math_test.py; do cp $x 1_$x; don
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+$ ls
+1_cat_math.py	    cat_math.py       cat_years_definition.txt
+1_cat_math_test.py  cat_math_test.py  __pycache__
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+lspython3 cat_math_test.py ITINF24/lektion12/unittest$x; done
+$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... FAIL
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+======================================================================
+FAIL: test_four (__main__.TestStringMethods.test_four)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 17, in test_four
+    self.assertEqual(htc(4), 32)
+AssertionError: 28 != 32
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... FAIL
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... FAIL
+test_two (__main__.TestStringMethods.test_two) ... FAIL
+
+======================================================================
+FAIL: test_four (__main__.TestStringMethods.test_four)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 17, in test_four
+    self.assertEqual(htc(4), 32)
+AssertionError: 40 != 32
+
+======================================================================
+FAIL: test_three (__main__.TestStringMethods.test_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 14, in test_three
+    self.assertEqual(htc(3), 28)
+AssertionError: 36 != 28
+
+======================================================================
+FAIL: test_two (__main__.TestStringMethods.test_two)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 11, in test_two
+    self.assertEqual(htc(2), 24)
+AssertionError: 32 != 24
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=3)
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+ITINF24/lektion12/unittest
+$ python3 cat_math_test.py ITINF24/lektion12/unittest
+$ python3 cat_math_test.py 
+test_eighteen (__main__.TestStringMethods.test_eighteen) ... ok
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+ITINF24/lektion12/unittest
+$ ITINF24/lektion12/unittest
+$ ls
+1_cat_math.py	    cat_math.py       cat_years_definition.txt
+1_cat_math_test.py  cat_math_test.py  __pycache__
+ITINF24/lektion12/unittest
+$ cd ..
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ ls
+doctests  ex_import_vs_script  pip.md  recordings  syspath  TDD.md  unittest
+ITINF24/lektion12
+$ c
+mkdir virtual?_env
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ cd virtual_env/
+ITINF24/lektion12/virtual_env
+$ ITINF24/lektion12/virtual_env
+$ ls
+ITINF24/lektion12/virtual_env
+$ python33 -m
+venv
+usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear] [--upgrade]
+            [--without-pip] [--prompt PROMPT] [--upgrade-deps]
+            ENV_DIR [ENV_DIR ...]
+venv: error: the following arguments are required: ENV_DIR
+ITINF24/lektion12/virtual_env
+$ python3 -m venvITINF24/lektion12/virtual_env
+$ python3 -m venv .venv
+ITINF24/lektion12/virtual_env
+$ .venv/ITINF24/lektion12/virtual_env
+$ .venv/Scripts/activvare ^C
+ITINF24/lektion12/virtual_env
+$ .vsource .venv/Sc
+r
+bin/ac
+tivateITINF24/lektion12/virtual_env
+$ source .venv/bin/activate
+ITINF24/lektion12/virtual_env
+$ pip ITINF24/lektion12/virtual_env
+$ pip list
+]Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+ITINF24/lektion12/virtual_env
+$ pip listITINF24/lektion12/virtual_env
+$ pip list
+Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+ITINF24/lektion12/virtual_env
+$ pip install pyt
+e
+stITINF24/lektion12/virtual_env
+$ pip install pytest
+Collecting pytest
+  Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting packaging
+  Using cached packaging-24.2-py3-none-any.whl (65 kB)
+Collecting pluggy<2,>=1.5
+  Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Installing collected packages: pluggy, packaging, iniconfig, pytest
+Successfully installed iniconfig-2.0.0 packaging-24.2 pluggy-1.5.0 pytest-8.3.5
+ITINF24/lektion12/virtual_env
+$ ITINF24/lektion12/virtual_env
+$ pip list
+Package    Version
+---------- -------
+iniconfig  2.0.0
+packaging  24.2
+pip        23.0.1
+pluggy     1.5.0
+pytest     8.3.5
+setuptools 66.1.1
+ITINF24/lektion12/virtual_env
+$ ITINF24/lektion12/virtual_env
+$ pip freeze
+iniconfig==2.0.0
+packaging==24.2
+pluggy==1.5.0
+pytest==8.3.5
+ITINF24/lektion12/virtual_env
+$ ITINF24/lektion12/virtual_env
+$ pip fre
+eze >requirements.txt
+ITINF24/lektion12/virtual_env
+$ ls -aITINF24/lektion12/virtual_env
+$ ls -a
+.  ..  requirements.txt  .venv
+ITINF24/lektion12/virtual_env
+$ tree .venv/ | less
+.venv/
+├── bin
+│   ├── activate
+│   ├── activate.csh
+│   ├── activate.fish
+│   ├── Activate.ps1
+│   ├── pip
+│   ├── pip3
+│   ├── pip3.11
+│   ├── py.test
+│   ├── pytest
+│   ├── python -> python3
+│   ├── python3 -> /usr/bin/python3
+│   └── python3.11 -> python3
+├── include
+│   └── python3.11
+├── lib
+│   └── python3.11
+│       └── site-packages
+│           ├── _distutils_hack
+│           │   ├── __init__.py
+│           │   ├── override.py
+│           │   └── __pycache__
+│           │       ├── __init__.cpython-311.pyc
+│           │       └── override.cpython-311.pyc
+│           ├── distutils-precedence.pth
+│           ├── iniconfig
+│           │   ├── exceptions.py
+│           │   ├── __init__.py
+│           │   ├── _parse.py
+│           │   ├── __pycache__
+│           │   │   ├── exceptions.cpython-311.pyc
+│           │   │   ├── __init__.cpython-311.pyc
+│           │   │   ├── _parse.cpython-311.pyc
+│           │   │   └── _version.cpython-311.pyc
+│           │   ├── py.typed
+│           │   └── _version.py
+│           ├── iniconfig-2.0.0.dist-info
+│           │   ├── INSTALLER
+│           │   ├── licenses
+│           │   │   └── LICENSE
+│           │   ├── METADATA
+│           │   ├── RECORD
+│           │   └── WHEEL
+│           ├── packaging
+│           │   ├── _elffile.py
+│           │   ├── __init__.py
+│           │   ├── licenses
+│           │   │   ├── __init__.py
+│           │   │   ├── __pycache__
+│           │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   └── _spdx.cpython-311.pyc
+│           │   │   └── _spdx.py
+│           │   ├── _manylinux.py
+│           │   ├── markers.py
+│           │   ├── metadata.py
+│           │   ├── _musllinux.py
+│           │   ├── _parser.py
+│           │   ├── __pycache__
+│           │   │   ├── _elffile.cpython-311.pyc
+│           │   │   ├── __init__.cpython-311.pyc
+│           │   │   ├── _manylinux.cpython-311.pyc
+│           │   │   ├── markers.cpython-311.pyc
+│           │   │   ├── metadata.cpython-311.pyc
+│           │   │   ├── _musllinux.cpython-311.pyc
+│           │   │   ├── _parser.cpython-311.pyc
+│           │   │   ├── requirements.cpython-311.pyc
+│           │   │   ├── specifiers.cpython-311.pyc
+│           │   │   ├── _structures.cpython-311.pyc
+│           │   │   ├── tags.cpython-311.pyc
+│           │   │   ├── _tokenizer.cpython-311.pyc
+│           │   │   ├── utils.cpython-311.pyc
+│           │   │   └── version.cpython-311.pyc
+│           │   ├── py.typed
+│           │   ├── requirements.py
+│           │   ├── specifiers.py
+│           │   ├── _structures.py
+│           │   ├── tags.py
+│           │   ├── _tokenizer.py
+│           │   ├── utils.py
+│           │   └── version.py
+│           ├── packaging-24.2.dist-info
+│           │   ├── INSTALLER
+│           │   ├── LICENSE
+│           │   ├── LICENSE.APACHE
+│           │   ├── LICENSE.BSD
+│           │   ├── METADATA
+│           │   ├── RECORD
+│           │   └── WHEEL
+│           ├── pip
+│           │   ├── __init__.py
+│           │   ├── _internal
+│           │   │   ├── build_env.py
+│           │   │   ├── cache.py
+│           │   │   ├── cli
+│           │   │   │   ├── autocompletion.py
+│           │   │   │   ├── base_command.py
+│           │   │   │   ├── cmdoptions.py
+│           │   │   │   ├── command_context.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── main_parser.py
+│           │   │   │   ├── main.py
+│           │   │   │   ├── parser.py
+│           │   │   │   ├── progress_bars.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── autocompletion.cpython-311.pyc
+│           │   │   │   │   ├── base_command.cpython-311.pyc
+│           │   │   │   │   ├── cmdoptions.cpython-311.pyc
+│           │   │   │   │   ├── command_context.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── main.cpython-311.pyc
+│           │   │   │   │   ├── main_parser.cpython-311.pyc
+│           │   │   │   │   ├── parser.cpython-311.pyc
+│           │   │   │   │   ├── progress_bars.cpython-311.pyc
+│           │   │   │   │   ├── req_command.cpython-311.pyc
+│           │   │   │   │   ├── spinners.cpython-311.pyc
+│           │   │   │   │   └── status_codes.cpython-311.pyc
+│           │   │   │   ├── req_command.py
+│           │   │   │   ├── spinners.py
+│           │   │   │   └── status_codes.py
+│           │   │   ├── commands
+│           │   │   │   ├── cache.py
+│           │   │   │   ├── check.py
+│           │   │   │   ├── completion.py
+│           │   │   │   ├── configuration.py
+│           │   │   │   ├── debug.py
+│           │   │   │   ├── download.py
+│           │   │   │   ├── freeze.py
+│           │   │   │   ├── hash.py
+│           │   │   │   ├── help.py
+│           │   │   │   ├── index.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── inspect.py
+│           │   │   │   ├── install.py
+│           │   │   │   ├── list.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── cache.cpython-311.pyc
+│           │   │   │   │   ├── check.cpython-311.pyc
+│           │   │   │   │   ├── completion.cpython-311.pyc
+│           │   │   │   │   ├── configuration.cpython-311.pyc
+│           │   │   │   │   ├── debug.cpython-311.pyc
+│           │   │   │   │   ├── download.cpython-311.pyc
+│           │   │   │   │   ├── freeze.cpython-311.pyc
+│           │   │   │   │   ├── hash.cpython-311.pyc
+│           │   │   │   │   ├── help.cpython-311.pyc
+│           │   │   │   │   ├── index.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── inspect.cpython-311.pyc
+│           │   │   │   │   ├── install.cpython-311.pyc
+│           │   │   │   │   ├── list.cpython-311.pyc
+│           │   │   │   │   ├── search.cpython-311.pyc
+│           │   │   │   │   ├── show.cpython-311.pyc
+│           │   │   │   │   ├── uninstall.cpython-311.pyc
+│           │   │   │   │   └── wheel.cpython-311.pyc
+│           │   │   │   ├── search.py
+│           │   │   │   ├── show.py
+│           │   │   │   ├── uninstall.py
+│           │   │   │   └── wheel.py
+│           │   │   ├── configuration.py
+│           │   │   ├── distributions
+│           │   │   │   ├── base.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── installed.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── base.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── installed.cpython-311.pyc
+│           │   │   │   │   ├── sdist.cpython-311.pyc
+│           │   │   │   │   └── wheel.cpython-311.pyc
+│           │   │   │   ├── sdist.py
+│           │   │   │   └── wheel.py
+│           │   │   ├── exceptions.py
+│           │   │   ├── index
+│           │   │   │   ├── collector.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── package_finder.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── collector.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── package_finder.cpython-311.pyc
+│           │   │   │   │   └── sources.cpython-311.pyc
+│           │   │   │   └── sources.py
+│           │   │   ├── __init__.py
+│           │   │   ├── locations
+│           │   │   │   ├── base.py
+│           │   │   │   ├── _distutils.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── base.cpython-311.pyc
+│           │   │   │   │   ├── _distutils.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   └── _sysconfig.cpython-311.pyc
+│           │   │   │   └── _sysconfig.py
+│           │   │   ├── main.py
+│           │   │   ├── metadata
+│           │   │   │   ├── base.py
+│           │   │   │   ├── importlib
+│           │   │   │   │   ├── _compat.py
+│           │   │   │   │   ├── _dists.py
+│           │   │   │   │   ├── _envs.py
+│           │   │   │   │   ├── __init__.py
+│           │   │   │   │   └── __pycache__
+│           │   │   │   │       ├── _compat.cpython-311.pyc
+│           │   │   │   │       ├── _dists.cpython-311.pyc
+│           │   │   │   │       ├── _envs.cpython-311.pyc
+│           │   │   │   │       └── __init__.cpython-311.pyc
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── _json.py
+│           │   │   │   ├── pkg_resources.py
+│           │   │   │   └── __pycache__
+│           │   │   │       ├── base.cpython-311.pyc
+│           │   │   │       ├── __init__.cpython-311.pyc
+│           │   │   │       ├── _json.cpython-311.pyc
+│           │   │   │       └── pkg_resources.cpython-311.pyc
+│           │   │   ├── models
+│           │   │   │   ├── candidate.py
+│           │   │   │   ├── direct_url.py
+│           │   │   │   ├── format_control.py
+│           │   │   │   ├── index.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── installation_report.py
+│           │   │   │   ├── link.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── candidate.cpython-311.pyc
+│           │   │   │   │   ├── direct_url.cpython-311.pyc
+│           │   │   │   │   ├── format_control.cpython-311.pyc
+│           │   │   │   │   ├── index.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── installation_report.cpython-311.pyc
+│           │   │   │   │   ├── link.cpython-311.pyc
+│           │   │   │   │   ├── scheme.cpython-311.pyc
+│           │   │   │   │   ├── search_scope.cpython-311.pyc
+│           │   │   │   │   ├── selection_prefs.cpython-311.pyc
+│           │   │   │   │   ├── target_python.cpython-311.pyc
+│           │   │   │   │   └── wheel.cpython-311.pyc
+│           │   │   │   ├── scheme.py
+│           │   │   │   ├── search_scope.py
+│           │   │   │   ├── selection_prefs.py
+│           │   │   │   ├── target_python.py
+│           │   │   │   └── wheel.py
+│           │   │   ├── network
+│           │   │   │   ├── auth.py
+│           │   │   │   ├── cache.py
+│           │   │   │   ├── download.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── lazy_wheel.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── auth.cpython-311.pyc
+│           │   │   │   │   ├── cache.cpython-311.pyc
+│           │   │   │   │   ├── download.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── lazy_wheel.cpython-311.pyc
+│           │   │   │   │   ├── session.cpython-311.pyc
+│           │   │   │   │   ├── utils.cpython-311.pyc
+│           │   │   │   │   └── xmlrpc.cpython-311.pyc
+│           │   │   │   ├── session.py
+│           │   │   │   ├── utils.py
+│           │   │   │   └── xmlrpc.py
+│           │   │   ├── operations
+│           │   │   │   ├── build
+│           │   │   │   │   ├── build_tracker.py
+│           │   │   │   │   ├── __init__.py
+│           │   │   │   │   ├── metadata_editable.py
+│           │   │   │   │   ├── metadata_legacy.py
+│           │   │   │   │   ├── metadata.py
+│           │   │   │   │   ├── __pycache__
+│           │   │   │   │   │   ├── build_tracker.cpython-311.pyc
+│           │   │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   │   ├── metadata.cpython-311.pyc
+│           │   │   │   │   │   ├── metadata_editable.cpython-311.pyc
+│           │   │   │   │   │   ├── metadata_legacy.cpython-311.pyc
+│           │   │   │   │   │   ├── wheel.cpython-311.pyc
+│           │   │   │   │   │   ├── wheel_editable.cpython-311.pyc
+│           │   │   │   │   │   └── wheel_legacy.cpython-311.pyc
+│           │   │   │   │   ├── wheel_editable.py
+│           │   │   │   │   ├── wheel_legacy.py
+│           │   │   │   │   └── wheel.py
+│           │   │   │   ├── check.py
+│           │   │   │   ├── freeze.py
+│           │   │   │   ├── __init__.py
+M│           │   │   │   │   ├── metadata_legacy.py
+M│           │   │   │   │   ├── metadata_editable.py
+M│           │   │   │   │   ├── __init__.py
+M│           │   │   │   │   ├── build_tracker.py
+M│           │   │   │   ├── build
+M│           │   │   ├── operations
+M│           │   │   │   └── xmlrpc.py
+M│           │   │   │   ├── utils.py
+M│           │   │   │   ├── session.py
+│           │   │   │   │   │   ├── wheel.cpython-311.pyc
+│           │   │   │   │   │   ├── wheel_editable.cpython-311.pyc
+│           │   │   │   │   │   └── wheel_legacy.cpython-311.pyc
+│           │   │   │   │   ├── wheel_editable.py
+│           │   │   │   │   ├── wheel_legacy.py
+│           │   │   │   │   └── wheel.py
+│           │   │   │   ├── check.py
+│           │   │   │   ├── freeze.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── install
+ ESESCOB
