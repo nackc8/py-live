@@ -565,4 +565,81 @@ General Options:
                               Don't periodically check PyPI to determine whether a new
                               version of pip is available for download. Implied with --no-
                               index.
-  --
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported
+                              Pythons.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the
+                              future.
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ pip install -r requirements.txt 
+[?2004lCollecting iniconfig==2.0.0
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting packaging==24.2
+  Using cached packaging-24.2-py3-none-any.whl (65 kB)
+Collecting pluggy==1.5.0
+  Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Collecting pytest==8.3.5
+  Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
+Installing collected packages: pluggy, packaging, iniconfig, pytest
+Successfully installed iniconfig-2.0.0 packaging-24.2 pluggy-1.5.0 pytest-8.3.5
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ pip list
+[?2004lPackage    Version
+---------- -------
+iniconfig  2.0.0
+packaging  24.2
+pip        23.0.1
+pluggy     1.5.0
+pytest     8.3.5
+setuptools 66.1.1
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ ls
+[?2004lrequirements.txt
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ python3
+[?2004lPython 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> bosse=True
+>>> assert bpss[K[K[Kosse == True
+>>> assert bosse == True[K[K[K[KFalse
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AssertionError
+>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> 
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ python3 cat_m[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ ls
+[?2004lrequirements.txt
+[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ cd ..
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004ldoctests	     pip.md  recordings  TDD.md    virtual_env
+ex_import_vs_script  pytest  syspath	 unittest
+[?2004h[94mITINF24/lektion12
+(B[m$ cd pytest/
+[?2004l[?2004h[94mITINF24/lektion12/pytest
+(B[m$ [H[2J[94mITINF24/lektion12/pytest
+(B[m$ ls
+[?2004lcat_math.py  cat_math_test.py  cat_years_definition.txt  __pycache__
+[?2004h[94mITINF24/lektion12/pytest
+(B[m$ [H[2J[94mITINF24/lektion12/pytest
+(B[m$ python3 cat_M[Kmath_test.py 
+[?2004l[1m=================================== test session starts ====================================[0m
+platform linux -- Python 3.11.2, pytest-8.3.5, pluggy-1.5.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/pytest
+[1mcollecting ... [0m[1mcollected 5 items                                                                          [0m
+
+cat_math_test.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                                               [100%][0m
+
+[32m==================================== [32m[1m5 passed[0m[32m in 0.01s[0m[32m =====================================[0m
+[?2004h[94mITINF24/lektion12/pytest
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K
