@@ -466,4 +466,93 @@ test_one (__main__.TestStringMethods.test_one) ... ok
 test_three (__main__.TestStringMethods.test_three) ... ok
 test_two (__main__.TestStringMethods.test_two) ... ok
 
---
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_four (__main__.TestStringMethods.test_four) ... FAIL
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... FAIL
+test_two (__main__.TestStringMethods.test_two) ... FAIL
+
+======================================================================
+FAIL: test_four (__main__.TestStringMethods.test_four)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 17, in test_four
+    self.assertEqual(htc(4), 32)
+AssertionError: 40 != 32
+
+======================================================================
+FAIL: test_three (__main__.TestStringMethods.test_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 14, in test_three
+    self.assertEqual(htc(3), 28)
+AssertionError: 36 != 28
+
+======================================================================
+FAIL: test_two (__main__.TestStringMethods.test_two)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py", line 11, in test_two
+    self.assertEqual(htc(2), 24)
+AssertionError: 32 != 24
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=3)
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py [H[2J[94mITINF24/lektion12/unittest
+(B[m$ python3 cat_math_test.py 
+[?2004ltest_eighteen (__main__.TestStringMethods.test_eighteen) ... ok
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion12/unittest
+(B[m$ ls
+[?2004l1_cat_math.py	    cat_math.py       cat_years_definition.txt
+1_cat_math_test.py  cat_math_test.py  __pycache__
+[?2004h[94mITINF24/lektion12/unittest
+(B[m$ cd ..
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ ls
+[?2004ldoctests  ex_import_vs_script  pip.md  recordings  syspath  TDD.md  unittest
+[?2004h[94mITINF24/lektion12
+(B[m$ cd[K[Kmkdir virtual?e[K[K_envs[K_[K
+[?2004l[?2004h[94mITINF24/lektion12
+(B[m$ [H[2J[94mITINF24/lektion12
+(B[m$ cd virtual_env/
+[?2004l[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ [H[2J[94mITINF24/lektion12/virtual_env
+(B[m$ ls
+[?2004l[?2004h[94mITINF24/lektion12/virtual_env
+(B[m$ python3 [K[K [K3 +[K-,[Km [Cvenv
+[?2004lusage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear] [--upgrade]
+            [--without-pip] [--prompt PROMPT] [--upgrade-deps]
+            ENV_DIR [ENV_DIR ...]
+venv: e
