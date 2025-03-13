@@ -1,6 +1,10 @@
 from cat_math import human_to_cat_years as htc
 
 
+def prod(a, b):
+    return a * b
+
+
 def test_one():
     self.assertEqual(htc(1), 15)
 
