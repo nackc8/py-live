@@ -19,4 +19,7 @@ Aktivera miljön för att installera paket i den:
 source .venv/bin/activate
 ```
 
+https://docs.python.org/3.11/library/venv.html#how-venvs-work
+
+
 [1]: https://docs.python.org/3.11/library/venv.html
