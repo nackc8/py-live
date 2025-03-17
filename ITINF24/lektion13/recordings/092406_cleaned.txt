@@ -1,0 +1,133 @@
+Script started on 2025-03-17 09:31:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="92" LINES="5"]
+ITINF24/lektion13
+$ ITINF24/lektion13
+$ ls
+http1  recordings
+ITINF24/lektion13
+$ cd http1/
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ python43 +-m venv .venven.venv
+ITINF24/lektion13/http1
+$ pwd
+/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ source .venv/bin/ac
+tivate   ^C
+ITINF24/lektion13/http1
+$ source .venv/Sc
+
+
+
+
+
+
+
+
+
+
+
+
+./bin/Scripts/activate  ^C
+ITINF24/lektion13/http1
+$ source .venv/bin/activateITINF24/lektion13/http1
+source .venv/bin/activatete
+ITINF24/lektion13/http1
+$ (venv)
+
+
+
+
+
+
+
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ pip list
+Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+ITINF24/lektion13/http1
+$ pip install flaskITINF24/lektion13/http1
+$ pip install flask
+Collecting flask
+  Downloading flask-3.1.0-py3-none-any.whl (102 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.0/103.0 kB 1.4 MB/s eta 0:00:00
+Collecting Werkzeug>=3.1
+  Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 3.4 MB/s eta 0:00:00
+Collecting Jinja2>=3.1.2
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 8.4 MB/s eta 0:00:00
+Collecting itsdangerous>=2.2
+  Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting click>=8.1.3
+  Downloading click-8.1.8-py3-none-any.whl (98 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.2/98.2 kB 7.6 MB/s eta 0:00:00
+Collecting blinker>=1.9
+  Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Installing collected packages: MarkupSafe, itsdangerous, click, blinker, Werkzeug, Jinja2, flask
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 click-8.1.8 flask-3.1.0 itsdangerous-2.2.0
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ pip list
+Package      Version
+------------ -------
+blinker      1.9.0
+click        8.1.8
+Flask        3.1.0
+itsdangerous 2.2.0
+Jinja2       3.1.6
+MarkupSafe   3.0.2
+pip          23.0.1
+setuptools   66.1.1
+Werkzeug     3.1.3
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ 
+ITINF24/lektion13/http1
+$ 
+ITINF24/lektion13/http1
+$ 
+
+
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ pip fre
+ezeITINF24/lektion13/http1
+$ pip freeze
+blinker==1.9.0
+click==8.1.8
+Flask==3.1.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+Werkzeug==3.1.3
+ITINF24/lektion13/http1
+pip freeze >requirements.txt
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ de
+a
+ctivate 
+
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ ls +a
+ls: cannot access '+a': No such file or directory
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ ls -a
+.  ..  requirements.txt  .venv	venv.txt
+ITINF24/lektion13/http1
+$ rm -rf .e
+venv/
+ITINF24/lektion13/http1
+$ 
+exit
+
+Script done on 2025-03-17 09:50:54+01:00 [COMMAND_EXIT_CODE="0"]
