@@ -1,0 +1,103 @@
+Script started on 2025-03-17 09:31:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="92" LINES="5"]
+[?2004h[94mITINF24/lektion13
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion13
+(B[m$ ls
+[?2004lhttp1  recordings
+[?2004h[94mITINF24/lektion13
+(B[m$ cd http1/
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ python3[K4[K43[K[K3 +m[K[K-m venv .venv[K[K[K[K[Kvenv[K[K[K[K.venv
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ pwd
+[?2004l/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ source .venv/bin/activate   ^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ source .venv/Sc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./bin&[K/Scripts/activate  ^C[?2004l[?2004h[?2004l
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ [7msource .venv/bin/activate[27m[H[2J[94mITINF24/lektion13/http1
+(B[m$ [7msource .venv/bin/activate[27m[C[Csource .venv/bin/activate
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ *[K(venv) [K[K[K[K[K[K[K[H[2J[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ pip list
+[?2004lPackage    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ pip install flask[H[2J[94mITINF24/lektion13/http1
+(B[m$ pip install flask
+[?2004lCollecting flask
+  Downloading flask-3.1.0-py3-none-any.whl (102 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/103.0 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m41.0/103.0 kB[0m [31m1.0 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m103.0/103.0 kB[0m [31m1.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting Werkzeug>=3.1
+  Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/224.5 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;249;38;114m━━━━━━━━━━━━━━━━━━━━━━━━━[0m[38;2;249;38;114m╸[0m[38;5;237m━━━━━━━━━━━━━━[0m [32m143.4/224.5 kB[0m [31m4.1 MB/s[0m eta [36m0:00:01[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m224.5/224.5 kB[0m [31m3.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting Jinja2>=3.1.2
+  Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/134.9 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m134.9/134.9 kB[0m [31m8.4 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting itsdangerous>=2.2
+  Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Collecting click>=8.1.3
+  Downloading click-8.1.8-py3-none-any.whl (98 kB)
+[?25l     [38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/98.2 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [38;2;114;156;31m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m98.2/98.2 kB[0m [31m7.6 MB/s[0m eta [36m0:00:00[0m
+[?25hCollecting blinker>=1.9
+  Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Collecting MarkupSafe>=2.0
+  Using cached MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Installing collected packages: MarkupSafe, itsdangerous, click, blinker, Werkzeug, Jinja2, flask
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.2 Werkzeug-3.1.3 blinker-1.9.0 click-8.1.8 flask-3.1.0 itsdangerous-2.2.0
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ pip list
+[?2004lPackage      Version
+------------ -------
+blinker      1.9.0
+click        8.1.8
+Flask        3.1.0
+itsdangerous 2.2.0
+Jinja2       3.1.6
+MarkupSafe   3.0.2
+pip          23.0.1
+setuptools   66.1.1
+Werkzeug     3.1.3
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ 
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ pip freeze[H[2J[94mITINF24/lektion13/http1
+(B[m$ pip freeze
+[?2004lblinker==1.9.0
+click==8.1.8
+Flask==3.1.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+Werkzeug==3.1.3
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ pip freeze[C[C[Kpip freeze >requirements.txt
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ deactivate 
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ ls +a
+[?2004lls: cannot access '+a': No such file or directory
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ [H[2J[94mITINF24/lektion13/http1
+(B[m$ ls -a
+[?2004l.  ..  requirements.txt  .venv	venv.txt
+[?2004h[94mITINF24/lektion13/http1
+(B[m$ rm -rf .e[Kvenv/
+[?2004l[?2004h[94mITINF24/lektion13/http1
+(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [K(B[m$ [?2004l
+exit
+
+Script done on 2025-03-17 09:50:54+01:00 [COMMAND_EXIT_CODE="0"]
