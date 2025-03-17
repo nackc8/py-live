@@ -3,6 +3,8 @@ from markupsafe import escape
 
 app = Flask(__name__)
 
+# Kör med: flask --app vars --debug run
+
 
 @app.route("/user/<username>")
 def show_user_profile(username):
