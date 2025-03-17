@@ -30,4 +30,8 @@ Werkzeug     3.1.3
 # Frys beroenden så att vi enkelt kan ha rätt beroenden
 # med rätt version längre fram
 $ pip freeze >requirements.txt
-
+# Vi deaktiverar i terminalen för att låta VSCode
+# få styra miljön
+$ deactivate
+# Vi skapar en miljö i VSCode med Commando Paletten,
+# Python: Create environment
