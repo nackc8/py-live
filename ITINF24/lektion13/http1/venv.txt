@@ -34,4 +34,4 @@ $ pip freeze >requirements.txt
 # få styra miljön
 $ deactivate
 # Vi skapar en miljö i VSCode med Commando Paletten,
-# Python: Create environment
+# Python: Create environment (Venv, Välj requirements.txt som du skapat)
