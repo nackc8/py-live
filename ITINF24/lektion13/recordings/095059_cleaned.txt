@@ -1,0 +1,176 @@
+Script started on 2025-03-17 09:50:59+01:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="92" LINES="9"]
+ITINF24/lektion13
+$ pip list
+Package      Version
+------------ -------
+blinker      1.9.0
+click        8.1.8
+Flask        3.1.0
+itsdangerous 2.2.0
+Jinja2       3.1.6
+MarkupSafe   3.0.2
+pip          25.0.1
+setuptools   66.1.1
+Werkzeug     3.1.3
+ITINF24/lektion13
+$ ITINF24/lektion13
+$ s
+flask --app hello run
+flask --app hello run
+
+
+
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Could not import 'hello'.
+ITINF24/lektion13
+$ ITINF24/lektion13
+$ ls
+http1  recordings
+ITINF24/lektion13
+$ cd http1/
+ITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ flask --app hello run
+flask --app hello run
+ * Serving Flask app 'hello'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [17/Mar/2025 09:56:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 09:56:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [17/Mar/2025 09:58:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 09:58:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 09:58:30] "GET /favicon.ico HTTP/1.1" 404 -
+^CITINF24/lektion13/http1
+$ ITINF24/lektion13/http1
+$ man flask
+No manual entry for flask
+ITINF24/lektion13/http1
+$ flask ++--ghelpITINF24/lektion13/http1
+$ flask --help
+Error: Could not locate a Flask application. Use the 'flask --app' option, 'FLASK_APP' environment variable, or a 'wsgi.py' or 'app.py' file in the current directory.
+
+Usage: flask [OPTIONS] COMMAND [ARGS]...
+
+  A general utility script for Flask applications.
+
+  An application to load must be given with the '--app' option, 'FLASK_APP'
+  environment variable, or with a 'wsgi.py' or 'app.py' file in the current
+  directory.
+
+Options:
+  -e, --env-file FILE   Load environment variables from this file, taking
+                        precedence over those set by '.env' and '.flaskenv'.
+                        Variables set directly in the environment take highest
+                        precedence. python-dotenv must be installed.
+  -A, --app IMPORT      The Flask application or factory function to load, in
+                        the form 'module:name'. Module can be a dotted import
+                        or file path. Name is not required if it is 'app',
+                        'application', 'create_app', or 'make_app', and can be
+                        'name(args)' to pass arguments.
+  --debug / --no-debug  Set debug mode.
+  --version             Show the Flask version.
+  --help                Show this message and exit.
+
+Commands:
+  routes  Show the routes for the app.
+  run     Run a development server.
+  shell   Run a shell in the app context.
+ITINF24/lektion13/http1
+flask --app hello runITINF24/lektion13/http1
+$ flask --app hello run
+ * Serving Flask app 'hello'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [17/Mar/2025 10:01:13] "GET / HTTP/1.1" 200 -
+^CITINF24/lektion13/http1
+$ flask --app hello runITINF24/lektion13/http1
+$ flask --app hello ru ru- ru- rud rue rub ruu rug ru
+ * Serving Flask app 'hello'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+127.0.0.1 - - [17/Mar/2025 10:16:42] "GET / HTTP/1.1" 200 -
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+127.0.0.1 - - [17/Mar/2025 10:16:58] "GET / HTTP/1.1" 200 -
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/cli.py", line 961, in run_command
+    app: WSGIApplication = info.load_app()  # pyright: ignore
+                           ^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/cli.py", line 349, in load_app
+    app = locate_app(import_name, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/cli.py", line 245, in locate_app
+    __import__(module_name)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py", line 10, in <module>
+    @app.route("/")
+     ^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: hello_world
+ * Debugger is active!
+ * Debugger PIN: 600-246-328
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/cli.py", line 961, in run_command
+    app: WSGIApplication = info.load_app()  # pyright: ignore
+                           ^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/cli.py", line 349, in load_app
+    app = locate_app(import_name, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/cli.py", line 245, in locate_app
+    __import__(module_name)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py", line 10, in <module>
+    @app.route("/bye")
+     ^^^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 362, in decorator
+    self.add_url_rule(rule, endpoint, f, **options)
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: hello_world
+ * Debugger is active!
+ * Debugger PIN: 600-246-328
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+127.0.0.1 - - [17/Mar/2025 10:17:58] "GET /bye HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 10:18:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 10:18:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 10:18:23] "GET /bye HTTP/1.1" 200 -
+^CITINF24/lektion13/http1
+$ 
+exit
+
+Script done on 2025-03-17 10:19:08+01:00 [COMMAND_EXIT_CODE="0"]

@@ -142,4 +142,29 @@ Traceback (most recent call last):
   File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
     return f(self, *args, **kwargs)
            ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-
+  File "/shared/kent/Documents/nackademin/python/py-live/.venv/lib/python3.11/site-packages/flask/sansio/app.py", line 657, in add_url_rule
+    raise AssertionError(
+AssertionError: View function mapping is overwriting an existing endpoint function: hello_world
+ * Debugger is active!
+ * Debugger PIN: 600-246-328
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+ * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion13/http1/hello.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 761-746-660
+127.0.0.1 - - [17/Mar/2025 10:17:58] "GET /bye HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 10:18:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 10:18:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Mar/2025 10:18:23] "GET /bye HTTP/1.1" 200 -
+^C[?2004h[94mITINF24/lektion13/http1
+(B[m$ [?2004l
+exit
+
+Script done on 2025-03-17 10:19:08+01:00 [COMMAND_EXIT_CODE="0"]
