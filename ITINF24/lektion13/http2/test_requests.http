@@ -1,2 +1,1 @@
-GET https://example.com/comments HTTP/1.1
-
+GET http://localhost:5000/post/123 HTTP/1.1
