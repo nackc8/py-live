@@ -4,4 +4,4 @@ $ python3 -m venv .venv
 # Aktivera miljön i MacOS/Linux
 $ source .venv/bin/activate
 # Aktivera den i Windows
-$ 
+$ ./bin/Scripts/activate
