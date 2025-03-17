@@ -1,4 +1,7 @@
 # Vi är i ITINF24/lektion13/http1
 $ python3 -m venv .venv
 (ingen utmatning)
+# Aktivera miljön i MacOS/Linux
+$ source .venv/bin/activate
+# Aktivera den i Windows
 $ 
