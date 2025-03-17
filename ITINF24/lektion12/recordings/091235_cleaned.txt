@@ -1,0 +1,119 @@
+Script started on 2025-03-13 09:12:42+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="92" LINES="8"]
+ITINF24/lektion12
+$ 
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ ls
+ex1_import_vs_script.py  recordings
+ITINF24/lektion12
+$ cd ex1_import_vs_script.py
+
+
+
+
+
+
+
+
+
+
+
+,mmve ex1_import_vs_script.py{/.py,}
+
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ ls
+ex1_import_vs_script  recordings
+ITINF24/lektion12
+$ cd ex
+1_import_vs_scriptITINF24/lektion12
+$ cd ex1_import_vs_script
+ITINF24/lektion12/ex1_import_vs_script
+$ ITINF24/lektion12/ex1_import_vs_script
+$ ls
+studder.py
+ITINF24/lektion12/ex1_import_vs_script
+$ chmod +x studder.py ITINF24/lektion12/ex1_import_vs_script
+$ chmod +x studder.py 
+ITINF24/lektion12/ex1_import_vs_script
+$ ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py 
+hja
+ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py 
+hja
+ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py 
+hja
+ITINF24/lektion12/ex1_import_vs_script
+$ /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/ex1_import_vs_script.py/studder.py
+/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/ex1_import_vs_script.py/studder.p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^C
+ITINF24/lektion12/ex1_import_vs_script
+$ ITINF24/lektion12/ex1_import_vs_script
+$ ls
+studder.py
+ITINF24/lektion12/ex1_import_vs_script
+$ ITINF24/lektion12/ex1_import_vs_script
+$ ./st
+
+cd ..
+ITINF24/lektion12
+$ ITINF24/lektion12
+$ ls
+ex1_import_vs_script  recordings
+ITINF24/lektion12
+$ cd ex1_import_vs_script/
+ITINF24/lektion12/ex1_import_vs_script
+$ ITINF24/lektion12/ex1_import_vs_script
+$ ls
+studder.py
+ITINF24/lektion12/ex1_import_vs_script
+$ ITINF24/lektion12/ex1_import_vs_script
+$ ./sst
+ud
+
+
+
+
+
+
+
+
+chmod +x studder.py 
+ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py 
+Usage: studder.py MSG
+ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py hejsan hoppsanITINF24/lektion12/ex1_import_vs_script
+$ ./studder.py hejsan hoppsan
+Usage: studder.py MSG
+ITINF24/lektion12/ex1_import_vs_script
+$ ./studder.p

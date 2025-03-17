@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>102220.txt</title>
+</head>
+<body>
+<pre>Script started on 2025-03-13 10:22:20+01:00 [TERM=&quot;xterm-256color&quot; TTY=&quot;/dev/pts/0&quot; COLUMNS=&quot;92&quot; LINES=&quot;5&quot;]
+<span style="color:#5c5cff;">ITINF24/lektion12
+y/span>$ /bin/python3 /shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py 
+[&apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12&apos;, &apos;/usr/lib/python311.zip&apos;, &apos;/usr/lib/python3.11&apos;, &apos;/usr/lib/python3.11/lib-dynload&apos;, &apos;/usr/local/lib/python3.11/dist-packages&apos;, &apos;/usr/lib/python3/dist-packages&apos;, &apos;/usr/lib/python3.11/dist-packages&apos;]
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;">">ITINF24/lektion12
+</span>$ pytohhon 3 syspath.py 
+[&apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12&apos;, &apos;/usr/lib/python311.zip&apos;, &apos;/usr/lib/python3.11&apos;, &apos;/usr/lib/python3.11/lib-dynload&apos;, &apos;/usr/local/lib/python3.11/dist-packages&apos;, &apos;/usr/lib/python3/dist-packages&apos;, &apos;/usr/lib/python3.11/dist-packages&apos;]
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ cd ..
+<span style="color:#5c5cff;">ITINF24 </span>$ cd .python3 syspath.py <span style="color:#5c5cff;">ITINF24 </span>$ python3 syspath.pylek
+tion12/sts
+yspath.py 
+[&apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12&apos;, &apos;/usr/lib/python311.zip&apos;, &apos;/usr/lib/python3.11&apos;, &apos;/usr/lib/python3.11/lib-dynload&apos;, &apos;/usr/local/lib/python3.11/dist-packages&apos;, &apos;/usr/lib/python3/dist-packages&apos;, &apos;/usr/lib/python3.11/dist-packages&apos;]
+<span style="color:#5c5cff;">ITINF24 </span>$ python3 lektion12/syspath.py <span style="color:#5c5cff;">ITINF24 </span>$ python3 lektion12/syspath.py 
+[&apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12&apos;, &apos;/usr/lib/python311.zip&apos;, &apos;/usr/lib/python3.11&apos;, &apos;/usr/lib/python3.11/lib-dynload&apos;, &apos;/usr/local/lib/python3.11/dist-packages&apos;, &apos;/usr/lib/python3/dist-packages&apos;, &apos;/usr/lib/python3.11/dist-packages&apos;, &apos;/etc&apos;]
+<span style="color:#5c5cff;">ITINF24 </span>$ mkdir /tmp/minmodd
+<span style="color:#5c5cff;">ITINF24 </span>$ echo &apos;print(&quot;HELLO FROM MINM&lt;ODDODD&quot;) &gt; /tmp/minmodd/middeodden.py
+python3 lektion12/syspath.py <span style="color:#5c5cff;">ITINF24 </span>$ python3 lektion12/syspath.py ; /tmp/minmodd/modden.py
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py&quot;, line 3, in &lt;module&gt;
+    import modden
+ModuleNotFoundError: No module named &apos;modden&apos;
+<span style="color:#000000;background-color:#000000;"></span><span style="color:#5c5cff;background-color:#000000;">ITINF24 </span>$ echspan style="color:#000000;background-color:#000000;">o&apos;: </span><span style="color:#000000;background-color:#000000;">echo</span><span style="color:#000000;background-color:#000000;">t(&quot;HELLO FROM MINMODD&quot;)&apos; &gt; /tmp/minmodd/modden.py
+
+
+
+
+
+  ^C
+python3 lektion12/syspath.py <span style="color:#5c5cff;">ITINF24 </span>$ python3 lektion12/syspath.py 
+HELLO FROM MINMODD
+[&apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12&apos;, &apos;/usr/lib/python311.zip&apos;, &apos;/usr/lib/python3.11&apos;, &apos;/usr/lib/python3.11/lib-dynload&apos;, &apos;/usr/local/lib/python3.11/dist-packages&apos;, &apos;/usr/lib/python3/dist-packages&apos;, &apos;/usr/lib/python3.11/dist-packages&apos;, &apos;/tmp/minmodd&apos;]
+<span style="color:#5c5cff;">ITINF24 </span>$ <span style="color:#5c5cff;">ITINF24 </span>$ echo �$PATH 
+lektioYDEVD_DISABLE_FILE_VALIDATION 
+lektioTHONPATH
+
+python3 lektion12/syspath.pyPYTHONPATH=/tmp/m,inmodd$PYTHONPATH
+
+
+
+
+
+
+
+<span style="color:#5c5cff;">ITINF24 </span>$ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath.py 
+python3: can&apos;t open file &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/syspath.py&apos;: [Errno 2] No such file or directory
+<span style="color:#5c5cff;">ITINF24 </span>$ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath.py2<span style="color:#5c5cff;">ITINF24 </span>$ PYTHONPATH=/tmp/minmodd python3 lektion12/syspath2.py
+HELLO FROM MINMODD
+[&apos;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12&apos;, &apos;/tmp/minmodd&apos;, &apos;/usr/lib/python311.zip&apos;, &apos;/usr/lib/python3.11&apos;, &apos;/usr/lib/python3.11/lib-dynload&apos;, &apos;/usr/local/lib/python3.11/dist-packages&apos;, &apos;/usr/lib/python3/dist-packages&apos;, &apos;/usr/lib/python3.11/dist-packages&apos;]
+<span style="color:#5c5cff;">ITINF24 </span>$ <span style="color:#5c5cff;">ITINF24 </span>$ python3
+Python 3.11.2 (main, Nov 30 2024, 21:22:50) [GCC 12.2.0] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt; print(&quot;hej&quot;)
+hej
+&gt;&gt;&gt; &gt;&gt;&gt; import sys
+&gt;&gt;&gt; 
+&gt;&gt;&gt; print(sys.
+
+sys.abiflags                               sys.hash_info
+sys.addaudithook(                          sys.hexversion
+sys.api_version                            sys.implementation
+sys.argv                                   sys.int_info
+sys.audit(                                 sys.intern(
+sys.base_exec_prefix                       sys.is_finalizing()
+sys.base_prefix                            sys.maxsize
+sys.breakpointhook(                        sys.maxunicode
+sys.builtin_module_names                   sys.meta_path
+sys.byteorder                              sys.modules
+sys.call_tracing(                          sys.orig_argv
+sys.copyright                              sys.path
+sys.displayhook(                           sys.path_hooks
+sys.dont_write_bytecode                    sys.path_importer_cache
+sys.exc_info()                             sys.platform
+sys.excepthook(                            sys.platlibdir
+sys.exception()                            sys.prefix
+sys.exec_prefix                            sys.ps1
+sys.executable                             sys.ps2
+sys.exit(                                  sys.pycache_prefix
+sys.flags                                  sys.set_asyncgen_hooks(
+sys.float_info                             sys.set_coroutine_origin_tracking_depth(
+sys.float_repr_style                       sys.set_int_max_str_digits(
+sys.get_asyncgen_hooks()                   sys.setdlopenflags(
+sys.get_coroutine_origin_tracking_depth()  sys.setprofile(
+sys.get_int_max_str_digits()               sys.setrecursionlimit(
+sys.getallocatedblocks()                   sys.setswitchinterval(
+sys.getdefaultencoding()                   sys.settrace(
+sys.getdlopenflags()                       sys.stderr
+sys.getfilesystemencodeerrors()            sys.stdin
+sys.getfilesystemencoding()                sys.stdlib_module_names
+sys.getprofile()                           sys.stdout
+sys.getrecursionlimit()                    sys.thread_info
+sys.getrefcount(                           sys.unraisablehook(
+sys.getsizeof(                             sys.version
+sys.getswitchinterval()                    sys.version_info
+sys.gettrace()                             sys.warnoptions
+&gt;&gt;&gt; print(sys.
+pl
+atform)&gt;&gt;&gt; print(sys.platform)
+linux
+&gt;&gt;&gt; 
+<span style="color:#5c5cff;">ITINF24 </span>$ <span style="color:#5c5cff;">ITINF24 </span>$ ls
+lektion1   lektion11  lektion2	lektion5  lektion7
+lektion10  lektion12  lektion4	lektion6  lektion9
+<span style="color:#5c5cff;">ITINF24 </span>$ cd lek
+tion12/
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12
+</span>$ ls
+doctests  ex_import_vs_script  recordings  syspath
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ cd doctests/
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/doctests
+</span>$ ls
+greet.py
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">an style="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet.py 
+**********************************************************************
+File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet.py&quot;, line 8, in __main__.greet
+Failed example:
+    greet(&quot;Urban&quot;)
+Expected:
+    Hello Urban!
+Got:
+    &apos;Hello Urban!&apos;
+**********************************************************************
+1 items had failures:
+   1 of   1 in __main__.greet
+***Test Failed*** 1 failures.
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">e="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet.py 
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">">ITINF24/lektion12/doctests
+</span>$ python3 greet.py 
+**********************************************************************
+File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet.py&quot;, line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    &apos;Hello stranger things!&apos;
+Got:
+    &apos;Hello stranger!&apos;
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+***Test Failed*** 1 failures.
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">e="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet.py 
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">e="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet.py 
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet.py 
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">"color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">an style="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet2.py
+Trying:
+    greet(&quot;Urban&quot;)
+Expecting:
+    &apos;Hello Urban!&apos;
+ok
+Trying:
+    greet()
+Expecting:
+    &apos;Hello stranger!!&apos;
+**********************************************************************
+File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet2.py&quot;, line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    &apos;Hello stranger!!&apos;
+Got:
+    &apos;Hello stranger!&apos;
+1 items had no tests:
+    __main__
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+2 tests in 2 items.
+1 passed and 1 failed.
+***Test Failed*** 1 failures.
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet2.py3
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">an style="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet3.py
+Trying:
+    greet(&quot;Urban&quot;)
+Expecting:
+    &apos;Hello Urban!&apos;
+ok
+Trying:
+    greet()
+Expecting:
+    &apos;Hello stranger!!&apos;
+**********************************************************************
+File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/doctests/greet3.py&quot;, line 11, in __main__.greet
+Failed example:
+    greet()
+Expected:
+    &apos;Hello stranger!!&apos;
+Got:
+    &apos;Hello stranger!&apos;
+Trying:
+    upperize(&quot;hello&quot;)
+Expecting:
+    &apos;HELLO&apos;
+ok
+1 items had no tests:
+    __main__
+1 items passed all tests:
+   1 tests in __main__.upperize
+**********************************************************************
+1 items had failures:
+   1 of   2 in __main__.greet
+3 tests in 3 items.
+2 passed and 1 failed.
+***Test Failed*** 1 failures.
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">an style="color:#5c5cff;">ITINF24/lektion12/doctests
+</span>$ python3 greet3.py
+Trying:
+    upperize(greet())
+Expecting:
+    &apos;HELLO STRANGER!&apos;
+ok
+Trying:
+    greet(&quot;Urban&quot;)
+Expecting:
+    &apos;Hello Urban!&apos;
+ok
+Trying:
+    greet()
+Expecting:
+    &apos;Hello stranger!&apos;
+ok
+Trying:
+    upperize(&quot;hello&quot;)
+Expecting:
+    &apos;HELLO&apos;
+ok
+3 items passed all tests:
+   1 tests in __main__
+   2 tests in __main__.greet
+   1 tests in __main__.upperize
+4 tests in 3 items.
+4 passed and 0 failed.
+Test passed.
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+$ python3 greet3.py^Ct3.py
+<span style="color:#5c5cff;">ITINF24/lektion12/doctests
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/doctests
+</span>$ cd ..
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12
+</span>$ ls
+cat_years.py  doctests	ex_import_vs_script  recordings  syspath
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ fold cat_years.py 
+The first year of your cat&apos;s life is considered the equivalent of 15 human years
+. The second year adds nine more human years, so 2 cat years are approximately 2
+4 human years. After this, each additional human year is four “cat years” i.
+e., age 3 will be 28 human years.7&apos;
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ fold cat_years.py -w 30
+The first year of your cat&apos;s l
+ife is considered the equivale
+nt of 15 human years. The seco
+nd year adds nine more human y
+ears, so 2 cat years are appro
+ximately 24 human years. After
+ this, each additional human y
+ear is four “cat years” i.
+e., age 3 will be 28 human yea
+rs.7&apos;
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ fold cat_years.py -w 30 -s
+The first year of your cat&apos;s 
+life is considered the 
+equivalent of 15 human years. 
+The second year adds nine 
+more human years, so 2 cat 
+years are approximately 24 
+human years. After this, each 
+additional human year is four 
+“cat years” i.e., age 3 
+will be 28 human years.7&apos;
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;"> 30 - - -2 -5 -<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ fold cat_years.py -w 25 -
+The first year of your 
+cat&apos;s life is considered 
+the equivalent of 15 
+human years. The second 
+year adds nine more 
+human years, so 2 cat 
+years are approximately 
+24 human years. After 
+this, each additional 
+human year is four 
+“cat years” i.e., 
+age 3 will be 28 human 
+years.7&apos;
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ fold cat_years.py -w 25 - - -3 -0 -
+The first year of your cat&apos;s 
+life is considered the 
+equivalent of 15 human years. 
+The second year adds nine 
+more human years, so 2 cat 
+years are approximately 24 
+human years. After this, each 
+additional human year is four 
+“cat years” i.e., age 3 
+will be 28 human years.7&apos;
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;">#5c5cff;">ITINF24/lektion12
+</span>$ python3
+
+
+
+
+
+
+
+
+cd unittest/
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">"color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_m
+ath_test.py 
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_upper (__main__.TestStringMethods.test_upper) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... FAIL
+
+======================================================================
+FAIL: test_one (__main__.TestStringMethods.test_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 8, in test_one
+    self.assertEqual(htc(1), 15)
+AssertionError: None != 15
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_two (__main__.TestStringMethods.test_two) ... FAIL
+
+======================================================================
+FAIL: test_two (__main__.TestStringMethods.test_two)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 11, in test_two
+    self.assertEqual(htc(2), 24)
+AssertionError: 15 != 24
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... FAIL
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+======================================================================
+FAIL: test_three (__main__.TestStringMethods.test_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 14, in test_three
+    self.assertEqual(htc(3), 28)
+AssertionError: 24 != 28
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/unittest
+</span>$ ls
+cat_math.py  cat_math_test.py  cat_years_definition.txt  __pycache__
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ cp ca
+t_m
+ath.py cat
+_m
+ath_test.pyfprorxin
+
+
+
+
+
+
+
+<span style="color:#5c5cff;">le="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ for x in cat_math.py cat_math_test.py; do cp $x 1_$x; don
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/unittest
+</span>$ ls
+1_cat_math.py	    cat_math.py       cat_years_definition.txt
+1_cat_math_test.py  cat_math_test.py  __pycache__
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... FAIL
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+======================================================================
+FAIL: test_four (__main__.TestStringMethods.test_four)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 17, in test_four
+    self.assertEqual(htc(4), 32)
+AssertionError: 28 != 32
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=1)
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... FAIL
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... FAIL
+test_two (__main__.TestStringMethods.test_two) ... FAIL
+
+======================================================================
+FAIL: test_four (__main__.TestStringMethods.test_four)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 17, in test_four
+    self.assertEqual(htc(4), 32)
+AssertionError: 40 != 32
+
+======================================================================
+FAIL: test_three (__main__.TestStringMethods.test_three)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 14, in test_three
+    self.assertEqual(htc(3), 28)
+AssertionError: 36 != 28
+
+======================================================================
+FAIL: test_two (__main__.TestStringMethods.test_two)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF24/lektion12/unittest/cat_math_test.py&quot;, line 11, in test_two
+    self.assertEqual(htc(2), 24)
+AssertionError: 32 != 24
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=3)
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">t.py <span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ python3 cat_math_test.py 
+test_eighteen (__main__.TestStringMethods.test_eighteen) ... ok
+test_four (__main__.TestStringMethods.test_four) ... ok
+test_one (__main__.TestStringMethods.test_one) ... ok
+test_three (__main__.TestStringMethods.test_three) ... ok
+test_two (__main__.TestStringMethods.test_two) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+<span style="color:#5c5cff;">">ITINF24/lektion12/unittest
+</span>$ ls
+1_cat_math.py	    cat_math.py       cat_years_definition.txt
+1_cat_math_test.py  cat_math_test.py  __pycache__
+<span style="color:#5c5cff;">ITINF24/lektion12/unittest
+</span>$ cd ..
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12
+</span>$ ls
+doctests  ex_import_vs_script  pip.md  recordings  syspath  TDD.md  unittest
+<span style="color:#5c5cff;">ITINF24/lektion12
+</span>$ c
+mkdir virtual?_env
+<span style="color:#5c5cff;">ITINF24/lektion12
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12
+</span>$ cd virtual_env/
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ ls
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ python33 -m
+venv
+usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear] [--upgrade]
+            [--without-pip] [--prompt PROMPT] [--upgrade-deps]
+            ENV_DIR [ENV_DIR ...]
+venv: error: the following arguments are required: ENV_DIR
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;"> style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ python3 -m venv .venv
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">olor:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ .venv/Scripts/activvare ^C
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ .vsource .venv/Sc
+r
+bin/ac
+<span style="color:#5c5cff;">cff;">ITINF24/lektion12/virtual_env
+</span>$ source .venv/bin/activate
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">or:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ pip list
+]Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">"color:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ pip list
+Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ pip install pyt
+e
+<span style="color:#5c5cff;">">ITINF24/lektion12/virtual_env
+</span>$ pip install pytest
+Collecting pytest
+  Using cached pytest-8.3.5-py3-none-any.whl (343 kB)
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting packaging
+  Using cached packaging-24.2-py3-none-any.whl (65 kB)
+Collecting pluggy&lt;2,&gt;=1.5
+  Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Installing collected packages: pluggy, packaging, iniconfig, pytest
+Successfully installed iniconfig-2.0.0 packaging-24.2 pluggy-1.5.0 pytest-8.3.5
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ pip list
+Package    Version
+---------- -------
+iniconfig  2.0.0
+packaging  24.2
+pip        23.0.1
+pluggy     1.5.0
+pytest     8.3.5
+setuptools 66.1.1
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">">ITINF24/lektion12/virtual_env
+</span>$ pip freeze
+iniconfig==2.0.0
+packaging==24.2
+pluggy==1.5.0
+pytest==8.3.5
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">5c5cff;">ITINF24/lektion12/virtual_env
+</span>$ pip fre
+eze &gt;requirements.txt
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+<span style="color:#5c5cff;">5cff;">ITINF24/lektion12/virtual_env
+</span>$ ls -a
+.  ..  requirements.txt  .venv
+<span style="color:#5c5cff;">ITINF24/lektion12/virtual_env
+$ tree .venv/ | less
+.venv/
+├── bin
+│   ├── activate
+│   ├── activate.csh
+│   ├── activate.fish
+│   ├── Activate.ps1
+│   ├── pip
+│   ├── pip3
+│   ├── pip3.11
+│   ├── py.test
+│   ├── pytest
+│   ├── python -&gt; python3
+│   ├── python3 -&gt; /usr/bin/python3
+│   └── python3.11 -&gt; python3
+├── include
+│   └── python3.11
+├── lib
+│   └── python3.11
+│       └── site-packages
+│           ├── _distutils_hack
+│           │   ├── __init__.py
+│           │   ├── override.py
+│           │   └── __pycache__
+│           │       ├── __init__.cpython-311.pyc
+│           │       └── override.cpython-311.pyc
+│           ├── distutils-precedence.pth
+│           ├── iniconfig
+│           │   ├── exceptions.py
+│           │   ├── __init__.py
+│           │   ├── _parse.py
+│           │   ├── __pycache__
+│           │   │   ├── exceptions.cpython-311.pyc
+│           │   │   ├── __init__.cpython-311.pyc
+│           │   │   ├── _parse.cpython-311.pyc
+│           │   │   └── _version.cpython-311.pyc
+│           │   ├── py.typed
+│           │   └── _version.py
+│           ├── iniconfig-2.0.0.dist-info
+│           │   ├── INSTALLER
+│           │   ├── licenses
+│           │   │   └── LICENSE
+│           │   ├── METADATA
+│           │   ├── RECORD
+│           │   └── WHEEL
+│           ├── packaging
+│           │   ├── _elffile.py
+│           │   ├── __init__.py
+│           │   ├── licenses
+│           │   │   ├── __init__.py
+│           │   │   ├── __pycache__
+│           │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   └── _spdx.cpython-311.pyc
+│           │   │   └── _spdx.py
+│           │   ├── _manylinux.py
+│           │   ├── markers.py
+│           │   ├── metadata.py
+│           │   ├── _musllinux.py
+│           │   ├── _parser.py
+│           │   ├── __pycache__
+│           │   │   ├── _elffile.cpython-311.pyc
+│           │   │   ├── __init__.cpython-311.pyc
+│           │   │   ├── _manylinux.cpython-311.pyc
+│           │   │   ├── markers.cpython-311.pyc
+│           │   │   ├── metadata.cpython-311.pyc
+│           │   │   ├── _musllinux.cpython-311.pyc
+│           │   │   ├── _parser.cpython-311.pyc
+│           │   │   ├── requirements.cpython-311.pyc
+│           │   │   ├── specifiers.cpython-311.pyc
+│           │   │   ├── _structures.cpython-311.pyc
+│           │   │   ├── tags.cpython-311.pyc
+│           │   │   ├── _tokenizer.cpython-311.pyc
+│           │   │   ├── utils.cpython-311.pyc
+│           │   │   └── version.cpython-311.pyc
+│           │   ├── py.typed
+│           │   ├── requirements.py
+│           │   ├── specifiers.py
+│           │   ├── _structures.py
+│           │   ├── tags.py
+│           │   ├── _tokenizer.py
+│           │   ├── utils.py
+│           │   └── version.py
+│           ├── packaging-24.2.dist-info
+│           │   ├── INSTALLER
+│           │   ├── LICENSE
+│           │   ├── LICENSE.APACHE
+│           │   ├── LICENSE.BSD
+│           │   ├── METADATA
+│           │   ├── RECORD
+│           │   └── WHEEL
+│           ├── pip
+│           │   ├── __init__.py
+│           │   ├── _internal
+│           │   │   ├── build_env.py
+│           │   │   ├── cache.py
+│           │   │   ├── cli
+│           │   │   │   ├── autocompletion.py
+│           │   │   │   ├── base_command.py
+│           │   │   │   ├── cmdoptions.py
+│           │   │   │   ├── command_context.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── main_parser.py
+│           │   │   │   ├── main.py
+│           │   │   │   ├── parser.py
+│           │   │   │   ├── progress_bars.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── autocompletion.cpython-311.pyc
+│           │   │   │   │   ├── base_command.cpython-311.pyc
+│           │   │   │   │   ├── cmdoptions.cpython-311.pyc
+│           │   │   │   │   ├── command_context.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── main.cpython-311.pyc
+│           │   │   │   │   ├── main_parser.cpython-311.pyc
+│           │   │   │   │   ├── parser.cpython-311.pyc
+│           │   │   │   │   ├── progress_bars.cpython-311.pyc
+│           │   │   │   │   ├── req_command.cpython-311.pyc
+│           │   │   │   │   ├── spinners.cpython-311.pyc
+│           │   │   │   │   └── status_codes.cpython-311.pyc
+│           │   │   │   ├── req_command.py
+│           │   │   │   ├── spinners.py
+│           │   │   │   └── status_codes.py
+│           │   │   ├── commands
+│           │   │   │   ├── cache.py
+│           │   │   │   ├── check.py
+│           │   │   │   ├── completion.py
+│           │   │   │   ├── configuration.py
+│           │   │   │   ├── debug.py
+│           │   │   │   ├── download.py
+│           │   │   │   ├── freeze.py
+│           │   │   │   ├── hash.py
+│           │   │   │   ├── help.py
+│           │   │   │   ├── index.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── inspect.py
+│           │   │   │   ├── install.py
+│           │   │   │   ├── list.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── cache.cpython-311.pyc
+│           │   │   │   │   ├── check.cpython-311.pyc
+│           │   │   │   │   ├── completion.cpython-311.pyc
+│           │   │   │   │   ├── configuration.cpython-311.pyc
+│           │   │   │   │   ├── debug.cpython-311.pyc
+│           │   │   │   │   ├── download.cpython-311.pyc
+│           │   │   │   │   ├── freeze.cpython-311.pyc
+│           │   │   │   │   ├── hash.cpython-311.pyc
+│           │   │   │   │   ├── help.cpython-311.pyc
+│           │   │   │   │   ├── index.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── inspect.cpython-311.pyc
+│           │   │   │   │   ├── install.cpython-311.pyc
+│           │   │   │   │   ├── list.cpython-311.pyc
+│           │   │   │   │   ├── search.cpython-311.pyc
+│           │   │   │   │   ├── show.cpython-311.pyc
+│           │   │   │   │   ├── uninstall.cpython-311.pyc
+│           │   │   │   │   └── wheel.cpython-311.pyc
+│           │   │   │   ├── search.py
+│           │   │   │   ├── show.py
+│           │   │   │   ├── uninstall.py
+│           │   │   │   └── wheel.py
+│           │   │   ├── configuration.py
+│           │   │   ├── distributions
+│           │   │   │   ├── base.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── installed.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── base.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── installed.cpython-311.pyc
+│           │   │   │   │   ├── sdist.cpython-311.pyc
+│           │   │   │   │   └── wheel.cpython-311.pyc
+│           │   │   │   ├── sdist.py
+│           │   │   │   └── wheel.py
+│           │   │   ├── exceptions.py
+│           │   │   ├── index
+│           │   │   │   ├── collector.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── package_finder.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── collector.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── package_finder.cpython-311.pyc
+│           │   │   │   │   └── sources.cpython-311.pyc
+│           │   │   │   └── sources.py
+│           │   │   ├── __init__.py
+│           │   │   ├── locations
+│           │   │   │   ├── base.py
+│           │   │   │   ├── _distutils.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── base.cpython-311.pyc
+│           │   │   │   │   ├── _distutils.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   └── _sysconfig.cpython-311.pyc
+│           │   │   │   └── _sysconfig.py
+│           │   │   ├── main.py
+│           │   │   ├── metadata
+│           │   │   │   ├── base.py
+│           │   │   │   ├── importlib
+│           │   │   │   │   ├── _compat.py
+│           │   │   │   │   ├── _dists.py
+│           │   │   │   │   ├── _envs.py
+│           │   │   │   │   ├── __init__.py
+│           │   │   │   │   └── __pycache__
+│           │   │   │   │       ├── _compat.cpython-311.pyc
+│           │   │   │   │       ├── _dists.cpython-311.pyc
+│           │   │   │   │       ├── _envs.cpython-311.pyc
+│           │   │   │   │       └── __init__.cpython-311.pyc
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── _json.py
+│           │   │   │   ├── pkg_resources.py
+│           │   │   │   └── __pycache__
+│           │   │   │       ├── base.cpython-311.pyc
+│           │   │   │       ├── __init__.cpython-311.pyc
+│           │   │   │       ├── _json.cpython-311.pyc
+│           │   │   │       └── pkg_resources.cpython-311.pyc
+│           │   │   ├── models
+│           │   │   │   ├── candidate.py
+│           │   │   │   ├── direct_url.py
+│           │   │   │   ├── format_control.py
+│           │   │   │   ├── index.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── installation_report.py
+│           │   │   │   ├── link.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── candidate.cpython-311.pyc
+│           │   │   │   │   ├── direct_url.cpython-311.pyc
+│           │   │   │   │   ├── format_control.cpython-311.pyc
+│           │   │   │   │   ├── index.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── installation_report.cpython-311.pyc
+│           │   │   │   │   ├── link.cpython-311.pyc
+│           │   │   │   │   ├── scheme.cpython-311.pyc
+│           │   │   │   │   ├── search_scope.cpython-311.pyc
+│           │   │   │   │   ├── selection_prefs.cpython-311.pyc
+│           │   │   │   │   ├── target_python.cpython-311.pyc
+│           │   │   │   │   └── wheel.cpython-311.pyc
+│           │   │   │   ├── scheme.py
+│           │   │   │   ├── search_scope.py
+│           │   │   │   ├── selection_prefs.py
+│           │   │   │   ├── target_python.py
+│           │   │   │   └── wheel.py
+│           │   │   ├── network
+│           │   │   │   ├── auth.py
+│           │   │   │   ├── cache.py
+│           │   │   │   ├── download.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── lazy_wheel.py
+│           │   │   │   ├── __pycache__
+│           │   │   │   │   ├── auth.cpython-311.pyc
+│           │   │   │   │   ├── cache.cpython-311.pyc
+│           │   │   │   │   ├── download.cpython-311.pyc
+│           │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   ├── lazy_wheel.cpython-311.pyc
+│           │   │   │   │   ├── session.cpython-311.pyc
+│           │   │   │   │   ├── utils.cpython-311.pyc
+│           │   │   │   │   └── xmlrpc.cpython-311.pyc
+│           │   │   │   ├── session.py
+│           │   │   │   ├── utils.py
+│           │   │   │   └── xmlrpc.py
+│           │   │   ├── operations
+│           │   │   │   ├── build
+│           │   │   │   │   ├── build_tracker.py
+│           │   │   │   │   ├── __init__.py
+│           │   │   │   │   ├── metadata_editable.py
+│           │   │   │   │   ├── metadata_legacy.py
+│           │   │   │   │   ├── metadata.py
+│           │   │   │   │   ├── __pycache__
+│           │   │   │   │   │   ├── build_tracker.cpython-311.pyc
+│           │   │   │   │   │   ├── __init__.cpython-311.pyc
+│           │   │   │   │   │   ├── metadata.cpython-311.pyc
+│           │   │   │   │   │   ├── metadata_editable.cpython-311.pyc
+│           │   │   │   │   │   ├── metadata_legacy.cpython-311.pyc
+│           │   │   │   │   │   ├── wheel.cpython-311.pyc
+│           │   │   │   │   │   ├── wheel_editable.cpython-311.pyc
+│           │   │   │   │   │   └── wheel_legacy.cpython-311.pyc
+│           │   │   │   │   ├── wheel_editable.py
+│           │   │   │   │   ├── wheel_legacy.py
+│           │   │   │   │   └── wheel.py
+│           │   │   │   ├── check.py
+│           │   │   │   ├── freeze.py
+│           │   │   │   ├── __init__.py
+M│           │   │   │   │   ├── metadata_legacy.py
+M│           │   │   │   │   ├── metadata_editable.py
+M│           │   │   │   │   ├── __init__.py
+M│           │   │   │   │   ├── build_tracker.py
+M│           │   │   │   ├── build
+M│           │   │   ├── operations
+M│           │   │   │   └── xmlrpc.py
+M│           │   │   │   ├── utils.py
+M│           │   │   │   ├── session.py
+│           │   │   │   │   │   ├── wheel.cpython-311.pyc
+│           │   │   │   │   │   ├── wheel_editable.cpython-311.pyc
+│           │   │   │   │   │   └── wheel_legacy.cpython-311.pyc
+│           │   │   │   │   ├── wheel_editable.py
+│           │   │   │   │   ├── wheel_legacy.py
+│           │   │   │   │   └── wheel.py
+│           │   │   │   ├── check.py
+│           │   │   │   ├── freeze.py
+│           │   │   │   ├── __init__.py
+│           │   │   │   ├── install
+ ESESCOB
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->
