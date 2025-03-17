@@ -5,5 +5,10 @@ $ python3 -m venv .venv
 $ source .venv/bin/activate
 # Aktivera den i Windows
 $ ./bin/Scripts/activate
-# Se vad sin finns från början
+# Se vad sin finns från början (nästan tomt)
 $ pip list
+Package    Version
+---------- -------
+pip        23.0.1
+setuptools 66.1.1
+$ 
