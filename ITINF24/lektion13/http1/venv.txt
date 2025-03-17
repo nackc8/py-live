@@ -13,7 +13,7 @@ pip        23.0.1
 setuptools 66.1.1
 # Vi installerar Flask
 $ pip install flask
-# Nu har vi Flask, OCH dess beroenden
+# Nu har vi Flask, OCH dess beroenden (alla, inkl beroendens beroenden)
 $ pip list
 $ pip list
 Package      Version
@@ -27,4 +27,3 @@ MarkupSafe   3.0.2
 pip          23.0.1
 setuptools   66.1.1
 Werkzeug     3.1.3
-
