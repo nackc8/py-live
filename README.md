@@ -1,108 +1,96 @@
-# Programmering i Python – "Live"
+# Programmering i Python – “Live”-exempel
 
-Detta Git-repo innehåller exempel från terminalen och filer för varje lektion där sådant förekommit. Det är en samlad plats för flera versioner av kursen.
+Detta Git-repo innehåller exempel från terminalen och filer för varje lektion. Det är en samlad plats för flera versioner av kursen.
 
 ## Lektionsdag
 
-I din klassmapp finns en katalog för varje lektionsdag som innehåller:
+Under din klassmapp finns en katalog för varje lektionsdag. Denna katalog innehåller två viktiga delar:
 
-- **Kod och filer** (skript, program, data) direkt i lektionskatalogen.
-- **Terminalinspelningar** i katalogen `recordings`.
+- **Terminalinspelningar:** En underkatalog `recordings` med inspelningar av allt som skrivs i terminalen under lektionsdagen via **asciinema**.
+- **Resten:** De skript/program som vi skapar och kör samt eventuella datafiler kopplade till dem läggs oftast direkt i katalogen.
 
-## Följ lektionen "Live"
+Se nedan för hur du kan spela upp inspelningarna.
 
-Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra Bash-skriptet `bin/daystart` på morgonen. Om du använder Windows kan du köra skriptet från "Git Bash" men tyvärr inte från PowerShell.
+## Att följa med “Live”
 
-1. Vid dagens slut sammanfogas allt till `main`.
+Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med “live”, checka ut den aktuella grenen genom att köra skriptet `./bin/daystart` på morgonen.
 
-Om du vill få de senase ändringarna kontinuerligt så kan du t.ex. använda en liten loop som kör git pull var 5:e sekund:
-
-    ```
-    while true; do git pull; sleep 5; done
-    ```
+Efter det kan du antingen köra `git pull` i terminalen eller använda din utvecklingsmiljö för att hämta de senaste ändringarna från utbildaren. Kom ihåg att upprepa detta varje gång du vill få de senaste ändringarna.
 
 Vid dagens slut slås förändringarna ihop till en commit som går över till `main`-grenen.
 
-## Att spela upp eller se inspelade terminalen terminalsessioner
+Ett sätt att automatisera uppdateringarna är att t.ex. köra följande i Bash-rad inuti ditt klonade repo:
 
-### "Videoinspelning" och uppspelning av terminalen
+```bash
+while true; do git pull ; sleep 10; done
+```
 
-- **Linux:** Finns ofta redan installerat. Annars:
+## Att spela upp den inspelade terminalen
 
-  ```bash
-  sudo apt-get install util-linux
-  ```
+Inspelningarna i `recordings/` är gjorda med **asciinema**. Formatet är en fil som slutar på `.cast`.
 
-- **macOS:** Inbyggt på många versioner. Om du saknar det, installera via Homebrew:
+### Webbläsaren
 
-  ```bash
-  brew install util-linux
-  ```
+Kör skriptet `bin/play.py` från repo-roten:
 
-- **Windows:** Använd Git Bash eller WSL (Windows Subsystem for Linux) där `script`/`scriptreplay` fungerar som i Linux. Alternativt kan du använda Cygwin.
+```bash
+python3 bin/play.py
+```
 
-### Inspelningsfiler
+Det startar en lokal webbserver och skriver ut en URL, t.ex. `http://localhost:7777/`. Öppna länken i webbläsaren för att enkelt kunna spela upp inspelningarna.
 
-Vid inspelning resulterar i tre filer:
+### Terminalen
 
-1. `<tid>_cleaned.txt` (syns först en stund efter avslutad session)
-2. `<tid>.txt`
-3. `<tid>_timing.txt`
+#### Installera asciinema
 
-### Uppspelning
+Du behöver installera **asciinema**.
 
-1. **Visa filinnehållet (rå text)**
+##### Linux (Debian/Ubuntu)
 
-   ```bash
-   cat "<tid>.txt"
-   ```
+```bash
+sudo apt update
+sudo apt install asciinema
+````
 
-   Detta visar all text, inklusive färgkoder.
+##### macOS (Homebrew)
 
-2. **Realtidsuppspelning**
+```bash
+brew install asciinema
+```
 
-   ```bash
-   scriptreplay "<tid>_timing.txt" "<tid>.txt"
-   ```
+##### Windows
 
-3. **Snabbare uppspelning (t.ex. 150%)**
+Använd **WSL** (Windows Subsystem for Linux), t.ex. Debian/Ubuntu, och följ instruktionerna ovan.
 
-   ```bash
-   scriptreplay -d 1.5 --timing "<tid>_timing.txt" "<tid>.txt"
-   ```
+#### Spela upp en inspelning
 
-4. **Begränsa långa pauser (max 2 sek)**
+Gå till repo-roten och kör:
 
-   ```bash
-   scriptreplay -m 2 --timing "<tid>_timing.txt" "<tid>.txt"
-   ```
+```bash
+asciinema play "<klasskatalog>/<lektionskatalog>/recordings/<tid>.cast"
+```
 
-Nedan är en förkortad version utan rådet om Windows-genvägar:
+#### Justera uppspelningen
 
-## Mjuka länkar (symlinks) från datumkataloger till `KLASS/lektionN`
+##### Ändra hastighet
 
-I `date/dYYMMDD` finns mjuka länkar (symlinks) som pekar på `KLASS/lektionN`. Dessa är redan skapade av utbildaren och versionerade i Git.
+Spela upp i t.ex. 150 % hastighet:
 
-### Linux och macOS
+```bash
+asciinema play -s 1.5 "<fil>.cast"
+```
 
-- **Fungerar direkt** när du kör `git pull`.
+##### Pausa och fortsätt
 
-### Windows
+Under uppspelning:
 
-Git kan checka ut symlinks på olika sätt, beroende på din konfiguration:
+- `Space` – pausa / fortsätt
+- `.` – stega fram en frame när pausad
 
-1. **Riktiga symlinks**
-   - Aktivera "Developer Mode" (Inställningar → Uppdatering och säkerhet → För utvecklare).
-   - Ställ in i Git:
+Detta gör att du kan följa i din egen takt direkt i terminalen.
 
-     ```bash
-     git config core.symlinks true
-     ```
+## Filinnehåll
 
-   - Nu hanteras symlinks som faktiska länkar i Windows.
+För varje terminalinspelning finns normalt en fil:
 
-2. **Textfiler**
-   - Om Developer Mode inte är aktivt skapas länkarna som små textfiler som visar sökvägen, men beter sig inte som länkar i Explorer.
-
-3. **Windows Subsystem for Linux (WSL)**
-   - Använder du WSL och arbetar i WSL:s filsystem (t.ex. `/home/...`) fungerar symlinks som i Linux/macOS.
+- `<tid>.cast`: asciinema-inspelning (terminalens innehåll + timing)
