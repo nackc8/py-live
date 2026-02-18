@@ -9,7 +9,8 @@
     "ms-python.vscode-python-envs",
     "ms-toolsai.jupyter-renderers",
     "ms-toolsai.jupyter",
-    "ms-toolsai.vscode-jupyter-powertoys"
+    "ms-toolsai.vscode-jupyter-powertoys",
+    "thomashickman.python-docs-opener"
   ],
   "unwantedRecommendations": [
     "anthropic.claude-code",
