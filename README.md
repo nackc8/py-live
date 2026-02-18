@@ -1,108 +1,88 @@
-# Programmering i Python – "Live"
+# Linux 2 - "Live"-exempel
 
-Detta Git-repo innehåller exempel från terminalen och filer för varje lektion där sådant förekommit. Det är en samlad plats för flera versioner av kursen.
+Detta Git-repositorium innehåller exempel från terminalen och filer för varje lektion. Det är en samlad plats för flera versioner av kursen.
 
 ## Lektionsdag
 
-I din klassmapp finns en katalog för varje lektionsdag som innehåller:
+Under din klassmapp finns en katalog för varje lektionsdag. Denna katalog innehåller två viktiga delar:
 
-- **Kod och filer** (skript, program, data) direkt i lektionskatalogen.
-- **Terminalinspelningar** i katalogen `recordings`.
+- Terminalinspelningar: En underkatalog `recordings` med inspelningar av allt som skrivs i terminalen under lektionsdagen.
 
-## Följ lektionen "Live"
+- Resten: De skript/program som vi skapar och kör samt eventuella datafiler kopplade till dem läggs oftast direkt i katalogen.
 
-Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra Bash-skriptet `bin/daystart` på morgonen. Om du använder Windows kan du köra skriptet från "Git Bash" men tyvärr inte från PowerShell.
+Se nedan för hur du kan spela upp inspelningarna.
 
-1. Vid dagens slut sammanfogas allt till `main`.
+## Att följa med "Live"
 
-Om du vill få de senase ändringarna kontinuerligt så kan du t.ex. använda en liten loop som kör git pull var 5:e sekund:
+Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra skriptet `./bin/daystart` på morgonen.
 
-    ```
-    while true; do git pull; sleep 5; done
-    ```
+Efter det kan du antingen köra `git pull` i terminalen eller använda din utvecklingsmiljö för att hämta de senaste ändringarna från utbildaren. Kom ihåg att upprepa detta varje gång du vill få de senaste ändringarna.
 
 Vid dagens slut slås förändringarna ihop till en commit som går över till `main`-grenen.
 
-## Att spela upp eller se inspelade terminalen terminalsessioner
+## Att spela upp den inspelade terminalen
 
-### "Videoinspelning" och uppspelning av terminalen
+### Vad är `script` och `scriptreplay`?
 
-- **Linux:** Finns ofta redan installerat. Annars:
+`script` är ett kommando som används för att spela in terminalsessioner. Det skapar en textfil som innehåller allt som skrivs i terminalen.
 
-  ```bash
-  sudo apt-get install util-linux
-  ```
+`scriptreplay` används för att återspela dessa inspelningar, och det kan använda en separat tidsfil för att spela upp allt exakt i den takt som det skrevs in.
 
-- **macOS:** Inbyggt på många versioner. Om du saknar det, installera via Homebrew:
+### Filinnehåll
 
-  ```bash
-  brew install util-linux
-  ```
+För varje inspelning finns två filer:
 
-- **Windows:** Använd Git Bash eller WSL (Windows Subsystem for Linux) där `script`/`scriptreplay` fungerar som i Linux. Alternativt kan du använda Cygwin.
+- `<tid>.txt`: Denna fil innehåller den faktiska utdata från terminalen under inspelningen.
 
-### Inspelningsfiler
+- `<tid>_timing.txt`: Denna fil innehåller tidsinformation som gör det möjligt att återskapa sessionen med exakt tidslinje.
 
-Vid inspelning resulterar i tre filer:
+## Olika sätt att spela upp en inspelning
 
-1. `<tid>_cleaned.txt` (syns först en stund efter avslutad session)
-2. `<tid>.txt`
-3. `<tid>_timing.txt`
+Dessa underrubriker förklarar olika sätt att spela upp en inspelning.
 
-### Uppspelning
+Då kommandoraden blir så lång så används två variabler för att ange filen med de inspelade tecknen samt filen med timningen.
 
-1. **Visa filinnehållet (rå text)**
+```bash
+inspelning="<klasskatalog>/<lektionskatalog>/recordings/<tid>.txt"
+timing="<klasskatalog>/<lektionskatalog>/recordings/<tid>_timing.txt"
+```
 
-   ```bash
-   cat "<tid>.txt"
-   ```
+### Se omodifierat slutresultat
 
-   Detta visar all text, inklusive färgkoder.
+Om du vill visa skriptets utdata utan att använda tidsfilen kan du enkelt visa innehållet direkt med kommandot `cat`. ANSI-koder för färgändring och markörpositionering kommer fortfarande att inkluderas.
 
-2. **Realtidsuppspelning**
+```bash
+cat "$inspelning"
+```
 
-   ```bash
-   scriptreplay "<tid>_timing.txt" "<tid>.txt"
-   ```
+### Se rengjort slutresultat
 
-3. **Snabbare uppspelning (t.ex. 150%)**
+För att få en ren utmatning utan ANSI-koder kan du använda `ansifilter` (installera det).
 
-   ```bash
-   scriptreplay -d 1.5 --timing "<tid>_timing.txt" "<tid>.txt"
-   ```
+```bash
+ansifilter "$inspelning"
+```
 
-4. **Begränsa långa pauser (max 2 sek)**
+### Spela upp med tidsanvändning i realtid
 
-   ```bash
-   scriptreplay -m 2 --timing "<tid>_timing.txt" "<tid>.txt"
-   ```
+För att spela upp en inspelning med tidsanvändning, använd kommandot `scriptreplay`, som tar både utdatafilen och tidsfilen som argument.
 
-Nedan är en förkortad version utan rådet om Windows-genvägar:
+```bash
+scriptreplay "$timing" "$inspelning"
+```
 
-## Mjuka länkar (symlinks) från datumkataloger till `KLASS/lektionN`
+### Spela upp med tidsanvändning i 150% hastighet
 
-I `date/dYYMMDD` finns mjuka länkar (symlinks) som pekar på `KLASS/lektionN`. Dessa är redan skapade av utbildaren och versionerade i Git.
+För att spela upp inspelningen i 150% hastighet kan du justera tiden med en skalningsfaktor. Använd kommandot `scriptreplay` och ange en multiplikator (i detta fall `1.5` för att spela upp i 150% hastighet).
 
-### Linux och macOS
+```bash
+scriptreplay -d 1.5 --timing "$timing" "$inspelning"
+```
 
-- **Fungerar direkt** när du kör `git pull`.
+### Spela upp utan lång väntetid mellan teckenuppdateringarna
 
-### Windows
+Du kan till exempel välja att aldrig behöva vänta mer än 2 sekunder genom att sätta en maxtidsgräns. Använd kommandot `scriptreplay` och ange en maxgräns på 2 sekunder.
 
-Git kan checka ut symlinks på olika sätt, beroende på din konfiguration:
-
-1. **Riktiga symlinks**
-   - Aktivera "Developer Mode" (Inställningar → Uppdatering och säkerhet → För utvecklare).
-   - Ställ in i Git:
-
-     ```bash
-     git config core.symlinks true
-     ```
-
-   - Nu hanteras symlinks som faktiska länkar i Windows.
-
-2. **Textfiler**
-   - Om Developer Mode inte är aktivt skapas länkarna som små textfiler som visar sökvägen, men beter sig inte som länkar i Explorer.
-
-3. **Windows Subsystem for Linux (WSL)**
-   - Använder du WSL och arbetar i WSL:s filsystem (t.ex. `/home/...`) fungerar symlinks som i Linux/macOS.
+```bash
+scriptreplay -m 2 --timing "$timing" "$inspelning"
+```

@@ -32,7 +32,7 @@ __cp() {
 		local name=$(basename "$src")
 		name="${name/#dot_/.}"
 		echo -n 'cp '
-		rm -rf "$dst/$name"
+		rm -rf "${dst:?}/$name"
 		cp -v "$src" "$dst/$name"
 	done
 }

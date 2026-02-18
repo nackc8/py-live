@@ -11,7 +11,7 @@ source "$___root/.shared/repo.bash"
 # shellcheck disable=SC1090
 source ~/.bashrc
 
-# shellcheck disable=SC2181,SC2317
+# shellcheck disable=SC2181,SC2317,SC2329
 ___rel_path() {
 	local prompt
 	local root
@@ -32,7 +32,7 @@ ___rel_path() {
 }
 export -f ___rel_path
 
-# shellcheck disable=SC2317,SC2155
+# shellcheck disable=SC2317,SC2155,SC2329
 ___set_bash_prompt() {
 	local prompt=$(___rel_path)
 

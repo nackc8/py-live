@@ -4,6 +4,10 @@
 
 ignored*
 .ignored*
+*.iso
+*.fd
+*.qcow2
+*.sock
 
 #
 # "Live"
