@@ -1,4 +1,4 @@
-# Linux 2 - "Live"-exempel
+# Programmering i Python – “Live”-exempel
 
 Detta Git-repositorium innehåller exempel från terminalen och filer för varje lektion. Det är en samlad plats för flera versioner av kursen.
 
@@ -6,15 +6,14 @@ Detta Git-repositorium innehåller exempel från terminalen och filer för varje
 
 Under din klassmapp finns en katalog för varje lektionsdag. Denna katalog innehåller två viktiga delar:
 
-- Terminalinspelningar: En underkatalog `recordings` med inspelningar av allt som skrivs i terminalen under lektionsdagen.
-
-- Resten: De skript/program som vi skapar och kör samt eventuella datafiler kopplade till dem läggs oftast direkt i katalogen.
+- **Terminalinspelningar:** En underkatalog `recordings` med inspelningar av allt som skrivs i terminalen under lektionsdagen (asciinema).
+- **Resten:** De skript/program som vi skapar och kör samt eventuella datafiler kopplade till dem läggs oftast direkt i katalogen.
 
 Se nedan för hur du kan spela upp inspelningarna.
 
-## Att följa med "Live"
+## Att följa med “Live”
 
-Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra skriptet `./bin/daystart` på morgonen.
+Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med “live”, checka ut den aktuella grenen genom att köra skriptet `./bin/daystart` på morgonen.
 
 Efter det kan du antingen köra `git pull` i terminalen eller använda din utvecklingsmiljö för att hämta de senaste ändringarna från utbildaren. Kom ihåg att upprepa detta varje gång du vill få de senaste ändringarna.
 
@@ -22,67 +21,58 @@ Vid dagens slut slås förändringarna ihop till en commit som går över till `
 
 ## Att spela upp den inspelade terminalen
 
-### Vad är `script` och `scriptreplay`?
+Inspelningarna i `recordings/` är gjorda med **asciinema**. Formatet är en fil som slutar på `.cast`.
 
-`script` är ett kommando som används för att spela in terminalsessioner. Det skapar en textfil som innehåller allt som skrivs i terminalen.
+### Installera asciinema
 
-`scriptreplay` används för att återspela dessa inspelningar, och det kan använda en separat tidsfil för att spela upp allt exakt i den takt som det skrevs in.
+Du behöver installera **asciinema**.
 
-### Filinnehåll
-
-För varje inspelning finns två filer:
-
-- `<tid>.txt`: Denna fil innehåller den faktiska utdata från terminalen under inspelningen.
-
-- `<tid>_timing.txt`: Denna fil innehåller tidsinformation som gör det möjligt att återskapa sessionen med exakt tidslinje.
-
-## Olika sätt att spela upp en inspelning
-
-Dessa underrubriker förklarar olika sätt att spela upp en inspelning.
-
-Då kommandoraden blir så lång så används två variabler för att ange filen med de inspelade tecknen samt filen med timningen.
+#### Linux (Debian/Ubuntu)
 
 ```bash
-inspelning="<klasskatalog>/<lektionskatalog>/recordings/<tid>.txt"
-timing="<klasskatalog>/<lektionskatalog>/recordings/<tid>_timing.txt"
-```
+sudo apt update
+sudo apt install asciinema
+````
 
-### Se omodifierat slutresultat
-
-Om du vill visa skriptets utdata utan att använda tidsfilen kan du enkelt visa innehållet direkt med kommandot `cat`. ANSI-koder för färgändring och markörpositionering kommer fortfarande att inkluderas.
+#### macOS (Homebrew)
 
 ```bash
-cat "$inspelning"
+brew install asciinema
 ```
 
-### Se rengjort slutresultat
+#### Windows
 
-För att få en ren utmatning utan ANSI-koder kan du använda `ansifilter` (installera det).
+Använd **WSL** (Windows Subsystem for Linux), t.ex. Debian/Ubuntu, och följ instruktionerna ovan.
+
+## Filinnehåll
+
+För varje terminalinspelning finns normalt en fil:
+
+- `<tid>.cast`: asciinema-inspelning (terminalens innehåll + timing)
+
+## Spela upp en inspelning
+
+Gå till repo-roten och kör:
 
 ```bash
-ansifilter "$inspelning"
+asciinema play "<klasskatalog>/<lektionskatalog>/recordings/<tid>.cast"
 ```
 
-### Spela upp med tidsanvändning i realtid
+## Justera uppspelningen
 
-För att spela upp en inspelning med tidsanvändning, använd kommandot `scriptreplay`, som tar både utdatafilen och tidsfilen som argument.
+### Ändra hastighet
+
+Spela upp i t.ex. 150 % hastighet:
 
 ```bash
-scriptreplay "$timing" "$inspelning"
+asciinema play -s 1.5 "<fil>.cast"
 ```
 
-### Spela upp med tidsanvändning i 150% hastighet
+### Pausa och fortsätt
 
-För att spela upp inspelningen i 150% hastighet kan du justera tiden med en skalningsfaktor. Använd kommandot `scriptreplay` och ange en multiplikator (i detta fall `1.5` för att spela upp i 150% hastighet).
+Under uppspelning:
 
-```bash
-scriptreplay -d 1.5 --timing "$timing" "$inspelning"
-```
+- `Space` – pausa / fortsätt
+- `.` – stega fram en frame när pausad
 
-### Spela upp utan lång väntetid mellan teckenuppdateringarna
-
-Du kan till exempel välja att aldrig behöva vänta mer än 2 sekunder genom att sätta en maxtidsgräns. Använd kommandot `scriptreplay` och ange en maxgräns på 2 sekunder.
-
-```bash
-scriptreplay -m 2 --timing "$timing" "$inspelning"
-```
+Detta gör att du kan följa i din egen takt direkt i terminalen.
