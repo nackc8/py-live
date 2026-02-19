@@ -4,3 +4,7 @@ print("Din ålder är:")
 print(age)
 print("typen på age:")
 print(type(age))
+
+age = 123
+print("typen på age efter konv:")
+print(type(age))
