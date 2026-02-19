@@ -255,3 +255,6 @@
 [812.305299, "o", "Din ålder är:\r\n60\r\ntypen på age:\r\n<class 'str'>\r\n60\r\n"]
 [812.305666, "o", "typen på age efter konv:\r\n<class 'int'>\r\n"]
 [812.329808, "o", "\u001b[?2004h\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ "]
+[829.604273, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[832.691784, "o", "\u001b[?2004l\r\r\n"]
+[832.692005, "o", "exit\r\n"]
