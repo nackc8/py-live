@@ -31,7 +31,7 @@ Inspelningarna i `recordings/` är gjorda med **asciinema**. Formatet är en fil
 
 ### Webbläsaren
 
-Kör skriptet `bin/play.py` från repo-roten:
+Kör skriptet `bin/play` från repo-roten:
 
 ```bash
 python3 bin/play.py
