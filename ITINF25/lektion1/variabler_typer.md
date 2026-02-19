@@ -54,5 +54,5 @@ Conditional logic
         <
         >=
         <=
-        =
+        ==
 
