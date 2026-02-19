@@ -104,3 +104,8 @@
 [62.815639, "o", "\r\n\u001b[?2004l\r"]
 [62.857145, "o", "100\r\n"]
 [62.879783, "o", "\u001b[?2004h\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ "]
+[147.74881, "o", "./conditional_logic.py "]
+[148.132089, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ ./conditional_logic.py "]
+[148.580535, "o", "\r\n\u001b[?2004l\r"]
+[148.61819, "o", "100\r\nnum1 > num2\r\nFalse\r\n"]
+[148.640384, "o", "\u001b[?2004h\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ "]
