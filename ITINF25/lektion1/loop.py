@@ -6,5 +6,5 @@ bil_lista = ["Mazda", "Volvo", "Opel"]
 
 for bil in bil_lista:
     print(bil)
-    bra_bil = bil == "Open"
+    bra_bil = bil == "Opel"
     print(bra_bil)
