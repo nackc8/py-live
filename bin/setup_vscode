@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if command -v python3 >/dev/null 2>&1; then
+    python3 "$(dirname "$0")/setup_vscode.py"
+elif command -v python >/dev/null 2>&1; then
+    python "$(dirname "$0")/setup_vscode.py"
+else
+    echo "Error: Python not found. Please install Python." >&2
+    exit 1
+fi
