@@ -1,3 +1,7 @@
 bil_lista = ["Mazda", "Volvo", "Opel"]
 
 print(bil_lista)
+
+# Loopa! För att gå igenom varje sak... kallas formellt element
+
+for 
