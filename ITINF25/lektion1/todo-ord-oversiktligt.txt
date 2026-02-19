@@ -1,12 +1,12 @@
-Assignment statement
-Boolean
+✓ Assignment statement
+✓ Boolean
 Built-in functions
 Conditional logic
 Conditional statement
-Data type
+✓ Data type
 Debugger
-Expression
-Float
+✓ Expression
+✓ Float
 For loop
 Function
 Function call
