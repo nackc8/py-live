@@ -14,11 +14,11 @@ Function definition
 If statement
 Import statement
 input()
-Integer
+✓ Integer
 Interpreter
 Iteration
 Jupyter Notebook
-List
+✓ List
 Loop
 Machine code
 Module
@@ -26,12 +26,12 @@ Operator
 print()
 Program
 Programming
-Python
-Python REPL
-range()
+✓ Python
+✓ Python REPL
+✓ range()
 Selection
-String
+✓ String
 Type system
-Variable
-Variable assignment
+✓ Variable
+✓ Variable assignment
 While-loop
