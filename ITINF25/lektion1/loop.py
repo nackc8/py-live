@@ -1,2 +1,3 @@
+bil_lista = ["Mazda", "Volvo", "Opel"]
 
-bil_lista = ["" ]
+print(bil_lista)
