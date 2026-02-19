@@ -6,5 +6,5 @@ num2 = 300
 print(num1)
 
 num1_greater_num2 = num1 > num2
-print("num1 > num2")
+print("svaret på num1 > num2 är:")
 print(num1_greater_num2)

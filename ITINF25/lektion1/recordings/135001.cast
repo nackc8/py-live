@@ -109,3 +109,8 @@
 [148.580535, "o", "\r\n\u001b[?2004l\r"]
 [148.61819, "o", "100\r\nnum1 > num2\r\nFalse\r\n"]
 [148.640384, "o", "\u001b[?2004h\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ "]
+[180.576699, "o", "./conditional_logic.py "]
+[181.011246, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ ./conditional_logic.py "]
+[181.410573, "o", "\r\n\u001b[?2004l\r"]
+[181.450319, "o", "100\r\nsvaret på num1 > num2 är:\r\nFalse\r\n"]
+[181.472195, "o", "\u001b[?2004h\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ "]
