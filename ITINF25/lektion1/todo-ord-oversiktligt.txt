@@ -15,17 +15,17 @@ If statement
 Import statement
 input()
 ✓ Integer
-Interpreter
+✓ Interpreter
 Iteration
 Jupyter Notebook
 ✓ List
 Loop
-Machine code
+✓ Machine code
 Module
-Operator
-print()
-Program
-Programming
+✓ Operator
+✓ print()
+✓ Program
+✓ Programming
 ✓ Python
 ✓ Python REPL
 ✓ range()
