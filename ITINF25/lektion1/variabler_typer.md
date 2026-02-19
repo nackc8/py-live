@@ -45,3 +45,14 @@ Operatorer:
     - Division till heltal, kastar decimaldelen i soporna: 10 // 3
     - % modulo, ger tillbaka resten vid division: 3 % 2 ---> 1
 
+Conditional logic
+
+    Operatorer som utvärderar/jämför och resulterar i True eller False
+
+    Nedanstående tar ett värde till vänster och ett till höger
+        >
+        <
+        >=
+        <=
+        =
+
