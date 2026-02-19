@@ -4,4 +4,4 @@ print(bil_lista)
 
 # Loopa! För att gå igenom varje sak... kallas formellt element
 
-for 
+for bil in bil_lista
