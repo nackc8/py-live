@@ -10,3 +10,6 @@
 [72.702988, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 42003 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1/loop.py \r\n\u001b[?2004l\r"]
 [193.473379, "o", "Mazda\r\n"]
 [236.494741, "o", "False\r\n"]
+[277.85097, "o", "Volvo\r\n"]
+[289.122896, "o", "False"]
+[289.123173, "o", "\r\n"]
