@@ -1,1 +1,1 @@
-input("Hur gammal är du?")
+input("Hur gammal är du? ")
