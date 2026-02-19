@@ -1,0 +1,37 @@
+Assignment statement
+Boolean
+Built-in functions
+Conditional logic
+Conditional statement
+Data type
+Debugger
+Expression
+Float
+For loop
+Function
+Function call
+Function definition
+If statement
+Import statement
+input()
+Integer
+Interpreter
+Iteration
+Jupyter Notebook
+List
+Loop
+Machine code
+Module
+Operator
+print()
+Program
+Programming
+Python
+Python REPL
+range()
+Selection
+String
+Type system
+Variable
+Variable assignment
+While-loop
