@@ -1,0 +1,5 @@
+{"version": 2, "width": 89, "height": 11, "timestamp": 1771506693, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.652495, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1\r\n"]
+[0.654319, "o", "\u001b[0m\u001b[01;32mconditional_logic.py\u001b[0m  loop.py     todo-ord-oversiktligt.txt\r\nkorkort.py            \u001b[01;34mrecordings\u001b[0m  variabler_typer.md\r\n"]
+[0.68112, "o", "\u001b[?2004h\u001b[94mITINF25/lektion1\r\r\n\u001b(B\u001b[m$ "]
+[1.202552, "o", " /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45499 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1/loop.py \r\n\u001b[?2004l\r"]
