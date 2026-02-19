@@ -1,6 +1,6 @@
 ✓ Assignment statement
 ✓ Boolean
-Built-in functions
+✓ Built-in functions
 Conditional logic
 Conditional statement
 ✓ Data type
