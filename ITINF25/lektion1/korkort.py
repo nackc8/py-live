@@ -5,7 +5,7 @@ print(age)
 print("typen på age:")
 print(type(age))
 
-age = age + "rrr"
+age = int(age)
 print(age)
 print("typen på age efter konv:")
 print(type(age))
