@@ -9,8 +9,8 @@ python3
 
 Vi använder:
 
-    print(s) - skriver ut texten s till stdout
-    type(t) - skriver ut typen på t
+- `print(s)` - skriver ut texten s till stdout
+- `type(t)`  - skriver ut typen på t
 
 Variabel:
     - Ett lagrat värde i datorns minne
@@ -40,7 +40,7 @@ Typkonvertering:
 
 Operatorer:
     - Gör saker med värden, de "opererar" på dem
-    - Vanliga: + - / * (gånger är *)
+    - Vanliga: + - / *(gånger är*)
     - 1 + 2 ----> 3
     - Division till heltal, kastar decimaldelen i soporna: 10 // 3
     - % modulo, ger tillbaka resten vid division: 3 % 2 ---> 1
@@ -55,4 +55,3 @@ Conditional logic
         >=
         <=
         ==
-
