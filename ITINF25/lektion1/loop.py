@@ -7,3 +7,4 @@ bil_lista = ["Mazda", "Volvo", "Opel"]
 for bil in bil_lista:
     print(bil)
     bra_bil = bil == "Open"
+    print(bra_bil)
