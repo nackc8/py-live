@@ -26,3 +26,4 @@
 [2294.067294, "o", "^C\u001b[?2004l\r\u001b[?2004h\r\n\u001b[?2004l\r\r\n"]
 [2294.072297, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
 [2294.26565, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 59239 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/list2_continue.py \r\n\u001b[?2004l\r"]
+[2396.251085, "o", "Sliding total: 100\r\n"]
