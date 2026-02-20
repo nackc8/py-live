@@ -1,7 +1,7 @@
-name = input("What is your name? ")
+name1 = input("What is your name? ")
 
-name = name.count("hej")
-print(name)
+name2 = name1.count("hej")
+print(name2)
 
 # if name == "fredrik":
 #     print("Vilket bra namn!")
