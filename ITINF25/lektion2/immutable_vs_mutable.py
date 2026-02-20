@@ -10,5 +10,11 @@ obj2_id = id(obj2)
 
 print(obj1_id, obj2_id)
 
+# int är immutable
+
 print(id(2))
 print(id(2))
+
+# float
+print(id(3.14))
+print(id(3.14))
