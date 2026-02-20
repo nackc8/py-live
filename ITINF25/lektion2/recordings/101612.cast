@@ -20,3 +20,5 @@
 [463.507024, "o", "\u001b[?2004l\r\r\n"]
 [463.511867, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
 [463.708793, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57123 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/logic3.py \r\n\u001b[?2004l\r"]
+[489.453652, "o", "tal1 är inte bra!\r\n"]
+[490.035612, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
