@@ -42,3 +42,7 @@ print(lst3_hundar)
 lst_egen2_hundar = list(lst1_hundar)
 print(id(lst1_hundar))
 print(id(lst_egen2_hundar))
+lst1_hundar.append("mops")
+
+print(lst1_hundar)
+print(lst_egen2_hundar)
