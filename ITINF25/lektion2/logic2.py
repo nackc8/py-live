@@ -1,6 +1,4 @@
-name = input("What is your name? ")
+tal1 = 100
+tal2 = 200
+tal3 = 300
 
-is_good_name = name.count("hej")
-
-if is_good_name:
-    print("Vilket bra namn!")
