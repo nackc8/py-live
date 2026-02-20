@@ -2,4 +2,6 @@
 # ändras när man skapat. Eller så kan den vara
 # mutable, då kan den ändras.
 
-id("hej")
+obj_id = id("hej")
+
+print(obj_id)
