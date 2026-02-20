@@ -40,3 +40,5 @@ print(lst3_hundar)
 
 # Om jag vill ha en EGEN kopia av en lista, inte dela
 lst_egen2_hundar = list(lst1_hundar)
+print(id(lst1_hundar))
+print(id(lst_egen2_hundar))
