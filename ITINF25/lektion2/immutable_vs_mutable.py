@@ -18,3 +18,7 @@ print(id(2))
 # float
 print(id(3.14))
 print(id(3.14))
+
+# boolean
+print(id(True))
+print(id(True))
