@@ -33,3 +33,8 @@
 [67.211984, "o", "\r\n\u001b[?2004l\r"]
 [67.229343, "o", "tal1 är inte bra!\r\n"]
 [67.236677, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
+[308.856374, "o", "python3 logic2.py "]
+[309.73348, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ python3 logic2.py "]
+[310.325029, "o", "\r\n\u001b[?2004l\r"]
+[310.344602, "o", "tal1 är mindre än både tal2 och tal3\r\n"]
+[310.351556, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
