@@ -9,3 +9,5 @@ obj1_id = id(obj1)
 obj2_id = id(obj2)
 
 print(obj1_id, obj2_id)
+
+print(id(2))
