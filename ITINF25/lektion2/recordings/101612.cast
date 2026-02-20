@@ -83,3 +83,8 @@
 [3364.581501, "o", "\r\n"]
 [3364.58743, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
 [3364.775849, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52347 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/elif.py \r\n\u001b[?2004l\r"]
+[3402.404536, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
+[3402.807823, "o", "^C\u001b[?2004l\r"]
+[3402.807914, "o", "\u001b[?2004h\r\n\u001b[?2004l\r\r\n"]
+[3402.816084, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
+[3403.011109, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35533 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/elif.py \r\n\u001b[?2004l\r"]
