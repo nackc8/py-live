@@ -37,9 +37,3 @@ print(id(lst3_hundar))
 lst1_hundar.append("tax")
 print(lst1_hundar)
 print(lst3_hundar)
-
-s1 = "hoppsan"
-s2 = s1
-print(s1, s2)
-s1 = "något annat"
-print(s1, s2)
