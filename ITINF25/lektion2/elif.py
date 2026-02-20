@@ -1,1 +1,1 @@
-number = float(int(input("Guess a number between 0 and 100: "))
+number = int(float(input("Guess a number between 0 and 100: ")))
