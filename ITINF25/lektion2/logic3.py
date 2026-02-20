@@ -3,7 +3,7 @@ tal2 = 200
 tal3 = 0
 
 x = tal1 < tal2
-y = tal3
+y = bool(tal3)
 if x and tal3:
     print("tal1 är mindre än både tal2 och tal3")
 else:
