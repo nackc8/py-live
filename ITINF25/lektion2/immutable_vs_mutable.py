@@ -2,6 +2,7 @@
 # ändras när man skapat. Eller så kan den vara
 # mutable, då kan den ändras.
 
+# strängar är immutable = de kan dela på samma minnesadress
 obj1 = "hej"
 obj2 = "hej"
 obj1_id = id(obj1)
