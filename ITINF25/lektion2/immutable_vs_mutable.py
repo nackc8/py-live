@@ -36,3 +36,4 @@ print(id(lst3_hundar))
 # Eftersom de pekar på samma muterbara objekt, ändras båda om man ändrar en
 lst1_hundar.append("tax")
 print(lst1_hundar)
+print(lst3_hundar)
