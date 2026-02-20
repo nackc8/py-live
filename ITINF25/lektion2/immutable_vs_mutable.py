@@ -34,4 +34,4 @@ lst3_hundar = lst1_hundar
 print(id(lst3_hundar))
 
 # Eftersom de pekar på samma muterbara objekt, ändras båda om man ändrar en
-lst1_hundar
+lst1_hundar.
