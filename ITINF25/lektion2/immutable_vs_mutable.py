@@ -46,3 +46,13 @@ lst1_hundar.append("mops")
 
 print(lst1_hundar)
 print(lst_egen2_hundar)
+
+# Ett till sätt att få en egen kopia
+lst_egen3_hundar = lst1_hundar.copy()
+
+print(id(lst1_hundar))
+print(id(lst_egen3_hundar))
+lst1_hundar.append("mops")
+
+print(lst1_hundar)
+print(lst_egen3_hundar)
