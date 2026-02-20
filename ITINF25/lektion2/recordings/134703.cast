@@ -1,0 +1,5 @@
+{"version": 2, "width": 95, "height": 15, "timestamp": 1771591623, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.201799, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2\r\n"]
+[0.202422, "o", "elif.py                  logic1.py  logic3.py  logic5.py   typen_none.py\r\nimmutable_vs_mutable.py  logic2.py  logic4.py  \u001b[0m\u001b[01;34mrecordings\u001b[0m\r\n"]
+[0.210275, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
+[0.726878, "o", " /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45269 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/typen_none.py \r\n\u001b[?2004l\r"]
