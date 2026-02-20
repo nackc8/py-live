@@ -1,0 +1,8 @@
+namn = input("Vad är din favoritsätt? ")
+
+bra_mat = namn.count("ps")
+
+if not bra_mat:
+    print("Vilken bra mat!")
+else:
+    print("Det är fel rätt!")

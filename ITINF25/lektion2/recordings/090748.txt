@@ -1,0 +1,135 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2
+recordings
+ITINF25/lektion2
+$ ITINF25/lektion2
+$ python3
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;num1
+633;D;0
+633;A
+>>> 633;B
+5
+5
+633;C
+633;E;5
+633;D;0
+633;A
+>>> 633;B
+if True:
+...     print("SAANT!")
+... 
+SAANT!
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if True5 < 7AANT!")
+
+    print("SAANT!")
+... 
+SAANT!
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if 5 < 7t("SAANT!")
+
+... if 5    print("SAANT!")
+... 
+SAANT!
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if 0:
+... if 0    print("SAANT!")
+... 
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if 0:/1-1("SAANT!")
+
+
+    print("SAANT!")
+... 
+SAANT!
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if -1:0 == 0AANT!")
+
+    print("SAANT!")
+... 
+SAANT!
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if 0 == 0 0SAANT!")
+
+  File "<stdin>", line 1
+    if 0 = 0:
+       ^
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+633;C
+633;E;if 0 = 0:
+633;D;1
+633;A
+>>> 633;B
+if 0 = 0x
+
+
+
+
+  File "<stdin>", line 1
+    if x = 0:
+       ^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+633;C
+633;E;if x = 0:
+633;D;1
+633;A
+>>> 633;B
+633;C
+633;E;if x = 0:
+633;D;1
+633;A
+>>> 633;B
+if =="hej" == "hopp":
+    print("SAANT!")pp":
+... 
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+if "hej" == "hopp""""e"j"
+
+    print("SAANT!")j":
+... 
+SAANT!
+633;C
+633;E;	print("SAANT!")
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion2
+$ 
+exit
