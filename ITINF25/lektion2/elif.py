@@ -1,6 +1,6 @@
 import random
 
-goal = 
+goal = random.
 
 number = int(input("Guess a number between 0 and 100: "))
 
