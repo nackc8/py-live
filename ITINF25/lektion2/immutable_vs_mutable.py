@@ -23,3 +23,7 @@ print(id(3.14))
 print(id(True))
 print(id(True))
 
+lst1_hundar = ["papillion", "chefrrr"]
+lst2_hundar = ["papillion", "chefrrr"]
+print(id(lst1_hundar))
+print(id(lst2_hundar))
