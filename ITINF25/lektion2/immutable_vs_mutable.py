@@ -5,4 +5,4 @@
 obj1_id = id("hej")
 obj2_id = id("hej")
 
-print(obj1_id)
+print(obj1_id, obj2_id)
