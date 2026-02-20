@@ -1,10 +1,6 @@
-name1 = input("What is your name? ")
+name = input("What is your name? ")
 
-name2 = name1.count("hej")
-print(name2)
+is_good_name = name.count("hej")
 
-# if name == "fredrik":
-#     print("Vilket bra namn!")
-
-# print("Jag vet redan att du heter ")
-# print(name)
+if is_good_name:
+    print("Vilket bra namn!")
