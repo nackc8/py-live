@@ -1058,3 +1058,8 @@
 [10505.582736, "o", "\r\n\u001b[?2004l\r"]
 [10505.603379, "o", "139859012303920 139859012303920\r\n"]
 [10505.610618, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
+[10546.376226, "o", "/usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/immutable_vs_mutable.py"]
+[10546.727229, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/immutable_vs_mutable.py"]
+[10549.683671, "o", "\r\n\u001b[?2004l\r"]
+[10549.70278, "o", "140062599117616 140062599117616\r\n"]
+[10549.7103, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
