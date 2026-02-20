@@ -52,7 +52,7 @@ lst_egen3_hundar = lst1_hundar.copy()
 
 print(id(lst1_hundar))
 print(id(lst_egen3_hundar))
-lst1_hundar.append("mops")
+lst1_hundar.append("chuvuavaa?")
 
 print(lst1_hundar)
 print(lst_egen3_hundar)

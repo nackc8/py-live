@@ -1149,3 +1149,8 @@
 [11537.447716, "o", "/usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/immutable_vs_mutable.py\r\n\u001b[?2004l\r"]
 [11537.459073, "o", "140112976198384 140112976198384\r\n10861256\r\n10861256\r\n140112975313264\r\n140112975313264\r\n9805984\r\n9805984\r\n140112976199296\r\n140112967681984\r\n140112976199296\r\n['papillion', 'chefrrr', 'tax']\r\n['papillion', 'chefrrr', 'tax']\r\n140112976199296\r\n140112968244160\r\n['papillion', 'chefrrr', 'tax', 'mops']\r\n['papillion', 'chefrrr', 'tax']\r\n"]
 [11537.466862, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
+[11726.515659, "o", "/usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/immutable_vs_mutable.py"]
+[11726.981684, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/immutable_vs_mutable.py"]
+[11728.107824, "o", "\r\n\u001b[?2004l\r"]
+[11728.128145, "o", "139650142255856 139650142255856\r\n10861256\r\n10861256\r\n139650141370736\r\n139650141370736\r\n9805984\r\n9805984\r\n139650142256768\r\n139650139867072\r\n139650142256768\r\n['papillion', 'chefrrr', 'tax']\r\n['papillion', 'chefrrr', 'tax']\r\n139650142256768\r\n139650140429504\r\n['papillion', 'chefrrr', 'tax', 'mops']\r\n['papillion', 'chefrrr', 'tax']\r\n139650142256768\r\n139650140425728\r\n['papillion', 'chefrrr', 'tax', 'mops', 'chuvuavaa?']\r\n['papillion', 'chefrrr', 'tax', 'mops']\r\n"]
+[11728.136278, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
