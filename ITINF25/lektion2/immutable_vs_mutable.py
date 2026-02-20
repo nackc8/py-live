@@ -15,10 +15,11 @@ print(obj1_id, obj2_id)
 print(id(2))
 print(id(2))
 
-# float
+# float är immutable
 print(id(3.14))
 print(id(3.14))
 
-# boolean
+# boolean är immutable
 print(id(True))
 print(id(True))
+
