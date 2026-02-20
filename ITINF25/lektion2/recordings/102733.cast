@@ -1209,3 +1209,8 @@
 [13367.188505, "o", "\u001b[H\u001b[2J\u001b[3J"]
 [13367.197563, "o", "Item: hej\r\nItem: 1\r\nItem: 3.14\r\n"]
 [13367.205042, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
+[13523.990602, "o", "clear ; python3 list1.py "]
+[13525.745594, "o", "\r\n\u001b[?2004l\r"]
+[13525.748518, "o", "\u001b[H\u001b[2J\u001b[3J"]
+[13525.757262, "o", "Sliding total: 30\r\nSliding total: 130\r\nSliding total: 150\r\nSliding total: 155\r\nSliding total: 160\r\nSliding total: 250\r\n"]
+[13525.764783, "o", "\u001b[?2004h\u001b[94mITINF25/lektion2\r\r\n\u001b(B\u001b[m$ "]
