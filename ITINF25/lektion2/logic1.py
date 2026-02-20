@@ -1,3 +1,7 @@
 name = input("What is your name? ")
 
-if name 
+if name == "fredrik":
+    print("Vilket bra namn!")
+
+print("Jag vet redan att du heter ")
+print(name)
