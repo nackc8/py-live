@@ -1,0 +1,29 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion3
+recordings
+ITINF25/lektion3
+$ ITINF25/lektion3
+$ otot
+python 3 lo
+op-while1.py 
+The number is 0
+The number is 9
+The number is 14
+The number is 15
+The number is 20
+The number is 30
+The number is 35
+The number is 37
+The number is 38
+The number is 42
+The number is 47
+The number is 54
+The number is 62
+The number is 71
+The number is 77
+The number is 86
+The number is 92
+Result 101
+ITINF25/lektion3
+$ ITINF25/lektion3
+$ 
+exit
