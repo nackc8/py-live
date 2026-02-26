@@ -1,0 +1,347 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5
+ annatpaket                          imports_sokvagar.txt
+ funkfirstobj1.py                    __init__.py
+ imp1_uses_string_extra.py           matte
+'imp2_uses_string_extra copy.py'     __pycache__
+'imp3_uses_string_extra copy 2.py'   recordings
+'imp4_uses_string_extra copy 3.py'   string_extra.py
+ imp5_uses_string_extra.py           uses_matte.py
+ imports_satt.txt
+ITINF25/lektion5
+$  /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 40509 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj1.py 
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ python3
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+def x():
+...     return 100
+... 
+633;C
+633;E;    return 100
+633;D;0
+633;A
+>>> 633;B
+x.
+__
+
+x.__annotations__     x.__hash__()
+x.__builtins__        x.__init__(
+x.__call__(           x.__init_subclass__(
+x.__class__(          x.__kwdefaults__
+x.__closure__         x.__le__(
+x.__code__            x.__lt__(
+x.__defaults__        x.__module__
+x.__delattr__(        x.__name__
+x.__dict__            x.__ne__(
+x.__dir__()           x.__new__(
+x.__doc__             x.__qualname__
+x.__eq__(             x.__reduce__()
+x.__format__(         x.__reduce_ex__(
+x.__ge__(             x.__repr__()
+x.__get__(            x.__setattr__(
+x.__getattribute__(   x.__sizeof__()
+x.__getstate__()      x.__str__()
+x.__globals__         x.__subclasshook__(
+x.__gt__(             
+633;C
+633;E;    return 100
+633;D;0
+633;A
+>>> 633;B
+x.__name__633;C
+633;E;    return 100
+633;D;0
+633;A
+>>> 633;B
+x.__name__
+'x'
+633;C
+633;E;x.__name__
+633;D;0
+633;A
+>>> 633;B
+x.__
+
+x.__annotations__     x.__hash__()
+x.__builtins__        x.__init__(
+x.__call__(           x.__init_subclass__(
+x.__class__(          x.__kwdefaults__
+x.__closure__         x.__le__(
+x.__code__            x.__lt__(
+x.__defaults__        x.__module__
+x.__delattr__(        x.__name__
+x.__dict__            x.__ne__(
+x.__dir__()           x.__new__(
+x.__doc__             x.__qualname__
+x.__eq__(             x.__reduce__()
+x.__format__(         x.__reduce_ex__(
+x.__ge__(             x.__repr__()
+x.__get__(            x.__setattr__(
+x.__getattribute__(   x.__sizeof__()
+x.__getstate__()      x.__str__()
+x.__globals__         x.__subclasshook__(
+x.__gt__(             
+633;C
+633;E;x.__name__
+633;D;0
+633;A
+>>> 633;B
+x.__str__()633;C
+633;E;x.__name__
+633;D;0
+633;A
+>>> 633;B
+x.__str__()
+'<function x at 0x7fc621502340>'
+633;C
+633;E;x.__str__()
+633;D;0
+633;A
+>>> 633;B
+x.__str__(re
+pepp
+
+x.__annotations__     x.__hash__()
+x.__builtins__        x.__init__(
+x.__call__(           x.__init_subclass__(
+x.__class__(          x.__kwdefaults__
+x.__closure__         x.__le__(
+x.__code__            x.__lt__(
+x.__defaults__        x.__module__
+x.__delattr__(        x.__name__
+x.__dict__            x.__ne__(
+x.__dir__()           x.__new__(
+x.__doc__             x.__qualname__
+x.__eq__(             x.__reduce__()
+x.__format__(         x.__reduce_ex__(
+x.__ge__(             x.__repr__()
+x.__get__(            x.__setattr__(
+x.__getattribute__(   x.__sizeof__()
+x.__getstate__()      x.__str__()
+x.__globals__         x.__subclasshook__(
+x.__gt__(             
+633;C
+633;E;x.__str__()
+633;D;0
+633;A
+>>> 633;B
+x.__r
+e
+
+x.__reduce__()    x.__reduce_ex__(  x.__repr__()
+633;C
+633;E;x.__str__()
+633;D;0
+633;A
+>>> 633;B
+x.__repr__()633;C
+633;E;x.__str__()
+633;D;0
+633;A
+>>> 633;B
+x.__repr__()
+'<function x at 0x7fc621502340>'
+633;C
+633;E;x.__repr__()
+633;D;0
+633;A
+>>> 633;B
+x.__
+
+x.__annotations__     x.__hash__()
+x.__builtins__        x.__init__(
+x.__call__(           x.__init_subclass__(
+x.__class__(          x.__kwdefaults__
+x.__closure__         x.__le__(
+x.__code__            x.__lt__(
+x.__defaults__        x.__module__
+x.__delattr__(        x.__name__
+x.__dict__            x.__ne__(
+x.__dir__()           x.__new__(
+x.__doc__             x.__qualname__
+x.__eq__(             x.__reduce__()
+x.__format__(         x.__reduce_ex__(
+x.__ge__(             x.__repr__()
+x.__get__(            x.__setattr__(
+x.__getattribute__(   x.__sizeof__()
+x.__getstate__()      x.__str__()
+x.__globals__         x.__subclasshook__(
+x.__gt__(             
+633;C
+633;E;x.__repr__()
+633;D;0
+633;A
+>>> 633;B
+x.__module__633;C
+633;E;x.__repr__()
+633;D;0
+633;A
+>>> 633;B
+x.__module__
+'__main__'
+633;C
+633;E;x.__module__
+633;D;0
+633;A
+>>> 633;B
+x.__module___
+
+x.__annotations__     x.__hash__()
+x.__builtins__        x.__init__(
+x.__call__(           x.__init_subclass__(
+x.__class__(          x.__kwdefaults__
+x.__closure__         x.__le__(
+x.__code__            x.__lt__(
+x.__defaults__        x.__module__
+x.__delattr__(        x.__name__
+x.__dict__            x.__ne__(
+x.__dir__()           x.__new__(
+x.__doc__             x.__qualname__
+x.__eq__(             x.__reduce__()
+x.__format__(         x.__reduce_ex__(
+x.__ge__(             x.__repr__()
+x.__get__(            x.__setattr__(
+x.__getattribute__(   x.__sizeof__()
+x.__getstate__()      x.__str__()
+x.__globals__         x.__subclasshook__(
+x.__gt__(             
+633;C
+633;E;x.__module__
+633;D;0
+633;A
+>>> 633;B
+x.__code__633;C
+633;E;x.__module__
+633;D;0
+633;A
+>>> 633;B
+x.__code__
+<code object x at 0x7fc621490e70, file "<stdin>", line 1>
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;x.__code__
+633;D;0
+633;A
+>>> 633;B
+x()
+100
+633;C
+633;E;x()
+633;D;0
+633;A
+>>> 633;B
+hundra = x
+633;C
+633;E;hundra = x
+633;D;0
+633;A
+>>> 633;B
+hundra()
+100
+633;C
+633;E;hundra()
+633;D;0
+633;A
+>>> 633;B
+hej=x
+633;C
+633;E;hej=x
+633;D;0
+633;A
+>>> 633;B
+hej()
+100
+633;C
+633;E;hej()
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;hej()
+633;D;0
+633;A
+>>> 633;B
+prin
+
+
+
+
+
+p = print
+633;C
+633;E;p = print
+633;D;0
+633;A
+>>> 633;B
+p("hej","svejs",10020)
+hej svejs 10020
+633;C
+633;E;p("hej","svejs",10020)
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion5
+$ 
+exit

@@ -1,0 +1,23 @@
+# import sätt 1:
+
+import modulnamn
+
+modulnamn.funktionsnamn(...)
+
+# import sätt 2:
+
+import modulnamn as egetalias
+
+egetalias.funktionsnamn(...)
+
+# import sätt 3:
+
+from modulnamn import funktionsnamn
+
+funktionsnamn(...)
+
+# import sätt 4:
+
+from string_extra import *
+
+print(fancytext("Hej"))

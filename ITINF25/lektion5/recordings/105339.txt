@@ -1,0 +1,36 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5
+ annatpaket   funkfirstobj1.py                    imports_sokvagar.txt
+ dict1.py     funkfirstobj2.py                    __init__.py
+ dict2.py     imp1_uses_string_extra.py           matte
+ dict3.py    'imp2_uses_string_extra copy.py'     __pycache__
+ dict4.py    'imp3_uses_string_extra copy 2.py'   recordings
+ dict5.py    'imp4_uses_string_extra copy 3.py'   set1.py
+ dict6.py     imp5_uses_string_extra.py           string_extra.py
+ dict7.py     imports_satt.txt                    uses_matte.py
+ITINF25/lektion5
+$ python3 set1.py ITINF25/lektion5
+$ python3 set1.py 
+<class 'set'>
+ITINF25/lektion5
+$ python3 set1.py ITINF25/lektion5
+$ python3 set1.py 
+{'toyota', 'volvo'}
+ITINF25/lektion5
+$ python3 set1.py ITINF25/lektion5
+$ python3 set1.py 
+Write a new car brand (ENTER = stop): mazda
+Write a new car brand (ENTER = stop): 
+End result:  {'mazda', 'toyota', 'volvo'}
+ITINF25/lektion5
+$ python3 set1.py ITINF25/lektion5
+$ python3 set1.py 
+Write a new car brand (ENTER = stop): volvo
+The brand is already mentioned! Type another brand.
+Write a new car brand (ENTER = stop): mazda
+Write a new car brand (ENTER = stop): koenigsegg
+Write a new car brand (ENTER = stop): chuvaaavaaa
+Write a new car brand (ENTER = stop): 
+End result:  {'mazda', 'koenigsegg', 'chuvaaavaaa', 'volvo', 'toyota'}
+ITINF25/lektion5
+$ 
+exit

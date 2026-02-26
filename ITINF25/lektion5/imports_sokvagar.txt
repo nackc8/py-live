@@ -1,0 +1,12 @@
+# Pythonpath
+
+import modulnamn
+
+Tar modulnamn från PYTHONPATH, en lista
+med sökvägar där modulen som importerars
+katalog finns med.
+
+# Import med . och ..
+
+Vi går in på dessa senare då det är krångliga och
+inte ett måste just nu.
