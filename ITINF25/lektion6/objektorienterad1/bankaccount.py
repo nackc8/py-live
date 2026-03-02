@@ -14,6 +14,8 @@ class BankAccount:
         next_account_id += 1
         self.balance = 0
 
+    # Exempel på en magisk metod. Just denna gör att objektet skrivs ut
+    # som en sträng på ett fint sätt för användaren.
     def __str__(self):
         return f"[ BankAccount | Id: {self.id}, Name: {self.name} ]"
 
