@@ -14,7 +14,10 @@ class Markdown(MiniGendoc):
     def render(self):
         result = ""
         for part in self.parts:
-            result += part + "\n"
+            # Som nedan fast kortare med unpacking: part_type, part_content = part
+            part_type = part[0]
+            part_content = part[1]
+            result += part_content + "\n"
 
         return result
 

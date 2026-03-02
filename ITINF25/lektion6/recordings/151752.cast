@@ -52,3 +52,8 @@
 [18.045723, "o", "\r\n\u001b[?2004l\r"]
 [18.05661, "o", "Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/abstract/abstract1.py\", line 25, in <module>\r\n    rendered_result = md.render()\r\n                      ^^^^^^^^^^^\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/abstract/abstract1.py\", line 17, in render\r\n    result += part + \"\\n\"\r\n              ~~~~~^~~~~~\r\nTypeError: can only concatenate tuple (not \"str\") to tuple\r\n"]
 [18.064163, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ "]
+[122.5412, "o", "python3 abstract1.py "]
+[123.215563, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ python3 abstract1.py "]
+[124.49049, "o", "\r\n\u001b[?2004l\r"]
+[124.5016, "o", "rendered_result Why Python?\r\nPython is very very good\r\n\r\n"]
+[124.509136, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ "]
