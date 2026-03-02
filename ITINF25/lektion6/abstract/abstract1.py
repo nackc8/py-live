@@ -13,4 +13,8 @@ class MiniGendoc:
         lst = [part_content for part_type, part_content in self.parts]
         return " ".join(lst)
 
-doc = MiniGendoc
+
+doc = MiniGendoc()
+doc.add_header("Why Python?")
+doc.add_paragraph("Python is very very good")
+print(doc)
