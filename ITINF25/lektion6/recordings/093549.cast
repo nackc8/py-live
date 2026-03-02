@@ -428,3 +428,6 @@
 [4217.52503, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad\r\r\n\u001b(B\u001b[m$ "]
 [4620.682189, "o", "/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/objektorienterad2/use_oo.py"]
 [4621.566229, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6/objektorienterad\r\r\n\u001b(B\u001b[m$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/objektorienterad2/use_oo.py"]
+[4622.189903, "o", "\r\n\u001b[?2004l\r"]
+[4622.202095, "o", "[<bankaccount.BankAccount object at 0x7f84e9695890>, <bankaccount.BankAccount object at 0x7f84e9695810>]\r\n[ BankAccount | Id: 1, Name: Sven, Balance: 1100 ] [ BankAccount | Id: 2, Name: Ulla, Balance: 9000 ]\r\n"]
+[4622.209647, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad\r\r\n\u001b(B\u001b[m$ "]
