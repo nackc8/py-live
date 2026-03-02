@@ -1,5 +1,7 @@
 from abc import ABC, abstractmethod
+
 # https://docs.python.org/3/library/abc.html
+
 
 # Rubriker och stycken
 # ABC gör klassen abstrakt = man får INTE göra instanser av den
@@ -13,8 +15,10 @@ class MiniGendoc(ABC):
     def add_paragraph(self, paragraph):
         self.parts.append(("PARAGRAPH", paragraph))
 
+    # Tvinga underklasserna att implementera render!
     @abstractmethod
-    def render()
+    def render(self):
+        pass
 
 
 class Markdown(MiniGendoc):
@@ -47,7 +51,7 @@ class Html(MiniGendoc):
         return result
 
 
-md = Markdown()
+md = MiniGendoc()
 md.add_header("Why Python?")
 md.add_paragraph("Python is very very good")
 rendered_result = md.render()
