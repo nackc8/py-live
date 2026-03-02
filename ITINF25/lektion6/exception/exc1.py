@@ -1,6 +1,6 @@
-def a():
+def a(divisor):
     print("Innan fel")
-    1 / 0
+    1 / divisor
     print("Skrivs jag ut?")
 
 
