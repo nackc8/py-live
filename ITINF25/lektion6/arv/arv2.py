@@ -26,7 +26,7 @@ class Military(Human):
         self.grade = "korpral"
 
     def greet(self):
-        
+        super().greet()
         print("Skott kommer!")
 
 
