@@ -16,10 +16,7 @@ class Police(Human):
 
 class Military(Human):
     def greet(self):
-        print("Halt!")
-
-    def bye(self):
-        print("Over and out")
+        print("Skott kommer!")
 
 
 cc = Police("Bo")
