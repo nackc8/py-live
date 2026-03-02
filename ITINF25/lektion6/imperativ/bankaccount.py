@@ -15,7 +15,9 @@ def deposit(account_id, amount):
             account[2] += amount
             break
     else:
-        # Körs om ingen break har körts
+        # "else" körs om ingen break har körts
+
+        # 
         print(f"Error: Cannot find account with id {account_id}", file=sys.stderr)
         sys.exit(2)
 
