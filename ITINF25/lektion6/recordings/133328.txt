@@ -1,0 +1,7 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6
+imperativ          objektorienterad2  recordings
+objektorienterad1  objektorienterad3
+ITINF25/lektion6
+$ ITINF25/lektion6
+$ 
+exit

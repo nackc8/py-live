@@ -1,0 +1,213 @@
+/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6
+exception  objektorienterad1  objektorienterad3
+imperativ  objektorienterad2  recordings
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py", line 1, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+ITINF25/lektion6
+$ ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py", line 5, in <module>
+    a()
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py", line 2, in a
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.pyITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py
+Innan fel
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py", line 7, in <module>
+    a()
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py", line 3, in a
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py", line 5, in <module>
+    delat_med_ett()
+TypeError: delat_med_ett() missing 1 required positional argument: 'divisor'
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.pyITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py
+Nu gick det åt pipan
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc2.py
+0
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc2.pyITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc2.py
+DEBUG OUTPUT division by zero
+0
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc2.pyITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc2.p.p3.p
+
+
+We handle ZeroDivisionError division by zero
+0
+ITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.pyITINF25/lektion6
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py", line 10, in <module>
+    res = delat_med_ett("hej")
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py", line 3, in delat_med_ett
+    result = 1 / divisor
+             ~~^~~~~~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+ITINF25/lektion6
+$ ITINF25/lektion6
+$ python3 imperativ
+
+
+
+
+cd exception/
+ITINF25/lektion6/exception
+$ ITINF25/lektion6/exception
+$ pthon3ython3 important.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py", line 14, in <module>
+    greet("bosse")
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py", line 11, in greet
+    raise ValueError("The name must have at least two parts")
+ValueError: The name must have at least two parts
+ITINF25/lektion6/exception
+$ python3 important.py ITINF25/lektion6/exception
+$ python3 important.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py", line 17, in <module>
+    greet(1)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py", line 10, in greet
+    raise TypeError("The name must be a string")
+TypeError: The name must be a string
+ITINF25/lektion6/exception
+$ python3 important.py ITINF25/lektion6/exception
+$ python3 important.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py", line 18, in <module>
+    greet("bosse")
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py", line 14, in greet
+    raise ValueError("The name must have at least two parts")
+ValueError: The name must have at least two parts
+ITINF25/lektion6/exception
+$ python3 important.py ITINF25/lektion6/exception
+$ python3 important.py 
+ITINF25/lektion6/exception
+$ python3 important.py ITINF25/lektion6/exception
+$ python3 important.py 
+Hej Bosse Parnevik!
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py", line 4, in <module>
+    ulla.deposit_to_account(-1000)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre.py", line 25, in deposit_to_account
+    raise ValueError("Amount cannot be negative!")
+ValueError: Amount cannot be negative!
+ITINF25/lektion6/exception
+$ ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? 1000
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.pyITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? -1000
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py", line 6, in <module>
+    ulla.deposit_to_account(amount)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre.py", line 25, in deposit_to_account
+    raise ValueError("Amount cannot be negative!")
+ValueError: Amount cannot be negative!
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.pyITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? Hej
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py", line 3, in <module>
+    amount = int(input("How much do you deposit to Ulla? "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Hej'
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? Hej
+Du skrev ett negativt tal!
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? -1000
+Du skrev ett negativt tal!
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.pyITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? Hej
+Nått är galet
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+How much do you deposit to Ulla? -1000
+Du skrev ett negativt tal!
+ITINF25/lektion6/exception
+$ ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_pre_caller.py
+python3 c
+
+
+
+
+
+
+
+
+
+
+
+.
+
+python3 cus
+tom_caller.py 
+How much do you deposit to Ulla? Hej
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/custom_caller.py", line 4, in <module>
+    amount = int(input("How much do you deposit to Ulla? "))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Hej'
+ITINF25/lektion6/exception
+$ python3 custom_caller.py ITINF25/lektion6/exception
+$ python3 custom_caller.py 
+How much do you deposit to Ulla? -1000
+PROGNOSIS NEGATIVE!
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py
+Skott kommer!
+Bo vi ses
+ITINF25/lektion6/exception
+<python/py-live/ITINF25/lektion6/arv/arv2.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py", line 28, in <module>
+    cc = Military("Bo")
+         ^^^^^^^^^^^^^^
+TypeError: Military.__init__() takes 1 positional argument but 2 were given
+ITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.pyITINF25/lektion6/exception
+$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py
+Skott kommer!
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py", line 30, in <module>
+    cc.bye()
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py", line 9, in bye
+    print(f"{self.name} vi ses")
+             ^^^^^^^^^
+AttributeError: 'Military' object has no attribute 'name'
+ITINF25/lektion6/exception
+$ 
+exit
