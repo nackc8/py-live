@@ -8,8 +8,9 @@ def create_account(account_id, name):
 
 
 def deposit(account_id, amount):
-    for a in bankaccounts:
-        pass
+    for account in bankaccounts:
+        if account[0] == account_id:
+            account[2] += amount
 
 
 # Mål
