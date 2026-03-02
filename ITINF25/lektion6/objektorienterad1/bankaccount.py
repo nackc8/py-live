@@ -11,7 +11,7 @@ class BankAccount:
         self.name = name
 
     def __str__(self):
-        return f"[ Name: {self.name} ]"
+        return f"[ BankAccount | Name: {self.name} ]"
 
 
 def create_account(account_id, name):
