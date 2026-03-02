@@ -19,6 +19,7 @@ class Police(Human):
 
 class Military(Human):
     def __init__(self):
+        self.grade = "korpral"
 
     def greet(self):
         print("Skott kommer!")
