@@ -9,6 +9,7 @@ class MiniGendoc:
     def add_paragraph(self, paragraph):
         self.parts.append(("PARAGRAPH", paragraph))
 
+    # https://docs.python.org/3/library/abc.html
     def render()
 
 
