@@ -10,6 +10,12 @@ def create_account(account_id, name):
 
 
 def deposit(account_id, amount):
+    if amount < 0:
+        print(
+            f"Error: Cannot find account with id {account_id} for deposit",
+            file=sys.stderr,
+        )
+
     for account in bankaccounts:
         if account[0] == account_id:
             account[2] += amount
