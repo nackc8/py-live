@@ -97,3 +97,5 @@
 [849.105088, "o", "\r\n\u001b[?2004l\r"]
 [849.115555, "o", "We handle ZeroDivisionError division by zero\r\n0\r\n"]
 [849.122469, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
+[878.642869, "o", "/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py"]
+[879.729084, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py"]

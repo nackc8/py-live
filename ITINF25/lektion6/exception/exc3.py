@@ -7,5 +7,5 @@ def delat_med_ett(divisor):
         return 0
 
 
-res = delat_med_ett(0)
+res = delat_med_ett("hej")
 print(res)
