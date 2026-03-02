@@ -14,7 +14,7 @@ class BankAccount:
         self.id = BankAccount.next_account_id
         BankAccount.next_account_id += 1
         self.balance = 0
-        BankAccount.accounts.append()
+        BankAccount.accounts.append(self)
 
     # Exempel på en magisk metod. Just denna gör att objektet skrivs ut
     # som en sträng på ett fint sätt för användaren.
