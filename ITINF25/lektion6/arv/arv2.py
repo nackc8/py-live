@@ -25,6 +25,6 @@ class Military(Human):
         print("Skott kommer!")
 
 
-cc = Military("Bo")
+cc = Military()
 cc.greet()
 cc.bye()
