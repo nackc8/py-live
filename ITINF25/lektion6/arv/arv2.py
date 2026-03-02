@@ -6,7 +6,7 @@ class Human:
         print("Hi", self.name)
 
     def bye(self):
-        print(f"{self.name} vi ses")
+        print(f"{self.name} säger vi ses")
 
 
 class Police(Human):
