@@ -22,7 +22,7 @@ class MiniGendoc(ABC):
 
 
 class Markdown(MiniGendoc):
-    def render(self):
+    def renderj(self):
         result = ""
         for part in self.parts:
             # Som nedan fast kortare med unpacking: part_type, part_content = part

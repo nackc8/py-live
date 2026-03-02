@@ -146,3 +146,8 @@
 [753.638846, "o", "\r\n\u001b[?2004l\r"]
 [753.649979, "o", "Rendered_result:\r\n# Why Python?\r\n\r\nPython is very very good\r\n\r\n"]
 [753.657382, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ "]
+[783.632661, "o", "python3 abstract1.py "]
+[784.098331, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ python3 abstract1.py "]
+[785.801389, "o", "\r\n\u001b[?2004l\r"]
+[785.812048, "o", "Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/abstract/abstract1.py\", line 54, in <module>\r\n    md = Markdown()\r\n         ^^^^^^^^^^\r\nTypeError: Can't instantiate abstract class Markdown with abstract method render\r\n"]
+[785.819708, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ "]
