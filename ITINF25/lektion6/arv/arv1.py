@@ -1,4 +1,4 @@
-class Parent:
+class Human:
     def __init__(self, name):
         self.name = name
 
@@ -6,11 +6,22 @@ class Parent:
         print("Hi", self.name)
 
 
-class Child(Parent):
+class Police(Human):
+    def greet(self):
+        print("Halt!")
+
     def bye(self):
         print(f"{self.name} says goodbye!")
 
 
-cc = Child("Bo")
+class Military(Human):
+    def greet(self):
+        print("Halt!")
+
+    def bye(self):
+        print("Over and out")
+
+
+cc = Police("Bo")
 cc.greet()
 cc.bye()
