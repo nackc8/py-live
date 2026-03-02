@@ -189,3 +189,7 @@
 [1500.314847, "o", "\r\n\u001b[?2004l\r"]
 [1500.325942, "o", "Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py\", line 18, in <module>\r\n    greet(\"bosse\")\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/important.py\", line 14, in greet\r\n    raise ValueError(\"The name must have at least two parts\")\r\nValueError: The name must have at least two parts\r\n"]
 [1500.332901, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/exception\r\r\n\u001b(B\u001b[m$ "]
+[1518.705058, "o", "python3 important.py "]
+[1519.155203, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6/exception\r\r\n\u001b(B\u001b[m$ python3 important.py "]
+[1521.3075, "o", "\r\n\u001b[?2004l\r"]
+[1521.324557, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/exception\r\r\n\u001b(B\u001b[m$ "]
