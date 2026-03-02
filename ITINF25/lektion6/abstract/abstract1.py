@@ -16,6 +16,8 @@ class MiniGendoc:
         ]
         return "\n".join(lst)
 
+class Markdown(MiniGendoc):
+    
 
 doc = MiniGendoc()
 doc.add_header("Why Python?")
