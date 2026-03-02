@@ -3,6 +3,7 @@ import sys
 
 class BankAccount:
     # En variabler som tillhör själva klassen
+    # class variables
     next_account_id = 1
     accounts = []
 
