@@ -37,6 +37,22 @@ def list_accounts():
     return bankaccounts.copy()
 
 
+def get_account(account_id):
+    for account in bankaccounts:
+        if account[0] == account_id:
+            return account.copy()
+    else:
+        # "else" körs om ingen break har körts
+
+        # Bash-motsvarighet: echo "Error: Cannot..." >&2
+        print(
+            f"Error: Cannot find account with id {account_id}",
+            file=sys.stderr,
+        )
+        # Bash-motsvarighet: exit 2
+        sys.exit(2)
+
+
 def withdraw_from_account(account_id, amount):
     if amount < 0:
         print(
@@ -68,4 +84,5 @@ def withdraw_from_account(account_id, amount):
 # - Insättning (deposit) ✔
 # - Uttag (withdraw) ✔
 # - Lägg till ett konto ✔
-# - Lista konton
+# - Lista konton  ✔
+# - Hitta konto  ✔
