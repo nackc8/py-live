@@ -23,21 +23,7 @@ class BankAccount:
                 file=sys.stderr,
             )
             sys.exit(2)
-
-        for account in bankaccounts:
-            if account[0] == account_id:
-                account[2] += amount
-                break
-        else:
-            # "else" körs om ingen break har körts
-
-            # Bash-motsvarighet: echo "Error: Cannot..." >&2
-            print(
-                f"Error: Cannot find account with id {account_id} for deposit",
-                file=sys.stderr,
-            )
-            # Bash-motsvarighet: exit 2
-            sys.exit(2)
+        sel
 
 
 def list_accounts():
