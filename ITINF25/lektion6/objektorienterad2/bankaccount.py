@@ -40,9 +40,12 @@ class BankAccount:
             sys.exit(2)
         self.balance -= amount
 
+    # Dekorator (eng Decorator) för att markera en metod som är
+    # klassgemensam. Passar ihop med klassvariabler.
     @classmethod
-    def list():
-        return 
+    def list(cls):
+        # I detta fall så är cls = BankAccount
+        return cls.accounts.copy()
 
 
 # Mål
