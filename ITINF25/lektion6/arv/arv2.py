@@ -22,11 +22,14 @@ class Military(Human):
     # anropa överklassens __init__ själva. Den
     # når vi genom super()
     def __init__(self, name):
+        # Man vill ofta anropa överklassens
+        # konstruktor först
         super().__init__(name)
         self.grade = "korpral"
 
     def greet(self):
-        # Om man vill anropa 
+        # Om man vill anropa överklassens version
+        # av greet-funktionen
         # super().greet()
         print("Skott kommer!")
 
