@@ -5,3 +5,5 @@ bankaccounts = []
 # - Lagra ett namn
 # - Uttag (withdraw)
 # - Insättning (deposit)
+# - Lägg till ett konto
+# - Lista konton
