@@ -1,15 +1,20 @@
 import sys
 
+# Flyttat in den globala variabeln next_account_id till att vara
+# en klassvariabel. En variabel som är gemensam för själva klassen, och inte
+# objekten som self är nedan.
+
 
 class BankAccount:
     next_account_id = 1
 
     def __init__(self, name):
-        # Notera att self.name och name är olika variabler
         self.name = name
-        global next_account_id
-        self.id = next_account_id
-        next_account_id += 1
+
+        BankAccount.next_account_id
+
+        self.id = BankAccount.next_account_id
+        BankAccount.next_account_id += 1
         self.balance = 0
 
     # Exempel på en magisk metod. Just denna gör att objektet skrivs ut
