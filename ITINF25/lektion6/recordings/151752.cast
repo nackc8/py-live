@@ -62,3 +62,8 @@
 [143.226986, "o", "\r\n\u001b[?2004l\r"]
 [143.238463, "o", "rendered_result\r\nWhy Python?\r\nPython is very very good\r\n\r\n"]
 [143.245733, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ "]
+[218.40889, "o", "python3 abstract1.py "]
+[218.813315, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ python3 abstract1.py "]
+[219.534349, "o", "\r\n\u001b[?2004l\r"]
+[219.545486, "o", "rendered_result\r\nWhy Python?\r\nPython is very very good\r\n\r\n"]
+[219.552834, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/abstract\r\r\n\u001b(B\u001b[m$ "]

@@ -17,7 +17,10 @@ class Markdown(MiniGendoc):
             # Som nedan fast kortare med unpacking: part_type, part_content = part
             part_type = part[0]
             part_content = part[1]
-            result += part_content + "\n"
+            if part_content == "HEADER":
+                result += "# " + part_content + "\n" * 2
+            else:
+                result += part_content + "\n"
 
         return result
 
