@@ -9,6 +9,8 @@ class MiniGendoc:
     def add_paragraph(self, paragraph):
         self.parts.append(("PARAGRAPH", paragraph))
 
+    def render()
+
 
 class Markdown(MiniGendoc):
     def render(self):
