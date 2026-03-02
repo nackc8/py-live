@@ -1,4 +1,4 @@
-from custom import BankAccount
+from custom import BankAccount, 
 
 try:
     amount = int(input("How much do you deposit to Ulla? "))
