@@ -264,3 +264,7 @@
 [1900.760043, "o", "    amount = int(input(\"How much do you deposit to Ulla? \"))\r\n"]
 [1900.760101, "o", "             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nValueError: invalid literal for int() with base 10: 'Hej'\r\n"]
 [1900.767782, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/exception\r\r\n\u001b(B\u001b[m$ "]
+[1935.567029, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[1935.636037, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[1935.669829, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[1935.713701, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]

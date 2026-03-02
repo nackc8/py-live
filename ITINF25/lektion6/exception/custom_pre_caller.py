@@ -1,5 +1,6 @@
 from custom_pre import BankAccount
 
+try:
 amount = int(input("How much do you deposit to Ulla? "))
 
 ulla = BankAccount("Ulla")
