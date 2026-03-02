@@ -2,7 +2,7 @@ import sys
 
 bankaccounts = []
 
-
+class B
 
 
 def create_account(account_id, name):
