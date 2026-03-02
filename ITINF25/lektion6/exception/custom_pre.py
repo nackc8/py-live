@@ -31,11 +31,7 @@ class BankAccount:
 
     def withdraw_from_account(self, amount):
         if amount < 0:
-            print(
-                f"Error: Cannot withdraw a negative amount from {self.id}",
-                file=sys.stderr,
-            )
-            sys.exit(2)
+            
         self.balance -= amount
 
     # Dekorator (eng Decorator) för att markera en metod som är
