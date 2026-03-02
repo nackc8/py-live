@@ -10,4 +10,5 @@ class MiniGendoc:
         self.parts.append(("PARAGRAPH", paragraph))
 
     def __str__(self):
-        return [part for part_type, part_content in self.parts]
+        lst = [part_content for part_type, part_content in self.parts]
+        
