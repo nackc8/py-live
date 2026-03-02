@@ -9,17 +9,16 @@ class MiniGendoc:
     def add_paragraph(self, paragraph):
         self.parts.append(("PARAGRAPH", paragraph))
 
-    def __str__(self):
-        lst = [
-            part_content if part_type == "PARAGRAPH" else f"HEADER: {part_content}"
-            for part_type, part_content in self.parts
-        ]
-        return "\n".join(lst)
 
 class Markdown(MiniGendoc):
-    
+    def render():
+        result = ""
+        for part in self.parts:
+            result += part + "\n"
+
+        return result
+
 
 doc = MiniGendoc()
 doc.add_header("Why Python?")
 doc.add_paragraph("Python is very very good")
-print(doc)
