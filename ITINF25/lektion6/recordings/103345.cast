@@ -93,3 +93,7 @@
 [508.716152, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad3\r\r\n\u001b(B\u001b[m$ "]
 [508.911169, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52157 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/objektorienterad2/bankaccount.py \r\n\u001b[?2004l\r"]
 [510.297402, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
+[538.03908, "o", "^C"]
+[538.03917, "o", "\u001b[?2004l\r\u001b[?2004h\r\n\u001b[?2004l\r\r\n"]
+[538.044487, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
+[538.24026, "o", " cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 51439 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/objektorienterad2/use_oo.py \r\n\u001b[?2004l\r"]
