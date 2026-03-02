@@ -51,7 +51,7 @@ class Html(MiniGendoc):
         return result
 
 
-md = MiniGendoc()
+md = Markdown()
 md.add_header("Why Python?")
 md.add_paragraph("Python is very very good")
 rendered_result = md.render()
