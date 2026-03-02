@@ -2,17 +2,14 @@ class Parent:
     def __init__(self, name):
         self.name = name
 
-    def greet(self, greeting):
-        print(greeting, self.name)
+    def greet(self):
+        print("Hi", self.name)
 
 
 class Child(Parent):
-    pass
+    def bye(self):
+        print(f"{self.name} says goodbye!")
 
 
-class ChildChild(Child):
-    pass
-
-
-cc = ChildChild("Bo")
-cc.greet("Hi")
+cc = Child("Bo")
+cc.greet()
