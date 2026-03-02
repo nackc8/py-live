@@ -48,5 +48,5 @@ class BankAccount:
 # - Insättning (deposit) ✔
 # - Uttag (withdraw) ✔
 # - Lägg till ett konto ✔
-# - Lista konton  ✔
+# - Lista konton
 # - Hitta konto  ✔

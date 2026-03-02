@@ -1,9 +1,5 @@
 import sys
 
-# Flyttat in den globala variabeln next_account_id till att vara
-# en klassvariabel. En variabel som är gemensam för själva klassen, och inte
-# objekten som self är nedan.
-
 
 class BankAccount:
     # En variabel som tillhör själva klassen
