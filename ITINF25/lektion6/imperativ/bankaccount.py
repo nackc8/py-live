@@ -12,9 +12,10 @@ def create_account(account_id, name):
 def deposit(account_id, amount):
     if amount < 0:
         print(
-            f"Error: Cannot find account with id {account_id} for deposit",
+            f"Error: Cannot deposit a negative amount to {account_id}",
             file=sys.stderr,
         )
+        sys.exit(2)
 
     for account in bankaccounts:
         if account[0] == account_id:
@@ -33,6 +34,13 @@ def deposit(account_id, amount):
 
 
 def withdraw(account_id, amount):
+    if amount < 0:
+        print(
+            f"Error: Cannot withdraw a negative amount from {account_id}",
+            file=sys.stderr,
+        )
+        sys.exit(2)
+
     for account in bankaccounts:
         if account[0] == account_id:
             account[2] -= amount
