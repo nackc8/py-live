@@ -9,6 +9,7 @@ class BankAccount:
     def __init__(self, name):
         # Notera att self.name och name är olika variabler
         self.name = name
+        global next_account_id
         self.id = next_account_id
         next_account_id += 1
 
