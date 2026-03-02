@@ -1,7 +1,5 @@
-def a(divisor):
-    print("Innan fel")
-    1 / divisor
-    print("Skrivs jag ut?")
+def delat_med_ett(divisor):
+    return 1 / divisor
 
 
-a()
+delat_med_ett()
