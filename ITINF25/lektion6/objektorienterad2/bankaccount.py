@@ -2,8 +2,9 @@ import sys
 
 
 class BankAccount:
-    # En variabel som tillhör själva klassen
+    # En variabler som tillhör själva klassen
     next_account_id = 1
+    accounts = []
 
     def __init__(self, name):
         self.name = name
@@ -13,6 +14,7 @@ class BankAccount:
         self.id = BankAccount.next_account_id
         BankAccount.next_account_id += 1
         self.balance = 0
+        BankAccount.accounts.append()
 
     # Exempel på en magisk metod. Just denna gör att objektet skrivs ut
     # som en sträng på ett fint sätt för användaren.
