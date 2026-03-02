@@ -2,10 +2,10 @@ import sys
 
 bankaccounts = []
 
-next_account_id = 1
-
 
 class BankAccount:
+    next_account_id = 1
+
     def __init__(self, name):
         # Notera att self.name och name är olika variabler
         self.name = name
