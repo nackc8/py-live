@@ -5,6 +5,9 @@ class Human:
     def greet(self):
         print("Hi", self.name)
 
+    def bye(self):
+        print(f"{self.name} vi ses")
+
 
 class Police(Human):
     def greet(self):
