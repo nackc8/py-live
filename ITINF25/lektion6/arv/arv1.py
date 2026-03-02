@@ -6,11 +6,11 @@ class Parent:
         print(greeting, self.name)
 
 
-class Child:
+class Child(Parent):
     pass
 
 
-class ChildChild:
+class ChildChild(Child):
     pass
 
 
