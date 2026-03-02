@@ -13,3 +13,4 @@ class Child(Parent):
 
 cc = Child("Bo")
 cc.greet()
+cc.bye()
