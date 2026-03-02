@@ -42,6 +42,11 @@ class BankAccount:
         self.balance -= amount
 
 
+# Senare!
+# def list_accounts():
+#     return bankaccounts.copy()
+
+
 # Mål
 # - Lagra ett kontoid ✔
 # - Lagra ett namn ✔
