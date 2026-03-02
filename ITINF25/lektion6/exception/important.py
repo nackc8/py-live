@@ -8,4 +8,4 @@
 def greet(full_name):
     parts = full_name.split()
     if (len(parts) < 2):
-        
+        raise 
