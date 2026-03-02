@@ -8,7 +8,7 @@ next_account_id = 1
 class BankAccount:
     def __init__(self, in_name):
         self.name = in_name
-        print("Hej", in_name)
+        print("Hej", self.name, "!!!")
 
 
 def create_account(account_id, name):
