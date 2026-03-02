@@ -1,4 +1,5 @@
-class NegativeAmountError(ValueError)
+class NegativeAmountError(ValueError):
+    
 
 class BankAccount:
     # En variabler som tillhör själva klassen
