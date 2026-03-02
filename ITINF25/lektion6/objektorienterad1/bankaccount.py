@@ -1,7 +1,5 @@
 import sys
 
-bankaccounts = []
-
 next_account_id = 1
 
 
