@@ -6,6 +6,7 @@ import sys
 
 
 class BankAccount:
+    # En variabel som tillhör själva klassen
     next_account_id = 1
 
     def __init__(self, name):
