@@ -1,8 +1,8 @@
-from custom import BankAccount, 
+from custom import BankAccount, NegativeAmountError
 
 try:
     amount = int(input("How much do you deposit to Ulla? "))
     ulla = BankAccount("Ulla")
     ulla.deposit_to_account(amount)
-except  as e:
+except NegativeAmountError as e:
     print("Du skrev ett negativt tal!")
