@@ -11,7 +11,7 @@ class MiniGendoc:
 
 
 class Markdown(MiniGendoc):
-    def render():
+    def render(self):
         result = ""
         for part in self.parts:
             result += part + "\n"
