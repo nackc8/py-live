@@ -5,4 +5,5 @@ try:
     ulla = BankAccount("Ulla")
     ulla.deposit_to_account(amount)
 except ValueError as e:
+    e.
     print("Du skrev ett negativt tal!")
