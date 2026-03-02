@@ -50,3 +50,8 @@
 [380.912153, "o", "\u001b[?2004l\r"]
 [380.923983, "o", "Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py\", line 5, in <module>\r\n    delat_med_ett()\r\nTypeError: delat_med_ett() missing 1 required positional argument: 'divisor'\r\n"]
 [380.931988, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
+[478.647539, "o", "/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py"]
+[479.59128, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ /bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py"]
+[482.247594, "o", "\r\n\u001b[?2004l\r"]
+[482.258404, "o", "Nu gick det åt pipan\r\n"]
+[482.265042, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
