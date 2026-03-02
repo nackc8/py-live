@@ -5,7 +5,7 @@ bankaccounts = []
 
 class BankAccount:
     def __init__():
-        pass
+        print("Hej")
 
 
 def create_account(account_id, name):
