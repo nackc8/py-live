@@ -6,8 +6,9 @@ next_account_id = 1
 
 
 class BankAccount:
-    def __init__(self, in_name):
-        self.name = in_name
+    def __init__(self, name):
+        # Notera att self.name och name är
+        self.name = name
         print("Hej", self.name, "!!!")
 
 
