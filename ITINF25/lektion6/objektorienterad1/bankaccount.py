@@ -11,6 +11,9 @@ class BankAccount:
         self.name = name
         print("Hej", self.name, "!!!")
 
+    def __str__(self):
+        return f""
+
 
 def create_account(account_id, name):
     # Ett konto = en lista [account_id: int, name: str, balance: int]
