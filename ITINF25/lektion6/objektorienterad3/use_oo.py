@@ -14,3 +14,6 @@ sven.deposit_to_account(1000)
 p(sven, ulla)
 
 p(bankaccount.BankAccount.list())
+
+
+p([str(acc) for acc in bankaccount.BankAccount.list()])

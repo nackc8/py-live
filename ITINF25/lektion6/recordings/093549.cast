@@ -473,3 +473,8 @@
 [4734.57277, "o", "\r\n\u001b[?2004l\r"]
 [4734.583364, "o", "[ BankAccount | Id: 1, Name: Sven, Balance: 1100 ] [ BankAccount | Id: 2, Name: Ulla, Balance: 9000 ]\r\n[<bankaccount.BankAccount object at 0x7fec69b95890>, <bankaccount.BankAccount object at 0x7fec69b95810>]\r\n"]
 [4734.59074, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad3\r\r\n\u001b(B\u001b[m$ "]
+[4787.899441, "o", "python3 use_oo.py "]
+[4788.319547, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion6/objektorienterad3\r\r\n\u001b(B\u001b[m$ python3 use_oo.py "]
+[4788.986839, "o", "\r\n\u001b[?2004l\r"]
+[4788.997934, "o", "[ BankAccount | Id: 1, Name: Sven, Balance: 1100 ] [ BankAccount | Id: 2, Name: Ulla, Balance: 9000 ]\r\n['[ BankAccount | Id: 1, Name: Sven, Balance: 1100 ]', '[ BankAccount | Id: 2, Name: Ulla, Balance: 9000 ]']\r\n"]
+[4789.00498, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad3\r\r\n\u001b(B\u001b[m$ "]
