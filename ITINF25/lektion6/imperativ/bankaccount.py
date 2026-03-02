@@ -12,6 +12,8 @@ def deposit(account_id, amount):
         if account[0] == account_id:
             account[2] += amount
             break
+    else:
+        pass
 
 
 # Mål
