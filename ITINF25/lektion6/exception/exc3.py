@@ -3,7 +3,7 @@ def delat_med_ett(divisor):
         result = 1 / divisor
         return result
     except ZeroDivisionError as e:
-        print("DEBUG OUTPUT", e)
+        print("We handle ZeroDivisionError", e)
         return 0
 
 
