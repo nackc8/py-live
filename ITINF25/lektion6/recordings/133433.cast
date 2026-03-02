@@ -103,3 +103,6 @@
 [886.419826, "o", "\u001b[?2004l\r"]
 [886.430806, "o", "Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py\", line 10, in <module>\r\n    res = delat_med_ett(\"hej\")\r\n          ^^^^^^^^^^^^^^^^^^^^\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc3.py\", line 3, in delat_med_ett\r\n    result = 1 / divisor\r\n             ~~^~~~~~~~~\r\nTypeError: unsupported operand type(s) for /: 'int' and 'str'\r\n"]
 [886.437904, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
+[943.46925, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[943.581047, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[943.668164, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
