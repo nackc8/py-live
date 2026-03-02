@@ -4,5 +4,6 @@ def delat_med_ett(divisor):
 
 try:
     delat_med_ett(0)
+    # Vi 
 except:
     print("Nu gick det åt pipan")
