@@ -11,6 +11,7 @@ def deposit(account_id, amount):
     for account in bankaccounts:
         if account[0] == account_id:
             account[2] += amount
+            break
 
 
 # Mål
