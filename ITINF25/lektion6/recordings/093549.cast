@@ -209,3 +209,4 @@
 [2398.473665, "o", "\u001b[H\u001b[2J\u001b[3J"]
 [2398.482402, "o", "[ BankAccount | Id: 1, Name: Sven ] [ BankAccount | Id: 2, Name: Ulla ]\r\n"]
 [2398.489517, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad\r\r\n\u001b(B\u001b[m$ "]
+[2843.182463, "o", "clear ; python3 use_oo.py "]
