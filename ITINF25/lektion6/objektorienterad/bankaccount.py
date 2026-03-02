@@ -5,7 +5,7 @@ bankaccounts = []
 
 class BankAccount:
     def __init__(hubba):
-        print("Hej")
+        print("Hej", hubba)
 
 
 def create_account(account_id, name):
