@@ -1,3 +1,5 @@
+import sys
+
 bankaccounts = []
 
 
@@ -13,7 +15,9 @@ def deposit(account_id, amount):
             account[2] += amount
             break
     else:
-        pass
+        # Körs om ingen break har körts
+        print(f"Error: Cannot find account with id {account_id}",)
+        sys.exit(2)
 
 
 # Mål
