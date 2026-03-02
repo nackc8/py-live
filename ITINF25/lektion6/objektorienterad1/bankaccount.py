@@ -9,6 +9,8 @@ class BankAccount:
     def __init__(self, name):
         # Notera att self.name och name är olika variabler
         self.name = name
+        self.id = next_account_id
+        next_account_id += 1
 
     def __str__(self):
         return f"[ BankAccount | Name: {self.name} ]"
