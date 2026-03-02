@@ -22,3 +22,6 @@ class Markdown(MiniGendoc):
 md = Markdown()
 md.add_header("Why Python?")
 md.add_paragraph("Python is very very good")
+rendered_result = md.render()
+
+print("rendered_result", rendered_result)
