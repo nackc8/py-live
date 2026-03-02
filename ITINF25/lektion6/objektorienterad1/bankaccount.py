@@ -9,10 +9,9 @@ class BankAccount:
     def __init__(self, name):
         # Notera att self.name och name är olika variabler
         self.name = name
-        print("Hej", self.name, "!!!")
 
-    def __str__(self):
-        return f""
+    # def __str__(self):
+    #     return f"Name: {self.name}"
 
 
 def create_account(account_id, name):

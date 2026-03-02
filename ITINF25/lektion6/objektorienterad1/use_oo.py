@@ -2,4 +2,4 @@ import bankaccount
 
 p = print
 
-bankaccount.BankAccount("Sven")
+p(bankaccount.BankAccount("Sven"))
