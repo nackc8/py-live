@@ -2,7 +2,9 @@ import sys
 
 bankaccounts = []
 
-class 
+
+class BankAccount:
+    pass
 
 
 def create_account(account_id, name):
