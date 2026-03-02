@@ -4,5 +4,5 @@ try:
     amount = int(input("How much do you deposit to Ulla? "))
     ulla = BankAccount("Ulla")
     ulla.deposit_to_account(amount)
-except NegativeAmountError as e:
-    print("Du skrev ett negativt tal!")
+except NegativeAmountError:
+    print("PROGNOSIS NEGATIVE!")
