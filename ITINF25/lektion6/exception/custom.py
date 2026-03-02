@@ -1,5 +1,6 @@
 class NegativeAmountError(ValueError):
-    
+    pass
+
 
 class BankAccount:
     # En variabler som tillhör själva klassen
