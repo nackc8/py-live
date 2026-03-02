@@ -19,6 +19,6 @@ class Markdown(MiniGendoc):
         return result
 
 
-doc = MiniGendoc()
+doc = Markdown()
 doc.add_header("Why Python?")
 doc.add_paragraph("Python is very very good")
