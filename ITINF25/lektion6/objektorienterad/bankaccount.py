@@ -3,6 +3,8 @@ import sys
 bankaccounts = []
 
 
+
+
 def create_account(account_id, name):
     # Ett konto = en lista [account_id: int, name: str, balance: int]
     account = [account_id, name, 0]
