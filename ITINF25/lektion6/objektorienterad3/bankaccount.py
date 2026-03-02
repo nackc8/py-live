@@ -1,13 +1,11 @@
 import sys
 
-# Flyttat in den globala variabeln next_account_id till att vara
-# en klassvariabel. En variabel som är gemensam för själva klassen, och inte
-# objekten som self är nedan.
-
 
 class BankAccount:
-    # En variabel som tillhör själva klassen
+    # En variabler som tillhör själva klassen
+    # class variables
     next_account_id = 1
+    accounts = []
 
     def __init__(self, name):
         self.name = name
@@ -17,6 +15,7 @@ class BankAccount:
         self.id = BankAccount.next_account_id
         BankAccount.next_account_id += 1
         self.balance = 0
+        BankAccount.accounts.append(self)
 
     # Exempel på en magisk metod. Just denna gör att objektet skrivs ut
     # som en sträng på ett fint sätt för användaren.
@@ -41,10 +40,12 @@ class BankAccount:
             sys.exit(2)
         self.balance -= amount
 
-
-# Senare!
-# def list_accounts():
-#     return bankaccounts.copy()
+    # Dekorator (eng Decorator) för att markera en metod som är
+    # klassgemensam. Passar ihop med klassvariabler.
+    @classmethod
+    def list(cls):
+        # I detta fall så är cls = BankAccount
+        return cls.accounts.copy()
 
 
 # Mål
