@@ -6,7 +6,7 @@ next_account_id = 1
 
 
 class BankAccount:
-    def __init__(self):
+    def __init__(self, name):
         print("Hej", self)
 
 
