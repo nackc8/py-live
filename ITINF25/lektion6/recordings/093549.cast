@@ -221,3 +221,8 @@
 [2861.073697, "o", "\u001b[H\u001b[2J\u001b[3J"]
 [2861.084062, "o", "[ BankAccount | Id: 1, Name: Sven ] [ BankAccount | Id: 2, Name: Ulla ]\r\n"]
 [2861.091564, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad\r\r\n\u001b(B\u001b[m$ "]
+[2887.104049, "o", "clear ; python3 use_oo.py "]
+[2888.072049, "o", "\r\n\u001b[?2004l\r"]
+[2888.07495, "o", "\u001b[H\u001b[2J\u001b[3J"]
+[2888.085466, "o", "[ BankAccount | Id: 1, Name: Sven, Balance: 1100 ] [ BankAccount | Id: 2, Name: Ulla, Balance: 9000 ]\r\n"]
+[2888.092989, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6/objektorienterad\r\r\n\u001b(B\u001b[m$ "]

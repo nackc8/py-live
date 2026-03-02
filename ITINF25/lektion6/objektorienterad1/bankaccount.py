@@ -17,7 +17,7 @@ class BankAccount:
     # Exempel på en magisk metod. Just denna gör att objektet skrivs ut
     # som en sträng på ett fint sätt för användaren.
     def __str__(self):
-        return f"[ BankAccount | Id: {self.id}, Name: {self.name} ]"
+        return f"[ BankAccount | Id: {self.id}, Name: {self.name}, Balance: {self.balance} ]"
 
     def deposit_to_account(self, amount):
         if amount < 0:
