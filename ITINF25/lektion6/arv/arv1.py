@@ -14,5 +14,5 @@ class ChildChild(Child):
     pass
 
 
-cc = ChildChild()
+cc = ChildChild("Bo")
 cc.greet("Hi")
