@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 # https://docs.python.org/3/library/abc.html
 
 # Rubriker och stycken
@@ -13,7 +13,7 @@ class MiniGendoc(ABC):
     def add_paragraph(self, paragraph):
         self.parts.append(("PARAGRAPH", paragraph))
 
-
+    @abstractmethod
     def render()
 
 
