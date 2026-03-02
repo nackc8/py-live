@@ -14,7 +14,7 @@ class BankAccount:
         next_account_id += 1
 
     def __str__(self):
-        return f"[ BankAccount | Name: {self.name} ]"
+        return f"[ BankAccount | Id: {self.id}, Name: {self.name} ]"
 
 
 def create_account(account_id, name):
