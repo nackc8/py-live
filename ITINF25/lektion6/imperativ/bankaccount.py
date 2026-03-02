@@ -34,7 +34,7 @@ def deposit_to_account(account_id, amount):
 
 
 def list_accounts():
-    pass
+    return bankaccounts
 
 
 def withdraw_from_account(account_id, amount):
