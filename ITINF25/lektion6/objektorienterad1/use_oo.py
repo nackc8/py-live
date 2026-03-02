@@ -2,4 +2,6 @@ import bankaccount
 
 p = print
 
-p(bankaccount.BankAccount("Sven"))
+sven_account = bankaccount.BankAccount("Sven")
+ulla_account = bankaccount.BankAccount("Sven")
+
