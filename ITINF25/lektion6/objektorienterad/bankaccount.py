@@ -2,9 +2,8 @@ import sys
 
 bankaccounts = []
 
-class B
+class 
 
-# HelloWorld
 
 def create_account(account_id, name):
     # Ett konto = en lista [account_id: int, name: str, balance: int]
