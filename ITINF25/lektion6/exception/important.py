@@ -6,7 +6,7 @@
 
 
 def greet(full_name):
-    if isinstance(full_name, str):
+    if not isinstance(full_name, str):
         raise TypeError("The name must be a string")
 
     parts = full_name.split()
@@ -14,4 +14,6 @@ def greet(full_name):
         raise ValueError("The name must have at least two parts")
 
 
-greet("bosse")
+# greet(1)
+# greet("bosse")
+greet("Bosse Parnevik")
