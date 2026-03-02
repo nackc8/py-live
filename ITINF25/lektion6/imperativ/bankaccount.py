@@ -17,8 +17,9 @@ def deposit(account_id, amount):
     else:
         # "else" körs om ingen break har körts
 
-        # 
+        # Bash-motsvarighet: echo "Error: Cannot..." >&2
         print(f"Error: Cannot find account with id {account_id}", file=sys.stderr)
+        # Bash-motsvarighet: exit 2
         sys.exit(2)
 
 
