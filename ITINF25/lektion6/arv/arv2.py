@@ -18,6 +18,8 @@ class Police(Human):
 
 
 class Military(Human):
+    def __init__(self):
+
     def greet(self):
         print("Skott kommer!")
 
