@@ -4,7 +4,7 @@ bankaccounts = []
 
 class B
 
-# hejsan-ieie-jeeie
+# HelloWorld
 
 def create_account(account_id, name):
     # Ett konto = en lista [account_id: int, name: str, balance: int]
