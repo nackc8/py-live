@@ -1,8 +1,9 @@
 def delat_med_ett(divisor):
-    return 1 / divisor
+    try:
+        result = 1 / divisor
+        return result
+    except:
+        return 0
 
 
-try:
-    delat_med_ett(0)
-except:
-    print("Nu gick det åt pipan")
+delat_med_ett(0)
