@@ -18,13 +18,13 @@ class Police(Human):
 
 
 class Military(Human):
-    def __init__(self):
+    def __init__(self, name):
         self.grade = "korpral"
 
     def greet(self):
         print("Skott kommer!")
 
 
-cc = Military()
+cc = Military("Bo")
 cc.greet()
 cc.bye()
