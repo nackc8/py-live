@@ -1,0 +1,53 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6
+arv        imperativ          objektorienterad2  recordings
+exception  objektorienterad1  objektorienterad3
+ITINF25/lektion6
+$  /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35691 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py 
+^L
+
+^CTraceback (most recent call last):
+  File "/usr/lib/python3.11/runpy.py", line 198, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/runpy.py", line 88, in _run_code
+    exec(code, run_globals)
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/__main__.py", line 71, in <module>
+    cli.main()
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 508, in main
+    run()
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/cli.py", line 358, in run_file
+    runpy.run_path(target, run_name="__main__")
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 310, in run_path
+    return _run_module_code(code, init_globals, run_name, pkg_name=pkg_name, script_name=fname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 127, in _run_module_code
+    _run_code(code, mod_globals, init_globals, mod_name, mod_spec, pkg_name, script_name)
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_runpy.py", line 118, in _run_code
+    exec(code, run_globals)
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py", line 29, in <module>
+    print("Skott kommer!")
+
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py", line 29, in <module>
+    print("Skott kommer!")
+
+  File "_pydevd_bundle\\pydevd_cython.pyx", line 1849, in _pydevd_bundle.pydevd_cython.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython.pyx", line 1697, in _pydevd_bundle.pydevd_cython.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython.pyx", line 2116, in _pydevd_bundle.pydevd_cython.ThreadTracer.__call__
+  File "_pydevd_bundle\\pydevd_cython.pyx", line 1368, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython.pyx", line 1311, in _pydevd_bundle.pydevd_cython.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython.pyx", line 494, in _pydevd_bundle.pydevd_cython.PyDBFrame.do_wait_suspend
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2188, in do_wait_suspend
+    keep_suspended = self._do_wait_suspend(thread, frame, event, arg, trace_suspend_type, from_this_thread, frames_tracker)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/_vendored/pydevd/pydevd.py", line 2257, in _do_wait_suspend
+    notify_event.wait(wait_timeout)
+  File "/usr/lib/python3.11/threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+ITINF25/lektion6
+$ 
+exit
