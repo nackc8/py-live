@@ -1,6 +1,7 @@
 from abc import ABC
 
 # Rubriker och stycken
+# ABC gör klassen abstrakt = man får INTE göra instanser av den
 class MiniGendoc(ABC):
     def __init__(self):
         self.parts = []
