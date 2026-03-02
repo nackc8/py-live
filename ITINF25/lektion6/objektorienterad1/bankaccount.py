@@ -19,7 +19,7 @@ class BankAccount:
     def deposit_to_account(self, amount):
         if amount < 0:
             print(
-                f"Error: Cannot deposit a negative amount to {account_id}",
+                f"Error: Cannot deposit a negative amount to {self.id}",
                 file=sys.stderr,
             )
             sys.exit(2)
