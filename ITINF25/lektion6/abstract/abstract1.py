@@ -1,5 +1,7 @@
+from abc import ABC
+
 # Rubriker och stycken
-class MiniGendoc:
+class MiniGendoc(ABC):
     def __init__(self):
         self.parts = []
 
