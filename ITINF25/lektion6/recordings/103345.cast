@@ -1,0 +1,5 @@
+{"version": 2, "width": 106, "height": 5, "timestamp": 1772444025, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.232587, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6\r\n"]
+[0.233368, "o", "\u001b[0m\u001b[01;34mimperativ\u001b[0m  \u001b[01;34mobjektorienterad1\u001b[0m  \u001b[01;34mobjektorienterad2\u001b[0m  \u001b[01;34mrecordings\u001b[0m\r\n"]
+[0.24277, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
+[0.756331, "o", " /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 55153 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/objektorienterad2/use_oo.py \r\n\u001b[?2004l\r"]
