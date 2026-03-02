@@ -2,7 +2,8 @@ def delat_med_ett(divisor):
     try:
         result = 1 / divisor
         return result
-    except:
+    except Exception as e:
+        print("DEBUG OUTPUT", e)
         return 0
 
 
