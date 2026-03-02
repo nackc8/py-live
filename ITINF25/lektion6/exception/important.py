@@ -12,7 +12,7 @@ def greet(full_name):
     parts = full_name.split()
     if len(parts) < 2:
         raise ValueError("The name must have at least two parts")
-    print(f"Hej {full_name)
+    print(f"Hej {full_name}!")
 
 
 # greet(1)
