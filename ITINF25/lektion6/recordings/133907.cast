@@ -1,0 +1,6 @@
+{"version": 2, "width": 60, "height": 3, "timestamp": 1772455147, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.260438, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6\r\n"]
+[0.261159, "o", "\u001b[0m\u001b[01;34mexception\u001b[0m  \u001b[01;34mobjektorienterad1\u001b[0m  \u001b[01;34mobjektorienterad3\u001b[0m\r\n\u001b[01;34mimperativ\u001b[0m  \u001b[01;34mobjektorienterad2\u001b[0m  \u001b[01;34mrecordings\u001b[0m\r\n"]
+[0.270721, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
+[0.784332, "o", " /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 55969 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/exception/exc1.py \r\n\u001b[?2004l\r"]
+[9.435142, "o", "Innan fel\r\n"]
