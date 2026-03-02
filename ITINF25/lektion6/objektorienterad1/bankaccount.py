@@ -17,12 +17,6 @@ class BankAccount:
         return f"[ BankAccount | Id: {self.id}, Name: {self.name} ]"
 
 
-def create_account(account_id, name):
-    # Ett konto = en lista [account_id: int, name: str, balance: int]
-    account = [account_id, name, 0]
-    bankaccounts.append(account)
-
-
 def deposit_to_account(account_id, amount):
     if amount < 0:
         print(
