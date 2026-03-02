@@ -40,6 +40,10 @@ class BankAccount:
             sys.exit(2)
         self.balance -= amount
 
+    @classmethod
+    def list():
+        return 
+
 
 # Mål
 # - Lagra ett kontoid ✔
