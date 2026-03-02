@@ -10,7 +10,10 @@ class MiniGendoc:
         self.parts.append(("PARAGRAPH", paragraph))
 
     def __str__(self):
-        lst = [part_content for part_type, part_content in self.parts]
+        lst = [
+            part_content if part_type == "PARAGRAPH" else f"# {part_content}"
+            for part_type, part_content in self.parts
+        ]
         return "\n".join(lst)
 
 
