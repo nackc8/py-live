@@ -7,7 +7,7 @@ next_account_id = 1
 
 class BankAccount:
     def __init__(self, name):
-        # Notera att self.name och name är
+        # Notera att self.name och name är olika variabler
         self.name = name
         print("Hej", self.name, "!!!")
 
