@@ -1,4 +1,5 @@
 from abc import ABC
+# https://docs.python.org/3/library/abc.html
 
 # Rubriker och stycken
 # ABC gör klassen abstrakt = man får INTE göra instanser av den
@@ -12,7 +13,7 @@ class MiniGendoc(ABC):
     def add_paragraph(self, paragraph):
         self.parts.append(("PARAGRAPH", paragraph))
 
-    # https://docs.python.org/3/library/abc.html
+
     def render()
 
 
