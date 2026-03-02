@@ -1,0 +1,5 @@
+{"version": 2, "width": 49, "height": 7, "timestamp": 1772459907, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.22033, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6\r\n"]
+[0.22096, "o", "\u001b[0m\u001b[01;34marv\u001b[0m        \u001b[01;34mobjektorienterad1\u001b[0m  \u001b[01;34mrecordings\u001b[0m\r\n\u001b[01;34mexception\u001b[0m  \u001b[01;34mobjektorienterad2\u001b[0m\r\n\u001b[01;34mimperativ\u001b[0m  \u001b[01;34mobjektorienterad3\u001b[0m\r\n"]
+[0.229537, "o", "\u001b[?2004h\u001b[94mITINF25/lektion6\r\r\n\u001b(B\u001b[m$ "]
+[0.742574, "o", " /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 38003 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion6/arv/arv2.py \r\n\u001b[?2004l\r"]
