@@ -18,7 +18,11 @@ class Police(Human):
 
 
 class Military(Human):
+    # Eftersom vi har en __init__ behöver vi
+    # anropa överklassens __init__ själva. Den
+    # når vi genom super()
     def __init__(self, name):
+        super().__init__(name)
         self.grade = "korpral"
 
     def greet(self):
