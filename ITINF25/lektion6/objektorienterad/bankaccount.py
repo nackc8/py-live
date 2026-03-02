@@ -4,7 +4,7 @@ bankaccounts = []
 
 
 class BankAccount:
-    def __init__():
+    def __init__(hubba):
         print("Hej")
 
 
