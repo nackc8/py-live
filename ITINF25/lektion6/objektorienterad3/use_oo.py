@@ -15,5 +15,5 @@ p(sven, ulla)
 
 p(bankaccount.BankAccount.list())
 
-
-p([str(acc) for acc in bankaccount.BankAccount.list()])
+# Mer komplicerat. Men då får vi snyggare utskrifter med __str__
+# p([str(acc) for acc in bankaccount.BankAccount.list()])
