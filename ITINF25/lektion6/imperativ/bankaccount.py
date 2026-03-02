@@ -6,8 +6,11 @@ def create_account(account_id, name):
     account = [account_id, name, 0]
     bankaccounts.append(account)
 
+
 def deposit(account_id, amount):
-    bankaccounts.
+    for a in bankaccounts:
+        pass
+
 
 # Mål
 # - Lagra ett kontoid ✔
