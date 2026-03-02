@@ -9,7 +9,7 @@ def create_account(account_id, name):
     bankaccounts.append(account)
 
 
-def deposit(account_id, amount):
+def deposit_to_account(account_id, amount):
     if amount < 0:
         print(
             f"Error: Cannot deposit a negative amount to {account_id}",
@@ -33,7 +33,11 @@ def deposit(account_id, amount):
         sys.exit(2)
 
 
-def withdraw(account_id, amount):
+def list_accounts():
+    pass
+
+
+def withdraw_from_account(account_id, amount):
     if amount < 0:
         print(
             f"Error: Cannot withdraw a negative amount from {account_id}",
@@ -62,6 +66,6 @@ def withdraw(account_id, amount):
 # - Lagra ett namn ✔
 # - Lagra saldo (balance) ✔
 # - Insättning (deposit) ✔
-# - Uttag (withdraw)
+# - Uttag (withdraw) ✔
 # - Lägg till ett konto ✔
 # - Lista konton
