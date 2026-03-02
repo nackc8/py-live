@@ -1,5 +1,6 @@
 class Parent:
-    pass
+    def __init__(self, name):
+        self.name = name
 
 
 class Child:
@@ -8,3 +9,6 @@ class Child:
 
 class ChildChild:
     pass
+
+
+cc = ChildChild()
