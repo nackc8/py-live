@@ -1,7 +1,7 @@
 bankaccounts = []
 
 def create_account(account_id, name):
-    
+    # Ett konto = en tupel (account_id, name, )
 
 # Mål
 # - Lagra ett kontoid
