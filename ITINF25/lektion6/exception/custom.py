@@ -23,12 +23,12 @@ class BankAccount:
 
     def deposit_to_account(self, amount):
         if amount < 0:
-            raise ValueError("Amount cannot be negative!")
+            raise NegativeAmountError("Amount cannot be negative!")
         self.balance += amount
 
     def withdraw_from_account(self, amount):
         if amount < 0:
-            raise ValueError("Amount cannot be negative!")
+            raise NegativeAmountError("Amount cannot be negative!")
         self.balance -= amount
 
     # Dekorator (eng Decorator) för att markera en metod som är
