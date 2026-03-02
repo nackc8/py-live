@@ -25,6 +25,21 @@ class Markdown(MiniGendoc):
         return result
 
 
+class Html(MiniGendoc):
+    def render(self):
+        result = ""
+        for part in self.parts:
+            # Som nedan fast kortare med unpacking: part_type, part_content = part
+            part_type = part[0]
+            part_content = part[1]
+            if part_type == "HEADER":
+                result += "<h1>" + part_content + "</h1>" + "\n" * 2
+            else:
+                result += "<p>" + part_content + "</p>" + "\n"
+
+        return result
+
+
 md = Markdown()
 md.add_header("Why Python?")
 md.add_paragraph("Python is very very good")
