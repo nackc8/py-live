@@ -5,5 +5,7 @@ try:
     ulla = BankAccount("Ulla")
     ulla.deposit_to_account(amount)
 except ValueError as e:
-    e.
-    print("Du skrev ett negativt tal!")
+    if "negative" in str(e):
+        print("Du skrev ett negativt tal!")
+    else:
+        print("Nått är galet")
