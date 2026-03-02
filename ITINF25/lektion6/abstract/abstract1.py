@@ -11,7 +11,7 @@ class MiniGendoc:
 
     def __str__(self):
         lst = [
-            part_content if part_type == "PARAGRAPH" else f"# {part_content}"
+            part_content if part_type == "PARAGRAPH" else f"HEADER: {part_content}"
             for part_type, part_content in self.parts
         ]
         return "\n".join(lst)
