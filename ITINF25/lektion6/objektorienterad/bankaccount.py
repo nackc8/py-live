@@ -4,8 +4,8 @@ bankaccounts = []
 
 
 class BankAccount:
-    def 
-    pass
+    def __init__():
+        pass
 
 
 def create_account(account_id, name):
