@@ -27,7 +27,7 @@ def deposit(account_id, amount):
 # - Lagra ett kontoid ✔
 # - Lagra ett namn ✔
 # - Lagra saldo (balance) ✔
-# - Insättning (deposit)
+# - Insättning (deposit) ✔
 # - Uttag (withdraw)
 # - Lägg till ett konto ✔
 # - Lista konton
