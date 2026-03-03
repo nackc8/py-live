@@ -18,6 +18,10 @@ def count_words(text_string):
     >>> count_words("hopp hopp hopp hopp hopp")
     {"hopp": 5}
 
+            result = count_words("hopp hopp hopp")
+        self.assertNotEqual(result, {"hopp": 2})
+
+
 
     """
     words = text_string.split()
