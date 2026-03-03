@@ -660,3 +660,7 @@
 [4324.910862, "o", "Requirement already satisfied: Pygments==2.19.2 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 4)) (2.19.2)\r\n"]
 [4324.911557, "o", "Requirement already satisfied: pytest==9.0.2 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 5)) (9.0.2)\r\n"]
 [4324.993525, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
+[4337.921988, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[4337.987425, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[4338.043325, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[4338.078192, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
