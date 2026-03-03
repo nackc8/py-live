@@ -10,3 +10,5 @@ Sedan behöver vi aktivera vår nya virtuella miljö:
         . .venv/bin/activate
     Windows:
         Troligen .venv/bin/Activate.ps1
+För att se alla paket i sin miljö (global eller venv):
+    pip freeze
