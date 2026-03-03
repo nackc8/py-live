@@ -15,3 +15,6 @@ Lägg till en fil:
 Commita med:
 
 git commit
+
+Se alla commits:
+
