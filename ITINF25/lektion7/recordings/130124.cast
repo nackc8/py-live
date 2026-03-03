@@ -1167,3 +1167,6 @@
 [4045.629198, "o", "\b\u001b[K"]
 [4045.756403, "o", "\b\u001b[K"]
 [4045.891009, "o", "\b\u001b[K"]
+[4048.501695, "o", "\r\n\u001b[?2004l\r"]
+[4048.505896, "o", "\u001b[?1h\u001b=\r"]
+[4048.509473, "o", "\u001b[1mdiff --git a/numbers2.txt b/numbers2.txt\u001b[m\u001b[m\r\n\u001b[1mindex 449e190..1d7be50 100644\u001b[m\u001b[m\r\n\u001b[1m--- a/numbers2.txt\u001b[m\u001b[m\r\n\u001b[1m+++ b/numbers2.txt\u001b[m\u001b[m\r\n\u001b[36m@@ -1,4 +1,4 @@\u001b[m\u001b[m\r\n\u001b[31m-101fel\u001b[m\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32m101\u001b[m\u001b[m\r\n 102\u001b[m\u001b[m\r\n 103\u001b[m\u001b[m\r\n 104\u001b[m\u001b[m\r\n:\u001b[K"]
