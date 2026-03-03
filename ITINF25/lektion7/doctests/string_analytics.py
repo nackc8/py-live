@@ -28,6 +28,7 @@ def count_words(text_string):
     >>> count_words(12345)
     Traceback (most recent call last):
         ...
+    AttributeError: 'int' object has no attribute 'split'
     """
     words = text_string.split()
     count = dict()
