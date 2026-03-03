@@ -2,7 +2,7 @@ from count_words import count_words
 
 
 def test_hej_10():
-    assert count_words("hej hej hej hej hej hej hej hej hej hej") != {"hej": 10}
+    assert count_words("hej hej hej hej hej hej hej hej hej hej") == {"hej": 10}
 
 
 # print("Test: Hopp 5 gånger: ", end="")
