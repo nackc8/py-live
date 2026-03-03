@@ -1,0 +1,17 @@
+Nytt repo:
+
+git init
+
+Status via:
+
+git status
+
+Lägg till en fil:
+
+    Enskilda filer: git add filnamn1 filnamn2 ...
+
+    Alla filer: git add .
+
+Commita med:
+
+git commit
