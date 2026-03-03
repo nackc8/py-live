@@ -19,9 +19,14 @@ def test_not_hopp_2():
 
 
 # "Eget" sätt att säkerställa att ett undantag kastas
-def test_not_string():
+def test_not_string_diy():
     try:
         count_words(12345)
         assert False
     except Exception:
         assert True
+
+
+def test_not_string_lean_into_pytest():
+    with pytest.raises(Exception):
+        count_words(12345)
