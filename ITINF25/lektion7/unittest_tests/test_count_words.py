@@ -23,3 +23,4 @@ class TestStringMethods(unittest.TestCase):
     def test_not_string(self):
         with pytest.raises(Exception):
             count_words(12345)
+
