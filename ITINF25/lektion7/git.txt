@@ -18,3 +18,5 @@ git commit
 
 Se alla commits:
 
+git log
+
