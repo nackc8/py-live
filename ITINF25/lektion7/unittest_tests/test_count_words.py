@@ -4,11 +4,9 @@ from count_words import count_words
 
 
 class TestStringMethods(unittest.TestCase):
-    pass
-
-
-def test_hej_10():
-    assert count_words("hej hej hej hej hej hej hej hej hej hej") == {"hej": 10}
+    def test_hej_10(self):
+        result = count_words("hej hej hej hej hej hej hej hej hej hej")
+        self.assertEqual(result, {"hej": 10})
 
 
 def test_hopp_5():
