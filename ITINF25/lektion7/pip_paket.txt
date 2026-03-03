@@ -7,4 +7,4 @@ Normalt så vill vi skapa en isolerad miljö för paket. Modulen är venv och ka
     python3 -m venv .venv
 Sedan behöver vi aktivera vår nya virtuella miljö:
     Linux/MacOS:
-    
+        . .venv/bin/activate
