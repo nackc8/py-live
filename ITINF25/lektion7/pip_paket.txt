@@ -11,7 +11,10 @@ Sedan behöver vi aktivera vår nya virtuella miljö:
     Windows:
         Troligen .venv/bin/Activate.ps1
 För att se alla paket i sin miljö (global eller venv):
-    pip freeze
+    pip3 freeze
 
 Man kan spara listan med paket man är beroende av via. Filnamnet är valfritt men requirements.txt är en konvention:
-    pip freeze > requirements.txt
+    pip3 freeze > requirements.txt
+
+Om någon vill installera requirements.txt i sin miljö (global eller venv):
+
