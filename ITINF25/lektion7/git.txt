@@ -33,7 +33,7 @@ OJ! Det blev fel.
         Om det är den SENASTE commiten:
          git commit --amend
         Om jag vill ändra en tidigare commit:
-
+            git rebase -i HEAD~5
 
 Om man har förändringar som man tillfälligt vill
 lägga åt sidan
