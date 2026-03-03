@@ -27,4 +27,5 @@ git diff -- se ändringar
 
 OJ! Det blev fel.
 
-    Ångra en commit som andra tagit del av
+    Ångra en commit som andra tagit del av:
+    
