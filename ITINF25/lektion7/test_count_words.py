@@ -14,6 +14,6 @@ else:
 
 print("Test: hej och hopp 3 gånger: ", end="")
 if count_words("hej hej hej hopp hopp hopp") != {"hej": 3, "hopp": 3}:
-    raise AssertionError("hopp ska upprepas 5 gånger")
+    raise AssertionError("hej och hopp ska upprepas 3 gånger")
 else:
     print("✓")
