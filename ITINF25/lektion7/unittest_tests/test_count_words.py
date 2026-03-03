@@ -1,5 +1,10 @@
-import pytest
+import unittest
+
 from count_words import count_words
+
+
+class TestStringMethods(unittest.TestCase):
+    pass
 
 
 def test_hej_10():
