@@ -29,7 +29,8 @@ OJ! Det blev fel.
 
     Ångra en commit som andra tagit del av:
         git revert 72628a
-    Om m
+    Om man INTE har delat med sig:
+        
 
 
 Om man har förändringar som man tillfälligt vill
