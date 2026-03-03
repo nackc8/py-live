@@ -935,3 +935,7 @@
 [3785.664617, "o", "\r\u001b[K"]
 [3785.666267, "o", "[main (root-commit) 8e53989] add file with number one to one hundred\r\n 1 file changed, 100 insertions(+)\r\n create mode 100644 numbers.txt\r\n"]
 [3785.67166, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
+[3790.448708, "o", "\r\u001b[K\r\u001b[94m\u001b(B\u001b[m$ "]
+[3790.500752, "o", "\r\u001b[K\r\u001b[94m\u001b(B\u001b[m$ "]
+[3790.59031, "o", "\r\u001b[K\r\u001b[94m\u001b(B\u001b[m$ "]
+[3797.94957, "o", "\u001b[H\u001b[2J\u001b[94m\u001b(B\u001b[m$ "]
