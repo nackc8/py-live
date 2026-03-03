@@ -5,3 +5,6 @@ I debian kan man tvinga in det med. Oftast endast i t.ex. Docker:
 
 Normalt så vill vi skapa en isolerad miljö för paket. Modulen är venv och katalogen .venv:
     python3 -m venv .venv
+Sedan behöver vi aktivera vår nya virtuella miljö:
+    Linux/MacOS:
+    
