@@ -12,3 +12,5 @@ Sedan behöver vi aktivera vår nya virtuella miljö:
         Troligen .venv/bin/Activate.ps1
 För att se alla paket i sin miljö (global eller venv):
     pip freeze
+
+Man kan spara listan med paket man är beroende av via:
