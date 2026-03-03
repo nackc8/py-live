@@ -25,4 +25,6 @@ Se vad jag ändrat
 git status -- för filer
 git diff -- se ändringar
 
-OJ! 
+OJ! Det blev fel.
+
+    Ångra en commit som andra tagit del av
