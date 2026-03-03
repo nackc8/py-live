@@ -415,3 +415,6 @@
 [3688.313061, "o", "\u0007tivate"]
 [3695.107977, "o", "\u0007"]
 [3695.382934, "o", "\r\nactivate       activate.csh   activate.fish  \r\n\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ . .venv/bin/activate"]
+[3713.331535, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ . .venv/bin/activate"]
+[3713.952725, "o", "\r\n\u001b[?2004l\r"]
+[3713.960497, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
