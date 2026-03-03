@@ -1,5 +1,5 @@
 # 10: Red - Skriv ett test som inte lyckas... ännu
-# 20: Green
+# 20: Green - Få alla test hittils att passera, uppmuntrat att fuska
 # 30: Refactor
 # 40: GOTO 10
 
