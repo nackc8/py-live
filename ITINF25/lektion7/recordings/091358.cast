@@ -48,3 +48,8 @@
 [669.880627, "o", "\r\n\u001b[?2004l\r"]
 [669.893379, "o", "Test: Hej 10 gånger: Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py\", line 5, in <module>\r\n    raise AssertionError(\"Hej ska upprepas 10 gånger\")\r\nAssertionError: Hej ska upprepas 10 gånger\r\n"]
 [669.900584, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
+[763.026265, "o", "python3 test_count_words.py "]
+[763.482977, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ python3 test_count_words.py "]
+[764.892854, "o", "\r\n\u001b[?2004l\r"]
+[764.904538, "o", "Test: Hej 10 gånger: ✓\r\n"]
+[764.911863, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
