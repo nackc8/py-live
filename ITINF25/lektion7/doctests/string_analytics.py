@@ -11,7 +11,7 @@ def count_words(text_string):
     It can for example count ten "hej"
 
     >>> count_words("hej hej hej hej hej hej hej hej hej hej")
-    {"hej": 10}
+    {'hej': 10}
 
     It can also count five "hopp":
 
