@@ -53,3 +53,5 @@
 [764.892854, "o", "\r\n\u001b[?2004l\r"]
 [764.904538, "o", "Test: Hej 10 gånger: ✓\r\n"]
 [764.911863, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
+[914.254276, "o", "python3 test_count_words.py "]
+[914.802038, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ python3 test_count_words.py "]
