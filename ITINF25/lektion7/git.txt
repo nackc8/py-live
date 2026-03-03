@@ -23,3 +23,6 @@ git log
 Se vad jag ändrat
 
 git status -- för filer
+git diff -- se ändringar
+
+OJ! 
