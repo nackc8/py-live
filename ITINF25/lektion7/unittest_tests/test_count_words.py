@@ -9,7 +9,7 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(result, {"hej": 10})
 
     def test_hopp_5(self):
-        result = count_words("hopp hopp hopp hopp jump")
+        result = count_words("hopp hopp hopp hopp hopp")
         self.assertEqual(result, {"hopp": 5})
 
     def test_hej_hopp_3(self):
