@@ -4,9 +4,6 @@ from ITINF25.lektion7.doctests.string_analytics import count_words
 
 
 class TestStringMethods(unittest.TestCase):
-    def test_hej_10(self):
-        result = count_words("hej hej hej hej hej hej hej hej hej hej")
-        self.assertEqual(result, {"hej": 10})
 
     def test_hopp_5(self):
         result = count_words("hopp hopp hopp hopp hopp")

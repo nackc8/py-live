@@ -13,6 +13,10 @@ def count_words(text_string):
     >>> count_words("hej hej hej hej hej hej hej hej hej hej")
     {"hej": 10}
 
+            result = count_words("hopp hopp hopp hopp hopp")
+        self.assertEqual(result, {"hopp": 5})
+
+
     """
     words = text_string.split()
     count = dict()

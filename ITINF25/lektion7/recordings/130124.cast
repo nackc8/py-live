@@ -1,0 +1,9 @@
+{"version": 2, "width": 57, "height": 9, "timestamp": 1772539284, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.216695, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7\r\n"]
+[0.217381, "o", "\u001b[0m\u001b[01;34mcustom_tests\u001b[0m  pip_paket.txt  \u001b[01;34mrecordings\u001b[0m\r\n\u001b[01;34mdoctests\u001b[0m      \u001b[01;34m__pycache__\u001b[0m    requirements.txt\r\ngoal.txt      \u001b[01;34mpytest_tests\u001b[0m   \u001b[01;34munittest_tests\u001b[0m\r\n"]
+[0.21746, "o", "/bin/python\r\n"]
+[0.22605, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
+[0.22609, "o", "/bin/python\r\n\u001b[?2004l\r"]
+[0.244836, "o", "Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux\r\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\r\n"]
+[0.24643, "o", "Ctrl click to launch VS Code Native REPL\r\n"]
+[0.246527, "o", "\u001b]633;C\u0007\u001b]633;E;p(\"hej\",\"svejs\",10020)\u0007\u001b]633;D;0\u0007\u001b]633;A\u0007>>> \u001b]633;B\u0007"]
