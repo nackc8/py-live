@@ -1,0 +1,1372 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7
+recordings
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ ls
+count_words.py  goal.txt  recordings  test_count_words.py
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 5, in <module>
+    raise AssertionError("Hej ska upprepas 10 gånger")
+AssertionError: Hej ska upprepas 10 gånger
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 11, in <module>
+    raise AssertionError("hopp ska upprepas 5 gånger")
+AssertionError: hopp ska upprepas 5 gånger
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 11, in <module>
+    raise AssertionError("hopp ska upprepas 5 gånger")
+AssertionError: hopp ska upprepas 5 gånger
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 5, in <module>
+    raise AssertionError("hej ska upprepas 10 gånger")
+AssertionError: hej ska upprepas 10 gånger
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 11, in <module>
+    raise AssertionError("hopp ska upprepas 5 gånger")
+AssertionError: hopp ska upprepas 5 gånger
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: ✓
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: ✓
+Test: hej och hopp 3 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 17, in <module>
+    raise AssertionError("hopp ska upprepas 5 gånger")
+AssertionError: hopp ska upprepas 5 gånger
+ITINF25/lektion7
+$ python3 test_count_words.py ITINF25/lektion7
+$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: ✓
+Test: hej och hopp 3 gånger: Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py", line 17, in <module>
+    raise AssertionError("hej och hopp ska upprepas 3 gånger")
+AssertionError: hej och hopp ska upprepas 3 gånger
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ pip
+
+Usage:   
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions
+                              propagate outside the main
+                              subroutine, instead of
+                              logging them to stderr.
+  --isolated                  Run pip in an isolated
+                              mode, ignoring environment
+                              variables and user
+                              configuration.
+  --require-virtualenv        Allow pip to only run in a
+                              virtual environment; exit
+                              with an error otherwise.
+  --python <python>           Run pip with the specified
+                              Python interpreter.
+  -v, --verbose               Give more output. Option is
+                              additive, and can be used
+                              up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is
+                              additive, and can be used
+                              up to 3 times
+                              (corresponding to WARNING,
+                              ERROR, and CRITICAL logging
+                              levels).
+  --log <path>                Path to a verbose appending
+                              log.
+  --no-input                  Disable prompting for
+                              input.
+  --proxy <proxy>             Specify a proxy in the form
+                              scheme://[user:passwd@]prox
+                              y.server:port.
+  --retries <retries>         Maximum number of retries
+                              each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout
+                              (default 15 seconds).
+  --exists-action <action>    Default action when a path
+                              already exists: (s)witch,
+                              (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port
+                              pair as trusted, even
+                              though it does not have
+                              valid or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA
+                              certificate bundle. If
+                              provided, overrides the
+                              default. See 'SSL
+                              Certificate Verification'
+                              in pip documentation for
+                              more information.
+  --client-cert <path>        Path to SSL client
+                              certificate, a single file
+                              containing the private key
+                              and the certificate in PEM
+                              format.
+  --cache-dir <dir>           Store the cache data in
+                              <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check
+                              PyPI to determine whether a
+                              new version of pip is
+                              available for download.
+                              Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation
+                              warnings for upcoming
+                              unsupported Pythons.
+  --use-feature <feature>     Enable new functionality,
+                              that may be backward
+                              incompatible.
+  --use-deprecated <feature>  Enable deprecated
+                              functionality, that will be
+                              removed in the future.
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ python
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;p("hej","svejs",10020)
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ pip3
+
+Usage:   
+  pip3 <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions
+                              propagate outside the main
+                              subroutine, instead of
+                              logging them to stderr.
+  --isolated                  Run pip in an isolated
+                              mode, ignoring environment
+                              variables and user
+                              configuration.
+  --require-virtualenv        Allow pip to only run in a
+                              virtual environment; exit
+                              with an error otherwise.
+  --python <python>           Run pip with the specified
+                              Python interpreter.
+  -v, --verbose               Give more output. Option is
+                              additive, and can be used
+                              up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is
+                              additive, and can be used
+                              up to 3 times
+                              (corresponding to WARNING,
+                              ERROR, and CRITICAL logging
+                              levels).
+  --log <path>                Path to a verbose appending
+                              log.
+  --no-input                  Disable prompting for
+                              input.
+  --proxy <proxy>             Specify a proxy in the form
+                              scheme://[user:passwd@]prox
+                              y.server:port.
+  --retries <retries>         Maximum number of retries
+                              each connection should
+                              attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout
+                              (default 15 seconds).
+  --exists-action <action>    Default action when a path
+                              already exists: (s)witch,
+                              (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port
+                              pair as trusted, even
+                              though it does not have
+                              valid or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA
+                              certificate bundle. If
+                              provided, overrides the
+                              default. See 'SSL
+                              Certificate Verification'
+                              in pip documentation for
+                              more information.
+  --client-cert <path>        Path to SSL client
+                              certificate, a single file
+                              containing the private key
+                              and the certificate in PEM
+                              format.
+  --cache-dir <dir>           Store the cache data in
+                              <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check
+                              PyPI to determine whether a
+                              new version of pip is
+                              available for download.
+                              Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation
+                              warnings for upcoming
+                              unsupported Pythons.
+  --use-feature <feature>     Enable new functionality,
+                              that may be backward
+                              incompatible.
+  --use-deprecated <feature>  Enable deprecated
+                              functionality, that will be
+                              removed in the future.
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ pip3
+
+man 
+PIP(1)           General Commands Manual           PIP(1)
+
+NAME
+       pip  -  A  tool for installing and managing Python
+       packages
+
+SYNOPSIS
+       pip <command> [options]
+
+       pip3 <command> [options]
+
+DESCRIPTION
+       pip is a Python package installer, recommended for
+       installing Python packages which are not available
+       in the Debian archive.  It can work  with  version
+       control  repositories  (currently only Git, Mercu‐
+       rial, and Bazaar repositories), logs output exten‐
+       sively, and prevents partial installs by download‐
+       ing all requirements before starting installation.
+
+       On Debian, pip is the  command  to  use  when  in‐
+       stalling  packages for Python 2, while pip3 is the
+       command to use when installing packages for Python
+       3.
+
+COMMANDS
+       The command comes before any options.  The follow‐
+       ing commands are recognized:
+
+       help   Show help for commands.
+
+       install
+              Install packages.
+
+       uninstall
+              Uninstall packages.
+
+       freeze Output installed packages  in  requirements
+              format.
+nual page pip3(1) line 27 (press h for help or q to quit)
+       list   List installed packages.
+
+       show   Show information about installed packages.
+
+       search Search PyPI for packages.
+
+       wheel  Build wheels from your requirements.
+
+GENERAL OPTIONS
+       This list is by no means complete, and it only de‐
+       scribes options available to  all  commands.   Use
+       pip  <command>  --help for more details on command
+       specific options.  A few command options are  pro‐
+       vided below.
+
+       -h, --help
+              Show more detailed command help.
+
+       -v, --verbose
+              Give  more  output. Option is additive, and
+              can be used up to 3 times.
+
+       -V, --version
+              Show version and exit.
+
+       -q, --quietline 53 (press h for help or q to quit)
+              Give less output.
+
+       --log-file <path>
+              Path to a verbose non-appending  log,  that
+              only  logs failures.  This log is active by
+              default at ~/.pip/pip.log.
+
+       --log <path>
+              Path to a verbose appending log.  This  log
+              is inactive by default.
+
+       --proxy <proxy>
+              Specify     a    proxy    in    the    form
+              [user:passwd@]proxy.server:port.
+
+       --timeout <sec>
+              Set the socket  timeout  (default  15  sec‐
+              onds).
+
+       --exists-action <action>
+              Default  action when a path already exists:
+              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+
+       --cert <path>
+              Path to alternate CA bundle.
+              Specify     a    proxy    in    the    form
+              [user:passwd@]proxy.server:port.
+
+       --timeout <sec>
+              Set the socket  timeout  (default  15  sec‐
+              onds).
+
+       --exists-action <action>
+              Default  action when a path already exists:
+              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+
+       --cert <path>
+              Path to alternate CA bundle.
+              Specify     a    proxy    in    the    form
+              [user:passwd@]proxy.server:port.
+
+       --timeout <sec>
+              Set the socket  timeout  (default  15  sec‐
+              onds).
+
+       --exists-action <action>
+              Default  action when a path already exists:
+              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+
+       --cert <path>
+              Path to alternate CA bundle.
+...skipping...
+       -U, --upgrade
+              Upgrade all packages to the  newest  avail‐
+              able  version.   This  process is recursive
+              regardless of whether a dependency  is  al‐
+              ready satisfied.
+
+       --force-reinstall
+              When upgrading, reinstall all packages even
+              if they are already up-to-date.
+
+       -I, --ignore-installed
+              Ignore the installed packages (reinstalling
+              instead).
+>ITINF25/lektion7/268 52% (press h for help or q to quit)
+$ pip3 install -pytestITINF25/lektion7
+$ pip3 install pytest
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.11/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ sudo apt install py
+
+Display all 5293 possibilities? (y or n)
+py3c-dev
+py3status
+pyacidobasic
+pybedtools-bin
+pybik
+pybik-bin
+pybind11-dev
+pybind11-doc
+pybind11-json-dev
+pybtex
+pybuild-plugin-autopkgtest
+pybuild-plugin-pyproject
+pycadf-common
+pychess-
+pycirkuit
+pycode-browser
+pycodestyle
+pyconfigure
+pycoqc
+pycorrfit
+py-cpuinfo
+pycsw
+pycsw-doc
+pycsw-wsgi
+pydevd
+pydf
+pydocstyle
+pydoctor
+pyecm
+pyensembl
+pyfai
+pyfastx
+pyflakes3
+pygac-bin
+pygopherd
+pygtail
+pyhoca-cli
+pyhoca-gui
+pyjoke
+pykmle--
+pykwalify
+pylama
+pyliblo-utils
+pylibtiff
+pylint
+pylint-doc
+pymacs
+pymatgen-test-files
+pymca
+pymca-data
+pymca-doc
+pymoctool
+ITINF25/lektion7
+sudo apt install pythonITINF25/lektion7
+$ sudo apt install python
+
+Display all 5169 possibilities? (y or n)
+ITINF25/lektion7
+$ sudo apt install python3
+
+Display all 4330 possibilities? (y or n)
+python3
+python3.11
+python3.11-dbg
+python3.11-dev
+python3.11-doc
+python3.11-examples
+python3.11-full
+python3.11-minimal
+python3.11-nopie
+python3.11-venv
+python3-a38
+python3-aafigure
+python3-aalib
+python3-absl
+python3-abydos
+python3-access2base
+python3-acme
+python3-acora
+python3-acoustid
+python3-actdiag
+python3-actionlib
+python3-actionlib-msgs
+python3-actionlib-tools
+python3-activipy
+python3-adal
+python3-adapt
+python3-adios
+python3-admesh
+python3-advocate
+python3-aeidon
+python3-afdko
+python3-affine
+python3-agate
+python3-agatedbf
+python3-agateexcel
+python3-agatesql
+python3-aggdraw
+python3-ahocorasick
+python3-aioamqp
+python3-aioapns
+python3-aiocoap
+python3-aiodns
+python3-aiodogstatsd
+python3-aiofiles
+python3-aioftp
+python3-aiohttp
+python3-aiohttp-apispec
+python3-aiohttp-cors
+python3-aiohttp-jinja2
+python3-aiohttp-mako
+python3-aiohttp-oauthlib
+python3-aiohttp-openmetrics
+python3-aiohttp-proxy
+python3-aiohttp-security
+python3-aiohttp-session
+python3-aiohttp-socks
+python3-aiohttp-wsgi
+python3-aioice
+python3-aioinflux
+python3-aiomeasures
+python3-aiomysql
+python3-aionotify
+python3-aioopenssl
+python3-aiopg
+python3-aio-pika
+python3-aioprocessing
+python3-aioredis
+python3-aioresponses
+python3-aioresponses-doc
+python3-aiormq
+python3-aiorpcx
+python3-aiortc
+python3-aiortc-doc
+python3-aiosasl
+python3-aiosignal
+python3-aiosmtpd
+python3-aiosmtplib
+python3-aiosmtplib-doc
+python3-aiosqlite
+python3-aiostream
+python3-aiotask-context
+python3-aioxmlrpc
+python3-aioxmpp
+python3-aioxmpp-doc
+python3-aiozipkin
+python3-aiozmq
+python3-airr
+python3-airspeed
+python3-ais
+python3-ajax-select
+python3-ajpy
+python3-alabaster
+python3-alembic
+python3-alignlib
+python3-all
+python3-all-dbg
+python3-all-dev
+python3-allpairspy
+python3-alsaaudio
+python3-altair
+python3-altgraph
+python3-ament-clang-format
+python3-ament-clang-tidy
+python3-ament-cmake-google-benchmark
+python3-ament-cmake-test
+python3-ament-copyright
+python3-ament-cppcheck
+python3-ament-cpplint
+python3-ament-flake8
+python3-ament-index
+python3-ament-lint
+python3-ament-lint-cmake
+python3-ament-mypy
+python3-ament-package
+python3-ament-pep257
+python3-ament-pycodestyle
+python3-ament-pyflakes
+ITINF25/lektion7
+$ sudo apt install python3^C
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ pip3 install pytest
+error: externally-managed-environment
+
+× This environment is externally managed
+╰─> To install Python packages system-wide, try apt install
+    python3-xyz, where xyz is the package you are trying to
+    install.
+    
+    If you wish to install a non-Debian-packaged Python package,
+    create a virtual environment using python3 -m venv path/to/venv.
+    Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+    sure you have python3-full installed.
+    
+    If you wish to install a non-Debian packaged Python application,
+    it may be easiest to use pipx install xyz, which will manage a
+    virtual environment for you. Make sure you have pipx installed.
+    
+    See /usr/share/doc/python3.11/README.venv for more information.
+
+note: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+hint: See PEP 668 for the detailed specification.
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ python3 -m venv .venhubb.venv
+ITINF25/lektion7
+$ ..
+source
+dkkd
+
+. .venv/bin/ac
+tivate
+
+activate       activate.csh   activate.fish  
+ITINF25/lektion7
+$ . .venv/bin/activateITINF25/lektion7
+$ . .venv/bin/activate
+ITINF25/lektion7
+$ de
+
+deactivate
+deallocvt
+debconf
+debconf-apt-progress
+debconf-communicate
+debconf-copydb
+debconf-escape
+debconf-getlang
+debconf-get-selections
+--More--
+debconf-gettextize
+debconf-kde-helper
+debconf-loadtemplate
+debconf-mergetemplate
+debconf-set-selections
+debconf-show
+debconf-updatepo
+debianbts
+deb-systemd-helper
+deb-systemd-invoke
+debugpy
+debugpy.bat
+debugpy.fish
+debugpy.ps1
+declare
+defmt-c
+defmt-sh
+delpart
+delvre--
+dequote
+designer
+desktop-file-edit
+desktop-file-install
+desktop-file-validate
+detex
+devnag
+devops25-databashantering
+devops25-databashantering-rapport
+devops25-databashantering-rapport-review-healthy
+devops25-databashantering-rapport-review-unhealthy
+devops25-databashantering-review-healthy
+devops25-databashantering-review-unhealthy
+devops25-programmering3
+devops25-programmering3-review-healthy
+devops25-programmering3-review-unhealthy
+devops25-projektmetodik-bok
+devops25-projektmetodik-bok-review-healthy
+devops25-projektmetodik-bok-review-unhealthy
+ITINF25/lektion7
+$ dea
+
+deactivate  deallocvt   
+ITINF25/lektion7
+$ deaITINF25/lektion7
+$ deactivate
+
+
+
+
+
+
+$ ls .venv/
+bin  include  lib  lib64  pyvenv.cfg
+ITINF25/lektion7
+$ ls .venv/include/
+python3.11
+ITINF25/lektion7
+$ ls .venv/includebin/ITINF25/lektion7
+$ ls .venv/bin/
+activate      activate.fish  pip   pip3.11  python3
+activate.csh  Activate.ps1   pip3  python   python3.11
+ITINF25/lektion7
+$ .b
+venv/bin/A
+ctivate.ps1 # för windows   ^C
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ 
+ITINF25/lektion7
+$ pip3
+
+Usage:   
+  pip3 <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions propagate
+                              outside the main subroutine,
+                              instead of logging them to stderr.
+  --isolated                  Run pip in an isolated mode,
+                              ignoring environment variables and
+                              user configuration.
+  --require-virtualenv        Allow pip to only run in a virtual
+                              environment; exit with an error
+                              otherwise.
+  --python <python>           Run pip with the specified Python
+                              interpreter.
+  -v, --verbose               Give more output. Option is
+                              additive, and can be used up to 3
+                              times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is
+                              additive, and can be used up to 3
+                              times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging
+                              levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy <proxy>             Specify a proxy in the form scheme
+                              ://[user:passwd@]proxy.server:port
+                              .
+  --retries <retries>         Maximum number of retries each
+                              connection should attempt (default
+                              5 times).
+  --timeout <sec>             Set the socket timeout (default 15
+                              seconds).
+  --exists-action <action>    Default action when a path already
+                              exists: (s)witch, (i)gnore,
+                              (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair
+                              as trusted, even though it does
+                              not have valid or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA certificate
+                              bundle. If provided, overrides the
+                              default. See 'SSL Certificate
+                              Verification' in pip documentation
+                              for more information.
+  --client-cert <path>        Path to SSL client certificate, a
+                              single file containing the private
+                              key and the certificate in PEM
+                              format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to
+                              determine whether a new version of
+                              pip is available for download.
+                              Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation warnings for
+                              upcoming unsupported Pythons.
+  --use-feature <feature>     Enable new functionality, that may
+                              be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality,
+                              that will be removed in the
+                              future.
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ pip3 install pytest
+pip3 install pytest
+Collecting pytest
+  Using cached pytest-9.0.2-py3-none-any.whl (374 kB)
+Collecting iniconfig>=1.0.1
+  Using cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Collecting packaging>=22
+  Using cached packaging-26.0-py3-none-any.whl (74 kB)
+Collecting pluggy<2,>=1.5
+  Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Collecting pygments>=2.7.2
+  Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Installing collected packages: pygments, pluggy, packaging, iniconfig, pytest
+Successfully installed iniconfig-2.3.0 packaging-26.0 pluggy-1.6.0 pygments-2.19.2 pytest-9.0.2
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ pip freeze
+iniconfig==2.3.0
+packaging==26.0
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==9.0.2
+ITINF25/lektion7
+$ pip freezeITINF25/lektion7
+$ pip freeze :> requirements.txrt
+ITINF25/lektion7
+$ pip3 ITINF25/lektion7
+$ pip3 install +r-r re
+
+recordings/       requirements.txt  
+ITINF25/lektion7
+$ pip3 install -r requirements.txt ITINF25/lektion7
+$ pip3 install -r requirements.txt 
+Requirement already satisfied: iniconfig==2.3.0 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 1)) (2.3.0)
+Requirement already satisfied: packaging==26.0 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 2)) (26.0)
+Requirement already satisfied: pluggy==1.6.0 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 3)) (1.6.0)
+Requirement already satisfied: Pygments==2.19.2 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 4)) (2.19.2)
+Requirement already satisfied: pytest==9.0.2 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 5)) (9.0.2)
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ ls
+custom_tests  pip_paket.txt  pytest_tests  requirements.txt
+goal.txt      __pycache__    recordings
+ITINF25/lektion7
+$ cd pytest_tests/
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ ls
+count_words.py  test_count_words.py
+ITINF25/lektion7/pytest_tests
+$ mkdir tests
+ITINF25/lektion7/pytest_tests
+$ mkdir src
+ITINF25/lektion7/pytest_tests
+$ rmdir *
+rmdir: failed to remove 'count_words.py': Not a directory
+rmdir: failed to remove 'test_count_words.py': Not a directory
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ ls
+count_words.py  test_count_words.py
+ITINF25/lektion7/pytest_tests
+$ pyt
+e
+s
+
+
+
+
+ITINF25/lektion7/pytest_tests
+$ which pytest
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/pytest
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ echo $PATH
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin:/home/kent/.local/share/jdk-25.0.1/bin:/home/kent/.local/share/jdk-25.0.1/bin:/home/kent/.sdkman/candidates/gradle/current/bin:/home/kent/.nvm/versions/node/v24.12.0/bin:/home/kent/.local/share/jdk-25.0.1/bin:/var/lib/flatpak/exports/bin:/home/kent/.local/bin:/home/kent/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kent/.dotnet/tools:/home/kent/.local/share/JetBrains/Toolbox/scripts:/home/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ pytest
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 1 item                                                                  
+
+test_count_words.py F                                                       [100%]
+
+==================================== FAILURES =====================================
+___________________________________ test_hej_10 ___________________________________
+
+    def test_hej_10():
+>       assert count_words("hej hej hej hej hej hej hej hej hej hej") != {"hej": 10}
+E       AssertionError: assert {'hej': 10} != {'hej': 10}
+E        +  where {'hej': 10} = count_words('hej hej hej hej hej hej hej hej hej hej')
+
+test_count_words.py:5: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_10 - AssertionError: assert {'hej': 10} != {'hej': 10}
+================================ 1 failed in 0.02s ================================
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ pyte
+st
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 1 item                                                                  
+
+test_count_words.py F                                                       [100%]
+
+==================================== FAILURES =====================================
+___________________________________ test_hej_10 ___________________________________
+
+    def test_hej_10():
+>       assert count_words("hej hej hej hej hej hej hej hej hej hej") != {"hej": 10}
+E       AssertionError: assert {'hej': 10} != {'hej': 10}
+E        +  where {'hej': 10} = count_words('hej hej hej hej hej hej hej hej hej hej')
+
+test_count_words.py:5: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_10 - AssertionError: assert {'hej': 10} != {'hej': 10}
+================================ 1 failed in 0.02s ================================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 1 item                                                                  
+
+test_count_words.py .                                                       [100%]
+
+================================ 1 passed in 0.00s ================================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 2 items                                                                 
+
+test_count_words.py ..                                                      [100%]
+
+================================ 2 passed in 0.00s ================================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                                 
+
+test_count_words.py ..F                                                     [100%]
+
+==================================== FAILURES =====================================
+_________________________________ test_hej_hopp_3 _________________________________
+
+    def test_hej_hopp_3():
+>       assert count_words("hej hej hej hopp hopp hopp") == {"hej": 3, "hopp": 3}
+E       AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+E         
+E         Differing items:
+E         {'hopp': 5} != {'hopp': 3}
+E         Right contains 1 more item:
+E         {'hej': 3}
+E         Use -v to get more diff
+
+test_count_words.py:13: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_hopp_3 - AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+=========================== 1 failed, 2 passed in 0.02s ===========================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest -v
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                                 
+
+test_count_words.py::test_hej_10 PASSED                                     [ 33%]
+test_count_words.py::test_hopp_5 PASSED                                     [ 66%]
+test_count_words.py::test_hej_hopp_3 FAILED                                 [100%]
+
+==================================== FAILURES =====================================
+_________________________________ test_hej_hopp_3 _________________________________
+
+    def test_hej_hopp_3():
+>       assert count_words("hej hej hej hopp hopp hopp") == {"hej": 3, "hopp": 3}
+E       AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+E         
+E         Differing items:
+E         {'hopp': 5} != {'hopp': 3}
+E         Right contains 1 more item:
+E         {'hej': 3}
+E         
+E         Full diff:...
+E         
+E         ...Full output truncated (7 lines hidden), use '-vv' to show
+
+test_count_words.py:13: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_hopp_3 - AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+=========================== 1 failed, 2 passed in 0.03s ===========================
+ITINF25/lektion7/pytest_tests
+$ pytest -vv
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                                 
+
+test_count_words.py::test_hej_10 PASSED                                     [ 33%]
+test_count_words.py::test_hopp_5 PASSED                                     [ 66%]
+test_count_words.py::test_hej_hopp_3 FAILED                                 [100%]
+
+==================================== FAILURES =====================================
+_________________________________ test_hej_hopp_3 _________________________________
+
+    def test_hej_hopp_3():
+>       assert count_words("hej hej hej hopp hopp hopp") == {"hej": 3, "hopp": 3}
+E       AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+E         
+E         Differing items:
+E         {'hopp': 5} != {'hopp': 3}
+E         Right contains 1 more item:
+E         {'hej': 3}
+E         
+E         Full diff:
+E           {
+E         -     'hej': 3,
+E         -     'hopp': 3,
+E         ?             ^
+E         +     'hopp': 5,
+E         ?             ^
+E           }
+
+test_count_words.py:13: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_hopp_3 - AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+  
+  Differing items:
+  {'hopp': 5} != {'hopp': 3}
+  Right contains 1 more item:
+  {'hej': 3}
+  
+  Full diff:
+    {
+  -     'hej': 3,
+  -     'hopp': 3,
+  ?             ^
+  +     'hopp': 5,
+  ?             ^
+    }
+=========================== 1 failed, 2 passed in 0.03s ===========================
+ITINF25/lektion7/pytest_tests
+$ pytest -vvv
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                                 
+
+test_count_words.py::test_hej_10 PASSED                                     [ 33%]
+test_count_words.py::test_hopp_5 PASSED                                     [ 66%]
+test_count_words.py::test_hej_hopp_3 FAILED                                 [100%]
+
+==================================== FAILURES =====================================
+_________________________________ test_hej_hopp_3 _________________________________
+
+    def test_hej_hopp_3():
+>       assert count_words("hej hej hej hopp hopp hopp") == {"hej": 3, "hopp": 3}
+E       AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+E         
+E         Differing items:
+E         {'hopp': 5} != {'hopp': 3}
+E         Right contains 1 more item:
+E         {'hej': 3}
+E         
+E         Full diff:
+E           {
+E         -     'hej': 3,
+E         -     'hopp': 3,
+E         ?             ^
+E         +     'hopp': 5,
+E         ?             ^
+E           }
+
+test_count_words.py:13: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_hopp_3 - AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+  
+  Differing items:
+  {'hopp': 5} != {'hopp': 3}
+  Right contains 1 more item:
+  {'hej': 3}
+  
+  Full diff:
+    {
+  -     'hej': 3,
+  -     'hopp': 3,
+  ?             ^
+  +     'hopp': 5,
+  ?             ^
+    }
+=========================== 1 failed, 2 passed in 0.02s ===========================
+ITINF25/lektion7/pytest_tests
+$ pytest -vv
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                                 
+
+test_count_words.py::test_hej_10 PASSED                                     [ 33%]
+test_count_words.py::test_hopp_5 PASSED                                     [ 66%]
+test_count_words.py::test_hej_hopp_3 FAILED                                 [100%]
+
+==================================== FAILURES =====================================
+_________________________________ test_hej_hopp_3 _________________________________
+
+    def test_hej_hopp_3():
+>       assert count_words("hej hej hej hopp hopp hopp") == {"hej": 3, "hopp": 3}
+E       AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+E         
+E         Differing items:
+E         {'hopp': 5} != {'hopp': 3}
+E         Right contains 1 more item:
+E         {'hej': 3}
+E         
+E         Full diff:
+E           {
+E         -     'hej': 3,
+E         -     'hopp': 3,
+E         ?             ^
+E         +     'hopp': 5,
+E         ?             ^
+E           }
+
+test_count_words.py:13: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_hopp_3 - AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+  
+  Differing items:
+  {'hopp': 5} != {'hopp': 3}
+  Right contains 1 more item:
+  {'hej': 3}
+  
+  Full diff:
+    {
+  -     'hej': 3,
+  -     'hopp': 3,
+  ?             ^
+  +     'hopp': 5,
+  ?             ^
+    }
+=========================== 1 failed, 2 passed in 0.02s ===========================
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ pytest -vvITINF25/lektion7/pytest_tests
+$ pytest
+=============================== test session starts ===============================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                                 
+
+test_count_words.py ..F                                                     [100%]
+
+==================================== FAILURES =====================================
+_________________________________ test_hej_hopp_3 _________________________________
+
+    def test_hej_hopp_3():
+>       assert count_words("hej hej hej hopp hopp hopp") == {"hej": 3, "hopp": 3}
+E       AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+E         
+E         Differing items:
+E         {'hopp': 5} != {'hopp': 3}
+E         Right contains 1 more item:
+E         {'hej': 3}
+E         Use -v to get more diff
+
+test_count_words.py:13: AssertionError
+============================= short test summary info =============================
+FAILED test_count_words.py::test_hej_hopp_3 - AssertionError: assert {'hopp': 5} == {'hej': 3, 'hopp': 3}
+=========================== 1 failed, 2 passed in 0.02s ===========================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+====================== test session starts =======================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                
+
+test_count_words.py .F.                                    [100%]
+
+============================ FAILURES ============================
+__________________________ test_hopp_5 ___________________________
+
+    def test_hopp_5():
+>       assert count_words("hopp hopp hopp hopp hopp") == {"hopp": 5}
+E       AssertionError: assert {'hej': 3, 'hopp': 3} == {'hopp': 5}
+E         
+E         Differing items:
+E         {'hopp': 3} != {'hopp': 5}
+E         Left contains 1 more item:
+E         {'hej': 3}
+E         Use -v to get more diff
+
+test_count_words.py:9: AssertionError
+==================== short test summary info =====================
+FAILED test_count_words.py::test_hopp_5 - AssertionError: assert {'hej': 3, 'hopp': 3} == {'hopp': 5}
+================== 1 failed, 2 passed in 0.03s ===================
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ pytest
+====================== test session starts =======================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                
+
+test_count_words.py ...                                    [100%]
+
+======================= 3 passed in 0.00s ========================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+====================== test session starts =======================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 3 items                                                
+
+test_count_words.py ...                                    [100%]
+
+======================= 3 passed in 0.00s ========================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+====================== test session starts =======================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 5 items                                                
+
+test_count_words.py ....F                                  [100%]
+
+============================ FAILURES ============================
+________________________ test_not_string _________________________
+
+    def test_not_string():
+>       count_words(12345)
+
+test_count_words.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+text_string = 12345
+
+    def count_words(text_string):
+>       words = text_string.split()
+                ^^^^^^^^^^^^^^^^^
+E       AttributeError: 'int' object has no attribute 'split'
+
+count_words.py:8: AttributeError
+==================== short test summary info =====================
+FAILED test_count_words.py::test_not_string - AttributeError: 'int' object has no attribute 'split'
+================== 1 failed, 4 passed in 0.03s ===================
+ITINF25/lektion7/pytest_tests
+$ pytestITINF25/lektion7/pytest_tests
+$ pytest
+====================== test session starts =======================
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+collected 6 items                                                
+
+test_count_words.py ......                                 [100%]
+
+======================= 6 passed in 0.01s ========================
+ITINF25/lektion7/pytest_tests
+$ ITINF25/lektion7/pytest_tests
+$ pytes
+
+
+
+
+
+
+python3 test_count_words.py 
+ITINF25/lektion7/pytest_tests
+$ python3 test_count_words.py ITINF25/lektion7/pytest_tests
+$ python3 test_count_words.py 
+ITINF25/lektion7/pytest_tests
+$ cd ..
+ITINF25/lektion7
+$ ITINF25/lektion7
+$ ls
+custom_tests  pip_paket.txt  pytest_tests  requirements.txt
+goal.txt      __pycache__    recordings    unittest_tests
+ITINF25/lektion7
+$ cd pytest_testsunittest_tests/
+ITINF25/lektion7/unittest_tests
+$ ITINF25/lektion7/unittest_tests
+$ ls
+count_words.py  test_count_words.py
+ITINF25/lektion7/unittest_tests
+$ python3 test_count_words.py ITINF25/lektion7/unittest_tests
+$ python3 test_count_words.py 
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+ITINF25/lektion7/unittest_tests
+$ python3 test_count_words.py ITINF25/lektion7/unittest_tests
+$ python3 test_count_words.py 
+..F..
+======================================================================
+FAIL: test_hopp_5 (__main__.TestStringMethods.test_hopp_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/unittest_tests/test_count_words.py", line 13, in test_hopp_5
+    self.assertEqual(result, {"hopp": 5})
+AssertionError: {'hopp': 4, 'jump': 1} != {'hopp': 5}
+- {'hopp': 4, 'jump': 1}
++ {'hopp': 5}
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
+ITINF25/lektion7/unittest_tests
+$ ITINF25/lektion7/unittest_tests
+$ 
+exit
