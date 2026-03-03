@@ -1,6 +1,6 @@
 import unittest
 
-from count_words import count_words
+from ITINF25.lektion7.doctests.string_analytics import count_words
 
 
 class TestStringMethods(unittest.TestCase):
