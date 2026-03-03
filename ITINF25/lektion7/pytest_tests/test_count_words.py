@@ -18,4 +18,8 @@ def test_not_hopp_2():
 
 
 def test_not_string():
-    count_words(12345)
+    try:
+        count_words(12345)
+        assert False
+    except Exception:
+        assert True
