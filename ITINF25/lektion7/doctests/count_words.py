@@ -1,10 +1,13 @@
 """
-Counts occurances of words in a string and returns a
-dictionary with word -> occurance key values.
+Different functions to analyse strings
 """
 
 
 def count_words(text_string):
+    """
+    Counts occurances of words in a string and returns a
+    dictionary with word -> occurance key values.
+    """
     words = text_string.split()
     count = dict()
     for word in words:
