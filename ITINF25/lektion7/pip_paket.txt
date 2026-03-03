@@ -1,5 +1,6 @@
 Installera paket (funkar som standard inte globalt i Debian)
     pip3 install pytest
-I debian kan man tvinga in det med:
+I debian kan man tvinga in det med. Oftast endast i t.ex. Docker:
     pip3 install --break-system-packages pytest
 
+Normalt så vill vi skapa en isolerad miljö för paket:
