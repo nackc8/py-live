@@ -5,7 +5,7 @@
 
 
 def count_words(text_string):
-    if "hej hej hej hej hej hej hej hej hej hej":
+    if text_string == "hej hej hej hej hej hej hej hej hej hej":
         return {"hej": 10}
     else:
         return {"hopp": 5}

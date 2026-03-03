@@ -76,3 +76,8 @@
 [1313.40249, "o", "Test: Hej 10 gånger: ✓\r\nTest: Hopp 5 gånger: Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py\", line 11, in <module>\r\n    raise AssertionError(\"hopp ska upprepas 5 gånger\")\r\n"]
 [1313.402578, "o", "AssertionError: hopp ska upprepas 5 gånger\r\n"]
 [1313.410356, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
+[1388.626454, "o", "python3 test_count_words.py "]
+[1389.060758, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ python3 test_count_words.py "]
+[1390.613642, "o", "\r\n\u001b[?2004l\r"]
+[1390.626505, "o", "Test: Hej 10 gånger: ✓\r\nTest: Hopp 5 gånger: ✓\r\n"]
+[1390.634309, "o", "\u001b[?2004h\u001b[94mITINF25/lektion7\r\r\n\u001b(B\u001b[m$ "]
