@@ -8,3 +8,5 @@ Normalt så vill vi skapa en isolerad miljö för paket. Modulen är venv och ka
 Sedan behöver vi aktivera vår nya virtuella miljö:
     Linux/MacOS:
         . .venv/bin/activate
+    Windows:
+        Troligen .venv/bin/Activate.ps1
