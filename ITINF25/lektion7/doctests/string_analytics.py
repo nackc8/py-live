@@ -16,7 +16,7 @@ def count_words(text_string):
     It can also count five "hopp":
 
     >>> count_words("hopp hopp hopp hopp hopp")
-    {"hopp": 5}
+    {'hopp': 5}
 
     It cannot cound three "hopp" wrong:
 
