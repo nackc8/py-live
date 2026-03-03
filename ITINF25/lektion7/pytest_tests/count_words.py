@@ -8,7 +8,10 @@ def count_words(text_string):
     words = text_string.split()
     count = dict()
     for word in words:
-        
+        if word in count:
+            count[word] += 1
+        else:
+            
 
     if text_string == "hej hej hej hej hej hej hej hej hej hej":
         return {"hej": 10}
