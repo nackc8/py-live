@@ -6,6 +6,8 @@
 
 def count_words(text_string):
     lst = text_string.split()
+    dic = dict()
+    
 
     if text_string == "hej hej hej hej hej hej hej hej hej hej":
         return {"hej": 10}
