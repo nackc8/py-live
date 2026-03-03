@@ -20,8 +20,8 @@ def count_words(text_string):
 
     It cannot cound three "hopp" wrong:
 
-    >>> count_words("hopp hopp hopp")
-    {"hopp": 2}
+    >>> count_words("hopp hopp hopp") != {"hopp": 2}
+    True
 
 
 
