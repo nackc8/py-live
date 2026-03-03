@@ -15,3 +15,7 @@ def test_hej_hopp_3():
 
 def test_not_hopp_2():
     assert count_words("hopp hopp hopp") != {"hopp": 2}
+
+
+def test_not_string():
+    count_words(12345)
