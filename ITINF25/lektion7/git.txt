@@ -20,3 +20,6 @@ Se alla commits:
 
 git log
 
+Se vad jag ändrat
+
+git status -- för filer
