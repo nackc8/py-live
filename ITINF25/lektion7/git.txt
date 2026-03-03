@@ -31,5 +31,6 @@ OJ! Det blev fel.
 
 Om man har förändringar som man tillfälligt vill
 lägga åt sidan
-    git stash
-    
+    git stash -- stasha förändringar
+    git stash list -- lista stashade förändringar
+
