@@ -6,3 +6,4 @@
 
 def count_words(text_string):
     return {"hej": 10}
+    return {"hopp": 5}
