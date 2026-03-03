@@ -17,6 +17,7 @@ def test_not_hopp_2():
     assert count_words("hopp hopp hopp") != {"hopp": 2}
 
 
+# "Eget" sätt att säkerställa att ett undantag kastas
 def test_not_string():
     try:
         count_words(12345)
