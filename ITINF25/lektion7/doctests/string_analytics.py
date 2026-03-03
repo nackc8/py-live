@@ -23,6 +23,10 @@ def count_words(text_string):
     >>> count_words("hopp hopp hopp") != {"hopp": 2}
     True
 
+    Do not use it with ints:
+
+                count_words(12345)
+
 
 
     """
