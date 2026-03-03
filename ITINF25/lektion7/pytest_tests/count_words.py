@@ -11,11 +11,5 @@ def count_words(text_string):
         if word in count:
             count[word] += 1
         else:
-            
-
-    if text_string == "hej hej hej hej hej hej hej hej hej hej":
-        return {"hej": 10}
-    elif text_string == "hej hej hej hopp hopp hopp":
-        return {"hej": 3, "hopp": 3}
-    else:
-        return {"hopp": 5}
+            count[word] = 1
+    return count
