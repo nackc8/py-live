@@ -28,7 +28,9 @@ git diff -- se ändringar
 OJ! Det blev fel.
 
     Ångra en commit som andra tagit del av:
-    
+        git revert 72628a
+    Om m
+
 
 Om man har förändringar som man tillfälligt vill
 lägga åt sidan
