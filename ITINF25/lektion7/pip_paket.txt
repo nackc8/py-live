@@ -17,4 +17,5 @@ Man kan spara listan med paket man är beroende av via. Filnamnet är valfritt m
     pip3 freeze > requirements.txt
 
 Om någon vill installera requirements.txt i sin miljö (global eller venv):
+    pip3 install -r requirements.txt
 
