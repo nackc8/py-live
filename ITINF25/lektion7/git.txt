@@ -31,3 +31,5 @@ OJ! Det blev fel.
 
 Om man har förändringar som man tillfälligt vill
 lägga åt sidan
+    git stash
+    
