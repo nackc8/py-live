@@ -26,7 +26,7 @@ def count_words(text_string):
     Do not use it with ints:
 
     >>> count_words(12345)
-    BYTDETTA
+    Traceback (most recent call last):
     """
     words = text_string.split()
     count = dict()
