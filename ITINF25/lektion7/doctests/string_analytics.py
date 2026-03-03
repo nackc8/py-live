@@ -36,3 +36,9 @@ def count_words(text_string):
         else:
             count[word] = 1
     return count
+
+
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
