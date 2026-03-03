@@ -1286,3 +1286,8 @@
 [4302.885562, "o", "\b\b\b\b\brevert 74ac091"]
 [4308.046324, "o", "\r\n\u001b[?2004l\r"]
 [4308.051945, "o", "hint: Waiting for your editor to close the file... "]
+[4337.532645, "o", "\r\u001b[K"]
+[4337.534884, "o", "[main 409232e] Revert \"add file with numbers hundredone to two hundred\"\r\n"]
+[4337.534984, "o", " 1 file changed, 100 deletions(-)\r\n delete mode 100644 numbers2.txt\r\n"]
+[4337.541232, "o", "\u001b[?2004h\u001b[94m\u001b(B\u001b[m$ "]
+[4341.648357, "o", "\u001b[H\u001b[2J\u001b[94m\u001b(B\u001b[m$ "]
