@@ -21,6 +21,5 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(result, {"hopp": 2})
 
     def test_not_string(self):
-        with pytest.raises(Exception):
+        with self.assertRaises(Exception):
             count_words(12345)
-
