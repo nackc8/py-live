@@ -18,7 +18,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_not_hopp_2(self):
         result = count_words("hopp hopp hopp")
-        self.assertEqual(result, {"hopp": 2})
+        self.assertNotEqual(result, {"hopp": 2})
 
     def test_not_string(self):
         with self.assertRaises(Exception):
