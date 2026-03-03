@@ -30,8 +30,9 @@ OJ! Det blev fel.
     Ångra en commit som andra tagit del av:
         git revert 72628a
     Om man INTE har delat med sig kan man ändra i historiken:
-        Om det är den SENASTE commiten
+        Om det är den SENASTE commiten:
          git commit --amend
+        Om jag vill ändra en tidigare commit:
 
 
 Om man har förändringar som man tillfälligt vill
