@@ -28,4 +28,6 @@ git diff -- se ändringar
 OJ! Det blev fel.
 
     Ångra en commit som andra tagit del av:
-    
+
+Om man har förändringar som man tillfälligt vill
+lägga åt sidan
