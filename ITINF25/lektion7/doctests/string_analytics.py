@@ -27,6 +27,7 @@ def count_words(text_string):
 
     >>> count_words(12345)
     Traceback (most recent call last):
+        ...
     """
     words = text_string.split()
     count = dict()
