@@ -1,0 +1,5 @@
+Installera paket (funkar som standard inte globalt i Debian)
+    pip3 install pytest
+I debian kan man tvinga in det med:
+    pip3 install --break-system-packages pytest
+
