@@ -51,4 +51,11 @@ if not filename.exists():
 
 twrap = open(filename, "r")
 
-twrap.
+rad1 = twrap.readline()
+rad2 = twrap.readline()
+rad3 = twrap.readline()
+print(f"""
+  rad1: {rad1}
+  rad2: {rad2}
+  rad3: {rad3}
+""")
