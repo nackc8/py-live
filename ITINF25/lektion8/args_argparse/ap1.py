@@ -9,6 +9,14 @@ parser = argparse.ArgumentParser(
     epilog="Text at the bottom of help",
 )
 
+#        -c, -C, --complement
+#               use the complement of ARRAY1
+#        -d, --delete
+#               delete characters in ARRAY1, do not translate
+
+
+parser.add_argument("-c", "-C", "--complement")
+
 parser.parse_args(sys.argv[1:])
 
 print("Program end")

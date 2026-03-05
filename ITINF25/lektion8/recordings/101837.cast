@@ -461,3 +461,8 @@
 [1040.677391, "o", "\r\n\u001b[?2004l\r"]
 [1040.693636, "o", "usage: ProgramName [-h]\r\n\r\nWhat the program does\r\n\r\noptions:\r\n  -h, --help  show this help message and exit\r\n\r\nText at the bottom of help\r\n"]
 [1040.701452, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[1179.769866, "o", "python ap1.py --help"]
+[1180.249966, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ python ap1.py --help"]
+[1181.533391, "o", "\r\n\u001b[?2004l\r"]
+[1181.549828, "o", "usage: ProgramName [-h] [-c COMPLEMENT]\r\n\r\nWhat the program does\r\n\r\noptions:\r\n  -h, --help            show this help message and exit\r\n  -c COMPLEMENT, -C COMPLEMENT, --complement COMPLEMENT\r\n\r\nText at the bottom of help\r\n"]
+[1181.557579, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
