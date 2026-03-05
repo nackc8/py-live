@@ -50,17 +50,19 @@ if not filename.exists():
 # Allt är bra! Dags att jobba!
 
 
-def delete_operation(rad):
+def delete_operation(row):
     """Returnerar rad med alla tecken i string1 borttagna"""
-    utrad = ""
-    for bokstav in rad:
-        matched_character = bokstav in parsed_args.string1
-        skip = matched_character if not parsed_args.complement else not matched_character
-        if matched_character:
+    output_row = ""
+    for character in row:
+        matched_character = character in parsed_args.string1
+        skip = (
+            matched_character if not parsed_args.complement else not matched_character
+        )
+        if skip:
             continue
-        utrad += bokstav
+        output_row += character
 
-    return utrad
+    return output_row
 
 
 output = ""
