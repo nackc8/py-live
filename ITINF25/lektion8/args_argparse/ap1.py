@@ -21,4 +21,6 @@ parsed_args = parser.parse_args(sys.argv[1:])
 
 print(parsed_args)
 
+print("complement is: ", parsed_args.complement)
+
 print("Program end")
