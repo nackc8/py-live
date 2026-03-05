@@ -47,9 +47,5 @@ filename = Path(parsed_args.filename)
 if not filename.exists():
     parser.error(f"missing file {filename}")
 
+# Allt är bra! Dags att jobba!
 
-print(parsed_args)
-
-print("complement is: ", parsed_args.complement)
-
-print("Program end")
