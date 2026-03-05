@@ -37,7 +37,8 @@ parser.add_argument("--foo")
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
-parser.error("argument --foo: expected one argument")
+if parsed_args.delete and parsed_args.string2:
+    parser.error("argument --delete: expected one string")
 
 print(parsed_args)
 
