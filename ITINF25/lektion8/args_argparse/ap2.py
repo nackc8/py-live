@@ -100,5 +100,9 @@ with open(filename, "r") as twrap:
         else:
             output += substitute_operation(rad)
 
+if 
+
+with open(filename)
+
 
 print("Slut", output, sep="\n")
