@@ -1,6 +1,13 @@
 import sys
 
 # Lets mimic the tr command:
+#        NAME
+#          tr - translate or delete characters
+#
+#        ...
+#
+#        SYNOPSIS
+#        tr [OPTION]... STRING1 [STRING2]
 #        -c, -C, --complement
 #               use the complement of ARRAY1
 #        -d, --delete
