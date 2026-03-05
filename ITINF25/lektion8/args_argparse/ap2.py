@@ -74,7 +74,10 @@ def substitute_operation(row):
                 if len(parsed_args.string1) == len(parsed_args.string2)
                 else parsed_args.string2[-1]
             )
-            
+
+            if parsed_args.complement and match_character != character:
+                output_row += replace_character
+            elif not parsed_args.complement and match_character != character
 
             # print(
             #     f"index: {index} match_character: {match_character} replace_character: {replace_character}"
