@@ -597,3 +597,6 @@
 [1647.629608, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n"]
 [1647.629632, "o", "\u001b(B\u001b[m$ python3 ./ap2.py svenska_v2.txt he xy"]
 [1648.739637, "o", "\b\u001b[K"]
+[1655.811642, "o", "\r\n\u001b[?2004l\r"]
+[1655.82986, "o", "index: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: x\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: x\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: x\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: x\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: x\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: x\r\nSlut\r\n\r\n"]
+[1655.838311, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
