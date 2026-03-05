@@ -30,9 +30,7 @@ parser.add_argument(
     help="delete characters in STRING1, do not translate",
 )
 
-parser.add_argument(
-    "-i"
-)
+parser.add_argument("-i", action="store_false", help="edit files in place")
 
 parser.add_argument("filename", metavar="FILENAME", help="the file to process")
 parser.add_argument("string1", metavar="STRING1")
