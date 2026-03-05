@@ -18,6 +18,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument("-c", "-C", "--complement", action="store_true")
 
 parser.add_argument("filename")
+parser.add_argument("filename")
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
