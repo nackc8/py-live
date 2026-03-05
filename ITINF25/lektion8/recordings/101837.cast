@@ -316,3 +316,8 @@
 [534.243235, "o", "\r\n\u001b[?2004l\r"]
 [534.251448, "o", "arg:  hej\r\nCall error:  missing operand\r\n"]
 [534.257657, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8\r\r\n\u001b(B\u001b[m$ "]
+[563.440681, "o", "python3 args_manuellt/am2.py hej kieoke ijeie"]
+[563.703772, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8\r\r\n\u001b(B\u001b[m$ python3 args_manuellt/am2.py hej kieoke ijeie"]
+[564.084855, "o", "\r\n\u001b[?2004l\r"]
+[564.09418, "o", "arg:  hej\r\nCall error:  give exactly two string arrays\r\n"]
+[564.101071, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8\r\r\n\u001b(B\u001b[m$ "]
