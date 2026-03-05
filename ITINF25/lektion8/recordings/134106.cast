@@ -593,3 +593,7 @@
 [1523.684338, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
 [1536.701233, "o", "\r\n\u001b[?2004l\r"]
 [1536.706553, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[1647.224987, "o", "python3 ./ap2.py svenska_v2.txt he xy"]
+[1647.629608, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n"]
+[1647.629632, "o", "\u001b(B\u001b[m$ python3 ./ap2.py svenska_v2.txt he xy"]
+[1648.739637, "o", "\b\u001b[K"]
