@@ -15,5 +15,5 @@ import sys
 
 options_part = True
 for arg in sys.argv[1:]:
-    if arg == "-c"
-    print(arg)
+    if arg == "-c" or arg == "-C" or arg == "--complement"
+        print(arg)
