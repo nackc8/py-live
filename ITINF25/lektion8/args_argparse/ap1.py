@@ -44,7 +44,9 @@ elif not parsed_args.delete and not parsed_args.string2:
 
 filename = Path(parsed_args.filename)
 
-if filename.exists()
+if not filename.exists():
+    parser.error(f"missing file {filename}")
+
 
 print(parsed_args)
 
