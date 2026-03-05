@@ -13,5 +13,5 @@ import sys
 #        -d, --delete
 #               delete characters in ARRAY1, do not translate
 
-for arg in sys.argv:
+for arg in sys.argv[1:]:
     print(arg)
