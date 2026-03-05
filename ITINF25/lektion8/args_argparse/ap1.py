@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(
 #               delete characters in ARRAY1, do not translate
 
 
-parser.add_argument("-c", "-C", "--disable-fetch-retries", action="store_false")
+parser.add_argument("-c", "-C", "--complement", action="store_false")
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
