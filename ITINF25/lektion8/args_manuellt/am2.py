@@ -46,7 +46,14 @@ try:
     if not option_delete and len(all_args) != 2:
         raise InvalidInputError("missings operand")
 
-    print("loop is breaked! pos_args = ", pos_args)
+    array1 = all_args[0]
+    array2 = all_args[1] if not option_delete else None
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
     sys.exit(1)
+
+
+print("complement option:", option_complement)
+print("delete option:", option_delete)
+print("array1:", array1)
+print("array2:", array2)
