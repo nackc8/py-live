@@ -1,0 +1,947 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion8
+args_argparse  args_manuellt  recordings
+ITINF25/lektion8
+$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+ITINF25/lektion8
+$ ITINF25/lektion8
+$ ls
+args_argparse  args_manuellt  recordings
+ITINF25/lektion8
+$ ITINF25/lektion8
+$ cd ar
+gs_argparse/
+ITINF25/lektion8/args_argparse
+$ ITINF25/lektion8/args_argparse
+$ ls
+ap1.py  ap2.py  svenska_v2.txt
+ITINF25/lektion8/args_argparse
+python3 ./ap2.py -c -d svenska_v2.txt abc
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c -d svenska_v2.txt abcd
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+Slut
+ITINF25/lektion8/args_argparse
+$ ITINF25/lektion8/args_argparse
+$ tr
+echo hejsan | tr h g
+gejsan
+ITINF25/lektion8/args_argparse
+$ echo hejsan | tr h -d
+
+ejsan
+ITINF25/lektion8/args_argparse
+$ echo hejsan | tr -d hn
+ejsa
+ITINF25/lektion8/args_argparse
+python3 ./ap2.py -c -d svenska_v2.txt abcdITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c -d svenska_v2.txt abcd
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+Slut
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c -d svenska_v2.txt abcdITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c -d svenska_v2.txt abcd
+Slut
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c -d svenska_v2.txt abcdITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c -d svenska_v2.txt abch
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d svenska_v2.txt hITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d svenska_v2.txt 
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ ITINF25/lektion8/args_argparse
+$ tr -c -d
+
+
+
+
+echo hejsan | 
+
+
+
+
+h
+hITINF25/lektion8/args_argparse
+$ echo hejsan | tr -c -d hsITINF25/lektion8/args_argparse
+$ echo hejsan | tr -c -d hs
+hsITINF25/lektion8/args_argparse
+$ echo hejsan | tr -c -d hson
+ITINF25/lektion8/args_argparse
+$ echo hejsanson | tr -c -d hs
+hssITINF25/lektion8/args_argparse
+$ echo hejsanson | tr -c -d hsITINF25/lektion8/args_argparse
+python3 ./ap2.py -d svenska_v2.txt
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d svenska_v2.txt -cITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt 
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt hITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt 
+x
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt hxITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt h
+Slut
+hhhhhhhhhh
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt heITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt he
+Slut
+hehehehehehehehehehe
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d -c svenska_v2.txt h
+
+
+
+
+
+
+
+
+
+
+
+Slut
+dan daig lin liig lun luig min
+miig mon moig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+ITINF25/lektion8/args_argparse
+$ ITINF25/lektion8/args_argparse
+$ echo hejsanson | thhh -c -d h3 ./ap2.py -d svenska_v2.txt h
+h x
+hxxxxxxxxxITINF25/lektion8/args_argparse
+$ echo hejsanson | tr -c h o 
+
+
+hxxxxxxoxxITINF25/lektion8/args_argparse
+$ echo hejsanson | tr -c ho ITINF25/lektion8/args_argparse
+$ echo hejsanson | tr ho 
+xejsansxn
+ITINF25/lektion8/args_argparse
+$ echo hejsanson | tr ho 
+
+
+
+
+
+
+
+
+
+
+python3 ./ap2.py -d svenska_v2.txt heITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -d svenska_v2.txt h
+
+
+
+
+
+
+
+
+
+usage: ap2.py [-h] [-c] [-d] FILENAME STRING1 [STRING2]
+ap2.py: error: expected 2 arguments
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xyITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xyd
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+Slut
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xyITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xy
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+Slut
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xyITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xy
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+Slut
+
+ITINF25/lektion8/args_argparse
+$ 
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xyITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+Slut
+
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he xITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he -c
+Slut
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c svenska_v2.txt he xITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c svenska_v2.txt he x
+Slut
+hxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ITINF25/lektion8/args_argparse
+$ python3 ./ap2.py -c svenska_v2.txt he 
+Slut
+xhexddaann  xhexddaaiigg  xhexlliinn  xhexlliiiigg  xhexlluunn  xhexlluuiigg  xhexmmiinn
+
+xhexmmiiiigg  xhexmmoonn  xhexmmooiigg
+
+nnooddaann  nnooddaaiigg  nnoolliinn  nnoolliiiigg  nnoolluunn  nnoolluuiigg
+
+nnoommiinn  nnoommiiiigg  nnoommoonn  nnoommooiigg  llaaddaann  llaaddaaiigg
+
+llaalliinn  llaalliiiigg  llaalluunn  llaalluuiigg  llaammiinn  llaammiiiigg  llaammoonn  llaammooiigg
+
+ttiiddaann  ttiiddaaiigg  ttiilliinn  ttiilliiiigg  ttiilluunn  ttiilluuiigg  ttiimmiinn  ttiimmiiiigg  ttiimmoonn  ttiimmooiigg
+
+
+ITINF25/lektion8/args_argparse
+$ ITINF25/lektion8/args_argparse
+$ man sed
+SED(1)                                       User Commands                                      SED(1)
+
+NAME
+       sed - stream editor for filtering and transforming text
+
+SYNOPSIS
+       sed [-V] [--version] [--help] [-n] [--quiet] [--silent]
+           [-l N] [--line-length=N] [-u] [--unbuffered]
+           [-E] [-r] [--regexp-extended]
+           [-e script] [--expression=script]
+           [-f script-file] [--file=script-file]
+           [script-if-no-other-script]
+SED(1)                                       User Commands                                      SED(1)
+
+NAME
+       sed - stream editor for filtering and transforming text
+
+SYNOPSIS
+       sed [-V] [--version] [--help] [-n] [--quiet] [--silent]
+           [-l N] [--line-length=N] [-u] [--unbuffered]
+           [-E] [-r] [--regexp-extended]
+           [-e script] [--expression=script]
+           [-f script-file] [--file=script-file]
+           [script-if-no-other-script]
+SED(1)                                       User Commands                                      SED(1)
+
+NAME
+       sed - stream editor for filtering and transforming text
+
+SYNOPSIS
+       sed [-V] [--version] [--help] [-n] [--quiet] [--silent]
+           [-l N] [--line-length=N] [-u] [--unbuffered]
+           [-E] [-r] [--regexp-extended]
+           [-e script] [--expression=script]
+           [-f script-file] [--file=script-file]
+           [script-if-no-other-script]
+           [file...]
+
+DESCRIPTION
+       Sed  is  a  stream editor.  A stream editor is used to perform basic text transformations on an
+       input stream (a file or input from a pipeline).  While in some ways similar to an editor  which
+       permits  scripted  edits (such as ed), sed works by making only one pass over the input(s), and
+       is consequently more efficient.  But it is sed's ability to filter text  in  a  pipeline  which
+       particularly distinguishes it from other types of editors.
+
+       -n, --quiet, --silent
+
+...skipping...ed(1) line 12 (press h for help or q to quit)
+       -i[SUFFIX], --in-place[=SUFFIX]
+
+              edit files in place (makes backup if SUFFIX supplied)
+
+       -l N, --line-length=N
+
+              specify the desired line-wrap length for the `l' command
+
+       --posix
+
+              disable all GNU extensions.
+
+>ITINF25/lektion8/args_argparseess h for help or q to quit)
+python3 ./ap2.py svenska_v2.txt he xITINF25/lektion8/args_argparse
+$ python3 ./ap2.py svenska_v2.txt he --help
+usage: ap2.py [-h] [-c] [-d] [-i] FILENAME STRING1 [STRING2]
+
+What the program does
+
+positional arguments:
+  FILENAME              the file to process
+  STRING1
+  STRING2
+
+options:
+  -h, --help            show this help message and exit
+  -c, -C, --complement  use the complement of STRING1
+  -d, --delete          delete characters in STRING1, do not translate
+  -i                    edit files in place
+
+Text at the bottom of help
+ITINF25/lektion8/args_argparse
+$ ITINF25/lektion8/args_argparse
+$ ls
+ap1.py  ap2.py  svenska_v2.txt
+ITINF25/lektion8/args_argparse
+$ cp sc
+venska_v2.txt svenska_v2.txt_destroyed
+ITINF25/lektion8/args_argparse
+python3 ./ap2.py --hel-dska_v2_destroyed.txt 
+
+cp svenska_v2.txt svenska_v2_destroyed.txt;svenska_v2_destroyed.txt;
+svenska_v2_destroyed.txt m g
+usage: ap2.py [-h] [-c] [-d] [-i] FILENAME STRING1 [STRING2]
+ap2.py: error: argument --delete: expected one string
+ITINF25/lektion8/args_argparse
+$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d svenska_v2_destroyed.txt m 
+
+
+
+
+
+
+
+ITINF25/lektion8/args_argparse
+$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d svenska_v2_destroyed.txt m
+hedan hedaig helin heliig helun heluig hein
+heiig heon heoig
+nodan nodaig nolin noliig nolun noluig
+noin noiig noon nooig ladan ladaig
+lalin laliig lalun laluig lain laiig laon laoig
+tidan tidaig tilin tiliig tilun tiluig tiin tiiig tion tioig
+
+ITINF25/lektion8/args_argparse
+$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d svenska_v2_destroyed.txt -i
+hedan hedaig helin heliig helun heluig hein
+heiig heon heoig
+nodan nodaig nolin noliig nolun noluig
+noin noiig noon nooig ladan ladaig
+lalin laliig lalun laluig lain laiig laon laoig
+tidan tidaig tilin tiliig tilun tiluig tiin tiiig tion tioig
+
+ITINF25/lektion8/args_argparse
+$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d -i svenska_v2_destroyed.txt -cITINF25/lektion8/args_argparse
+$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d -i -c svenska_v2_destroyed.txt 
+a
+aammmmaammmmaaaaaaaaamamamamaammmm
+ITINF25/lektion8/args_argparse
+$ 
+exit
