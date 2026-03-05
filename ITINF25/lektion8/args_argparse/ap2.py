@@ -100,9 +100,9 @@ with open(filename, "r") as twrap:
         else:
             output += substitute_operation(rad)
 
-if 
-
-with open(filename)
+if parsed_args.i:
+    with open(filename, "w") as twrap:
+        twrap.writ
 
 
 print("Slut", output, sep="\n")
