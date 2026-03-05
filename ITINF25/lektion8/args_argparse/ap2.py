@@ -65,13 +65,28 @@ def delete_operation(row):
     return output_row
 
 
+def substitute_operation(row):
+    output_row = ""
+    for character in row:
+        matched_character = character in parsed_args.string1
+        skip = (
+            matched_character if not parsed_args.complement else not matched_character
+        )
+        if skip:
+            continue
+        output_row += character
+
+    return output_row
+
+
 output = ""
 # open har stöd för att användas som "context"
 with open(filename, "r") as twrap:
     for rad in twrap.readlines():
         if parsed_args.delete:
             output += delete_operation(rad)
-        e
+        else:
+            output += substitute_operation(rad)
 
 
 print("Slut", output, sep="\n")
