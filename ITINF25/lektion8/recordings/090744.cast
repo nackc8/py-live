@@ -275,3 +275,8 @@
 [2371.380851, "o", "\u001b[?2004l\r"]
 [2371.389842, "o", "arg:  (0, '-c')\r\narg:  (1, '-d')\r\narg:  (2, 'hej')\r\narg:  (3, 'hopp')\r\narg:  (4, 'haha')\r\narg:  (5, 'gogo')\r\n"]
 [2371.397385, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]
+[2455.922544, "o", "python3 am2.py -c -d hej hopp haha gogo"]
+[2456.349511, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ python3 am2.py -c -d hej hopp haha gogo"]
+[2457.384404, "o", "\r\n\u001b[?2004l\r"]
+[2457.393123, "o", "arg:  (0, '-c')\r\nloop is breaked!\r\n"]
+[2457.400364, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]

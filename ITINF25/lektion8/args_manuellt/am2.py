@@ -33,7 +33,8 @@ try:
                 raise InvalidInputError("Only specify delete once!")
             option_delete = True
         else:
-            pass
+            break
+    print("loop is breaked!")
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
     sys.exit(1)
