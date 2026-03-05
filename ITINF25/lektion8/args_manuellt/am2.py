@@ -32,7 +32,7 @@ try:
             if option_delete:
                 raise InvalidInputError("Only specify delete once!")
             option_delete = True
-         else:
+        else:
             break
     # All args not starting with -
     pos_args = all_args[index:]
