@@ -13,5 +13,7 @@ import sys
 #        -d, --delete
 #               delete characters in ARRAY1, do not translate
 
+options_part = True
 for arg in sys.argv[1:]:
+    if arg == "-c"
     print(arg)
