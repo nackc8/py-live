@@ -1,0 +1,206 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion8
+recordings
+ITINF25/lektion8
+$ ITINF25/lektion8
+$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+ITINF25/lektion8
+$ python3 args_manuellt/am1.py ITINF25/lektion8
+$ python3 args_manuellt/am1.py 
+arg 0: args_manuellt/am1.py
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion8/args_manuellt/am1.py", line 4, in <module>
+    print("arg 1: " + sys.argv[1])
+                      ~~~~~~~~^^^
+IndexError: list index out of range
+ITINF25/lektion8
+$ ITINF25/lektion8
+$ python3 args_manuellt/am1.py 
+Please add exactly three arguments to the script: 
+ITINF25/lektion8
+$ python3 args_manuellt/am1.py ITINF25/lektion8
+$ python3 args_manuellt/am1.py 
+Please add exactly three arguments to the script
+ITINF25/lektion8
+$ python3 args_manuellt/am1.py ITINF25/lektion8
+$ python3 args_manuellt/am1.py one two three
+Please add exactly three arguments to the script
+ITINF25/lektion8
+$ python3 args_manuellt/am1.py one two threITINF25/lektion8
+$ python3 args_manuellt/am1.py one two
+arg 0: args_manuellt/am1.py
+arg 1: one
+arg 2: two
+ITINF25/lektion8
+$ ITINF25/lektion8
+$ man tr
+TR(1)                                        User Commands                                       TR(1)
+
+NAME
+       tr - translate or delete characters
+
+SYNOPSIS
+       tr [OPTION]... STRING1 [STRING2]
+ ESESCOBpage tr(1) line 1 (press h for help or q to quit)
+>ITINF25/lektion8) line 2 (press h for help or q to quit)
+$ .
+cd 
+args_manuellt/
+ITINF25/lektion8/args_manuellt
+$ ITINF25/lektion8/args_manuellt
+$ ls
+am1.py  am2.py
+ITINF25/lektion8/args_manuellt
+$ python3 am
+2.py ITINF25/lektion8/args_manuellt
+$ python3 am2.py 
+am2.py
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py ITINF25/lektion8/args_manuellt
+$ python3 am2.py 
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py one twoITINF25/lektion8/args_manuellt
+$ python3 am2.py one two
+one
+two
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py one twoITINF25/lektion8/args_manuellt
+$ python3 am2.py one two
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py one tw-c 
+-c
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -CITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -C
+-c
+Call error:  Only specify complement once!
+ITINF25/lektion8/args_manuellt
+$ ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion8/args_manuellt/am2.py", line 36
+    pos_args =
+              ^
+SyntaxError: invalid syntax
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -cITINF25/lektion8/args_manuellt
+$ python3 am2.py -c
+arg:  (0, '-c')
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d
+arg:  (0, '-c')
+arg:  (1, '-d')
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha bgoggoITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogo
+arg:  (0, '-c')
+arg:  (1, '-d')
+arg:  (2, 'hej')
+arg:  (3, 'hopp')
+arg:  (4, 'haha')
+arg:  (5, 'gogo')
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogoITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogo
+arg:  (0, '-c')
+loop is breaked!
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogoITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogo
+arg:  (0, '-c')
+loop is breaked! (0, '-c')
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogoITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogo
+arg:  -c
+arg:  -d
+arg:  hej
+loop is breaked! hej
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogoITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogo
+arg:  -c
+arg:  -d
+arg:  hej
+loop is breaked! hej 2
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogoITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d hej hopp haha gogo
+arg:  -c
+arg:  -d
+arg:  hej
+loop is breaked! pos_args =  ['hej', 'hopp', 'haha', 'gogo']
+ITINF25/lektion8/args_manuellt
+$ ITINF25/lektion8/args_manuellt
+$ tr
+echo abba  ||ac
+cbbc
+ITINF25/lektion8/args_manuellt
+$ echo abba | tr a c-ITINF25/lektion8/args_manuellt
+$ echo abba | tr a -c
+-bb-
+ITINF25/lektion8/args_manuellt
+python3 am2.py -c -d hej hopp haha gog-x -c
+arg:  -c
+arg:  -d
+arg:  x
+loop is breaked! pos_args =  ['x', '-c']
+ITINF25/lektion8/args_manuellt
+echo abba | tr a -c ITINF25/lektion8/args_manuellt
+$ echo abba | tr a -c-_
+abba
+ITINF25/lektion8/args_manuellt
+$ echo abba | tr - -
+
+
+
+ITINF25/lektion8/args_manuellt
+$ echo ab-ba | tr - _
+ab_ba
+ITINF25/lektion8/args_manuellt
+$ echo ab-ba | tr - a ITINF25/lektion8/args_manuellt
+$ echo ab-ba | tr -a _b
+tr: invalid option -- 'a'
+Try 'tr --help' for more information.
+ITINF25/lektion8/args_manuellt
+python3 am2.py -c -d hej hopp haha gog-c 
+
+
+
+
+
+b
+arg:  -c
+arg:  -d
+arg:  -c
+Call error:  Only specify complement once!
+ITINF25/lektion8/args_manuellt
+echo ab-ba | tr -aITINF25/lektion8/args_manuellt
+$ echo ab-ba | tr -a _
+tr: invalid option -- 'a'
+Try 'tr --help' for more information.
+ITINF25/lektion8/args_manuellt
+$ echo ab-ba | tr -a _ 
+bb_bb
+ITINF25/lektion8/args_manuellt
+python3 am2.py -c -d x -ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d -- -c
+arg:  -c
+arg:  -d
+arg:  --
+loop is breaked! pos_args =  ['--', '-c']
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d -- -cITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d -- -c
+arg:  -c
+arg:  -d
+arg:  --
+loop is breaked! pos_args =  ['-c']
+ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d -- --ITINF25/lektion8/args_manuellt
+$ python3 am2.py -c -d -
+arg:  -c
+arg:  -d
+arg:  -c
+Call error:  Only specify complement once!
+ITINF25/lektion8/args_manuellt
+$ 
+exit

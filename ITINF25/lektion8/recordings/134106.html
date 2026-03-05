@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>Source file</title>
+</head>
+<body>
+<pre>/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion8
+<span style="font-weight:bold;color:#5c5cff;">args_argparse</span>  <span style="font-weight:bold;color:#5c5cff;">args_manuellt</span>  <span style="font-weight:bold;color:#5c5cff;">recordings</span>
+<span style="color:#5c5cff;">ITINF25/lektion8
+</span>$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+<span style="color:#5c5cff;">ITINF25/lektion8
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8
+</span>$ ls
+<span style="font-weight:bold;color:#5c5cff;">args_argparse</span>  <span style="font-weight:bold;color:#5c5cff;">args_manuellt</span>  <span style="font-weight:bold;color:#5c5cff;">recordings</span>
+<span style="color:#5c5cff;">ITINF25/lektion8
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8
+</span>$ cd ar
+gs_argparse/
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ ls
+ap1.py  ap2.py  svenska_v2.txt
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+python3 ./ap2.py -c -d svenska_v2.txt abc
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -c -d svenska_v2.txt abcd
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+Slut
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ tr
+echo hejsan | tr h g
+gejsan
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsan | tr h -d
+
+ejsan
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsan | tr -d hn
+ejsa
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">a_v2.txt abcd<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -c -d svenska_v2.txt abcd
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+Slut
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-d svenska_v2.txt abcd<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -c -d svenska_v2.txt abcd
+Slut
+hedan hedaig helin heliig helun heluig hemin
+hemiig hemon hemoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-d svenska_v2.txt abcd<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -c -d svenska_v2.txt abch
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">svenska_v2.txt h<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d svenska_v2.txt 
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ tr -c -d
+
+
+
+
+echo hejsan | 
+
+
+
+
+h
+<span style="color:#5c5cff;">>ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-d hs<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsan | tr -c -d hs
+<span style="color:#5c5cff;">">ITINF25/lektion8/args_argparse
+</span>$ echo hejsan | tr -c -d hson
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsanson | tr -c -d hs
+<span style="color:#5c5cff;">;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-c -d hs<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+python3 ./ap2.py -d svenska_v2.txt hs
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">svenska_v2.txt -c<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d -c svenska_v2.txt 
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-c svenska_v2.txt h<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d -c svenska_v2.txt 
+x
+Slut
+edan edaig elin eliig elun eluig emin
+emiig emon emoig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-c svenska_v2.txt hx<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d -c svenska_v2.txt h
+Slut
+hhhhhhhhhh
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-c svenska_v2.txt he<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d -c svenska_v2.txt he
+Slut
+hehehehehehehehehehe
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d -c svenska_v2.txt h
+
+
+
+
+
+
+
+
+
+
+
+Slut
+dan daig lin liig lun luig min
+miig mon moig
+nodan nodaig nolin noliig nolun noluig
+nomin nomiig nomon nomoig ladan ladaig
+lalin laliig lalun laluig lamin lamiig lamon lamoig
+tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#000000;background-color:#000000;"></span>$ echo hejsanson | thhhan><span style="color:#000000;background-color:#000000;">tr</span><span style="color:#000000;background-color:#000000;"> -c -d h
+h x
+<span style="color:#5c5cff;">#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsanson | tr -c h o 
+
+
+<span style="color:#5c5cff;">#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">-c ho <span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsanson | tr ho 
+xejsansxn
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ echo hejsanson | tr ho 
+
+
+
+
+
+
+
+
+
+
+<span style="color:#5c5cff;">2.txt he<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -d svenska_v2.txt h
+
+
+
+
+
+
+
+
+
+usage: ap2.py [-h] [-c] [-d] FILENAME STRING1 [STRING2]
+ap2.py: error: expected 2 arguments
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">nska_v2.txt he xy<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py svenska_v2.txt he xyd
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+Slut
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">nska_v2.txt he xy<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py svenska_v2.txt he xy
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+index: 0 match_character: h
+index: 1 match_character: e
+Slut
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">nska_v2.txt he xy<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py svenska_v2.txt he xy
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: y
+Slut
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ 
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">nska_v2.txt he xy<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py svenska_v2.txt he x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+index: 0 match_character: h replace_character: x
+index: 1 match_character: e replace_character: x
+Slut
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">nska_v2.txt he x<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py svenska_v2.txt he -c
+Slut
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">svenska_v2.txt he x<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -c svenska_v2.txt he x
+Slut
+hxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxhxxexxxxxxxxhxxexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py -c svenska_v2.txt he 
+Slut
+xhexddaann  xhexddaaiigg  xhexlliinn  xhexlliiiigg  xhexlluunn  xhexlluuiigg  xhexmmiinn
+
+xhexmmiiiigg  xhexmmoonn  xhexmmooiigg
+
+nnooddaann  nnooddaaiigg  nnoolliinn  nnoolliiiigg  nnoolluunn  nnoolluuiigg
+
+nnoommiinn  nnoommiiiigg  nnoommoonn  nnoommooiigg  llaaddaann  llaaddaaiigg
+
+llaalliinn  llaalliiiigg  llaalluunn  llaalluuiigg  llaammiinn  llaammiiiigg  llaammoonn  llaammooiigg
+
+ttiiddaann  ttiiddaaiigg  ttiilliinn  ttiilliiiigg  ttiilluunn  ttiilluuiigg  ttiimmiinn  ttiimmiiiigg  ttiimmoonn  ttiimmooiigg
+
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ man sed
+SED(1)                                       User Commands                                      SED(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       sed - stream editor for filtering and transforming text
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       sed [-V] [--version] [--help] [-n] [--quiet] [--silent]
+           [-l N] [--line-length=N] [-u] [--unbuffered]
+           [-E] [-r] [--regexp-extended]
+           [-e script] [--expression=script]
+           [-f script-file] [--file=script-file]
+           [script-if-no-other-script]
+<span style="color:#000000;background-color:#000000;">SED(1)                                       User Commands                                      SED(1)</span>#000000;">
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       sed - stream editor for filtering and transforming text
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       sed [-V] [--version] [--help] [-n] [--quiet] [--silent]
+           [-l N] [--line-length=N] [-u] [--unbuffered]
+           [-E] [-r] [--regexp-extended]
+           [-e script] [--expression=script]
+           [-f script-file] [--file=script-file]
+           [script-if-no-other-script]
+SED(1)                                       User Commands                                      SED(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       sed - stream editor for filtering and transforming text
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       sed [-V] [--version] [--help] [-n] [--quiet] [--silent]
+           [-l N] [--line-length=N] [-u] [--unbuffered]
+           [-E] [-r] [--regexp-extended]
+           [-e script] [--expression=script]
+           [-f script-file] [--file=script-file]
+           [script<span style="color:#000000;background-color:#000000;">-i</span><span style="color:#000000;background-color:#000000;">f-no-other-script]</span>
+           [file...]
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="text-decoration:underline;">Sed</span>  is  a  stream editor.  A stream editor is used to perform basic text transformations on an
+       input stream (a file or input from a pipeline).  While in some ways similar to an editor  which
+       permits  scripted  edits (such as <span style="text-decoration:underline;">ed</span>), <span style="text-decoration:underline;">sed</span> works by making only one pass over the input(s), and
+       is consequently more efficient.  But it is <span style="text-decoration:underline;">sed</span>&apos;s ability to filter text  in  a  pipeline  which
+       particularly distinguishes it from other types of editors.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-n</span>, <span style="font-weight:bold;color:#7f7f7f;">--quiet</span>, <span style="font-weight:bold;color:#7f7f7f;">--silent</span>
+
+<span style="color:#000000;background-color:#000000;">...skipping...ed(1) line 12 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+       </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;"></span><span style="font-weight:bold;color:#000000;background-color:#7f7f7f;">-i</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;"></span><span style="font-weight:bold;color:#7f7f7f;">[SUFFIX]</span>, <span style="font-weight:bold;color:#7f7f7f;">-</span><span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#000000;background-color:#7f7f7f;">-i</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;"></span><span style="font-weight:bold;color:#7f7f7f;">n-place</span>[=<span style="text-decoration:underline;">SUFFIX</span>]
+
+              edit files in place (makes backup if SUFFIX supplied)
+
+       <span style="font-weight:bold;color:#7f7f7f;">-l</span> N, <span style="font-weight:bold;color:#7f7f7f;">--line-length</span>=<span style="text-decoration:underline;">N</span>
+
+              specify the desired line-wrap length for the `l&apos; command
+
+       <span style="font-weight:bold;color:#7f7f7f;">--posix</span>
+
+              disable all GNU extensions.
+
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF25/lektion8/args_argparseckground-color:#000000;">
+<span style="color:#5c5cff;">xt he x<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ python3 ./ap2.py svenska_v2.txt he --help
+usage: ap2.py [-h] [-c] [-d] [-i] FILENAME STRING1 [STRING2]
+
+What the program does
+
+positional arguments:
+  FILENAME              the file to process
+  STRING1
+  STRING2
+
+options:
+  -h, --help            show this help message and exit
+  -c, -C, --complement  use the complement of STRING1
+  -d, --delete          delete characters in STRING1, do not translate
+  -i                    edit files in place
+
+Text at the bottom of help
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ ls
+ap1.py  ap2.py  svenska_v2.txt
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ cp sc
+venska_v2.txt svenska_v2.txt_destroyed
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+python3 ./ap2.py --hel-dxt svenska_v2_destroyed.txt 
+
+<span style="color:#000000;background-color:#000000;">cp svenska_v2.txt svenska_v2_destroyed.txt;</span><span style="color:#000000;background-color:#000000;">svenska_v2_destroyed.txt;</span><span style="color:#000000;background-color:#000000;">
+svenska_v2_destroyed.txt m g
+<span style="color:#000000;background-color:#000000;">usage: ap2.py [-h] [-c] [-d] [-i] FILENAME STRING1 [STRING2]
+ap2.py: error: argument --delete: expected one string
+<span style="color:#5c5cff;background-color:#000000;">0000;">ITINF25/lektion8/args_argparse
+</span>$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d svenska_v2_destroyed.txt m 
+
+
+
+
+
+
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d svenska_v2_destroyed.txt m
+hedan hedaig helin heliig helun heluig hein
+heiig heon heoig
+nodan nodaig nolin noliig nolun noluig
+noin noiig noon nooig ladan ladaig
+lalin laliig lalun laluig lain laiig laon laoig
+tidan tidaig tilin tiliig tilun tiluig tiin tiiig tion tioig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d svenska_v2_destroyed.txt -i
+hedan hedaig helin heliig helun heluig hein
+heiig heon heoig
+nodan nodaig nolin noliig nolun noluig
+noin noiig noon nooig ladan ladaig
+lalin laliig lalun laluig lain laiig laon laoig
+tidan tidaig tilin tiliig tilun tiluig tiin tiiig tion tioig
+
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+<span style="color:#5c5cff;">enska_v2_destroyed.txt;  python3 ./ap2.py -d -i svenska_v2_destroyed.txt -c<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ cp svenska_v2.txt svenska_v2_destroyed.txt;  python3 ./ap2.py -d -i -c svenska_v2_destroyed.txt 
+a
+aammmmaammmmaaaaaaaaamamamamaammmm
+<span style="color:#5c5cff;">ITINF25/lektion8/args_argparse
+</span>$ 
+exit
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->
