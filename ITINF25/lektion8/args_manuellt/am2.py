@@ -36,7 +36,7 @@ try:
             break
     # All args not starting with -
     if arg == "--":
-        pos_args = all_args[index:]
+        pos_args = all_args[index + 1 :]
     else:
         pos_args = all_args[index:]
 
