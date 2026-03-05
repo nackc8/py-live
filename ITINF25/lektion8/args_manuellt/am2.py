@@ -34,6 +34,7 @@ try:
             option_delete = True
         else:
             break
+
     # All args not starting with -
     if arg == "--":
         pos_args = all_args[index + 1 :]
