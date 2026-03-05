@@ -27,7 +27,7 @@ parser.add_argument(
     "-d",
     "--delete",
     action="store_true",
-    help="use the complement of STRING1",
+    help="delete characters in STRING1, do not translate",
 )
 
 
