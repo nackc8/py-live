@@ -51,6 +51,7 @@ if not filename.exists():
 
 
 def delete_operation(rad):
+    """"""
     utrad = ""
     for bokstav in rad:
         if bokstav in parsed_args.string1:
