@@ -13,13 +13,15 @@ import sys
 #        -d, --delete
 #               delete characters in ARRAY1, do not translate
 
+
 class InvalidInputError(ValueError):
     pass
+
 
 option_complement = False
 for arg in sys.argv[1:]:
     if arg == "-c" or arg == "-C" or arg == "--complement":
         if option_complement == True:
-
+            raise InvalidInputError()
         option_complement = True
         print(arg)
