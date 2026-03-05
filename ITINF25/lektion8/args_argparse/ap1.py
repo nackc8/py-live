@@ -49,3 +49,6 @@ if not filename.exists():
 
 # Allt är bra! Dags att jobba!
 
+twrap = open(filename, "r")
+
+twrap.
