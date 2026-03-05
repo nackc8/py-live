@@ -703,3 +703,8 @@
 [2073.359979, "o", "\u001b[?2004l\r"]
 [2073.375283, "o", "Namespace(complement=None)\r\ncomplement is:  None\r\nProgram end\r\n"]
 [2073.382355, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[2115.015514, "o", "python ap1.py"]
+[2115.368383, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ python ap1.py"]
+[2116.44085, "o", "\r\n\u001b[?2004l\r"]
+[2116.455082, "o", "Namespace(complement=False)\r\ncomplement is:  False\r\nProgram end\r\n"]
+[2116.462534, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
