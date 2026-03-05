@@ -290,3 +290,8 @@
 [2492.197065, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
 [2492.242207, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
 [2492.341026, "o", "\r\u001b[K\r\u001b(B\u001b[m$ "]
+[2556.282938, "o", "python3 am2.py -c -d hej hopp haha gogo"]
+[2556.732669, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ python3 am2.py -c -d hej hopp haha gogo"]
+[2557.828208, "o", "\r\n\u001b[?2004l\r"]
+[2557.837073, "o", "arg:  -c\r\narg:  -d\r\narg:  hej\r\nloop is breaked! hej\r\n"]
+[2557.844366, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]

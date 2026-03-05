@@ -22,7 +22,7 @@ try:
     option_complement = False
     option_delete = False
     all_args = sys.argv[1:]
-    for arg in enumerate(all_args):
+    for index, arg in enumerate(all_args):
         print("arg: ", arg)
         if arg == "-c" or arg == "-C" or arg == "--complement":
             if option_complement:
