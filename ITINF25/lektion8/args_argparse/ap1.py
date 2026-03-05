@@ -7,6 +7,6 @@ parser = argparse.ArgumentParser(
     epilog="Text at the bottom of help",
 )
 
-parser.parse_args(sys.argv)
+parser.parse_args(sys.argv[1:])
 
 print("Program end")
