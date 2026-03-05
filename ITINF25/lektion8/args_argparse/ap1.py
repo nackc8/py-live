@@ -44,7 +44,7 @@ elif not parsed_args.delete and not parsed_args.string2:
 
 filename = Path(parsed_args.filename)
 
-if filename.
+if filename.exists()
 
 print(parsed_args)
 
