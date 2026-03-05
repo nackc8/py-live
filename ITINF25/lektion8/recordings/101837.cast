@@ -594,3 +594,8 @@
 [1626.341751, "o", "\r\n\u001b[?2004l\r"]
 [1626.357818, "o", "Namespace(complement='hej')\r\ncomplement is:  hej\r\nProgram end\r\n"]
 [1626.365817, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[1651.864444, "o", "python ap1.py -c hej"]
+[1652.809348, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ python ap1.py -c hej"]
+[1653.522191, "o", "\r\n\u001b[?2004l\r"]
+[1653.538019, "o", "Namespace(complement='hej')\r\ncomplement is:  hej\r\nProgram end\r\n"]
+[1653.545595, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
