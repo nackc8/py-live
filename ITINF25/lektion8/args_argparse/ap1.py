@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(
 #               delete characters in ARRAY1, do not translate
 
 
-parser.add_argument("-c", "-C", "--complement")
+parser.add_argument("-c", "-C", "--complement", action="store_true")
 
 parser.parse_args(sys.argv[1:])
 
