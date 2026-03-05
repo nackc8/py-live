@@ -957,3 +957,8 @@
 [2504.834251, "o", "\u001b[?2004l\r"]
 [2504.849613, "o", "Namespace(complement=[])\r\ncomplement is:  []\r\nProgram end\r\n"]
 [2504.857097, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[2644.750325, "o", "python ap1.py -c"]
+[2645.170052, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ python ap1.py -c"]
+[2650.975774, "o", "\r\n\u001b[?2004l\r"]
+[2650.990916, "o", "usage: ProgramName [-h] [-c [COMPLEMENT ...]] filename\r\nProgramName: error: the following arguments are required: filename\r\n"]
+[2650.998116, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
