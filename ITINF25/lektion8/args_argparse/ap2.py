@@ -49,7 +49,8 @@ if not filename.exists():
 
 # Allt är bra! Dags att jobba!
 
-twrap = open(filename, "r")
+# open har stöd för att användas som "context"
+with open(filename, "r") as 
 
 for rad in twrap.readlines():
     print(rad, end="")
