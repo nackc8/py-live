@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(
 #               delete characters in ARRAY1, do not translate
 
 
-parser.add_argument("-c", "-C", "--complement", action="store_true")
+parser.add_argument("-c", "-C", "--complement", action="store_true", )
 
 parser.add_argument("filename")
 parser.add_argument("string1")
