@@ -30,7 +30,7 @@ parser.add_argument(
 )
 
 
-parser.add_argument("filename", )
+parser.add_argument("filename", help="the file to process")
 parser.add_argument("string1")
 parser.add_argument("string2", nargs="?")
 
