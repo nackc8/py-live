@@ -69,6 +69,10 @@ def substitute_operation(row):
     output_row = ""
     for character in row:
         matched_character = character in parsed_args.string1
+
+        parsed_args.string1 = ""
+        parsed_args.string1.
+
         skip = (
             matched_character if not parsed_args.complement else not matched_character
         )
