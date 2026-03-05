@@ -13,7 +13,7 @@ import sys
 #        -d, --delete
 #               delete characters in ARRAY1, do not translate
 
-class 
+class InvalidInputError(Exception)
 
 option_complement = False
 for arg in sys.argv[1:]:
