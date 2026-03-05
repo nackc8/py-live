@@ -175,3 +175,8 @@
 [939.524288, "o", "\r\n\u001b[?2004l\r"]
 [939.532302, "o", "one\r\ntwo\r\n"]
 [939.539069, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]
+[1885.471069, "o", "python3 am2.py one two"]
+[1885.852699, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_manuellt\r\r\n"]
+[1885.852716, "o", "\u001b(B\u001b[m$ python3 am2.py one two"]
+[1887.848524, "o", "\r\n\u001b[?2004l\r"]
+[1887.863703, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]
