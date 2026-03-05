@@ -17,6 +17,8 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument("-c", "-C", "--complement", action="store_true")
 
-parser.parse_args(sys.argv[1:])
+parsed_args = parser.parse_args(sys.argv[1:])
+
+print(parsed_args)
 
 print("Program end")
