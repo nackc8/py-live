@@ -2283,3 +2283,8 @@
 [11032.463894, "o", "\r\n\u001b[?2004l\r"]
 [11032.481001, "o", "\r\n  rad1: 'hedan hedaig helin heliig helun heluig hemin hemiig hemon hemoig nodan nodaig nolin noliig nolun noluig nomin nomiig nomon nomoig ladan ladaig lalin laliig lalun laluig lamin lamiig lamon lamoig tidan tidaig tilin tiliig tilun tiluig timin timiig timon timoig\r\n'\r\n  rad2: ''\r\n  rad3: ''\r\n\r\n"]
 [11032.488819, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[11707.211724, "o", "python3 ./ap1.py -c -d svenska_v2.txt abcd"]
+[11707.571265, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ python3 ./ap1.py -c -d svenska_v2.txt abcd"]
+[11708.111818, "o", "\r\n\u001b[?2004l\r"]
+[11708.129438, "o", "\r\n  rad1: 'hedan hedaig helin heliig helun heluig hemin\r\n'\r\n  rad2: 'hemiig hemon hemoig\r\n'\r\n  rad3: 'nodan nodaig nolin noliig nolun noluig\r\n'\r\n\r\n"]
+[11708.137309, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
