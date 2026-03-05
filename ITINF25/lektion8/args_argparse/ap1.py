@@ -1,5 +1,6 @@
 import argparse
 import sys
+from pathlib import Path
 
 # Se am1.py för vad vi översätter till argparse
 
@@ -40,7 +41,6 @@ if parsed_args.delete and parsed_args.string2:
     parser.error("argument --delete: expected one string")
 elif not parsed_args.delete and not parsed_args.string2:
     parser.error("expected 2 arguments")
-
 
 
 print(parsed_args)
