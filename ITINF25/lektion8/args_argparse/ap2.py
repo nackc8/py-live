@@ -70,6 +70,7 @@ def substitute_operation(row):
     for character in row:
         for index, match_character in enumerate(parsed_args.string1):
             print(f"index: {index} match_character: {match_character}")
+        break  # Tillfälligt
 
     return output_row
 
