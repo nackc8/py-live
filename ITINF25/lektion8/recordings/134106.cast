@@ -591,3 +591,5 @@
 [1523.6584, "o", "\r\n\u001b[?2004l\r"]
 [1523.676211, "o", "index: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: y\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: y\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: y\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: y\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: y\r\nindex: 0 match_character: h replace_character: x\r\nindex: 1 match_character: e replace_character: y\r\nSlut\r\n\r\n"]
 [1523.684338, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[1536.701233, "o", "\r\n\u001b[?2004l\r"]
+[1536.706553, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
