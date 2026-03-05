@@ -47,7 +47,7 @@ try:
     if option_delete and len(all_args) != 1:
         raise InvalidInputError("extra operand")
     if not option_delete and len(all_args) != 2:
-        raise InvalidInputError("missings operand")
+        raise InvalidInputError("missing operand")
 
     array1 = all_args[0]
     array2 = all_args[1] if not option_delete else None
