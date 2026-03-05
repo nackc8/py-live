@@ -627,3 +627,8 @@
 [3154.517055, "o", "\r\n\u001b[?2004l\r"]
 [3154.525341, "o", "arg:  -c\r\narg:  -d\r\narg:  --\r\nloop is breaked! pos_args =  ['--', '-c']\r\n"]
 [3154.531773, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]
+[3330.289095, "o", "python3 am2.py -c -d -- -c"]
+[3330.731799, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ python3 am2.py -c -d -- -c"]
+[3332.600209, "o", "\r\n\u001b[?2004l\r"]
+[3332.608252, "o", "arg:  -c\r\narg:  -d\r\narg:  --\r\nloop is breaked! pos_args =  ['-c']\r\n"]
+[3332.61533, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_manuellt\r\r\n\u001b(B\u001b[m$ "]

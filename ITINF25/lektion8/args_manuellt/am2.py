@@ -35,7 +35,7 @@ try:
         else:
             break
 
-    # All args not starting with -
+    # All non option arguments
     if arg == "--":
         pos_args = all_args[index + 1 :]
     else:
