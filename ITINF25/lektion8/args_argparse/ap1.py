@@ -51,6 +51,5 @@ if not filename.exists():
 
 twrap = open(filename, "r")
 
-rad1 = twrap.readline()
-rad2 = twrap.readline()
-rad3 = twrap.readline()
+
+print("Slut")
