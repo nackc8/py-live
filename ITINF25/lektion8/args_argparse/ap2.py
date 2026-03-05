@@ -55,7 +55,7 @@ def delete_operation(rad):
     utrad = ""
     for bokstav in rad:
         instring1 = bokstav in parsed_args.string1
-        skip = instring1 
+        skip = instring1 if not parsed_args.complement else not instring1
         if instring1:
             continue
         utrad += bokstav
