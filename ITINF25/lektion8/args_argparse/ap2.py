@@ -55,7 +55,9 @@ with open(filename, "r") as twrap:
     for rad in twrap.readlines():
         if parsed_args.delete:
             for bokstav in rad:
-                
+                if bokstav in parsed_args.string1:
+                    continue
+                output += bokstav
         print(rad, end="")
 
 
