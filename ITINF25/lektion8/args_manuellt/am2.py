@@ -21,7 +21,7 @@ class InvalidInputError(ValueError):
 option_complement = False
 for arg in sys.argv[1:]:
     if arg == "-c" or arg == "-C" or arg == "--complement":
-        if option_complement == True:
+        if option_complement:
             raise InvalidInputError()
         option_complement = True
         print(arg)
