@@ -95,7 +95,6 @@ with open(filename, "r") as twrap:
         if parsed_args.delete:
             output += delete_operation(rad)
         else:
-            
             output += substitute_operation(rad)
 
 
