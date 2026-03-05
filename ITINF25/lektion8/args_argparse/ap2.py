@@ -91,18 +91,19 @@ def substitute_operation(row):
     return output_row
 
 
-output = ""
+output = []
 # open har stöd för att användas som "context"
 with open(filename, "r") as twrap:
-    for rad in twrap.readlines():
+    for row in twrap.readlines():
         if parsed_args.delete:
-            output += delete_operation(rad)
+            output.append(delete_operation(row))
         else:
-            output += substitute_operation(rad)
+            output.append(substitute_operation(row))
 
 if parsed_args.i:
     with open(filename, "w") as twrap:
-        twrap.writ
+        twrap.writelines(output)
 
-
-print("Slut", output, sep="\n")
+for row in output:
+    print(row, end="")
+print()
