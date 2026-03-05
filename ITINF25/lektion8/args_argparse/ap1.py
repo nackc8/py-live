@@ -37,7 +37,7 @@ parser.add_argument("--foo")
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
-parser.error("NU ÄR DU FEL")
+parser.error("argument --foo: expected one argument")
 
 print(parsed_args)
 
