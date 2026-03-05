@@ -13,6 +13,8 @@ import sys
 #        -d, --delete
 #               delete characters in ARRAY1, do not translate
 
+option_complement = False
 for arg in sys.argv[1:]:
-    if arg == "-c" or arg == "-C" or arg == "--complement"
+    if arg == "-c" or arg == "-C" or arg == "--complement":
+        option_complement = True
         print(arg)
