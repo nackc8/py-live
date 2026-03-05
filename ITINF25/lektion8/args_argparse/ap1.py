@@ -5,3 +5,5 @@ parser = argparse.ArgumentParser(
     description="What the program does",
     epilog="Text at the bottom of help",
 )
+
+parser.parse_args(["hej"])
