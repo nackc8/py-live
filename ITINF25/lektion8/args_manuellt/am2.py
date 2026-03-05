@@ -20,17 +20,16 @@ class InvalidInputError(ValueError):
 
 try:
     option_complement = False
+    option_delete = False
     for arg in sys.argv[1:]:
         if arg == "-c" or arg == "-C" or arg == "--complement":
             if option_complement:
                 raise InvalidInputError("Only specify complement once!")
             option_complement = True
-            print(arg)
         if arg == "-d" or arg == "--delete":
-            if option_complement:
-                raise InvalidInputError("Only specify complement once!")
-            option_complement = True
-            print(arg)
+            if option_delete:
+                raise InvalidInputError("Only specify delete once!")
+            option_delete = True
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
     sys.exit(1)
