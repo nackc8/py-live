@@ -381,3 +381,8 @@
 [777.882592, "o", "\r\n\u001b[?2004l\r"]
 [777.898065, "o", "usage: ProgramName [-h]\r\nProgramName: error: unrecognized arguments: hej\r\n"]
 [777.905659, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
+[800.248786, "o", "python ap1.py"]
+[800.571485, "o", "\u001b[H\u001b[2J\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ python ap1.py"]
+[800.878295, "o", "\r\n\u001b[?2004l\r"]
+[800.89367, "o", "usage: ProgramName [-h]\r\nProgramName: error: unrecognized arguments: hej\r\n"]
+[800.900678, "o", "\u001b[?2004h\u001b[94mITINF25/lektion8/args_argparse\r\r\n\u001b(B\u001b[m$ "]
