@@ -14,7 +14,7 @@ import sys
 #               delete characters in ARRAY1, do not translate
 
 class InvalidInputError(ValueError):
-    
+    pass
 
 option_complement = False
 for arg in sys.argv[1:]:
