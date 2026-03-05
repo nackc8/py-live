@@ -51,7 +51,7 @@ if not filename.exists():
 
 
 def delete_operation(rad):
-    """"""
+    """Returnerar rad med alla tecken i string1 borttagna"""
     utrad = ""
     for bokstav in rad:
         if bokstav in parsed_args.string1:
