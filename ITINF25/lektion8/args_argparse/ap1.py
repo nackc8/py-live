@@ -31,8 +31,8 @@ parser.add_argument(
 
 
 parser.add_argument("filename", help="the file to process")
-parser.add_argument("string1")
-parser.add_argument("string2", nargs="?")
+parser.add_argument("string1", metavar="STRING1")
+parser.add_argument("string2", metavar="STRING2", nargs="?")
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
