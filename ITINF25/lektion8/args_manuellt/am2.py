@@ -22,6 +22,9 @@ try:
     option_complement = False
     option_delete = False
     all_args = sys.argv[1:]
+    if (all_args) == 0:
+        raise InvalidInputError("No arguments given")
+
     for index, arg in enumerate(all_args):
         print("arg: ", arg)
         if arg == "-c" or arg == "-C" or arg == "--complement":
