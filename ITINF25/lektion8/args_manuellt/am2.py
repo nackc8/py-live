@@ -21,7 +21,9 @@ class InvalidInputError(ValueError):
 try:
     option_complement = False
     option_delete = False
-    for arg in sys.argv[1:]:
+    all_args = sys.argv[1:]
+    for arg in enumerate(all_args):
+        print("arg: ", arg)
         if arg == "-c" or arg == "-C" or arg == "--complement":
             if option_complement:
                 raise InvalidInputError("Only specify complement once!")
