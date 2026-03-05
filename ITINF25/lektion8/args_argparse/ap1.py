@@ -39,6 +39,8 @@ parsed_args = parser.parse_args(sys.argv[1:])
 
 if parsed_args.delete and parsed_args.string2:
     parser.error("argument --delete: expected one string")
+elif not parsed_args.delete and not parsed_args.string2:
+    pass
 
 print(parsed_args)
 
