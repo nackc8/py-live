@@ -77,7 +77,8 @@ def substitute_operation(row):
 
             if parsed_args.complement and match_character != character:
                 output_row += replace_character
-            elif not parsed_args.complement and match_character != character
+            elif not parsed_args.complement and match_character == character:
+                output_row += replace_character
 
             # print(
             #     f"index: {index} match_character: {match_character} replace_character: {replace_character}"
