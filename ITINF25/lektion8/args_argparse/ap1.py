@@ -52,7 +52,7 @@ if not filename.exists():
 twrap = open(filename, "r")
 
 for rad in twrap.readlines():
-    print(rad, end=)
+    print(rad, end="")
 
 
 print("Slut")
