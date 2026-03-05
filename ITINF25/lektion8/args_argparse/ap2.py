@@ -49,11 +49,13 @@ if not filename.exists():
 
 # Allt är bra! Dags att jobba!
 
+output = ""
 # open har stöd för att användas som "context"
 with open(filename, "r") as twrap:
     for rad in twrap.readlines():
         if parsed_args.delete:
-            
+            for bokstav in rad:
+                
         print(rad, end="")
 
 
