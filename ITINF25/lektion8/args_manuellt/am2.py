@@ -34,7 +34,7 @@ try:
             option_delete = True
         else:
             break
-    print("loop is breaked!")
+    print("loop is breaked!", arg)
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
     sys.exit(1)
