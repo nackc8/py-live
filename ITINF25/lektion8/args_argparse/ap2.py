@@ -54,9 +54,9 @@ def delete_operation(rad):
     """Returnerar rad med alla tecken i string1 borttagna"""
     utrad = ""
     for bokstav in rad:
-        instring1 = bokstav in parsed_args.string1
-        skip = instring1 if not parsed_args.complement else not instring1
-        if instring1:
+        matched_character = bokstav in parsed_args.string1
+        skip = matched_character if not parsed_args.complement else not matched_character
+        if matched_character:
             continue
         utrad += bokstav
 
