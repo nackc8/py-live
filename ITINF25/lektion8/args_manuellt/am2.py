@@ -43,7 +43,8 @@ try:
 
     if option_delete and len(all_args) != 1:
         raise InvalidInputError("extra operand")
-    if not option_delete and len(all_args) != 2
+    if not option_delete and len(all_args) != 2:
+        raise InvalidInputError("missings operand")
 
     print("loop is breaked! pos_args = ", pos_args)
 except InvalidInputError as e:
