@@ -70,8 +70,8 @@ def substitute_operation(row):
     for character in row:
         matched_character = character in parsed_args.string1
 
-        parsed_args.string1 = ""
-        parsed_args.string1.
+        for 
+
 
         skip = (
             matched_character if not parsed_args.complement else not matched_character
