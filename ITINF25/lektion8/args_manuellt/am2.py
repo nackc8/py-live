@@ -1,5 +1,12 @@
 import sys
 
+# Lets mimic the tr command:
+#        -c, -C, --complement
+#               use the complement of ARRAY1
+#        -d, --delete
+#               delete characters in ARRAY1, do not translate
+
+
 if len(sys.argv) != 3:
     print(
         "Please add exactly three arguments to the script",
