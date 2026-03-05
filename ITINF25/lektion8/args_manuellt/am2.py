@@ -26,6 +26,11 @@ try:
                 raise InvalidInputError("Only specify complement once!")
             option_complement = True
             print(arg)
+        if arg == "-d" or arg == "--delete":
+            if option_complement:
+                raise InvalidInputError("Only specify complement once!")
+            option_complement = True
+            print(arg)
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
     sys.exit(1)
