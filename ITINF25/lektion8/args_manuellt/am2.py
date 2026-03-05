@@ -35,7 +35,11 @@ try:
         else:
             break
     # All args not starting with -
-    pos_args = all_args[index:]
+    if arg == "--":
+        pos_args = all_args[index:]
+    else:
+        pos_args = all_args[index:]
+
     print("loop is breaked! pos_args = ", pos_args)
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
