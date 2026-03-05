@@ -49,16 +49,18 @@ if not filename.exists():
 
 # Allt är bra! Dags att jobba!
 
+
+def delete_operation(rad):
+    return rad
+
+
 output = ""
 # open har stöd för att användas som "context"
 with open(filename, "r") as twrap:
     for rad in twrap.readlines():
         if parsed_args.delete:
-            for bokstav in rad:
-                if bokstav in parsed_args.string1:
-                    continue
-                output += bokstav
+            output += delete_operation(rad)
         print(rad, end="")
 
 
-print("Slut")
+print("Slut", output, sep="\n")
