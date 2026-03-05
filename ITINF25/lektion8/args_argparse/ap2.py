@@ -54,6 +54,5 @@ with open(filename, "r") as twrap:
     for rad in twrap.readlines():
         print(rad, end="")
 
-twrap.close()
 
 print("Slut")
