@@ -60,7 +60,6 @@ with open(filename, "r") as twrap:
     for rad in twrap.readlines():
         if parsed_args.delete:
             output += delete_operation(rad)
-        print(rad, end="")
 
 
 print("Slut", output, sep="\n")
