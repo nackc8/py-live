@@ -33,14 +33,13 @@ parser.add_argument(
 parser.add_argument("filename", metavar="FILENAME", help="the file to process")
 parser.add_argument("string1", metavar="STRING1")
 parser.add_argument("string2", metavar="STRING2", nargs="?")
-parser.add_argument("--foo", nargs=2)
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
 if parsed_args.delete and parsed_args.string2:
     parser.error("argument --delete: expected one string")
 elif not parsed_args.delete and not parsed_args.string2:
-    parser.error("error: expected 2 arguments")
+    parser.error("expected 2 arguments")
 
 print(parsed_args)
 
