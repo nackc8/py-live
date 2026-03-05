@@ -32,6 +32,8 @@ try:
             if option_delete:
                 raise InvalidInputError("Only specify delete once!")
             option_delete = True
+        elif arg == "--":
+            
         else:
             break
     # All args not starting with -
