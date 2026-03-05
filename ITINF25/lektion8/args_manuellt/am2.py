@@ -41,6 +41,10 @@ try:
     else:
         pos_args = all_args[index:]
 
+    if option_delete and len(all_args) != 1:
+        raise InvalidInputError("extra operand")
+    
+
     print("loop is breaked! pos_args = ", pos_args)
 except InvalidInputError as e:
     print("Call error: ", str(e), file=sys.stderr)
