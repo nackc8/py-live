@@ -23,6 +23,14 @@ parser.add_argument(
     help="use the complement of STRING1",
 )
 
+parser.add_argument(
+    "-d",
+    "--delete",
+    action="store_true",
+    help="use the complement of STRING1",
+)
+
+
 parser.add_argument("filename")
 parser.add_argument("string1")
 parser.add_argument("string2")
