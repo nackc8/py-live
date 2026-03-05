@@ -36,7 +36,7 @@ parser.add_argument("string2", metavar="STRING2", nargs="?")
 
 parsed_args = parser.parse_args(sys.argv[1:])
 
-parser.
+parser.error("NU ÄR DU FEL")
 
 print(parsed_args)
 
