@@ -22,7 +22,7 @@ try:
     option_complement = False
     option_delete = False
     all_args = sys.argv[1:]
-    if (all_args) == 0:
+    if len(all_args) == 0:
         raise InvalidInputError("No arguments given")
 
     for index, arg in enumerate(all_args):
