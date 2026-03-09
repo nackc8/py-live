@@ -12,6 +12,7 @@ def add():
     original_url = json["url"]
 
     url_map = db.Url(original=original_url)
+    url_map.save()
     url_map.short = url_map.get_id()
     print(url_map.short)
     url_map.save()
