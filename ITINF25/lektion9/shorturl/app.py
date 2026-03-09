@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["POST"])
 def add():
-    test = request.data.get_json()
+    test = request.get_json()
     print(test)
     return "<p>Ta emot en URL, skapa och lagra en kort url, skicka tillbaka den korta urlen</p>"
 
