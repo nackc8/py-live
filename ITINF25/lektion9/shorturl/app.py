@@ -12,6 +12,7 @@ def add():
 def remove():
     return "<p>Radera den korta URL:en <url>"
 
-@app.route('/user/<username>')
+
+@app.route("/user/<username>")
 def profile(username):
-    return f'{username}\'s profile'
+    return f"{username}'s profile"
