@@ -38,4 +38,4 @@ def redirect_to_original_url(short_url):
     return ("", 204)
 
 
-# redirect("http://www.example.com", code=302)
+# return edirect("http://www.example.com", code=302)
