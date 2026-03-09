@@ -2,12 +2,16 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-urls = 
+urls = dict()
+
 
 @app.route("/", methods=["POST"])
 def add():
-    test = request.get_json()
-    print(test["greet"])
+    json = request.get_json()
+    url = json["url"]
+
+    urls[url] = "Sett!"
+    print(urls)
     return "<p>Ta emot en URL, skapa och lagra en kort url, skicka tillbaka den korta urlen</p>"
 
 
