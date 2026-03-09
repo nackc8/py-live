@@ -1602,3 +1602,8 @@
 [13125.986555, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.sqlite\r\n"]
 [13125.994398, "o", " * Debugger is active!\r\n"]
 [13125.994686, "o", " * Debugger PIN: 624-213-805\r\n"]
+[13158.029365, "o", " * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py', reloading\r\n"]
+[13158.054652, "o", " * Restarting with stat\r\n"]
+[13158.138222, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.sqlite\r\n"]
+[13158.145725, "o", " * Debugger is active!\r\n"]
+[13158.146057, "o", " * Debugger PIN: 624-213-805\r\n"]
