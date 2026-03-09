@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>Source file</title>
+</head>
+<body>
+<pre>/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9
+httpserver.excalidraw  <span style="font-weight:bold;color:#5c5cff;">recordings</span>  <span style="font-weight:bold;color:#5c5cff;">shorturl</span>
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+<span style="color:#5c5cff;">ITINF25/lektion9
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion9
+</span>$ curl <span style="color:#000000;background-color:#000000;">http://localhost:5000/1</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">http://localhost:5000/1
+<span style="color:#000000;background-color:#000000;">&lt;!doctype html&gt;
+&lt;html lang=en&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;You should be redirected automatically to the target URL: &lt;a href=&quot;https://nackademin.se&quot;&gt;https://nackademin.se&lt;/a&gt;. If not, click the link.
+<span style="color:#5c5cff;background-color:#000000;">0000;">ITINF25/lektion9
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion9
+</span>$ man curl
+curl(1)                                       curl Manual                                       curl(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       curl - transfer a URL
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span> <span style="font-weight:bold;color:#7f7f7f;">[options</span> <span style="font-weight:bold;color:#7f7f7f;">/</span> <span style="font-weight:bold;color:#7f7f7f;">URLs]</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span>  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See <span style="text-decoration:underline;">libcurl(3)</span> for details.
+
+<span style="font-weight:bold;color:#7f7f7f;">URL</span>
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+<span style="color:#000000;background-color:#000000;">curl(1)                                       curl Manual                                       curl(1)</span>#000000;">
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       curl - transfer a URL
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span> <span style="font-weight:bold;color:#7f7f7f;">[options</span> <span style="font-weight:bold;color:#7f7f7f;">/</span> <span style="font-weight:bold;color:#7f7f7f;">URLs]</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span>  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See <span style="text-decoration:underline;">libcurl(3)</span> for details.
+
+<span style="font-weight:bold;color:#7f7f7f;">URL</span>
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+curl(1)                                       curl Manual                                       curl(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       curl - transfer a URL
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span> <span style="font-weight:bold;color:#7f7f7f;">[options</span> <span style="font-weight:bold;color:#7f7f7f;">/</span> <span style="font-weight:bold;color:#7f7f7f;">URLs]</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span>  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See <span style="text-decoration:underline;">libcurl(3)</span> for details.
+
+<span style="font-weight:bold;color:#7f7f7f;">URL</span>
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+...skipping...
+              the  response-<span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">s,  thus  possibly inducing an extra network round-trip. This is used</span>
+              instead of setting a specific authentication method, which you can do with <span style="text-decoration:underline;">--basic</span>, <span style="text-decoration:underline;">--di‐</span>
+              <span style="text-decoration:underline;">gest</span>, <span style="text-decoration:underline;">--ntlm</span>, and <span style="text-decoration:underline;">--negotiate</span>.
+
+              Using  <span style="text-decoration:underline;">--anyauth</span>  is  not  recommended if you do uploads from stdin, since it may require
+              data to be sent twice and then the client must be able to  rewind.  If  the  need  should
+              arise when uploading from stdin, the upload operation will fail.
+
+              Used together with <span style="text-decoration:underline;">-u,</span> <span style="text-decoration:underline;">--user</span>.
+
+              Providing <span style="text-decoration:underline;">--anyauth</span> multiple times has no extra effect.
+
+              Example:
+               curl --anyauth --user me:pwd https://example.com
+
+              See also <span style="text-decoration:underline;">--proxy-anyauth</span>, <span style="text-decoration:underline;">--basic</span> and <span style="text-decoration:underline;">--digest</span>.
+
+       -a, --append
+              (FTP  SFTP)  When used in an upload, this makes curl append to the target file instead of
+              overwriting it. If the remote file does not exist, it will be  created.  Note  that  this
+              flag is ignored by some SFTP servers (including OpenSSH).
+
+              Providing  <span style="text-decoration:underline;">-a,</span>  <span style="text-decoration:underline;">--append</span> multiple times has no extra effect.  Disable it again with --no-
+<span style="color:#000000;background-color:#000000;">...skipping...url(1) line 201 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+              authentication </span><span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">s.</span>
+
+              The  region  argument is a string that points to a geographic area of a resources collec‐
+              tion (region-code) when the region name is omitted from the endpoint.
+
+              The service argument is a string that points to a function provided by a cloud  (service-
+              code) when the service name is omitted from the endpoint.
+
+              If <span style="text-decoration:underline;">--aws-sigv4</span> is provided several times, the last set value will be used.
+
+              Example:
+               curl --aws-sigv4 &quot;aws:amz:east-2:es&quot; --user &quot;key:secret&quot; https://example.com
+
+              See also <span style="text-decoration:underline;">--basic</span> and <span style="text-decoration:underline;">-u,</span> <span style="text-decoration:underline;">--user</span>. Added in 7.75.0.
+
+       --basic
+              (HTTP)  Tells curl to use HTTP Basic authentication with the remote host. This is the de‐
+              fault and this option is usually pointless, unless you use it to  override  a  previously
+              set  option  that  sets  a  different authentication method (such as <span style="text-decoration:underline;">--ntlm</span>, <span style="text-decoration:underline;">--digest</span>, or
+              <span style="text-decoration:underline;">--negotiate</span>).
+
+              Used together with <span style="text-decoration:underline;">-u,</span> <span style="text-decoration:underline;">--user</span>.
+
+<span style="color:#000000;background-color:#000000;">...skipping...url(1) line 235 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+              matically decompress the content. </span><span style="color:#000000;background-color:#000000;">Header</span><span style="color:#000000;background-color:#000000;">s are not modified.</span>
+
+              If  this option is used and the server sends an unsupported encoding, curl will report an
+              error. This is a request, not an order; the server may  or  may  not  deliver  data  com‐
+              pressed.
+
+              Providing  <span style="text-decoration:underline;">--compressed</span>  multiple times has no extra effect.  Disable it again with --no-
+              compressed.
+
+              Example:
+               curl --compressed https://example.com
+
+              See also <span style="text-decoration:underline;">--compressed-ssh</span>.
+
+       -K, --config &lt;file&gt;
+              Specify a text file to read curl arguments from. The command line arguments found in  the
+              text file will be used as if they were provided on the command line.
+
+              Options and their parameters must be specified on the same line in the file, separated by
+              whitespace, colon, or the equals sign. Long option names can optionally be given  in  the
+              config  file  without the initial double dashes and if so, the colon or equals characters
+              can be used as separators. If the option is specified with one or two dashes,  there  can
+              be no colon or equals character between the option and its parameter.
+<span style="color:#000000;background-color:#000000;">...skipping...url(1) line 423 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--resolve</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-H,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--</span><span style="color:#000000;background-color:#000000;"></span><span style="text-decoration:underline;color:#000000;background-color:#000000;"></span><span style="text-decoration:underline;color:#000000;background-color:#000000;">header</span><span style="text-decoration:underline;color:#000000;background-color:#000000;"></span><span style="color:#000000;background-color:#000000;">. Added in 7.49.0.</span>
+
+       -C, --continue-at &lt;offset&gt;
+              Continue/Resume a previous file transfer at the given offset. The given offset is the ex‐
+              act  number of bytes that will be skipped, counting from the beginning of the source file
+              before it is transferred to the destination. If used with uploads, the FTP server command
+              SIZE will not be used by curl.
+
+              Use  &quot;-C  -&quot;  to tell curl to automatically find out where/how to resume the transfer. It
+              then uses the given output/input files to figure that out.
+
+              If <span style="text-decoration:underline;">-C,</span> <span style="text-decoration:underline;">--continue-at</span> is provided several times, the last set value will be used.
+
+              Examples:
+               curl -C - https://example.com
+               curl -C 400 https://example.com
+
+              See also <span style="text-decoration:underline;">-r,</span> <span style="text-decoration:underline;">--range</span>.
+
+       -c, --cookie-jar &lt;filename&gt;
+              (HTTP) Specify to which file you want curl to write all cookies after a completed  opera‐
+              tion.  Curl writes all cookies from its in-memory cookie storage to the given file at the
+              end of operations. If no cookies are known, no data will be written.  The  file  will  be
+<span style="color:#000000;background-color:#000000;">...skipping...url(1) line 545 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+              (HTTP)  Pass  the data to the HTTP server in the Cookie </span><span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">. It is supposedly the data</span>
+              previously received from the server in a &quot;Set-Cookie:&quot; line. The data should  be  in  the
+              format &quot;NAME1=VALUE1; NAME2=VALUE2&quot;. This makes curl use the cookie <span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;"> with this con‐</span>
+              tent explicitly in all outgoing request(s). If multiple requests are done due to  authen‐
+              tication, followed redirects or similar, they will all get this cookie passed on.
+
+              If  no  &apos;=&apos;  symbol  is used in the argument, it is instead treated as a filename to read
+              previously stored cookie from. This option also activates the cookie  engine  which  will
+              make  curl  record incoming cookies, which may be handy if you are using this in combina‐
+              tion with the <span style="text-decoration:underline;">-L,</span> <span style="text-decoration:underline;">--location</span> option or do multiple URL transfers on the same  invoke.  If
+              the file name is exactly a minus (&quot;-&quot;), curl will instead read the contents from stdin.
+
+              The file format of the file to read cookies from should be plain HTTP <span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">s (Set-Cookie</span>
+              style) or the Netscape/Mozilla cookie file format.
+
+              The file specified with <span style="text-decoration:underline;">-b,</span> <span style="text-decoration:underline;">--cookie</span> is only used as input. No cookies will be written to
+              the file. To store cookies, use the <span style="text-decoration:underline;">-c,</span> <span style="text-decoration:underline;">--cookie-jar</span> option.
+
+              If  you use the Set-Cookie file format and do not specify a domain then the cookie is not
+              sent since the domain will never match. To address this, set a domain in Set-Cookie  line
+              (doing that will include sub-domains) or preferably: use the Netscape format.
+
+              Users  often  want  to  both read cookies from a file and write updated cookies back to a
+<span style="color:#000000;background-color:#000000;">              file, so using both </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-b,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--cookie</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-c,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--cookie-jar</span><span style="color:#000000;background-color:#000000;"> in the same command line is common.</span>
+
+<span style="color:#000000;background-color:#000000;">              </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-b,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--cookie</span><span style="color:#000000;background-color:#000000;"> can be used several times in a command line</span>
+
+              Examples:
+               curl -b cookiefile https://example.com
+               curl -b cookiefile -c cookiefile https://example.com
+
+              See also <span style="text-decoration:underline;">-c,</span> <span style="text-decoration:underline;">--cookie-jar</span> and <span style="text-decoration:underline;">-j,</span> <span style="text-decoration:underline;">--junk-session-cookies</span>.
+
+       --create-dirs
+              When used in conjunction with the <span style="text-decoration:underline;">-o,</span> <span style="text-decoration:underline;">--output</span> option, curl will create the necessary lo‐
+<span style="color:#000000;background-color:#000000;">...skipping...url(1) line 599 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+       -D, --dump-</span><span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;"> &lt;filename&gt;</span>
+              (HTTP FTP) Write the received protocol <span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">s to the specified file. If no  </span><span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">s  are</span>
+              received, the use of this option will create an empty file.
+
+              When  used  in FTP, the FTP server response lines are considered being &quot;<span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;">s&quot; and thus</span>
+              are saved there.
+
+              Having multiple transfers in one set of operations (i.e.  the  URLs  in  one  <span style="text-decoration:underline;">-:,</span>  <span style="text-decoration:underline;">--next</span>
+              clause), will append them to the same file, separated by a blank line.
+
+              If <span style="text-decoration:underline;">-D,</span> <span style="text-decoration:underline;">--dump-</span><span style="text-decoration:underline;"></span><span style="text-decoration:underline;color:#000000;background-color:#000000;">header</span><span style="text-decoration:underline;color:#000000;background-color:#000000;"></span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+
+              Example:
+               curl --dump-<span style="color:#000000;background-color:#000000;">header</span><span style="color:#000000;background-color:#000000;"> store.txt https://example.com</span>
+
+              See also <span style="text-decoration:underline;">-o,</span> <span style="text-decoration:underline;">--output</span>.
+
+       --egd-file &lt;file&gt;
+              (TLS)  Deprecated  option.  This option is ignored by curl since 7.84.0. Prior to that it
+              only had an effect on curl if built to use old versions of OpenSSL.
+
+              Specify the path name to the Entropy Gathering Daemon socket. The socket is used to  seed
+              the random engine for SSL connections.
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF25/lektion9color:#000000;background-color:#000000;">
+<span style="color:#5c5cff;">ttp://localhost:5000/Dhttp://localhost:5000/ http://localhost:5000/<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ curl -D http://localhost:5000/
+curl: no URL specified!
+curl: try &apos;curl --help&apos; or &apos;curl --manual&apos; for more information
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ curl -D http://localhost:5000/ http://localhost:5000/ http://localhost:5000/http://localhost:5000/
+&lt;!doctype html&gt;
+&lt;html lang=en&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;You should be redirected automatically to the target URL: &lt;a href=&quot;https://nackademin.se&quot;&gt;https://nackademin.se&lt;/a&gt;. If not, click the link.
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ man curl
+curl(1)                                       curl Manual                                       curl(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       curl - transfer a URL
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span> <span style="font-weight:bold;color:#7f7f7f;">[options</span> <span style="font-weight:bold;color:#7f7f7f;">/</span> <span style="font-weight:bold;color:#7f7f7f;">URLs]</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span>  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See <span style="text-decoration:underline;">libcurl(3)</span> for details.
+
+<span style="font-weight:bold;color:#7f7f7f;">URL</span>
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+<span style="color:#000000;background-color:#000000;">curl(1)                                       curl Manual                                       curl(1)</span>#000000;">
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       curl - transfer a URL
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span> <span style="font-weight:bold;color:#7f7f7f;">[options</span> <span style="font-weight:bold;color:#7f7f7f;">/</span> <span style="font-weight:bold;color:#7f7f7f;">URLs]</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span>  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See <span style="text-decoration:underline;">libcurl(3)</span> for details.
+
+<span style="font-weight:bold;color:#7f7f7f;">URL</span>
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+curl(1)                                       curl Manual                                       curl(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       curl - transfer a URL
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span> <span style="font-weight:bold;color:#7f7f7f;">[options</span> <span style="font-weight:bold;color:#7f7f7f;">/</span> <span style="font-weight:bold;color:#7f7f7f;">URLs]</span>
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">curl</span>  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See <span style="text-decoration:underline;">libcurl(3)</span> for details.
+
+<span style="font-weight:bold;color:#7f7f7f;">URL</span>
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+...skipping...
+              policy Delegates  if  and  only if the OK-AS<span style="color:#000000;background-color:#000000;">-D</span><span style="color:#000000;background-color:#000000;">ELEGATE flag is set in the Kerberos service</span>
+                     ticket, which is a matter of realm policy.
+
+              always Unconditionally allow the server to delegate.
+
+       If <span style="text-decoration:underline;">--delegation</span> is provided several times, the last set value will be used.
+
+       Example:
+        curl --delegation &quot;none&quot; https://example.com
+
+       See also <span style="text-decoration:underline;">-k,</span> <span style="text-decoration:underline;">--insecure</span> and <span style="text-decoration:underline;">--ssl</span>.
+
+       --digest
+              (HTTP) Enables HTTP Digest authentication. This is an authentication scheme that prevents
+              the  password  from  being sent over the wire in clear text. Use this in combination with
+              the normal <span style="text-decoration:underline;">-u,</span> <span style="text-decoration:underline;">--user</span> option to set user name and password.
+
+              Providing <span style="text-decoration:underline;">--digest</span> multiple times has no extra effect.  Disable it  again  with  --no-di‐
+              gest.
+
+              Example:
+               curl -u name:password --digest https://example.com
+
+<span style="color:#000000;background-color:#000000;">...skipping...url(1) line 812 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+       </span><span style="color:#000000;background-color:#000000;">-D</span><span style="color:#000000;background-color:#000000;">, --dump-header &lt;filename&gt;</span>
+              (HTTP FTP) Write the received protocol headers to the specified file. If no  headers  are
+              received, the use of this option will create an empty file.
+
+              When  used  in FTP, the FTP server response lines are considered being &quot;headers&quot; and thus
+              are saved there.
+
+              Having multiple transfers in one set of operations (i.e.  the  URLs  in  one  <span style="text-decoration:underline;">-:,</span>  <span style="text-decoration:underline;">--next</span>
+              clause), will append them to the same file, separated by a blank line.
+
+              If <span style="text-decoration:underline;"></span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-D</span><span style="text-decoration:underline;color:#000000;background-color:#000000;"></span><span style="color:#000000;background-color:#000000;"></span><span style="text-decoration:underline;color:#000000;background-color:#000000;">,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dump-header</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+
+              Example:
+               curl --dump-header store.txt https://example.com
+
+              See also <span style="text-decoration:underline;">-o,</span> <span style="text-decoration:underline;">--output</span>.
+
+       --egd-file &lt;file&gt;
+              (TLS)  Deprecated  option.  This option is ignored by curl since 7.84.0. Prior to that it
+              only had an effect on curl if built to use old versions of OpenSSL.
+
+              Specify the path name to the Entropy Gathering Daemon socket. The socket is used to  seed
+              the random engine for SSL connections.
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 996 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-insecure</span><span style="color:#000000;background-color:#000000;">. Added in 7.62.0.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 994 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --doh-url https://doh.example https://example.com</span>le="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 991 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-url</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 989 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              This option is unset if an empty string &quot;&quot; is used as the URL. (Added in 7.85.0)</span>#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 987 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              can be controlled separately via </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-insecure</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-cert-status</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              take place over SSL. However, the certificate verification settings are not inherited and</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Some SSL options that you set for your transfer will apply to DoH since the name  lookups</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 983 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              the default name resolver mechanism. The URL must be HTTPS.</span>color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Specifies which DNS-over-HTTPS (DoH) server to use to resolve hostnames, instead of using</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M       --doh-url &lt;URL&gt;</span> h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 979 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-url</span><span style="color:#000000;background-color:#000000;">. Added in 7.76.0.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 977 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --doh-insecure --doh-url https://doh.example https://example.com</span>00;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 974 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              doh-insecure.</span>s h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-insecure</span><span style="color:#000000;background-color:#000000;"> multiple times has no extra effect.  Disable it again with --no-</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 971 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Same as </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-k,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--insecure</span><span style="color:#000000;background-color:#000000;"> but used for DoH (DNS-over-HTTPS).</span>
+<span style="color:#000000;background-color:#000000;">M       --doh-insecure</span> (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 968 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-insecure</span><span style="color:#000000;background-color:#000000;">. Added in 7.76.0.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 966 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --doh-cert-status --doh-url https://doh.example https://example.com</span>background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 963 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              --no-doh-cert-status.</span>help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing  </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--doh-cert-status</span><span style="color:#000000;background-color:#000000;">  multiple  times has no extra effect.  Disable it again with</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 960 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Same as </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--cert-status</span><span style="color:#000000;background-color:#000000;"> but used for DoH (DNS-over-HTTPS).</span>
+<span style="color:#000000;background-color:#000000;">M       --doh-cert-status</span>ress h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 957 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              libcurl was built to support c-ares. Added in 7.33.0.</span>tyle="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-interface</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv4-addr</span><span style="color:#000000;background-color:#000000;">. </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-servers</span><span style="color:#000000;background-color:#000000;"> requires that the  underlying</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 954 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --dns-servers 192.168.0.1,192.168.0.2 https://example.com</span>r:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 951 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-servers</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 949 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">:&lt;port-number&gt;</span><span style="color:#000000;background-color:#000000;"> after each IP address.</span>
+<span style="color:#000000;background-color:#000000;">M              dresses  should  be  separated  with commas. Port numbers may also optionally be given as</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Set the list of DNS servers to be used instead of the system default.  The list of IP ad‐</span>000000;">
+<span style="color:#000000;background-color:#000000;">M       --dns-servers &lt;addresses&gt;</span>p or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 944 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              ing libcurl was built to support c-ares. Added in 7.33.0.</span>="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See  also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-interface</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv4-addr</span><span style="color:#000000;background-color:#000000;">. </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv6-addr</span><span style="color:#000000;background-color:#000000;"> requires that the underly‐</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 941 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --dns-ipv6-addr 2a04:4e42::561 https://example.com</span>e="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 938 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv6-addr</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 936 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              requests originate from this address. The argument should be a single IPv6 address.</span>-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (DNS) Tell curl to bind to &lt;ip-address&gt; when making IPv6 DNS requests, so  that  the  DNS</span>00;">
+<span style="color:#000000;background-color:#000000;">M       --dns-ipv6-addr &lt;address&gt;</span>p or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 932 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              ing libcurl was built to support c-ares. Added in 7.33.0.</span>="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See  also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-interface</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv6-addr</span><span style="color:#000000;background-color:#000000;">. </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv4-addr</span><span style="color:#000000;background-color:#000000;"> requires that the underly‐</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 929 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --dns-ipv4-addr 10.1.2.3 https://example.com</span>n style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 926 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv4-addr</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 924 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              requests originate from this address. The argument should be a single IPv4 address.</span>-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (DNS) Tell curl to bind to &lt;ip-address&gt; when making IPv4 DNS requests, so  that  the  DNS</span>00;">
+<span style="color:#000000;background-color:#000000;">M       --dns-ipv4-addr &lt;address&gt;</span>p or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 920 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              ing libcurl was built to support c-ares. Added in 7.33.0.</span>="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See  also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv4-addr</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-ipv6-addr</span><span style="color:#000000;background-color:#000000;">. </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-interface</span><span style="color:#000000;background-color:#000000;"> requires that the underly‐</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 917 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --dns-interface eth0 https://example.com</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 914 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dns-interface</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 912 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              face name (not an address).</span>r q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              terpart to </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--interface</span><span style="color:#000000;background-color:#000000;"> (which does not affect DNS). The supplied string must be an inter‐</span>
+<span style="color:#000000;background-color:#000000;">M              (DNS) Tell curl to send outgoing DNS requests through &lt;interface&gt;. This option is a coun‐</span>;">
+<span style="color:#000000;background-color:#000000;">M       --dns-interface &lt;interface&gt;</span>or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 907 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--proto</span><span style="color:#000000;background-color:#000000;">. Added in 7.61.0.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 905 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --disallow-username-in-url https://example.com</span>style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 902 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              again with --no-disallow-username-in-url.</span>span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--disallow-username-in-url</span><span style="color:#000000;background-color:#000000;"> multiple times has  no  extra  effect.   Disable  it</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 899 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              most useful when the URL is being provided at runtime or similar.</span>#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (HTTP)  This  tells  curl to exit if passed a URL containing a username. This is probably</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M       --disallow-username-in-url</span>r help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 895 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-K,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--config</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 893 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl -q https://example.com</span> q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 890 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              disable.</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-q,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--disable</span><span style="color:#000000;background-color:#000000;"> multiple times has no extra effect.  Disable it again with  --no-</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 887 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              read and used. See the </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-K,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--config</span><span style="color:#000000;background-color:#000000;"> for details on the default config file search path.</span>
+<span style="color:#000000;background-color:#000000;">M              If  used  as  the first parameter on the command line, the </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">curlrc</span><span style="color:#000000;background-color:#000000;"> config file will not be</span>
+<span style="color:#000000;background-color:#000000;">M       -q, --disable</span>4 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 883 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--disable-eprt</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-P,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ftp-port</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 881 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --disable-epsv ftp://example.com/</span></span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 878 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              disable-epsv.</span>s h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--disable-epsv</span><span style="color:#000000;background-color:#000000;"> multiple times has no extra effect.  Disable it again with --no-</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 875 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              you need to use </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-P,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ftp-port</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              Disabling  EPSV  only  changes the passive behavior. If you want to switch to active mode</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 872 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If the server is an IPv6 host, this option will have no effect as EPSV is necessary then.</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 870 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">able-epsv</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              --epsv can be used to explicitly enable EPSV again and --no-epsv is an alias  for  </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dis‐</span><span style="color:#000000;background-color:#000000;"></span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 867 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              will not try using EPSV.</span>p or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Curl will normally always first attempt to use EPSV before PASV, but with this option, it</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (FTP) Tell curl to disable the use of the EPSV command when doing passive FTP  transfers.</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M       --disable-epsv</span> (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 862 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--disable-epsv</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-P,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ftp-port</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 860 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl --disable-eprt ftp://example.com/</span></span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 857 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              disable-eprt.</span>s h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--disable-eprt</span><span style="color:#000000;background-color:#000000;"> multiple times has no extra effect.  Disable it again with --no-</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 854 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              you need to not use </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-P,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ftp-port</span><span style="color:#000000;background-color:#000000;"> or force it with </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ftp-pasv</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              Disabling EPRT only changes the active behavior. If you want to switch  to  passive  mode</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 851 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              sary then.</span>ress h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              If  the  server is accessed using IPv6, this option will have no effect as EPRT is neces‐</span>000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 848 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">able-eprt</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              --eprt can be used to explicitly enable EPRT again and --no-eprt is an alias  for  </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--dis‐</span><span style="color:#000000;background-color:#000000;"></span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 845 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              tionality in a better way than the traditional PORT command.</span>olor:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              the  original  FTP  protocol, and may not work on all servers, but they enable more func‐</span>000000;">
+<span style="color:#000000;background-color:#000000;">M              PORT, but with this option, it will use PORT right away. EPRT and LPRT are extensions  to</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M              transfers.  Curl  will  normally always first attempt to use EPRT, then LPRT before using</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (FTP) Tell curl to disable the use of the EPRT and LPRT commands when  doing  active  FTP</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M       --disable-eprt</span> (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 838 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--basic</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ntlm</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--negotiate</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              See  also  </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-u,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--user</span><span style="color:#000000;background-color:#000000;">, </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--proxy-digest</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--anyauth</span><span style="color:#000000;background-color:#000000;">. This option is mutually exclusive to</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 835 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl -u name:password --digest https://example.com</span> style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Example:</span>(press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 832 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              gest.</span>31 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Providing </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--digest</span><span style="color:#000000;background-color:#000000;"> multiple times has no extra effect.  Disable it  again  with  --no-di‐</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 829 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              the normal </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-u,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--user</span><span style="color:#000000;background-color:#000000;"> option to set user name and password.</span>
+<span style="color:#000000;background-color:#000000;">M              the  password  from  being sent over the wire in clear text. Use this in combination with</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (HTTP) Enables HTTP Digest authentication. This is an authentication scheme that prevents</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M       --digest</span>ne 825 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 824 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M       See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-k,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--insecure</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ssl</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 822 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M        curl --delegation &quot;none&quot; https://example.com</span>pan style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M       Example:</span>ne 820 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 819 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M       If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--delegation</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 817 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              always Unconditionally allow the server to delegate.</span>style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 815 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M                     ticket, which is a matter of realm policy.</span>an style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              policy Delegates  if  and  only if the OK-AS</span><span style="color:#000000;background-color:#000000;">-D</span><span style="color:#000000;background-color:#000000;">ELEGATE flag is set in the Kerberos service</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 812 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              none   Do not allow any delegation.</span>uit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 810 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              to user credentials.</span> help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              (GSS/kerberos) Set LEVEL to tell the server what it is allowed to delegate when it  comes</span>:#000000;">
+<span style="color:#000000;background-color:#000000;">M       --delegation &lt;LEVEL&gt;</span>r help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 806 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              sive to </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-F,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--form</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-I,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--head</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-T,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--upload-file</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;">M              See  also  </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--data-binary</span><span style="color:#000000;background-color:#000000;">, </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--data-urlencode</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--data-raw</span><span style="color:#000000;background-color:#000000;">. This option is mutually exclu‐</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 803 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl -d &#64;filename https://example.com</span>pan><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl -d &quot;name=curl&quot; -d &quot;tool=cmdline&quot; https://example.com</span>round-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl -d &quot;name=curl&quot; https://example.com</span>n style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              Examples:</span>press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 798 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-d,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--data</span><span style="color:#000000;background-color:#000000;"> can be used several times in a command line</span>
+<span style="color:#000000;background-color:#000000;">M</span>page curl(1) line 796 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M              the &#64; character to have a special interpretation use </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--data-raw</span><span style="color:#000000;background-color:#000000;"> instead.</span>
+<span style="color:#000000;background-color:#000000;">       If </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--delegation</span><span style="color:#000000;background-color:#000000;"> is provided several times, the last set value will be used.</span>
+<span style="color:#000000;background-color:#000000;"></span>Bpage curl(1) line 795 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       Example:</span>ine 796 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">        curl --delegation &quot;none&quot; https://example.com</span>span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;"></span>Bpage curl(1) line 798 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       See also </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">-k,</span><span style="color:#000000;background-color:#000000;"> </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--insecure</span><span style="color:#000000;background-color:#000000;"> and </span><span style="text-decoration:underline;color:#000000;background-color:#000000;">--ssl</span><span style="color:#000000;background-color:#000000;">.</span>
+<span style="color:#000000;background-color:#000000;"></span>Bpage curl(1) line 800 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">       --digest</span>ine 801 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">M               curl -d &#64;filename https://example.com</span>pan><span style="color:#000000;background-color:#000000;">
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF25/lektion9color:#000000;background-color:#000000;">
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ tldr curl
+curl
+
+Transfers data from or to a server.
+Supports most protocols, including HTTP, HTTPS, FTP, SCP, etc.
+More information: https://curl.se/docs/manpage.html.
+
+ - <span style="color:#00cd00;">Make an HTTP GET request and dump the contents in stdout:
+   </span><span style="color:#cdcd00;">curl </span>https://example.com
+
+ - <span style="color:#00cd00;">Make an HTTP GET request, follow any 3xx redirects, and dump the reply headers and contents to stdout:
+   </span><span style="color:#cdcd00;">curl </span>[-L|--location]<span style="color:#cdcd00;"> </span>[-D|--dump-header]<span style="color:#cdcd00;"> - </span>https://example.com
+
+ - <span style="color:#00cd00;">Download a file, saving the output under the filename indicated by the URL:
+   </span><span style="color:#cdcd00;">curl </span>[-O|--remote-name]<span style="color:#cdcd00;"> </span>https://example.com/filename.zip
+
+ - <span style="color:#00cd00;">Send form-encoded data (POST request of type application/x-www-form-urlencoded). Use --data &#64;file_name or --data &#64;&apos;-&apos; to read from stdin:
+   </span><span style="color:#cdcd00;">curl </span>[-X|--request]<span style="color:#cdcd00;"> POST </span>[-d|--data]<span style="color:#cdcd00;"> </span>&apos;name=bob&apos;<span style="color:#cdcd00;"> </span>http://example.com/form
+
+ - <span style="color:#00cd00;">Send a request with an extra header, using a custom HTTP method and over a proxy (such as BurpSuite), ignoring insecure self-signed certificates:
+   </span><span style="color:#cdcd00;">curl </span>[-k|--insecure]<span style="color:#cdcd00;"> </span>[-x|--proxy]<span style="color:#cdcd00;"> </span>http://127.0.0.1:8080<span style="color:#cdcd00;"> </span>[-H|--header]<span style="color:#cdcd00;"> </span>&apos;Authorization: Bearer token&apos;<span style="color:#cdcd00;"> </span>[-X|--request]<span style="color:#cdcd00;"> </span>GET|PUT|POST|DELETE|PATCH|...<span style="color:#cdcd00;"> </span>https://example.com
+
+ - <span style="color:#00cd00;">Send data in JSON format, specifying the appropriate Content-Type header:
+   </span><span style="color:#cdcd00;">curl </span>[-d|--data]<span style="color:#cdcd00;"> {{&apos;{&quot;name&quot;:&quot;bob&quot;}&apos;}} </span>[-H|--header]<span style="color:#cdcd00;"> </span>&apos;Content-Type: application/json&apos;<span style="color:#cdcd00;"> </span>http://example.com/users/1234
+
+ - <span style="color:#00cd00;">Pass client certificate and key for a resource, skipping certificate validation:
+   </span><span style="color:#cdcd00;">curl </span>[-E|--cert]<span style="color:#cdcd00;"> </span>client.pem<span style="color:#cdcd00;"> --key </span>key.pem<span style="color:#cdcd00;"> </span>[-k|--insecure]<span style="color:#cdcd00;"> </span>https://example.com
+
+ - <span style="color:#00cd00;">Resolve a hostname to a custom IP address, with verbose output (similar to editing the /etc/hosts file for custom DNS resolution):
+   </span><span style="color:#cdcd00;">curl </span>[-v|--verbose]<span style="color:#cdcd00;"> --resolve </span>example.com<span style="color:#cdcd00;">:</span>80<span style="color:#cdcd00;">:</span>127.0.0.1<span style="color:#cdcd00;"> </span>http://example.com
+<span style="color:#5c5cff;">ITINF25/lektion9
+<span style="color:#5c5cff;">an style="color:#5c5cff;">ITINF25/lektion9
+</span>$ curl -D http://localhost:5000/1
+curl: no URL specified!
+curl: try &apos;curl --help&apos; or &apos;curl --manual&apos; for more information
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ curl -D http://localhost:5000/-http://localhost:5000/-http://localhost:5000/ http://localhost:5000/
+Warning: The file name argument &apos;--&apos; looks like a flag.
+&lt;!doctype html&gt;
+&lt;html lang=en&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;You should be redirected automatically to the target URL: &lt;a href=&quot;https://nackademin.se&quot;&gt;https://nackademin.se&lt;/a&gt;. If not, click the link.
+<span style="color:#5c5cff;">ITINF25/lektion9
+<span style="color:#5c5cff;">calhost:5000/ http://localhost:5000/ http://localhost:5000/http://localhost:5000/ http://localhost:5000/- http://localhost:5000/d http://localhost:5000/u http://localhost:5000/m http://localhost:5000/p http://localhost:5000/- http://localhost:5000/h http://localhost:5000/e http://localhost:5000/a http://localhost:5000/d http://localhost:5000/e http://localhost:5000/r http://localhost:5000/<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ curl --dump-header http://localhost:5000/
+curl: no URL specified!
+curl: try &apos;curl --help&apos; or &apos;curl --manual&apos; for more information
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ curl --dump-header http://localhost:5000/-http://localhost:5000/-http://localhost:5000/uhttp://localhost:5000/rhttp://localhost:5000/lhttp://localhost:5000/ http://localhost:5000/
+Warning: The file name argument &apos;--url&apos; looks like a flag.
+&lt;!doctype html&gt;
+&lt;html lang=en&gt;
+&lt;title&gt;Redirecting...&lt;/title&gt;
+&lt;h1&gt;Redirecting...&lt;/h1&gt;
+&lt;p&gt;You should be redirected automatically to the target URL: &lt;a href=&quot;https://nackademin.se&quot;&gt;https://nackademin.se&lt;/a&gt;. If not, click the link.
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ exit
+exit
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->

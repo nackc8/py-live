@@ -1211,3 +1211,5 @@
 [9315.145107, "o", "127.0.0.1 - - [09/Mar/2026 12:48:46] \"\u001b[32mGET /1 HTTP/1.1\u001b[0m\" 302 -\r\n"]
 [9377.908142, "o", "redirect 1 -> https://nackademin.se\r\nurls {'1': 'https://nackademin.se'}\r\n"]
 [9377.908325, "o", "127.0.0.1 - - [09/Mar/2026 12:49:49] \"\u001b[32mGET /1 HTTP/1.1\u001b[0m\" 302 -\r\n"]
+[9393.380258, "o", "redirect 1 -> https://nackademin.se\r\nurls {'1': 'https://nackademin.se'}\r\n"]
+[9393.380527, "o", "127.0.0.1 - - [09/Mar/2026 12:50:05] \"\u001b[32mGET /1 HTTP/1.1\u001b[0m\" 302 -\r\n"]

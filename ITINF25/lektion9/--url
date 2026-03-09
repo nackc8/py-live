@@ -1,0 +1,8 @@
+HTTP/1.1 302 FOUND
+Server: Werkzeug/3.1.6 Python/3.11.2
+Date: Mon, 09 Mar 2026 11:50:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 229
+Location: https://nackademin.se
+Connection: close
+
