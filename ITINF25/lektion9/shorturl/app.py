@@ -26,6 +26,6 @@ def add():
 @app.route("/<short_url>", methods=["DELETE"])
 def remove(short_url):
     print(f"remove {short_url}")
-    print("urls", urls)
     urls.pop(short_url)
+    print("urls", urls)
     return ""
