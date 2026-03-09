@@ -24,4 +24,5 @@ def add():
 @app.route("/<shorturl>", methods=["DELETE"])
 def remove(shorturl):
     
+    delete urls[short_url]
     return f"<p>Radera den korta URL:en {shorturl}"
