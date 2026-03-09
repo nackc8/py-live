@@ -3,9 +3,9 @@ from pathlib import Path
 from peewee import *
 
 PROJECT_DIRECTORY = Path(__file__).parent()
+DATABASE_FILE = PROJECT_DIRECTORY / "db.sqlite"
 
-# An in-memory SQLite database. Or use PostgresqlDatabase or MySQLDatabase.
-db = SqliteDatabase(":memory:")
+db = SqliteDatabase(DATABASE_FILE)
 
 
 class BaseModel(Model):
