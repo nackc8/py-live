@@ -24,7 +24,7 @@ def add():
 
 
 @app.route("/<short_url>", methods=["DELETE"])
-def redirect_to_original_url(short_url):
+def remove(short_url):
     print(f"remove {short_url}")
     urls.pop(short_url)
     print("urls", urls)
