@@ -16,7 +16,7 @@ class BaseModel(Model):
 
 
 class Url(BaseModel):
-    short = TextField(unique=True, null=True)
+    # No short url, as we'll base it on the id
     original = TextField()
 
 
