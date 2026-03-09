@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 
 @app.route("/", methods=["POST"])
-def hello_world():
-    return "<p>Hello, World!</p>"
+def add():
+    return "<p>Ta emot en URL, skapa och lagra en kort url, skicka tillbaka den korta urlen</p>"
