@@ -683,8 +683,8 @@
     {
       "id": "FkndwY1DM1Ll7XV81ivb9",
       "type": "text",
-      "x": 1079.226318359375,
-      "y": 354.8990829785657,
+      "x": 1079.0364118303573,
+      "y": 354.09302654720403,
       "width": 253.3094482421875,
       "height": 125,
       "angle": 0,
@@ -700,8 +700,8 @@
       "index": "aF",
       "roundness": null,
       "seed": 1202665522,
-      "version": 102,
-      "versionNonce": 74217842,
+      "version": 103,
+      "versionNonce": 1830260974,
       "isDeleted": false,
       "boundElements": [
         {
@@ -709,7 +709,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1773045652828,
+      "updated": 1773045902914,
       "link": null,
       "locked": false,
       "text": "Ramverk:\n\nDjango\nFlask\nFastAPI",
@@ -858,10 +858,10 @@
     {
       "id": "2qJfkuW0HJ9_TKC5J_1DS",
       "type": "arrow",
-      "x": 1023.5907698761282,
-      "y": 492.6179144994001,
-      "width": 40.912733057940386,
-      "height": 26.23997461290213,
+      "x": 1023.698712545413,
+      "y": 492.5486839032024,
+      "width": 40.614883859637985,
+      "height": 26.30888733018503,
       "angle": 0,
       "strokeColor": "#2f9e44",
       "backgroundColor": "transparent",
@@ -877,11 +877,11 @@
         "type": 2
       },
       "seed": 1562601774,
-      "version": 312,
-      "versionNonce": 531670066,
+      "version": 313,
+      "versionNonce": 571687726,
       "isDeleted": false,
       "boundElements": null,
-      "updated": 1773045724821,
+      "updated": 1773045902914,
       "link": null,
       "locked": false,
       "points": [
@@ -890,8 +890,8 @@
           0
         ],
         [
-          40.912733057940386,
-          -26.23997461290213
+          40.614883859637985,
+          -26.30888733018503
         ]
       ],
       "lastCommittedPoint": null,
