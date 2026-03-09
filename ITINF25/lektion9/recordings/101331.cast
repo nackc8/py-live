@@ -753,3 +753,7 @@
 [3576.400172, "o", " * Debugger is active!\r\n"]
 [3576.400406, "o", " * Debugger PIN: 624-213-805\r\n"]
 [3591.317383, "o", "127.0.0.1 - - [09/Mar/2026 11:13:22] \"POST / HTTP/1.1\" 200 -\r\n"]
+[3679.50398, "o", " * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py', reloading\r\n"]
+[3679.523055, "o", " * Restarting with stat\r\n"]
+[3679.615436, "o", " * Debugger is active!\r\n"]
+[3679.615611, "o", " * Debugger PIN: 624-213-805\r\n"]
