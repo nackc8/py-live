@@ -11,6 +11,7 @@ def add():
     json = request.get_json()
     original_url = json["url"]
 
+    # FIXME: Basera url på det unika id:t på något vis
     url_map = db.Url(original=original_url)
     url_map.save()
     url_map.short = url_map.get_id()
