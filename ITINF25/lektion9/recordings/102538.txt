@@ -1,0 +1,58 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9
+httpserver.excalidraw  recordings  shorturl
+ITINF25/lektion9
+$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+ITINF25/lektion9
+$ curl -H 'Content-Type: application/json' \
+      -d '{ "title":"foo","body":"bar", "id": 1}' \
+      -X POST \
+      https://example.com/posts
+
+
+curl -H 'Content-Type: application/json' \
+      -d '{ "title":"foo","body":"bar", "id": 1}' \
+      -X POST \
+      https://example.com/posts
+
+
+$ # 
+
+
+
+bash: -d: command not found
+ITINF25/lektion9
+ITINF25/lektion9tent-Type: application/json' \
+$ curl -H 'Content-Type: application/json' \
+      -d '{ "title":"foo","body":"bar", "id": 1}' \
+      -X POST \
+      https://example.com/posts
+
+
+curl -H 'Content-Type: application/json' \
+      -d '{ "title":"foo","body":"bar", "id": 1}' \
+      -X POST \
+      https://example.com/posts
+
+      -X POST \
+https://example.com/posts
+
+      -X POST \
+https://example.com/posts
+
+      https://example.com/posts
+
+https://example.com/posthttps://example.com/posthttps://example.com/posthttps://example.com/posthttps://example.com/posthttps://example.com/post://example.com/post/post/post/post/post/post/post/post/post/post/post/postl/posto/postc/posta/postl/posth/posto/posts/postt/post:/post5/post0/post0/post0/post
+bash: curl-X: command not found
+ITINF25/lektion9
+$ curl-X POST http://localhost:5000 
+<p>Hello, World!</p>ITINF25/lektion9
+$ ITINF25/lektion9
+$ curl -X POST http://localhost:5000/
+<p>Hello, World!</p>ITINF25/lektion9
+$ curl -X POST http://localhost:5000/
+<p>Hello, World!</p>ITINF25/lektion9
+$ curl -X POST http://localhost:5000/
+<p>Hello, World!</p>ITINF25/lektion9
+$ ITINF25/lektion9
+$ curl -X POST http://localhost:5000/
+exit
