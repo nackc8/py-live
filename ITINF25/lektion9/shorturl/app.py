@@ -12,10 +12,9 @@ def add():
     original_url = json["url"]
 
     short_url = str(next_unique_int)
-    global next_unique_int
     next_unique_int += 1
 
-    urls[original_url] = "Sett!"
+    urls[short_url] = original_url
     print(urls)
     return "<p>Ta emot en URL, skapa och lagra en kort url, skicka tillbaka den korta urlen</p>"
 
