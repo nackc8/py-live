@@ -11,3 +11,7 @@ def add():
 @app.route("/gh6", methods=["DELETE"])
 def remove():
     return "<p>Radera den korta URL:en <url>"
+
+@app.route('/user/<username>')
+def profile(username):
+    return f'{username}\'s profile'
