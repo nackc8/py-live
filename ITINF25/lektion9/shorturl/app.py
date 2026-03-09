@@ -19,10 +19,12 @@ def add():
     urls[short_url] = original_url
     # TODO: Use more characters than 0-9 for short urls
     print(f"add {original_url} -> {short_url}")
+    print("urls", urls)
     return short_url
 
 
 @app.route("/<shorturl>", methods=["DELETE"])
 def remove(short_url):
     print(f"remove {short_url}")
+    print("urls", urls)
     del urls[short_url]
