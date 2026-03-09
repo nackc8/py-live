@@ -11,9 +11,6 @@ def add():
     json = request.get_json()
     original_url = json["url"]
 
-    short_url = str(next_unique_int)
-    next_unique_int += 1
-
     url_map = db.Url(original=original_url)
     url_map.short = url_map.get_id()
     url_map.save()
