@@ -2,6 +2,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+next_unique_int = 1
 urls = dict()
 
 
