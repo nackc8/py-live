@@ -28,6 +28,5 @@ def add():
 def remove(short_url):
     print(f"remove {short_url}")
     print("urls", urls)
-    # FIXME: Få denna att funka
-    urls[str(short_url)]
+    urls.pop(short_url)
     return ""
