@@ -18,3 +18,7 @@ class BaseModel(Model):
 class Url(BaseModel):
     short = TextField(unique=True)
     original = TextField()
+
+
+db.connect()
+db.create_tables([Url])
