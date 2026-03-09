@@ -33,8 +33,8 @@ def remove(short_url):
 
 @app.route("/<short_url>", methods=["GET"])
 def redirect_to_original_url(short_url):
-    print(f"redirect {short_url}")
-    urls.pop(short_url)
+    original_url = urls[short_url]
+    print(f"redirect {short_url} -> {original_url}")
     print("urls", urls)
     return ("", 204)
 
