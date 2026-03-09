@@ -1199,3 +1199,7 @@
 [9060.493791, "o", " * Restarting with stat\r\n"]
 [9060.585178, "o", " * Debugger is active!\r\n"]
 [9060.585244, "o", " * Debugger PIN: 624-213-805\r\n"]
+[9076.748638, "o", "add https://nackademin.se -> 1\r\nurls {'1': 'https://nackademin.se'}\r\n"]
+[9076.748834, "o", "127.0.0.1 - - [09/Mar/2026 12:44:48] \"POST / HTTP/1.1\" 200 -\r\n"]
+[9086.565389, "o", "redirect 1 -> https://nackademin.se\r\nurls {'1': 'https://nackademin.se'}\r\n"]
+[9086.565658, "o", "127.0.0.1 - - [09/Mar/2026 12:44:58] \"\u001b[32mGET /1 HTTP/1.1\u001b[0m\" 302 -\r\n"]
