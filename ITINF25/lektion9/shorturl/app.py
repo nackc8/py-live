@@ -2,6 +2,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
+urls = 
 
 @app.route("/", methods=["POST"])
 def add():
