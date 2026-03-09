@@ -3,7 +3,7 @@ from pathlib import Path
 from peewee import Model, SqliteDatabase, TextField
 
 PROJECT_DIRECTORY = Path(__file__)
-PROJECT_DIRECTORY = PROJECT_DIRECTORY.parent()
+PROJECT_DIRECTORY = PROJECT_DIRECTORY.parent
 DATABASE_FILE = PROJECT_DIRECTORY / "db.sqlite"
 
 db = SqliteDatabase(DATABASE_FILE)
