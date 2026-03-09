@@ -1784,3 +1784,5 @@
 [13704.988893, "o", "? OFFSET ?\r\nParams: ['1', 1, 0]\r\n"]
 [13712.372443, "o", "redirect 2 -> https://google.com\r\n"]
 [13712.372573, "o", "127.0.0.1 - - [09/Mar/2026 14:02:03] \"\u001b[32mGET /2 HTTP/1.1\u001b[0m\" 302 -\r\n"]
+[13861.791145, "o", " source /shared/kent/Documents/nackademin/python/py-live/date/d2603"]
+[13861.791166, "o", "03/.venv/bin/activate\r\n"]
