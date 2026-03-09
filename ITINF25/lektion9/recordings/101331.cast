@@ -870,3 +870,5 @@
 [3880.706187, "o", " * Debugger PIN: 624-213-805\r\n"]
 [3907.706185, "o", "add https://nackademin.se -> 1\r\nurls {'1': 'https://nackademin.se'}\r\n"]
 [3907.70631, "o", "127.0.0.1 - - [09/Mar/2026 11:18:39] \"POST / HTTP/1.1\" 200 -\r\n"]
+[3920.545357, "o", "add https://google.com -> 2\r\nurls {'1': 'https://nackademin.se', '2': 'https://google.com'}\r\n"]
+[3920.545657, "o", "127.0.0.1 - - [09/Mar/2026 11:18:52] \"POST / HTTP/1.1\" 200 -\r\n"]
