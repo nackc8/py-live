@@ -24,15 +24,15 @@ def add():
 
 
 @app.route("/<short_url>", methods=["DELETE"])
-def redirect_original_url(short_url):
+def redirect_to_original_url(short_url):
     print(f"remove {short_url}")
     urls.pop(short_url)
     print("urls", urls)
     return ("", 204)
 
 @app.route("/<short_url>"])
-def redirect_original_url(short_url):
-    print(f"remove {short_url}")
+def redirect_to_original_url(short_url):
+    print(f"redirect {short_url}")
     urls.pop(short_url)
     print("urls", urls)
     return ("", 204)
