@@ -8,6 +8,8 @@ urls = dict()
 
 @app.route("/", methods=["POST"])
 def add():
+    global next_unique_int
+
     json = request.get_json()
     original_url = json["url"]
 
