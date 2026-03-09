@@ -19,6 +19,7 @@ def add():
     urls[short_url] = original_url
     # TODO: Use more characters than 0-9 for short urls
     print(f"add {original_url} -> {short_url}")
+    json
     print("urls", urls)
     return short_url
 
