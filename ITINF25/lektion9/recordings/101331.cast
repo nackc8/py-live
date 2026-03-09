@@ -956,3 +956,7 @@
 [6384.817108, "o", "127.0.0.1 - - [09/Mar/2026 11:59:56] \"POST / HTTP/1.1\" 200 -\r\n"]
 [6386.968675, "o", "remove 1\r\nurls {'1': 'https://nackademin.se', '2': 'https://google.com'}\r\n"]
 [6386.96883, "o", "127.0.0.1 - - [09/Mar/2026 11:59:58] \"DELETE /1 HTTP/1.1\" 200 -\r\n"]
+[6409.645212, "o", " * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py', reloading\r\n"]
+[6409.666645, "o", " * Restarting with stat\r\n"]
+[6409.757628, "o", " * Debugger is active!\r\n"]
+[6409.757837, "o", " * Debugger PIN: 624-213-805\r\n"]
