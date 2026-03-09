@@ -27,5 +27,5 @@ def add():
 def remove(short_url):
     print(f"remove {short_url}")
     print("urls", urls)
-    del urls[short_url]
+    del urls[str(short_url)]
     return ""
