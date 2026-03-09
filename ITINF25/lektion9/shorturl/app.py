@@ -27,8 +27,9 @@ def add():
 @app.route("/<short_url>", methods=["DELETE"])
 def remove(short_url):
     print(f"remove {short_url}")
-    db.Url().select()
-    print("urls", urls)
+    short_url = db.Url().select().where(db.Url.short == short_url)
+    short_url.delete
+
     return ("", 204)
 
 
