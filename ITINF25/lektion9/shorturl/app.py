@@ -17,7 +17,7 @@ def add():
     next_unique_int += 1
 
     urls[short_url] = original_url
-    # TODO: 
+    # TODO: Use more characters than 0-9 for short urls
     print(urls)
     return "<p>Ta emot en URL, skapa och lagra en kort url, skicka tillbaka den korta urlen</p>"
 

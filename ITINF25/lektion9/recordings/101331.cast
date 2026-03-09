@@ -736,3 +736,7 @@
 [3515.785137, "o", " * Restarting with stat\r\n"]
 [3515.877021, "o", " * Debugger is active!\r\n"]
 [3515.877228, "o", " * Debugger PIN: 624-213-805\r\n"]
+[3539.90367, "o", " * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py', reloading\r\n"]
+[3539.927374, "o", " * Restarting with stat\r\n"]
+[3540.017564, "o", " * Debugger is active!\r\n"]
+[3540.01793, "o", " * Debugger PIN: 624-213-805\r\n"]
