@@ -23,7 +23,7 @@ def add():
     return short_url
 
 
-@app.route("/<shorturl>", methods=["DELETE"])
+@app.route("/<short_url>", methods=["DELETE"])
 def remove(short_url):
     print(f"remove {short_url}")
     print("urls", urls)
