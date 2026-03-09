@@ -28,7 +28,7 @@ def remove(short_url):
     print(f"remove {short_url}")
     urls.pop(short_url)
     print("urls", urls)
-    return ""
+    return ("", 204)
 
 
 # redirect("http://www.example.com", code=302)
