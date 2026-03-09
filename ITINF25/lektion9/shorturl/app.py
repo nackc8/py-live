@@ -28,6 +28,7 @@ def add():
 def remove(short_url):
     print(f"remove {short_url}")
     short_url = db.Url().select().where(db.Url.short == short_url)
+    
     short_url.delete_instance()
 
     return ("", 204)
