@@ -16,7 +16,7 @@ def add():
     short_url = str(next_unique_int)
     next_unique_int += 1
 
-    db.Url()
+    db.Url(short=short_url, original=original_url)
 
     # TODO: Use more characters than 0-9 for short urls
     print(f"add {original_url} -> {short_url}")
