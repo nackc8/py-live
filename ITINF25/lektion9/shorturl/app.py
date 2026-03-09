@@ -13,6 +13,7 @@ def add():
 
     url_map = db.Url(original=original_url)
     url_map.short = url_map.get_id()
+    print(url_map.short)
     url_map.save()
 
     # TODO: Use more characters than 0-9 for short urls
