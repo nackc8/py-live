@@ -16,18 +16,18 @@ def add():
     short_url = str(next_unique_int)
     next_unique_int += 1
 
-    db.Url(short=short_url, original=original_url)
+    url_map = db.Url(short=short_url, original=original_url)
+    url_map.save()
 
     # TODO: Use more characters than 0-9 for short urls
     print(f"add {original_url} -> {short_url}")
-    print("urls", urls)
     return short_url
 
 
 @app.route("/<short_url>", methods=["DELETE"])
 def remove(short_url):
     print(f"remove {short_url}")
-    urls.pop(short_url)
+    db.Url().select()
     print("urls", urls)
     return ("", 204)
 
