@@ -267,3 +267,7 @@
 [313.42487, "o", " * Restarting with stat\r\n"]
 [313.511694, "o", " * Debugger is active!\r\n"]
 [313.566938, "o", " * Debugger PIN: 624-213-805\r\n"]
+[346.694567, "o", "127.0.0.1 - - [09/Mar/2026 10:19:18] \"\u001b[33mGET / HTTP/1.1\u001b[0m\" 404 -\r\n"]
+[346.714293, "o", "127.0.0.1 - - [09/Mar/2026 10:19:18] \"\u001b[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\u001b[0m\" 404 -\r\n"]
+[362.582709, "o", "127.0.0.1 - - [09/Mar/2026 10:19:34] \"GET /hej HTTP/1.1\" 200 -\r\n"]
+[362.599861, "o", "127.0.0.1 - - [09/Mar/2026 10:19:34] \"\u001b[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1\u001b[0m\" 404 -\r\n"]
