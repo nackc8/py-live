@@ -1,0 +1,7 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9
+httpserver.excalidraw  recordings  shorturl  shorturl_nodb
+ITINF25/lektion9
+$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+ITINF25/lektion9
+$ 
+exit

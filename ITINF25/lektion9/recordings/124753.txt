@@ -1,0 +1,644 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9
+httpserver.excalidraw  recordings  shorturl
+ITINF25/lektion9
+$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+ITINF25/lektion9
+$ ITINF25/lektion9
+$ curl http://localhost:5000/1
+http://localhost:5000/1
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="https://nackademin.se">https://nackademin.se</a>. If not, click the link.
+ITINF25/lektion9
+$ ITINF25/lektion9
+$ man curl
+curl(1)                                       curl Manual                                       curl(1)
+
+NAME
+       curl - transfer a URL
+
+SYNOPSIS
+       curl [options / URLs]
+
+DESCRIPTION
+       curl  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
+
+URL
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+curl(1)                                       curl Manual                                       curl(1)
+
+NAME
+       curl - transfer a URL
+
+SYNOPSIS
+       curl [options / URLs]
+
+DESCRIPTION
+       curl  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
+
+URL
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+curl(1)                                       curl Manual                                       curl(1)
+
+NAME
+       curl - transfer a URL
+
+SYNOPSIS
+       curl [options / URLs]
+
+DESCRIPTION
+       curl  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
+
+URL
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+...skipping...
+              the  response-headers,  thus  possibly inducing an extra network round-trip. This is used
+              instead of setting a specific authentication method, which you can do with --basic, --di‐
+              gest, --ntlm, and --negotiate.
+
+              Using  --anyauth  is  not  recommended if you do uploads from stdin, since it may require
+              data to be sent twice and then the client must be able to  rewind.  If  the  need  should
+              arise when uploading from stdin, the upload operation will fail.
+
+              Used together with -u, --user.
+
+              Providing --anyauth multiple times has no extra effect.
+
+              Example:
+               curl --anyauth --user me:pwd https://example.com
+
+              See also --proxy-anyauth, --basic and --digest.
+
+       -a, --append
+              (FTP  SFTP)  When used in an upload, this makes curl append to the target file instead of
+              overwriting it. If the remote file does not exist, it will be  created.  Note  that  this
+              flag is ignored by some SFTP servers (including OpenSSH).
+
+              Providing  -a,  --append multiple times has no extra effect.  Disable it again with --no-
+...skipping...url(1) line 201 (press h for help or q to quit)
+              authentication headers.
+
+              The  region  argument is a string that points to a geographic area of a resources collec‐
+              tion (region-code) when the region name is omitted from the endpoint.
+
+              The service argument is a string that points to a function provided by a cloud  (service-
+              code) when the service name is omitted from the endpoint.
+
+              If --aws-sigv4 is provided several times, the last set value will be used.
+
+              Example:
+               curl --aws-sigv4 "aws:amz:east-2:es" --user "key:secret" https://example.com
+
+              See also --basic and -u, --user. Added in 7.75.0.
+
+       --basic
+              (HTTP)  Tells curl to use HTTP Basic authentication with the remote host. This is the de‐
+              fault and this option is usually pointless, unless you use it to  override  a  previously
+              set  option  that  sets  a  different authentication method (such as --ntlm, --digest, or
+              --negotiate).
+
+              Used together with -u, --user.
+
+...skipping...url(1) line 235 (press h for help or q to quit)
+              matically decompress the content. Headers are not modified.
+
+              If  this option is used and the server sends an unsupported encoding, curl will report an
+              error. This is a request, not an order; the server may  or  may  not  deliver  data  com‐
+              pressed.
+
+              Providing  --compressed  multiple times has no extra effect.  Disable it again with --no-
+              compressed.
+
+              Example:
+               curl --compressed https://example.com
+
+              See also --compressed-ssh.
+
+       -K, --config <file>
+              Specify a text file to read curl arguments from. The command line arguments found in  the
+              text file will be used as if they were provided on the command line.
+
+              Options and their parameters must be specified on the same line in the file, separated by
+              whitespace, colon, or the equals sign. Long option names can optionally be given  in  the
+              config  file  without the initial double dashes and if so, the colon or equals characters
+              can be used as separators. If the option is specified with one or two dashes,  there  can
+              be no colon or equals character between the option and its parameter.
+...skipping...url(1) line 423 (press h for help or q to quit)
+              See also --resolve and -H, --header. Added in 7.49.0.
+
+       -C, --continue-at <offset>
+              Continue/Resume a previous file transfer at the given offset. The given offset is the ex‐
+              act  number of bytes that will be skipped, counting from the beginning of the source file
+              before it is transferred to the destination. If used with uploads, the FTP server command
+              SIZE will not be used by curl.
+
+              Use  "-C  -"  to tell curl to automatically find out where/how to resume the transfer. It
+              then uses the given output/input files to figure that out.
+
+              If -C, --continue-at is provided several times, the last set value will be used.
+
+              Examples:
+               curl -C - https://example.com
+               curl -C 400 https://example.com
+
+              See also -r, --range.
+
+       -c, --cookie-jar <filename>
+              (HTTP) Specify to which file you want curl to write all cookies after a completed  opera‐
+              tion.  Curl writes all cookies from its in-memory cookie storage to the given file at the
+              end of operations. If no cookies are known, no data will be written.  The  file  will  be
+...skipping...url(1) line 545 (press h for help or q to quit)
+              (HTTP)  Pass  the data to the HTTP server in the Cookie header. It is supposedly the data
+              previously received from the server in a "Set-Cookie:" line. The data should  be  in  the
+              format "NAME1=VALUE1; NAME2=VALUE2". This makes curl use the cookie header with this con‐
+              tent explicitly in all outgoing request(s). If multiple requests are done due to  authen‐
+              tication, followed redirects or similar, they will all get this cookie passed on.
+
+              If  no  '='  symbol  is used in the argument, it is instead treated as a filename to read
+              previously stored cookie from. This option also activates the cookie  engine  which  will
+              make  curl  record incoming cookies, which may be handy if you are using this in combina‐
+              tion with the -L, --location option or do multiple URL transfers on the same  invoke.  If
+              the file name is exactly a minus ("-"), curl will instead read the contents from stdin.
+
+              The file format of the file to read cookies from should be plain HTTP headers (Set-Cookie
+              style) or the Netscape/Mozilla cookie file format.
+
+              The file specified with -b, --cookie is only used as input. No cookies will be written to
+              the file. To store cookies, use the -c, --cookie-jar option.
+
+              If  you use the Set-Cookie file format and do not specify a domain then the cookie is not
+              sent since the domain will never match. To address this, set a domain in Set-Cookie  line
+              (doing that will include sub-domains) or preferably: use the Netscape format.
+
+              Users  often  want  to  both read cookies from a file and write updated cookies back to a
+              file, so using both -b, --cookie and -c, --cookie-jar in the same command line is common.
+
+              -b, --cookie can be used several times in a command line
+
+              Examples:
+               curl -b cookiefile https://example.com
+               curl -b cookiefile -c cookiefile https://example.com
+
+              See also -c, --cookie-jar and -j, --junk-session-cookies.
+
+       --create-dirs
+              When used in conjunction with the -o, --output option, curl will create the necessary lo‐
+...skipping...url(1) line 599 (press h for help or q to quit)
+       -D, --dump-header <filename>
+              (HTTP FTP) Write the received protocol headers to the specified file. If no  headers  are
+              received, the use of this option will create an empty file.
+
+              When  used  in FTP, the FTP server response lines are considered being "headers" and thus
+              are saved there.
+
+              Having multiple transfers in one set of operations (i.e.  the  URLs  in  one  -:,  --next
+              clause), will append them to the same file, separated by a blank line.
+
+              If -D, --dump-header is provided several times, the last set value will be used.
+
+              Example:
+               curl --dump-header store.txt https://example.com
+
+              See also -o, --output.
+
+       --egd-file <file>
+              (TLS)  Deprecated  option.  This option is ignored by curl since 7.84.0. Prior to that it
+              only had an effect on curl if built to use old versions of OpenSSL.
+
+              Specify the path name to the Entropy Gathering Daemon socket. The socket is used to  seed
+              the random engine for SSL connections.
+>ITINF25/lektion9(1) line 996 (press h for help or q to quit)
+curl http://localhost:5000/-http://localhost:5000/Dhttp://localhost:5000/ http://localhost:5000/ITINF25/lektion9
+$ curl -D http://localhost:5000/
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+ITINF25/lektion9
+$ curl -D http://localhost:5000/ http://localhost:5000/ http://localhost:5000/http://localhost:5000/
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="https://nackademin.se">https://nackademin.se</a>. If not, click the link.
+ITINF25/lektion9
+$ man curl
+curl(1)                                       curl Manual                                       curl(1)
+
+NAME
+       curl - transfer a URL
+
+SYNOPSIS
+       curl [options / URLs]
+
+DESCRIPTION
+       curl  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
+
+URL
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+curl(1)                                       curl Manual                                       curl(1)
+
+NAME
+       curl - transfer a URL
+
+SYNOPSIS
+       curl [options / URLs]
+
+DESCRIPTION
+       curl  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
+
+URL
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+curl(1)                                       curl Manual                                       curl(1)
+
+NAME
+       curl - transfer a URL
+
+SYNOPSIS
+       curl [options / URLs]
+
+DESCRIPTION
+       curl  is  a  tool  for transferring data from or to a server. It supports these protocols: DICT,
+       FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,  LDAP,  LDAPS,  MQTT,  POP3,  POP3S,
+       RTMP,  RTMPS,  RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. The command is
+       designed to work without user interaction.
+
+       curl offers a busload of useful tricks like proxy support, user authentication, FTP upload, HTTP
+       post, SSL connections, cookies, file transfer resume and more. As you will see below, the number
+       of features will make your head spin.
+
+       curl is powered by libcurl for all transfer-related features. See libcurl(3) for details.
+
+URL
+       The URL syntax is protocol-dependent. You find a detailed description in RFC 3986.
+
+...skipping...
+              policy Delegates  if  and  only if the OK-AS-DELEGATE flag is set in the Kerberos service
+                     ticket, which is a matter of realm policy.
+
+              always Unconditionally allow the server to delegate.
+
+       If --delegation is provided several times, the last set value will be used.
+
+       Example:
+        curl --delegation "none" https://example.com
+
+       See also -k, --insecure and --ssl.
+
+       --digest
+              (HTTP) Enables HTTP Digest authentication. This is an authentication scheme that prevents
+              the  password  from  being sent over the wire in clear text. Use this in combination with
+              the normal -u, --user option to set user name and password.
+
+              Providing --digest multiple times has no extra effect.  Disable it  again  with  --no-di‐
+              gest.
+
+              Example:
+               curl -u name:password --digest https://example.com
+
+...skipping...url(1) line 812 (press h for help or q to quit)
+       -D, --dump-header <filename>
+              (HTTP FTP) Write the received protocol headers to the specified file. If no  headers  are
+              received, the use of this option will create an empty file.
+
+              When  used  in FTP, the FTP server response lines are considered being "headers" and thus
+              are saved there.
+
+              Having multiple transfers in one set of operations (i.e.  the  URLs  in  one  -:,  --next
+              clause), will append them to the same file, separated by a blank line.
+
+              If -D, --dump-header is provided several times, the last set value will be used.
+
+              Example:
+               curl --dump-header store.txt https://example.com
+
+              See also -o, --output.
+
+       --egd-file <file>
+              (TLS)  Deprecated  option.  This option is ignored by curl since 7.84.0. Prior to that it
+              only had an effect on curl if built to use old versions of OpenSSL.
+
+              Specify the path name to the Entropy Gathering Daemon socket. The socket is used to  seed
+              the random engine for SSL connections.
+MESESCOApage curl(1) line 996 (press h for help or q to quit)
+M              See also --doh-insecure. Added in 7.62.0.quit)
+MESESCOApage curl(1) line 994 (press h for help or q to quit)
+M               curl --doh-url https://doh.example https://example.com
+M              Example:ne 992 (press h for help or q to quit)
+MESESCOApage curl(1) line 991 (press h for help or q to quit)
+M              If --doh-url is provided several times, the last set value will be used.
+MESESCOApage curl(1) line 989 (press h for help or q to quit)
+M              This option is unset if an empty string "" is used as the URL. (Added in 7.85.0)
+MESESCOApage curl(1) line 987 (press h for help or q to quit)
+M              can be controlled separately via --doh-insecure and --doh-cert-status.
+M              take place over SSL. However, the certificate verification settings are not inherited and
+M              Some SSL options that you set for your transfer will apply to DoH since the name  lookups
+MESESCOApage curl(1) line 983 (press h for help or q to quit)
+M              the default name resolver mechanism. The URL must be HTTPS.
+M              Specifies which DNS-over-HTTPS (DoH) server to use to resolve hostnames, instead of using
+M       --doh-url <URL>ne 980 (press h for help or q to quit)
+MESESCOApage curl(1) line 979 (press h for help or q to quit)
+M              See also --doh-url. Added in 7.76.0.q to quit)
+MESESCOApage curl(1) line 977 (press h for help or q to quit)
+M               curl --doh-insecure --doh-url https://doh.example https://example.com
+M              Example:ne 975 (press h for help or q to quit)
+MESESCOApage curl(1) line 974 (press h for help or q to quit)
+M              doh-insecure.3 (press h for help or q to quit)
+M              Providing --doh-insecure multiple times has no extra effect.  Disable it again with --no-
+MESESCOApage curl(1) line 971 (press h for help or q to quit)
+M              Same as -k, --insecure but used for DoH (DNS-over-HTTPS).
+M       --doh-insecureine 969 (press h for help or q to quit)
+MESESCOApage curl(1) line 968 (press h for help or q to quit)
+M              See also --doh-insecure. Added in 7.76.0.quit)
+MESESCOApage curl(1) line 966 (press h for help or q to quit)
+M               curl --doh-cert-status --doh-url https://doh.example https://example.com
+M              Example:ne 964 (press h for help or q to quit)
+MESESCOApage curl(1) line 963 (press h for help or q to quit)
+M              --no-doh-cert-status. h for help or q to quit)
+M              Providing  --doh-cert-status  multiple  times has no extra effect.  Disable it again with
+MESESCOApage curl(1) line 960 (press h for help or q to quit)
+M              Same as --cert-status but used for DoH (DNS-over-HTTPS).
+M       --doh-cert-status 958 (press h for help or q to quit)
+MESESCOApage curl(1) line 957 (press h for help or q to quit)
+M              libcurl was built to support c-ares. Added in 7.33.0.
+M              See also --dns-interface and --dns-ipv4-addr. --dns-servers requires that the  underlying
+MESESCOApage curl(1) line 954 (press h for help or q to quit)
+M               curl --dns-servers 192.168.0.1,192.168.0.2 https://example.com
+M              Example:ne 952 (press h for help or q to quit)
+MESESCOApage curl(1) line 951 (press h for help or q to quit)
+M              If --dns-servers is provided several times, the last set value will be used.
+MESESCOApage curl(1) line 949 (press h for help or q to quit)
+M              :<port-number> after each IP address. to quit)
+M              dresses  should  be  separated  with commas. Port numbers may also optionally be given as
+M              Set the list of DNS servers to be used instead of the system default.  The list of IP ad‐
+M       --dns-servers <addresses>ess h for help or q to quit)
+MESESCOApage curl(1) line 944 (press h for help or q to quit)
+M              ing libcurl was built to support c-ares. Added in 7.33.0.
+M              See  also --dns-interface and --dns-ipv4-addr. --dns-ipv6-addr requires that the underly‐
+MESESCOApage curl(1) line 941 (press h for help or q to quit)
+M               curl --dns-ipv6-addr 2a04:4e42::561 https://example.com
+M              Example:ne 939 (press h for help or q to quit)
+MESESCOApage curl(1) line 938 (press h for help or q to quit)
+M              If --dns-ipv6-addr is provided several times, the last set value will be used.
+MESESCOApage curl(1) line 936 (press h for help or q to quit)
+M              requests originate from this address. The argument should be a single IPv6 address.
+M              (DNS) Tell curl to bind to <ip-address> when making IPv6 DNS requests, so  that  the  DNS
+M       --dns-ipv6-addr <address>ess h for help or q to quit)
+MESESCOApage curl(1) line 932 (press h for help or q to quit)
+M              ing libcurl was built to support c-ares. Added in 7.33.0.
+M              See  also --dns-interface and --dns-ipv6-addr. --dns-ipv4-addr requires that the underly‐
+MESESCOApage curl(1) line 929 (press h for help or q to quit)
+M               curl --dns-ipv4-addr 10.1.2.3 https://example.com
+M              Example:ne 927 (press h for help or q to quit)
+MESESCOApage curl(1) line 926 (press h for help or q to quit)
+M              If --dns-ipv4-addr is provided several times, the last set value will be used.
+MESESCOApage curl(1) line 924 (press h for help or q to quit)
+M              requests originate from this address. The argument should be a single IPv4 address.
+M              (DNS) Tell curl to bind to <ip-address> when making IPv4 DNS requests, so  that  the  DNS
+M       --dns-ipv4-addr <address>ess h for help or q to quit)
+MESESCOApage curl(1) line 920 (press h for help or q to quit)
+M              ing libcurl was built to support c-ares. Added in 7.33.0.
+M              See  also --dns-ipv4-addr and --dns-ipv6-addr. --dns-interface requires that the underly‐
+MESESCOApage curl(1) line 917 (press h for help or q to quit)
+M               curl --dns-interface eth0 https://example.com
+M              Example:ne 915 (press h for help or q to quit)
+MESESCOApage curl(1) line 914 (press h for help or q to quit)
+M              If --dns-interface is provided several times, the last set value will be used.
+MESESCOApage curl(1) line 912 (press h for help or q to quit)
+M              face name (not an address). help or q to quit)
+M              terpart to --interface (which does not affect DNS). The supplied string must be an inter‐
+M              (DNS) Tell curl to send outgoing DNS requests through <interface>. This option is a coun‐
+M       --dns-interface <interface>s h for help or q to quit)
+MESESCOApage curl(1) line 907 (press h for help or q to quit)
+M              See also --proto. Added in 7.61.0.r q to quit)
+MESESCOApage curl(1) line 905 (press h for help or q to quit)
+M               curl --disallow-username-in-url https://example.com
+M              Example:ne 903 (press h for help or q to quit)
+MESESCOApage curl(1) line 902 (press h for help or q to quit)
+M              again with --no-disallow-username-in-url.quit)
+M              Providing --disallow-username-in-url multiple times has  no  extra  effect.   Disable  it
+MESESCOApage curl(1) line 899 (press h for help or q to quit)
+M              most useful when the URL is being provided at runtime or similar.
+M              (HTTP)  This  tells  curl to exit if passed a URL containing a username. This is probably
+M       --disallow-username-in-urlss h for help or q to quit)
+MESESCOApage curl(1) line 895 (press h for help or q to quit)
+M              See also -K, --config.h for help or q to quit)
+MESESCOApage curl(1) line 893 (press h for help or q to quit)
+M               curl -q https://example.comhelp or q to quit)
+M              Example:ne 891 (press h for help or q to quit)
+MESESCOApage curl(1) line 890 (press h for help or q to quit)
+M              disable.ne 889 (press h for help or q to quit)
+M              Providing -q, --disable multiple times has no extra effect.  Disable it again with  --no-
+MESESCOApage curl(1) line 887 (press h for help or q to quit)
+M              read and used. See the -K, --config for details on the default config file search path.
+M              If  used  as  the first parameter on the command line, the curlrc config file will not be
+M       -q, --disableline 884 (press h for help or q to quit)
+MESESCOApage curl(1) line 883 (press h for help or q to quit)
+M              See also --disable-eprt and -P, --ftp-port.it)
+MESESCOApage curl(1) line 881 (press h for help or q to quit)
+M               curl --disable-epsv ftp://example.com/o quit)
+M              Example:ne 879 (press h for help or q to quit)
+MESESCOApage curl(1) line 878 (press h for help or q to quit)
+M              disable-epsv.7 (press h for help or q to quit)
+M              Providing --disable-epsv multiple times has no extra effect.  Disable it again with --no-
+MESESCOApage curl(1) line 875 (press h for help or q to quit)
+M              you need to use -P, --ftp-port.p or q to quit)
+M              Disabling  EPSV  only  changes the passive behavior. If you want to switch to active mode
+MESESCOApage curl(1) line 872 (press h for help or q to quit)
+M              If the server is an IPv6 host, this option will have no effect as EPSV is necessary then.
+MESESCOApage curl(1) line 870 (press h for help or q to quit)
+M              able-epsv. 869 (press h for help or q to quit)
+M              --epsv can be used to explicitly enable EPSV again and --no-epsv is an alias  for  --dis‐
+MESESCOApage curl(1) line 867 (press h for help or q to quit)
+M              will not try using EPSV.for help or q to quit)
+M              Curl will normally always first attempt to use EPSV before PASV, but with this option, it
+M              (FTP) Tell curl to disable the use of the EPSV command when doing passive FTP  transfers.
+M       --disable-epsvine 863 (press h for help or q to quit)
+MESESCOApage curl(1) line 862 (press h for help or q to quit)
+M              See also --disable-epsv and -P, --ftp-port.it)
+MESESCOApage curl(1) line 860 (press h for help or q to quit)
+M               curl --disable-eprt ftp://example.com/o quit)
+M              Example:ne 858 (press h for help or q to quit)
+MESESCOApage curl(1) line 857 (press h for help or q to quit)
+M              disable-eprt.6 (press h for help or q to quit)
+M              Providing --disable-eprt multiple times has no extra effect.  Disable it again with --no-
+MESESCOApage curl(1) line 854 (press h for help or q to quit)
+M              you need to not use -P, --ftp-port or force it with --ftp-pasv.
+M              Disabling EPRT only changes the active behavior. If you want to switch  to  passive  mode
+MESESCOApage curl(1) line 851 (press h for help or q to quit)
+M              sary then. 850 (press h for help or q to quit)
+M              If  the  server is accessed using IPv6, this option will have no effect as EPRT is neces‐
+MESESCOApage curl(1) line 848 (press h for help or q to quit)
+M              able-eprt. 847 (press h for help or q to quit)
+M              --eprt can be used to explicitly enable EPRT again and --no-eprt is an alias  for  --dis‐
+MESESCOApage curl(1) line 845 (press h for help or q to quit)
+M              tionality in a better way than the traditional PORT command.
+M              the  original  FTP  protocol, and may not work on all servers, but they enable more func‐
+M              PORT, but with this option, it will use PORT right away. EPRT and LPRT are extensions  to
+M              transfers.  Curl  will  normally always first attempt to use EPRT, then LPRT before using
+M              (FTP) Tell curl to disable the use of the EPRT and LPRT commands when  doing  active  FTP
+M       --disable-eprtine 839 (press h for help or q to quit)
+MESESCOApage curl(1) line 838 (press h for help or q to quit)
+M              --basic and --ntlm and --negotiate. q to quit)
+M              See  also  -u, --user, --proxy-digest and --anyauth. This option is mutually exclusive to
+MESESCOApage curl(1) line 835 (press h for help or q to quit)
+M               curl -u name:password --digest https://example.com
+M              Example:ne 833 (press h for help or q to quit)
+MESESCOApage curl(1) line 832 (press h for help or q to quit)
+M              gest. line 831 (press h for help or q to quit)
+M              Providing --digest multiple times has no extra effect.  Disable it  again  with  --no-di‐
+MESESCOApage curl(1) line 829 (press h for help or q to quit)
+M              the normal -u, --user option to set user name and password.
+M              the  password  from  being sent over the wire in clear text. Use this in combination with
+M              (HTTP) Enables HTTP Digest authentication. This is an authentication scheme that prevents
+M       --digestl(1) line 825 (press h for help or q to quit)
+MESESCOApage curl(1) line 824 (press h for help or q to quit)
+M       See also -k, --insecure and --ssl. help or q to quit)
+MESESCOApage curl(1) line 822 (press h for help or q to quit)
+M        curl --delegation "none" https://example.comto quit)
+M       Example:l(1) line 820 (press h for help or q to quit)
+MESESCOApage curl(1) line 819 (press h for help or q to quit)
+M       If --delegation is provided several times, the last set value will be used.
+MESESCOApage curl(1) line 817 (press h for help or q to quit)
+M              always Unconditionally allow the server to delegate.
+MESESCOApage curl(1) line 815 (press h for help or q to quit)
+M                     ticket, which is a matter of realm policy.
+M              policy Delegates  if  and  only if the OK-AS-DELEGATE flag is set in the Kerberos service
+MESESCOApage curl(1) line 812 (press h for help or q to quit)
+M              none   Do not allow any delegation. q to quit)
+MESESCOApage curl(1) line 810 (press h for help or q to quit)
+M              to user credentials.s h for help or q to quit)
+M              (GSS/kerberos) Set LEVEL to tell the server what it is allowed to delegate when it  comes
+M       --delegation <LEVEL>7 (press h for help or q to quit)
+MESESCOApage curl(1) line 806 (press h for help or q to quit)
+M              sive to -F, --form and -I, --head and -T, --upload-file.
+M              See  also  --data-binary, --data-urlencode and --data-raw. This option is mutually exclu‐
+MESESCOApage curl(1) line 803 (press h for help or q to quit)
+M               curl -d @filename https://example.comto quit)
+M               curl -d "name=curl" -d "tool=cmdline" https://example.com
+M               curl -d "name=curl" https://example.com quit)
+M              Examples:e 799 (press h for help or q to quit)
+MESESCOApage curl(1) line 798 (press h for help or q to quit)
+M              -d, --data can be used several times in a command line
+MESESCOApage curl(1) line 796 (press h for help or q to quit)
+M              the @ character to have a special interpretation use --data-raw instead.
+       If --delegation is provided several times, the last set value will be used.
+ ESESCOBpage curl(1) line 795 (press h for help or q to quit)
+       Example:rl(1) line 796 (press h for help or q to quit)
+        curl --delegation "none" https://example.com to quit)
+ ESESCOBpage curl(1) line 798 (press h for help or q to quit)
+       See also -k, --insecure and --ssl.r help or q to quit)
+ ESESCOBpage curl(1) line 800 (press h for help or q to quit)
+       --digestrl(1) line 801 (press h for help or q to quit)
+M               curl -d @filename https://example.comto quit)
+>ITINF25/lektion9(1) line 801 (press h for help or q to quit)
+ITINF25/lektion9:5000/10/1/1
+$ tldr curl
+curl
+
+Transfers data from or to a server.
+Supports most protocols, including HTTP, HTTPS, FTP, SCP, etc.
+More information: https://curl.se/docs/manpage.html.
+
+ - Make an HTTP GET request and dump the contents in stdout:
+   curl https://example.com
+
+ - Make an HTTP GET request, follow any 3xx redirects, and dump the reply headers and contents to stdout:
+   curl [-L|--location] [-D|--dump-header] - https://example.com
+
+ - Download a file, saving the output under the filename indicated by the URL:
+   curl [-O|--remote-name] https://example.com/filename.zip
+
+ - Send form-encoded data (POST request of type application/x-www-form-urlencoded). Use --data @file_name or --data @'-' to read from stdin:
+   curl [-X|--request] POST [-d|--data] 'name=bob' http://example.com/form
+
+ - Send a request with an extra header, using a custom HTTP method and over a proxy (such as BurpSuite), ignoring insecure self-signed certificates:
+   curl [-k|--insecure] [-x|--proxy] http://127.0.0.1:8080 [-H|--header] 'Authorization: Bearer token' [-X|--request] GET|PUT|POST|DELETE|PATCH|... https://example.com
+
+ - Send data in JSON format, specifying the appropriate Content-Type header:
+   curl [-d|--data] {{'{"name":"bob"}'}} [-H|--header] 'Content-Type: application/json' http://example.com/users/1234
+
+ - Pass client certificate and key for a resource, skipping certificate validation:
+   curl [-E|--cert] client.pem --key key.pem [-k|--insecure] https://example.com
+
+ - Resolve a hostname to a custom IP address, with verbose output (similar to editing the /etc/hosts file for custom DNS resolution):
+   curl [-v|--verbose] --resolve example.com:80:127.0.0.1 http://example.com
+ITINF25/lektion9
+-D http://localhost:5000/1ITINF25/lektion9
+$ curl -D http://localhost:5000/1
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+ITINF25/lektion9
+$ curl -D http://localhost:5000/-http://localhost:5000/-http://localhost:5000/ http://localhost:5000/
+Warning: The file name argument '--' looks like a flag.
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="https://nackademin.se">https://nackademin.se</a>. If not, click the link.
+ITINF25/lektion9
+$ curl -D -- http://localhost:5000/ http://localhost:5000/ http://localhost:5000/http://localhost:5000/ http://localhost:5000/- http://localhost:5000/d http://localhost:5000/u http://localhost:5000/m http://localhost:5000/p http://localhost:5000/- http://localhost:5000/h http://localhost:5000/e http://localhost:5000/a http://localhost:5000/d http://localhost:5000/e http://localhost:5000/r http://localhost:5000/ITINF25/lektion9
+$ curl --dump-header http://localhost:5000/
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+ITINF25/lektion9
+$ curl --dump-header http://localhost:5000/-http://localhost:5000/-http://localhost:5000/uhttp://localhost:5000/rhttp://localhost:5000/lhttp://localhost:5000/ http://localhost:5000/
+Warning: The file name argument '--url' looks like a flag.
+<!doctype html>
+<html lang=en>
+<title>Redirecting...</title>
+<h1>Redirecting...</h1>
+<p>You should be redirected automatically to the target URL: <a href="https://nackademin.se">https://nackademin.se</a>. If not, click the link.
+ITINF25/lektion9
+$ exit
+exit

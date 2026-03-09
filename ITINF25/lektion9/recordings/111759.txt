@@ -1,0 +1,67 @@
+/bin/python
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9
+httpserver.excalidraw  recordings  shorturl
+ITINF25/lektion9
+$ /bin/python
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;"abcdefg"[-2:0:-1]
+633;D;0
+633;A
+>>> 633;B
+ source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+  File "<stdin>", line 1
+    source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+IndentationError: unexpected indent
+633;C
+633;E; source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+633;D;1
+633;A
+>>> 633;B
+
+ITINF25/lektion9
+$ /bin/python
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E; source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+633;D;0
+633;A
+>>> 633;B
+"abcdefg"[-2:0:-1]nt/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+KeyboardInterrupt
+633;C
+633;E; source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+633;D;1
+633;A
+>>> 633;B
+"abcdefg"[-2:0:-1]nt/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+KeyboardInterrupt
+633;C
+633;E; source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+633;D;1
+633;A
+>>> 633;B
+
+KeyboardInterrupt
+633;C
+633;E; source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+633;D;1
+633;A
+>>> 633;B
+
+ITINF25/lektion9
+/bin/pythont mainain
+
+
+
+
+
+
+
+
+
+exit
