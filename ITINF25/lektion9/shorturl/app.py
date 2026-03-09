@@ -3,8 +3,6 @@ from flask import Flask, redirect, request
 
 app = Flask(__name__)
 
-next_unique_int = 1
-
 
 @app.route("/", methods=["POST"])
 def add():
