@@ -1186,3 +1186,7 @@
 [8913.911963, "o", "127.0.0.1 - - [09/Mar/2026 12:42:05] \"POST / HTTP/1.1\" 200 -\r\n"]
 [8942.067519, "o", "redirect 1 -> https://nackademin.se\r\nurls {'1': 'https://nackademin.se', '2': 'https://google.com'}\r\n"]
 [8942.067677, "o", "127.0.0.1 - - [09/Mar/2026 12:42:33] \"\u001b[35m\u001b[1mGET /1 HTTP/1.1\u001b[0m\" 204 -\r\n"]
+[9039.222751, "o", " * Detected change in '/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py', reloading\r\n"]
+[9039.244035, "o", " * Restarting with stat\r\n"]
+[9039.335192, "o", " * Debugger is active!\r\n"]
+[9039.335464, "o", " * Debugger PIN: 624-213-805\r\n"]
