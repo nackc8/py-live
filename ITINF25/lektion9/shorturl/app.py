@@ -28,3 +28,4 @@ def remove(short_url):
     print(f"remove {short_url}")
     print("urls", urls)
     del urls[short_url]
+    return ""
