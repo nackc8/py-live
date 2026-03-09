@@ -15,11 +15,6 @@ class BaseModel(Model):
         database = db
 
 
-class User(BaseModel):
-    username = TextField(unique=True)
-
-
-class Tweet(BaseModel):
-    user = ForeignKeyField(User, backref="tweets")
-    content = TextField()
-    timestamp = DateTimeField(default=datetime.datetime.now, index=True)
+class Url(BaseModel):
+    short = TextField(unique=True)
+    original = TextField()
