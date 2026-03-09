@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, redirect, request
 
 app = Flask(__name__)
 
@@ -29,3 +29,6 @@ def remove(short_url):
     urls.pop(short_url)
     print("urls", urls)
     return ""
+
+
+# redirect("http://www.example.com", code=302)
