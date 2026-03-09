@@ -36,7 +36,7 @@ def redirect_to_original_url(short_url):
     original_url = urls[short_url]
     print(f"redirect {short_url} -> {original_url}")
     print("urls", urls)
-    return redirect()
+    return redirect(original_url)
 
 
 # return edirect("http://www.example.com", code=302)
