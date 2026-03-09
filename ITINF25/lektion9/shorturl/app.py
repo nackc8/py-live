@@ -16,8 +16,8 @@ def add():
     url_map.save()
 
     # TODO: Use more characters than 0-9 for short urls
-    print(f"add {original_url} -> {short_url}")
-    return short_url
+    print(f"add {original_url} -> {url_map.short}")
+    return url_map.short
 
 
 @app.route("/<short_url>", methods=["DELETE"])
