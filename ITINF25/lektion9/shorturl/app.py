@@ -35,7 +35,7 @@ def remove(short_url):
 
 @app.route("/<short_url>", methods=["GET"])
 def redirect_to_original_url(short_url):
-    short_url = db.Url().select().where(db.Url.short == short_url)
+    short_url = db.Url.get(db.Url.short == short_url)
     original_url = short_url.original
     print(f"redirect {short_url} -> {original_url}")
     return redirect(original_url)
