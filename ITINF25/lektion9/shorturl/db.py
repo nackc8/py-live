@@ -2,7 +2,7 @@ from pathlib import Path
 
 from peewee import *
 
-x = Path(__file__).parent()
+PROJECT_DIRECTORY = Path(__file__).parent()
 
 # An in-memory SQLite database. Or use PostgresqlDatabase or MySQLDatabase.
 db = SqliteDatabase(":memory:")
