@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>Source file</title>
+</head>
+<body>
+<pre>/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9
+httpserver.excalidraw  <span style="font-weight:bold;color:#5c5cff;">recordings</span>  <span style="font-weight:bold;color:#5c5cff;">shorturl</span>  <span style="font-weight:bold;color:#5c5cff;">shorturl_nodb</span>
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+<span style="color:#5c5cff;">ITINF25/lektion9
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion9
+</span>$ ls
+httpserver.excalidraw  <span style="font-weight:bold;color:#5c5cff;">recordings</span>  <span style="font-weight:bold;color:#5c5cff;">shorturl</span>  <span style="font-weight:bold;color:#5c5cff;">shorturl_nodb</span>
+<span style="color:#5c5cff;">ITINF25/lektion9
+</span>$ cd sh
+orturl
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion9/shorturl
+</span>$ ls
+app.py  db.py  db.sqlite  requests.http  requirements.txt  <span style="font-weight:bold;color:#5c5cff;">__pycache__</span>
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+</span>$ rm db
+..
+sqlite 
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion9/shorturl
+<span style="color:#000000;background-color:#000000;"></span>$ flaskn><span style="color:#000000;background-color:#000000;">fl</span><span style="color:#000000;background-color:#000000;">a&apos;: </span><span style="color:#000000;background-color:#000000;">fla</span><span style="color:#000000;background-color:#000000;">s&apos;: </span><span style="color:#000000;background-color:#000000;">flas</span><span style="color:#000000;background-color:#000000;">k&apos;: </span><span style="color:#000000;background-color:#000000;">flask</span><span style="color:#000000;background-color:#000000;">
+Usage: flask run [OPTIONS]
+Try &apos;flask run --help&apos; for help.
+
+Error: While importing &apos;app&apos;, an ImportError was raised:
+
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/lib/python3.11/site-packages/flask/cli.py&quot;, line 245, in locate_app
+    __import__(module_name)
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&quot;, line 1, in &lt;module&gt;
+    import db
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.py&quot;, line 3, in &lt;module&gt;
+    from peewee import Model, SqliteDatabase, TextField
+ModuleNotFoundError: No module named &apos;peewee&apos;
+
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion9/shorturl
+</span>$ 
+
+.
+. /v.venv/app/ac
+t
+bin/ac
+tivate
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF25/lektion9/shorturl
+</span>$ flask --debug --app app run
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.sqlite
+ * Serving Flask app &apos;app&apos;
+ * Debug mode: on
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.</span>
+ * Running on http://127.0.0.1:5000
+<span style="color:#cdcd00;">Press CTRL+C to quit</span>
+ * Restarting with stat
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.sqlite
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+127.0.0.1 - - [09/Mar/2026 14:10:21] &quot;<span style="color:#cd00cd;"></span><span style="font-weight:bold;color:#7f7f7f;">POST / HTTP/1.1</span>&quot; 500 -
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&quot;, line 14, in add
+    short_url = str(next_unique_int)
+                    ^^^^^^^^^^^^^^^^
+NameError: name &apos;next_unique_int&apos; is not defined
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+127.0.0.1 - - [09/Mar/2026 14:11:14] &quot;<span style="color:#cd00cd;"></span><span style="font-weight:bold;color:#7f7f7f;">POST / HTTP/1.1</span>&quot; 500 -
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3341, in execute_sql
+    cursor.execute(sql, params or ())
+sqlite3.IntegrityError: NOT NULL constraint failed: url.short
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&quot;, line 16, in add
+    url_map.save()
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 7122, in save
+    pk = self.insert(**field_dict).execute()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2045, in inner
+    return method(self, database, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2116, in execute
+    return self._execute(database)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2921, in _execute
+    return super(Insert, self)._execute(database)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2634, in _execute
+    cursor = database.execute(self)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3347, in execute
+    return self.execute_sql(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3339, in execute_sql
+    with __exception_wrapper__:
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3111, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 197, in reraise
+    raise value.with_traceback(tb)
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3341, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.IntegrityError: NOT NULL constraint failed: url.short
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/db.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+127.0.0.1 - - [09/Mar/2026 14:14:02] &quot;<span style="color:#cd00cd;"></span><span style="font-weight:bold;color:#7f7f7f;">POST / HTTP/1.1</span>&quot; 500 -
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3341, in execute_sql
+    cursor.execute(sql, params or ())
+sqlite3.IntegrityError: NOT NULL constraint failed: url.short
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&quot;, line 16, in add
+    url_map.save()
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 7122, in save
+    pk = self.insert(**field_dict).execute()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2045, in inner
+    return method(self, database, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2116, in execute
+    return self._execute(database)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2921, in _execute
+    return super(Insert, self)._execute(database)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 2634, in _execute
+    cursor = database.execute(self)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3347, in execute
+    return self.execute_sql(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3339, in execute_sql
+    with __exception_wrapper__:
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3111, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 197, in reraise
+    raise value.with_traceback(tb)
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/peewee.py&quot;, line 3341, in execute_sql
+    cursor.execute(sql, params or ())
+peewee.IntegrityError: NOT NULL constraint failed: url.short
+<span style="color:#5c5cff;">">ITINF25/lektion9/shorturl
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+</span>$ ls
+app.py  db.py  db.sqlite  requests.http  requirements.txt  <span style="font-weight:bold;color:#5c5cff;">__pycache__</span>
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+</span>$ rm sq
+db.sqlite 
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+<span style="color:#5c5cff;">pan style="color:#5c5cff;">ITINF25/lektion9/shorturl
+</span>$ flask --debug --app app run
+ * Serving Flask app &apos;app&apos;
+ * Debug mode: on
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.</span>
+ * Running on http://127.0.0.1:5000
+<span style="color:#cdcd00;">Press CTRL+C to quit</span>
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+add https://nackademin.se -&gt; None
+127.0.0.1 - - [09/Mar/2026 14:14:20] &quot;<span style="color:#cd00cd;"></span><span style="font-weight:bold;color:#7f7f7f;">POST / HTTP/1.1</span>&quot; 500 -
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 939, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for &apos;add&apos; did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+None
+add https://nackademin.se -&gt; None
+127.0.0.1 - - [09/Mar/2026 14:15:03] &quot;<span style="color:#cd00cd;"></span><span style="font-weight:bold;color:#7f7f7f;">POST / HTTP/1.1</span>&quot; 500 -
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 939, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1212, in make_response
+    raise TypeError(
+TypeError: The view function for &apos;add&apos; did not return a valid response. The function either returned None or ended without a return statement.
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+3
+add https://nackademin.se -&gt; 3
+127.0.0.1 - - [09/Mar/2026 14:15:32] &quot;<span style="color:#cd00cd;"></span><span style="font-weight:bold;color:#7f7f7f;">POST / HTTP/1.1</span>&quot; 500 -
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1536, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1514, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 920, in full_dispatch_request
+    return self.finalize_request(rv)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 939, in finalize_request
+    response = self.make_response(rv)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/.venv/lib/python3.11/site-packages/flask/app.py&quot;, line 1249, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, list, tuple with headers or status, Response instance, or WSGI callable, but it was a int.
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+ * Detected change in &apos;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion9/shorturl/app.py&apos;, reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 531-793-717
+<span style="color:#5c5cff;">">ITINF25/lektion9/shorturl
+</span>$ 
+<span style="color:#5c5cff;">ITINF25/lektion9/shorturl
+</span>$ 
+exit
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->
