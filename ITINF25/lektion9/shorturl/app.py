@@ -9,9 +9,13 @@ urls = dict()
 @app.route("/", methods=["POST"])
 def add():
     json = request.get_json()
-    url = json["url"]
+    original_url = json["url"]
 
-    urls[url] = "Sett!"
+    short_url = str(next_unique_int)
+    global next_unique_int
+    next_unique_int += 1
+
+    urls[original_url] = "Sett!"
     print(urls)
     return "<p>Ta emot en URL, skapa och lagra en kort url, skicka tillbaka den korta urlen</p>"
 
