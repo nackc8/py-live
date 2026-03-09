@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from peewee import *
+from peewee import Model, SqliteDatabase, TextField
 
 PROJECT_DIRECTORY = Path(__file__).parent()
 DATABASE_FILE = PROJECT_DIRECTORY / "db.sqlite"
