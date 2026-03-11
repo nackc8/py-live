@@ -4,3 +4,8 @@ class Greetings:
 
     def addGreeting(self, text):
         self.parts.append(text)
+
+
+g = Greetings()
+
+g.addGreeting("Terve")
