@@ -229,6 +229,36 @@
       "endBinding": null,
       "startArrowhead": null,
       "endArrowhead": null
+    },
+    {
+      "id": "aP9kAaZamEUEThh2uRVV_",
+      "type": "rectangle",
+      "x": 362.0144958496094,
+      "y": 275.28214849366066,
+      "width": 253.35824584960938,
+      "height": 85.95648193359375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 471600959,
+      "version": 59,
+      "versionNonce": 728600351,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1773216874078,
+      "link": null,
+      "locked": false
     }
   ],
   "appState": {
