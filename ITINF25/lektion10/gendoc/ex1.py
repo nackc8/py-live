@@ -8,7 +8,6 @@ class Greetings:
 
 g = Greetings()
 
-g.addGreeting("Terve")
-g.addGreeting("Hej")
+g.addGreeting("Terve").addGreeting("Hej")
 
 print("Slut")
