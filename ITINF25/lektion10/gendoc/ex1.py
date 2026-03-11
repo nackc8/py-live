@@ -1,1 +1,6 @@
-class 
+class Greetings:
+    def __init__(self):
+        self.parts = []
+
+    def addGreeting(self, text):
+        self.parts.append(text)
