@@ -1,0 +1,9 @@
+{"version": 2, "width": 92, "height": 10, "timestamp": 1773218998, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.212927, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion10\r\n"]
+[0.213454, "o", "\u001b[0m\u001b[01;34mgendoc\u001b[0m  \u001b[01;34mrecordings\u001b[0m\r\n"]
+[0.223071, "o", "\u001b[?2004h\u001b[94mITINF25/lektion10\r\r\n\u001b(B\u001b[m$ "]
+[0.286603, "o", " source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate\r\n\u001b[?2004l\r"]
+[0.293507, "o", "\u001b[?2004h\u001b[94mITINF25/lektion10\r\r\n\u001b(B\u001b[m$ "]
+[0.694638, "o", "/shared/kent/Documents/nackademin/python/py-live/.venv/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion10/gendoc/ex1.py\r\n\u001b[?2004l\r"]
+[0.702469, "o", "Traceback (most recent call last):\r\n  File \"/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion10/gendoc/ex1.py\", line 11, in <module>\r\n    g.addGreeting(\"Terve\").addGreeting(\"Hej\")\r\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAttributeError: 'NoneType' object has no attribute 'addGreeting'\r\n"]
+[0.708619, "o", "\u001b[?2004h\u001b[94mITINF25/lektion10\r\r\n\u001b(B\u001b[m$ "]
