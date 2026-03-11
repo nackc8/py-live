@@ -9,5 +9,6 @@ class Greetings:
 g = Greetings()
 
 g.addGreeting("Terve")
+g.addGreeting("Hej")
 
 print("Slut")
