@@ -9,3 +9,5 @@ class Greetings:
 g = Greetings()
 
 g.addGreeting("Terve")
+
+print("Slut")
