@@ -1,0 +1,42 @@
+Nytt repo:
+
+git init
+
+Status via:
+
+git status
+
+Lägg till en fil:
+
+    Enskilda filer: git add filnamn1 filnamn2 ...
+
+    Alla filer: git add .
+
+Commita med:
+
+git commit
+
+Se alla commits:
+
+git log
+
+Se vad jag ändrat
+
+git status -- för filer
+git diff -- se ändringar
+
+OJ! Det blev fel.
+
+    Ångra en commit som andra tagit del av:
+        git revert 72628a
+    Om man INTE har delat med sig kan man ändra i historiken:
+        Om det är den SENASTE commiten:
+         git commit --amend
+        Om jag vill ändra en tidigare commit:
+            git rebase -i HEAD~5
+
+Om man har förändringar som man tillfälligt vill
+lägga åt sidan
+    git stash -- stasha förändringar
+    git stash list -- lista stashade förändringar
+

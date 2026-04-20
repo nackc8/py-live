@@ -1,0 +1,168 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1
+conditional_logic.py  recordings  todo-ord-oversiktligt.txt  variabler_typer.md
+ITINF25/lektion1
+$ ITINF25/lektion1
+$ ls
+conditional_logic.py  recordings  todo-ord-oversiktligt.txt  variabler_typer.md
+ITINF25/lektion1
+$ cd
+chmod +x conditional_logic.py ITINF25/lektion1
+$ chmod +x conditional_logic.py 
+ITINF25/lektion1
+$ ./conditional_logic.py ITINF25/lektion1
+$ ./conditional_logic.py 
+ITINF25/lektion1
+$ python3
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;n % 3
+633;D;0
+633;A
+>>> 633;B
+num1 = 100
+633;C
+633;E;num1 = 100
+633;D;0
+633;A
+>>> 633;B
+num1
+100
+633;C
+633;E;num1
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion1
+$ ITINF25/lektion1
+$ python
+
+
+
+
+
+
+
+./conditional_logic.py 
+ITINF25/lektion1
+$ ./conditional_logic.py ITINF25/lektion1
+$ ./conditional_logic.py 
+100
+ITINF25/lektion1
+$ ./conditional_logic.py ITINF25/lektion1
+$ ./conditional_logic.py 
+100
+num1 > num2
+False
+ITINF25/lektion1
+$ ./conditional_logic.py ITINF25/lektion1
+$ ./conditional_logic.py 
+100
+svaret på num1 > num2 är:
+False
+ITINF25/lektion1
+$ ITINF25/lektion1
+$ ./ko
+rkort.py
+bash: ./korkort.py: Permission denied
+ITINF25/lektion1
+$ python3ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du?12
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 12
+Din ålder är:
+12
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 50
+Din ålder är:
+50
+typen på age:
+<class 'str'>
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 50
+Din ålder är:
+50
+typen på age:
+<class 'str'>
+typen på age efter konv:
+<class 'str'>
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 50
+Din ålder är:
+50
+typen på age:
+<class 'str'>
+typen på age efter konv:
+<class 'int'>
+ITINF25/lektion1
+$ 
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 50
+Din ålder är:
+50
+typen på age:
+<class 'str'>
+typen på age efter konv:
+<class 'str'>
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 50
+Din ålder är:
+50
+typen på age:
+<class 'str'>
+50rrr
+typen på age efter konv:
+<class 'str'>
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 50
+Din ålder är:
+50
+typen på age:
+<class 'str'>
+50
+typen på age efter konv:
+<class 'int'>
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? Tjugo
+Din ålder är:
+Tjugo
+typen på age:
+<class 'str'>
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1/korkort.py", line 8, in <module>
+    age = int(age)
+          ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'Tjugo'
+ITINF25/lektion1
+$ python3 korkort.py ITINF25/lektion1
+$ python3 korkort.py 
+Hur gammal är du? 60
+Din ålder är:
+60
+typen på age:
+<class 'str'>
+60
+typen på age efter konv:
+<class 'int'>
+ITINF25/lektion1
+$ 
+exit

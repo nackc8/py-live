@@ -1,5 +1,4 @@
 {
-  "editor.folding": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -25,21 +24,8 @@
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
   "AREPL.skipLandingPage": true,
-  "auto-run-command.rules": [
-    {
-      "command": "workbench.action.toggleScreencastMode",
-      "condition": "hasFile: .ignored-enable-screencast"
-    },
-    {
-      "command": [
-        "workbench.action.toggleFullScreen",
-        "workbench.debug.viewlet.action.removeAllBreakpoints",
-        "github.copilot.toggleCopilot"
-      ],
-      "condition": "always"
-    }
-  ],
   "breadcrumbs.enabled": false,
   "debug.console.fontSize": 14,
   "editor.acceptSuggestionOnEnter": "off",
@@ -68,8 +54,16 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
+  // --- Anti-AI / Copilot / Chat ---
+  "chat.disableAIFeatures": true,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
   "github.copilot.editor.enableAutoCompletions": false,
   "github.copilot.editor.enableSuggestions": false,
+  // -------------------------------
   "json.format.enable": false,
   "scm.inputFontFamily": "editor",
   "screencastMode.keyboardOptions": {

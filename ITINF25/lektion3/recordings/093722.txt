@@ -1,0 +1,17 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion3
+loop-for.py  loop-while1.py  recordings
+ITINF25/lektion3
+$  /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 60243 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion3/loop-while1.py 
+The number is 0
+The number is 4
+The number is 13
+The number is 18
+ITINF25/lektion3
+$ bin/vscode?s_setu
+
+
+
+
+ITINF25/lektion3
+$ 
+exit

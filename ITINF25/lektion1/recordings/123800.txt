@@ -1,0 +1,11 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1
+recordings
+ITINF25/lektion1
+$ ITINF25/lektion1
+$ echo "Hej"
+Hej
+ITINF25/lektion1
+$ nano x
+>ITINF25/lektion1ler?                                                                     Y Yes        
+$ exit
+exit

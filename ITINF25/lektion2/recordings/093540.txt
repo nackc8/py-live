@@ -1,0 +1,58 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2
+logic1.py  recordings
+ITINF25/lektion2
+$ ptython3 logic1.py ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? kent
+Jag vet redan att du heter 
+kent
+ITINF25/lektion2
+$ python3 logic1.py ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? fredrik
+Vilket bra namn!
+Jag vet redan att du heter 
+fredrik
+ITINF25/lektion2
+$ python3 logic1.py ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? Fredrik
+Jag vet redan att du heter 
+Fredrik
+ITINF25/lektion2
+$ python3 logic1.py ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? hopp
+0
+ITINF25/lektion2
+$ python3 logic1.py ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? fredrihejsan
+1
+ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? hejhej hej heeeeej
+3
+ITINF25/lektion2
+$ ../../bin/setup_vscode
+
+
+
+
+
+
+ITINF25/lektion2
+$ pax
+bash: pax: command not found
+ITINF25/lektion2
+$ ITINF25/lektion2
+$ paython3 logic1.py 
+What is your name? svehejson
+Vilket bra namn!
+ITINF25/lektion2
+$ python3 logic1.py 
+What is your name? svensson
+ITINF25/lektion2
+$ ITINF25/lektion2
+$ 
+exit

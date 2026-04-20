@@ -1,0 +1,53 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5
+recordings
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ python3 uses_string_extra.py 
+ITINF25/lektion5
+$ python3 uses_string_extra.py ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+ITINF25/lektion5
+$ python3 uses_string_extra.py ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+string_extra
+ITINF25/lektion5
+$ python3 uses_string_extra.py ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+string_extra
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/uses_string_extra.py", line 5, in <module>
+    print(string_extra.__path__)
+          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'string_extra' has no attribute '__path__'. Did you mean: '__name__'?
+ITINF25/lektion5
+$ python3 uses_string_extra.py ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+string_extra
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/uses_string_extra.py", line 5, in <module>
+    print(string_extra.__path__)
+          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'string_extra' has no attribute '__path__'. Did you mean: '__name__'?
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+string_extra
+ITINF25/lektion5
+$ python3 uses_string_extra.py ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+string_extra
+ITINF25/lektion5
+$ python3 uses_string_extra.py ITINF25/lektion5
+$ python3 uses_string_extra.py 
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/string_extra.py
+string_extra
+HEj
+ITINF25/lektion5
+$ 
+exit

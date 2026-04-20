@@ -1,0 +1,13 @@
+Data structures (lists and tuples)
+enumerate()
+in (operator)
+Indexing
+List (list)
+List methods
+Sequence types
+Sequences
+Slice objects
+Slicing
+String (str)
+String methods
+Tuple (tuple)

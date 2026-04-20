@@ -1,0 +1,20 @@
+Installera paket (funkar som standard inte globalt i Debian)
+    pip3 install pytest
+I debian kan man tvinga in det med. Oftast endast i t.ex. Docker:
+    pip3 install --break-system-packages pytest
+
+Normalt så vill vi skapa en isolerad miljö för paket. Modulen är venv och katalogen .venv:
+    python3 -m venv .venv
+Sedan behöver vi aktivera vår nya virtuella miljö:
+    Linux/MacOS:
+        . .venv/bin/activate
+    Windows:
+        Troligen .venv/bin/Activate.ps1
+För att se alla paket i sin miljö (global eller venv):
+    pip3 freeze
+
+Man kan spara listan med paket man är beroende av via. Filnamnet är valfritt men requirements.txt är en konvention:
+    pip3 freeze > requirements.txt
+
+Om någon vill installera requirements.txt i sin miljö (global eller venv):
+    pip3 install -r requirements.txt

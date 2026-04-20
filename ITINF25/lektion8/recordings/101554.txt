@@ -1,0 +1,11 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion8
+args_manuellt  recordings
+ITINF25/lektion8
+$  source /shared/kent/Documents/nackademin/python/py-live/date/d260303/.venv/bin/activate
+ITINF25/lektion8
+$ ITINF25/lektion8
+$ ls
+args_manuellt  recordings
+ITINF25/lektion8
+$ 
+exit

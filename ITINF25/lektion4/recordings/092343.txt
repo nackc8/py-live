@@ -1,0 +1,5 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion4
+recordings
+ITINF25/lektion4
+$ 
+exit

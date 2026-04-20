@@ -1,0 +1,81 @@
+name: Nightly branch merge and cleanup
+
+on:
+  schedule:
+    - cron: '0 21 * * 1-5'  # 22:00 CET (UTC+1). Runs at 23:00 during CEST (UTC+2).
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge-and-cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Squash-merge unmerged YYMMDD branches into main
+        id: merge
+        run: |
+          git checkout main
+          git reset --hard origin/main
+          initial_sha=$(git rev-parse HEAD)
+          failed=()
+
+          mapfile -t branches < <(git branch -r | grep -Eo 'origin/[0-9]{6}$' | sed 's|origin/||' | sort)
+
+          for branch in "${branches[@]}"; do
+            if git merge-base --is-ancestor "origin/$branch" HEAD; then
+              echo "$branch: already merged, skipping"
+              continue
+            fi
+
+            if git merge --squash "origin/$branch" 2>/dev/null; then
+              if git diff --cached --quiet; then
+                echo "$branch: no new changes, skipping"
+              else
+                git commit -m "$branch"
+                echo "$branch: squash-merged"
+              fi
+            else
+              echo "$branch: conflicts, skipping"
+              git reset --hard HEAD
+              failed+=("$branch")
+            fi
+          done
+
+          if [ "$(git rev-parse HEAD)" != "$initial_sha" ]; then
+            git push origin main
+          else
+            echo "Nothing to push"
+          fi
+
+          echo "failed=${failed[*]}" >> "$GITHUB_OUTPUT"
+
+      - name: Delete old YYMMDD branches, keep 3 most recent
+        run: |
+          failed="${{ steps.merge.outputs.failed }}"
+          mapfile -t branches < <(git branch -r | grep -Eo 'origin/[0-9]{6}$' | sed 's|origin/||' | sort)
+          count=${#branches[@]}
+
+          if (( count <= 3 )); then
+            echo "Only $count YYMMDD branch(es) found, nothing to delete"
+            exit 0
+          fi
+
+          for branch in "${branches[@]:0:$(( count - 3 ))}"; do
+            if [[ " $failed " == *" $branch "* ]]; then
+              echo "$branch: skipping deletion (had merge conflict)"
+              continue
+            fi
+            git push origin --delete "$branch"
+            echo "Deleted $branch"
+          done

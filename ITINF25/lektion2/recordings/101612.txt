@@ -1,0 +1,34 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2
+logic1.py  logic2.py  logic3.py  recordings
+ITINF25/lektion2
+$  /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56385 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/logic3.py 
+tal1 är mindre än både tal2 och tal3
+ITINF25/lektion2
+$ ^C
+
+ITINF25/lektion2
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45995 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/logic3.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 34969 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/logic3.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57123 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/logic3.py 
+tal1 är inte bra!
+$ $ python3 logic1.py
+
+
+
+
+
+
+
+
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52347 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/elif.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 35533 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion2/elif.py 
+$ 
+exit

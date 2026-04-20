@@ -1,0 +1,7 @@
+- Räknar ord
+
+def count_words(text_string):
+    return {
+        "hej": 10,
+        "hopp": 5
+    }

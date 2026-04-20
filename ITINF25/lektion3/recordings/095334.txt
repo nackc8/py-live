@@ -1,0 +1,5 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion3
+loop-for.py  loop-while1.py  mod.py  recordings
+ITINF25/lektion3
+$ 
+exit

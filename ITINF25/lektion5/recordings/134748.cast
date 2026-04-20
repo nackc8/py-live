@@ -1,0 +1,7 @@
+{"version": 2, "width": 100, "height": 7, "timestamp": 1772110068, "env": {"SHELL": "/shared/kent/Documents/nackademin/python/py-live/.profiles/educator/bash_noprofile_norc", "TERM": "xterm-256color"}}
+[0.253818, "o", "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5\r\n"]
+[0.254729, "o", "\u001b[0m\u001b[01;34mannatpaket\u001b[0m  funkfirstobj1.py           imports_sokvagar.txt  rek4.py       scope3.py\r\ndict1.py    funkfirstobj2.py           __init__.py           rek5.py       scope4.py\r\ndict2.py    imp1_uses_string_extra.py  \u001b[01;34mmatte\u001b[0m                 rek6.py       set1.py\r\ndict3.py    imp2_uses_string_extra.py  \u001b[01;34m__pycache__\u001b[0m           rek7.py       string_extra.py\r\ndict4.py    imp3_uses_string_extra.py  \u001b[01;34mrecordings\u001b[0m            rek8.py       uses_matte.py\r\ndict5.py    imp4_uses_string_extra.py  rek1_pre.py           rek_tree1.py\r\ndict6.py    imp5_uses_string_extra.py  rek2_pre.py           scope1.py\r\ndict7.py    imports_satt.txt           rek3_pre.py           scope2.py\r\n"]
+[0.264081, "o", "\u001b[?2004h\u001b[94mITINF25/lektion5\r\r\n\u001b(B\u001b[m$ "]
+[0.778024, "o", " /usr/bin/env /bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 44967 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/rek_tree1.py \r\n\u001b[?2004l\r"]
+[293.513503, "o", "150\r\n"]
+[294.15115, "o", "\u001b[?2004h\u001b[94mITINF25/lektion5\r\r\n\u001b(B\u001b[m$ "]

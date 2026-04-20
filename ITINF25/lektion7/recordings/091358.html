@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style type="text/css">
+pre {
+  font-family:Courier New;
+  font-size:10pt;
+}
+
+.af_line {
+  color: gray;
+  text-decoration: none;
+}
+
+</style>
+<title>Source file</title>
+</head>
+<body>
+<pre>/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7
+<span style="font-weight:bold;color:#5c5cff;">recordings</span>
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">">ITINF25/lektion7
+</span>$ ls
+count_words.py  goal.txt  <span style="font-weight:bold;color:#5c5cff;">recordings</span>  test_count_words.py
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 5, in &lt;module&gt;
+    raise AssertionError(&quot;Hej ska upprepas 10 gånger&quot;)
+AssertionError: Hej ska upprepas 10 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 11, in &lt;module&gt;
+    raise AssertionError(&quot;hopp ska upprepas 5 gånger&quot;)
+AssertionError: hopp ska upprepas 5 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 11, in &lt;module&gt;
+    raise AssertionError(&quot;hopp ska upprepas 5 gånger&quot;)
+AssertionError: hopp ska upprepas 5 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 5, in &lt;module&gt;
+    raise AssertionError(&quot;hej ska upprepas 10 gånger&quot;)
+AssertionError: hej ska upprepas 10 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 11, in &lt;module&gt;
+    raise AssertionError(&quot;hopp ska upprepas 5 gånger&quot;)
+AssertionError: hopp ska upprepas 5 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: ✓
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: ✓
+Test: hej och hopp 3 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 17, in &lt;module&gt;
+    raise AssertionError(&quot;hopp ska upprepas 5 gånger&quot;)
+AssertionError: hopp ska upprepas 5 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ python3 test_count_words.py 
+Test: Hej 10 gånger: ✓
+Test: Hopp 5 gånger: ✓
+Test: hej och hopp 3 gånger: Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/test_count_words.py&quot;, line 17, in &lt;module&gt;
+    raise AssertionError(&quot;hej och hopp ska upprepas 3 gånger&quot;)
+AssertionError: hej och hopp ska upprepas 3 gånger
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">">ITINF25/lektion7
+$ pipn>$ 
+
+Usage:   
+  pip &lt;command&gt; [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip&apos;s wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions
+                              propagate outside the main
+                              subroutine, instead of
+                              logging them to stderr.
+  --isolated                  Run pip in an isolated
+                              mode, ignoring environment
+                              variables and user
+                              configuration.
+  --require-virtualenv        Allow pip to only run in a
+                              virtual environment; exit
+                              with an error otherwise.
+  --python &lt;python&gt;           Run pip with the specified
+                              Python interpreter.
+  -v, --verbose               Give more output. Option is
+                              additive, and can be used
+                              up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is
+                              additive, and can be used
+                              up to 3 times
+                              (corresponding to WARNING,
+                              ERROR, and CRITICAL logging
+                              levels).
+  --log &lt;path&gt;                Path to a verbose appending
+                              log.
+  --no-input                  Disable prompting for
+                              input.
+  --proxy &lt;proxy&gt;             Specify a proxy in the form
+                              scheme://[user:passwd&#64;]prox
+                              y.server:port.
+  --retries &lt;retries&gt;         Maximum number of retries
+                              each connection should
+                              attempt (default 5 times).
+  --timeout &lt;sec&gt;             Set the socket timeout
+                              (default 15 seconds).
+  --exists-action &lt;action&gt;    Default action when a path
+                              already exists: (s)witch,
+                              (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host &lt;hostname&gt;   Mark this host or host:port
+                              pair as trusted, even
+                              though it does not have
+                              valid or any HTTPS.
+  --cert &lt;path&gt;               Path to PEM-encoded CA
+                              certificate bundle. If
+                              provided, overrides the
+                              default. See &apos;SSL
+                              Certificate Verification&apos;
+                              in pip documentation for
+                              more information.
+  --client-cert &lt;path&gt;        Path to SSL client
+                              certificate, a single file
+                              containing the private key
+                              and the certificate in PEM
+                              format.
+  --cache-dir &lt;dir&gt;           Store the cache data in
+                              &lt;dir&gt;.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don&apos;t periodically check
+                              PyPI to determine whether a
+                              new version of pip is
+                              available for download.
+                              Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation
+                              warnings for upcoming
+                              unsupported Pythons.
+  --use-feature &lt;feature&gt;     Enable new functionality,
+                              that may be backward
+                              incompatible.
+  --use-deprecated &lt;feature&gt;  Enable deprecated
+                              functionality, that will be
+                              removed in the future.
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+</span>$ python
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;p(&quot;hej&quot;,&quot;svejs&quot;,10020)
+633;D;0
+633;A
+&gt;&gt;&gt; 633;B
+
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+</span>$ pip3
+
+Usage:   
+  pip3 &lt;command&gt; [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip&apos;s wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions
+                              propagate outside the main
+                              subroutine, instead of
+                              logging them to stderr.
+  --isolated                  Run pip in an isolated
+                              mode, ignoring environment
+                              variables and user
+                              configuration.
+  --require-virtualenv        Allow pip to only run in a
+                              virtual environment; exit
+                              with an error otherwise.
+  --python &lt;python&gt;           Run pip with the specified
+                              Python interpreter.
+  -v, --verbose               Give more output. Option is
+                              additive, and can be used
+                              up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is
+                              additive, and can be used
+                              up to 3 times
+                              (corresponding to WARNING,
+                              ERROR, and CRITICAL logging
+                              levels).
+  --log &lt;path&gt;                Path to a verbose appending
+                              log.
+  --no-input                  Disable prompting for
+                              input.
+  --proxy &lt;proxy&gt;             Specify a proxy in the form
+                              scheme://[user:passwd&#64;]prox
+                              y.server:port.
+  --retries &lt;retries&gt;         Maximum number of retries
+                              each connection should
+                              attempt (default 5 times).
+  --timeout &lt;sec&gt;             Set the socket timeout
+                              (default 15 seconds).
+  --exists-action &lt;action&gt;    Default action when a path
+                              already exists: (s)witch,
+                              (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host &lt;hostname&gt;   Mark this host or host:port
+                              pair as trusted, even
+                              though it does not have
+                              valid or any HTTPS.
+  --cert &lt;path&gt;               Path to PEM-encoded CA
+                              certificate bundle. If
+                              provided, overrides the
+                              default. See &apos;SSL
+                              Certificate Verification&apos;
+                              in pip documentation for
+                              more information.
+  --client-cert &lt;path&gt;        Path to SSL client
+                              certificate, a single file
+                              containing the private key
+                              and the certificate in PEM
+                              format.
+  --cache-dir &lt;dir&gt;           Store the cache data in
+                              &lt;dir&gt;.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don&apos;t periodically check
+                              PyPI to determine whether a
+                              new version of pip is
+                              available for download.
+                              Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation
+                              warnings for upcoming
+                              unsupported Pythons.
+  --use-feature &lt;feature&gt;     Enable new functionality,
+                              that may be backward
+                              incompatible.
+  --use-deprecated &lt;feature&gt;  Enable deprecated
+                              functionality, that will be
+                              removed in the future.
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+</span>$ pip3
+
+man 
+PIP(1)           General Commands Manual           PIP(1)
+
+<span style="font-weight:bold;color:#7f7f7f;">NAME</span>
+       pip  -  A  tool for installing and managing Python
+       packages
+
+<span style="font-weight:bold;color:#7f7f7f;">SYNOPSIS</span>
+       pip &lt;command&gt; [options]
+
+       pip3 &lt;command&gt; [options]
+
+<span style="font-weight:bold;color:#7f7f7f;">DESCRIPTION</span>
+       <span style="font-weight:bold;color:#7f7f7f;">pip</span> is a Python package installer, recommended for
+<span style="color:#000000;background-color:#000000;">       installing Python packages which are not available</span><span style="color:#000000;background-color:#000000;">
+       in the Debian archive.  It can work  with  version
+       control  repositories  (currently only Git, Mercu‐
+       rial, and Bazaar repositories), logs output exten‐
+       sively, and prevents partial installs by download‐
+       ing all requirements before starting installation.
+
+       On Debian, <span style="font-weight:bold;color:#7f7f7f;">pip</span> is the  command  to  use  when  in‐
+       stalling  packages for Python 2, while <span style="font-weight:bold;color:#7f7f7f;">pip3</span> is the
+       command to use when installing packages for Python
+       3.
+
+<span style="font-weight:bold;color:#7f7f7f;">COMMANDS</span>
+<span style="color:#000000;background-color:#000000;">       The command comes before any options.  The follow‐</span>pan style="color:#000000;background-color:#000000;">
+       ing commands are recognized:
+
+       <span style="font-weight:bold;color:#7f7f7f;">help</span>   Show help for commands.
+
+       <span style="font-weight:bold;color:#7f7f7f;">install</span>
+              Install packages.
+
+       <span style="font-weight:bold;color:#7f7f7f;">uninstall</span>
+              Uninstall packages.
+
+       <span style="font-weight:bold;color:#7f7f7f;">freeze</span> Output installed packages  in  requirements
+              format.
+<span style="color:#000000;background-color:#000000;"></span>ge pip3(1) line 27 (press h for help or q to quit)</span><span style="color:#000000;background-color:#000000;">
+       <span style="font-weight:bold;color:#7f7f7f;">list</span>   List installed packages.
+
+       <span style="font-weight:bold;color:#7f7f7f;">show</span>   Show information about installed packages.
+
+       <span style="font-weight:bold;color:#7f7f7f;">search</span> Search PyPI for packages.
+
+       <span style="font-weight:bold;color:#7f7f7f;">wheel</span>  Build wheels from your requirements.
+
+<span style="font-weight:bold;color:#7f7f7f;">GENERAL</span> <span style="font-weight:bold;color:#7f7f7f;">OPTIONS</span>
+       This list is by no means complete, and it only de‐
+       scribes options available to  all  commands.   Use
+       <span style="font-weight:bold;color:#7f7f7f;">pip</span>  <span style="font-weight:bold;color:#7f7f7f;">&lt;command&gt;</span>  <span style="font-weight:bold;color:#7f7f7f;">--help</span> for more details on command
+<span style="color:#000000;background-color:#000000;">       specific options.  A few command options are  pro‐</span>pan style="color:#000000;background-color:#000000;">
+       vided below.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-h</span>, <span style="font-weight:bold;color:#7f7f7f;">--help</span>
+              Show more detailed command help.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-v</span>, <span style="font-weight:bold;color:#7f7f7f;">--verbose</span>
+              Give  more  output. Option is additive, and
+              can be used up to 3 times.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-V</span>, <span style="font-weight:bold;color:#7f7f7f;">--version</span>
+              Show version and exit.
+
+<span style="color:#000000;background-color:#000000;">       </span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;">-q</span>, <span style="font-weight:bold;color:#7f7f7f;">--quiet</span>
+              Give less output.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--log-file</span> <span style="text-decoration:underline;">&lt;path&gt;</span>
+              Path to a verbose non-appending  log,  that
+              only  logs failures.  This log is active by
+              default at <span style="text-decoration:underline;">~/.pip/pip.log</span>.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--log</span> <span style="text-decoration:underline;">&lt;path&gt;</span>
+              Path to a verbose appending log.  This  log
+              is inactive by default.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--proxy</span> <span style="text-decoration:underline;">&lt;proxy&gt;</span>
+<span style="color:#000000;background-color:#000000;">              Specify     a    proxy    in    the    form</span><span style="color:#000000;background-color:#000000;">
+              <span style="font-weight:bold;color:#7f7f7f;">[user:passwd&#64;]proxy.server:port</span>.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--timeout</span> <span style="text-decoration:underline;">&lt;sec&gt;</span>
+              Set the socket  timeout  (default  15  sec‐
+              onds).
+
+       <span style="font-weight:bold;color:#7f7f7f;">--exists-action</span> <span style="text-decoration:underline;">&lt;action&gt;</span>
+              Default  action when a path already exists:
+              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--cert</span> <span style="text-decoration:underline;">&lt;path&gt;</span>
+              Path to alternate CA bundle.
+<span style="color:#000000;background-color:#000000;">              Specify     a    proxy    in    the    form</span><span style="color:#000000;background-color:#000000;">
+              <span style="font-weight:bold;color:#7f7f7f;">[user:passwd&#64;]proxy.server:port</span>.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--timeout</span> <span style="text-decoration:underline;">&lt;sec&gt;</span>
+              Set the socket  timeout  (default  15  sec‐
+              onds).
+
+       <span style="font-weight:bold;color:#7f7f7f;">--exists-action</span> <span style="text-decoration:underline;">&lt;action&gt;</span>
+              Default  action when a path already exists:
+              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--cert</span> <span style="text-decoration:underline;">&lt;path&gt;</span>
+              Path to alternate CA bundle.
+              Specify     a    proxy    in    the    form
+              <span style="font-weight:bold;color:#7f7f7f;">[user:passwd&#64;]proxy.server:port</span>.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--timeout</span> <span style="text-decoration:underline;">&lt;sec&gt;</span>
+              Set the socket  timeout  (default  15  sec‐
+              onds).
+
+       <span style="font-weight:bold;color:#7f7f7f;">--exists-action</span> <span style="text-decoration:underline;">&lt;action&gt;</span>
+              Default  action when a path already exists:
+              (s)witch, (i)gnore, (w)ipe, (b)ackup.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--cert</span> <span style="text-decoration:underline;">&lt;path&gt;</span>
+              Path to alternate CA bundle.
+...skipping...
+       <span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#000000;background-color:#7f7f7f;">-U</span><span style="font-weight:bold;color:#7f7f7f;background-color:#000000;"></span>, <span style="font-weight:bold;color:#7f7f7f;">--upgrade</span>
+              Upgrade all packages to the  newest  avail‐
+              able  version.   This  process is recursive
+              regardless of whether a dependency  is  al‐
+              ready satisfied.
+
+       <span style="font-weight:bold;color:#7f7f7f;">--force-reinstall</span>
+              When upgrading, reinstall all packages even
+              if they are already up-to-date.
+
+       <span style="font-weight:bold;color:#7f7f7f;">-I</span>, <span style="font-weight:bold;color:#7f7f7f;">--ignore-installed</span>
+              Ignore the installed packages (reinstalling
+              instead).
+<span style="color:#5c5cff;background-color:#000000;">&gt;</span><span style="color:#5c5cff;background-color:#000000;">ITINF25/lektion7r:#000000;background-color:#000000;">
+<span style="color:#5c5cff;"><span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ pip3 install pytest
+<span style="font-weight:bold;color:#ff0000;">error</span>: <span style="font-weight:bold;color:#7f7f7f;">externally-managed-environment</span>
+
+<span style="color:#cd0000;">×</span> This environment is externally managed
+<span style="color:#cd0000;">╰─&gt;</span> To install Python packages system-wide, try apt install
+<span style="color:#cd0000;">   </span> python3-xyz, where xyz is the package you are trying to
+<span style="color:#cd0000;">   </span> install.
+<span style="color:#cd0000;">   </span> 
+<span style="color:#cd0000;">   </span> If you wish to install a non-Debian-packaged Python package,
+<span style="color:#cd0000;">   </span> create a virtual environment using python3 -m venv path/to/venv.
+<span style="color:#cd0000;">   </span> Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+<span style="color:#cd0000;">   </span> sure you have python3-full installed.
+<span style="color:#cd0000;">   </span> 
+<span style="color:#cd0000;">   </span> If you wish to install a non-Debian packaged Python application,
+<span style="color:#cd0000;">   </span> it may be easiest to use pipx install xyz, which will manage a
+<span style="color:#cd0000;">   </span> virtual environment for you. Make sure you have pipx installed.
+<span style="color:#cd0000;">   </span> 
+<span style="color:#cd0000;">   </span> See /usr/share/doc/python3.11/README.venv for more information.
+
+<span style="font-weight:bold;color:#ff00ff;">note</span>: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+<span style="font-weight:bold;color:#00ffff;">hint</span>: See PEP 668 for the detailed specification.
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">">ITINF25/lektion7
+</span>$ sudo apt install py
+
+Display all 5293 possibilities? (y or n)
+py3c-dev
+py3status
+pyacidobasic
+pybedtools-bin
+pybik
+pybik-bin
+pybind11-dev
+pybind11-doc
+pybind11-json-dev
+pybtex
+pybuild-plugin-autopkgtest
+pybuild-plugin-pyproject
+pycadf-common
+pychess-
+pycirkuit
+pycode-browser
+pycodestyle
+pyconfigure
+pycoqc
+pycorrfit
+py-cpuinfo
+pycsw
+pycsw-doc
+pycsw-wsgi
+pydevd
+pydf
+pydocstyle
+pydoctor
+pyecm
+pyensembl
+pyfai
+pyfastx
+pyflakes3
+pygac-bin
+pygopherd
+pygtail
+pyhoca-cli
+pyhoca-gui
+pyjoke
+pykmle--
+pykwalify
+pylama
+pyliblo-utils
+pylibtiff
+pylint
+pylint-doc
+pymacs
+pymatgen-test-files
+pymca
+pymca-data
+pymca-doc
+pymoctool
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">style="color:#5c5cff;">ITINF25/lektion7
+</span>$ sudo apt install python
+
+Display all 5169 possibilities? (y or n)
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ sudo apt install python3
+
+Display all 4330 possibilities? (y or n)
+python3
+python3.11
+python3.11-dbg
+python3.11-dev
+python3.11-doc
+python3.11-examples
+python3.11-full
+python3.11-minimal
+python3.11-nopie
+python3.11-venv
+python3-a38
+python3-aafigure
+python3-aalib
+python3-absl
+python3-abydos
+python3-access2base
+python3-acme
+python3-acora
+python3-acoustid
+python3-actdiag
+python3-actionlib
+python3-actionlib-msgs
+python3-actionlib-tools
+python3-activipy
+python3-adal
+python3-adapt
+python3-adios
+python3-admesh
+python3-advocate
+python3-aeidon
+python3-afdko
+python3-affine
+python3-agate
+python3-agatedbf
+python3-agateexcel
+python3-agatesql
+python3-aggdraw
+python3-ahocorasick
+python3-aioamqp
+python3-aioapns
+python3-aiocoap
+python3-aiodns
+python3-aiodogstatsd
+python3-aiofiles
+python3-aioftp
+python3-aiohttp
+python3-aiohttp-apispec
+python3-aiohttp-cors
+python3-aiohttp-jinja2
+python3-aiohttp-mako
+python3-aiohttp-oauthlib
+python3-aiohttp-openmetrics
+python3-aiohttp-proxy
+python3-aiohttp-security
+python3-aiohttp-session
+python3-aiohttp-socks
+python3-aiohttp-wsgi
+python3-aioice
+python3-aioinflux
+python3-aiomeasures
+python3-aiomysql
+python3-aionotify
+python3-aioopenssl
+python3-aiopg
+python3-aio-pika
+python3-aioprocessing
+python3-aioredis
+python3-aioresponses
+python3-aioresponses-doc
+python3-aiormq
+python3-aiorpcx
+python3-aiortc
+python3-aiortc-doc
+python3-aiosasl
+python3-aiosignal
+python3-aiosmtpd
+python3-aiosmtplib
+python3-aiosmtplib-doc
+python3-aiosqlite
+python3-aiostream
+python3-aiotask-context
+python3-aioxmlrpc
+python3-aioxmpp
+python3-aioxmpp-doc
+python3-aiozipkin
+python3-aiozmq
+python3-airr
+python3-airspeed
+python3-ais
+python3-ajax-select
+python3-ajpy
+python3-alabaster
+python3-alembic
+python3-alignlib
+python3-all
+python3-all-dbg
+python3-all-dev
+python3-allpairspy
+python3-alsaaudio
+python3-altair
+python3-altgraph
+python3-ament-clang-format
+python3-ament-clang-tidy
+python3-ament-cmake-google-benchmark
+python3-ament-cmake-test
+python3-ament-copyright
+python3-ament-cppcheck
+python3-ament-cpplint
+python3-ament-flake8
+python3-ament-index
+python3-ament-lint
+python3-ament-lint-cmake
+python3-ament-mypy
+python3-ament-package
+python3-ament-pep257
+python3-ament-pycodestyle
+python3-ament-pyflakes
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ sudo apt install python3^C
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+$ pip3 install pytest
+<span style="font-weight:bold;color:#ff0000;">error</span>: <span style="font-weight:bold;color:#7f7f7f;">externally-managed-environment</span>
+
+<span style="color:#cd0000;">×</span> This environment is externally managed
+<span style="color:#cd0000;">╰─&gt;</span> To install Python packages system-wide, try apt install
+<span style="color:#cd0000;">   </span> python3-xyz, where xyz is the package you are trying to
+<span style="color:#cd0000;">   </span> install.
+<span style="color:#cd0000;">   </span> 
+<span style="color:#cd0000;">   </span> If you wish to install a non-Debian-packaged Python package,
+<span style="color:#cd0000;">   </span> create a virtual environment using python3 -m venv path/to/venv.
+<span style="color:#cd0000;">   </span> Then use path/to/venv/bin/python and path/to/venv/bin/pip. Make
+<span style="color:#cd0000;">   </span> sure you have python3-full installed.
+<span style="color:#cd0000;">   </span> 
+<span style="color:#cd0000;">   </span> If you wish to install a non-Debian packaged Python application,
+<span style="color:#cd0000;">   </span> it may be easiest to use pipx install xyz, which will manage a
+<span style="color:#cd0000;">   </span> virtual environment for you. Make sure you have pipx installed.
+<span style="color:#cd0000;">   </span> 
+<span style="color:#cd0000;">   </span> See /usr/share/doc/python3.11/README.venv for more information.
+
+<span style="font-weight:bold;color:#ff00ff;">note</span>: If you believe this is a mistake, please contact your Python installation or OS distribution provider. You can override this, at the risk of breaking your Python installation or OS, by passing --break-system-packages.
+<span style="font-weight:bold;color:#00ffff;">hint</span>: See PEP 668 for the detailed specification.
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+$ python3 -m venv .venhubb.venv
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ ..
+source
+dkkd
+
+. .venv/bin/ac
+tivate
+
+activate       activate.csh   activate.fish  
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;"><span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ . .venv/bin/activate
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ de
+
+deactivate
+deallocvt
+debconf
+debconf-apt-progress
+debconf-communicate
+debconf-copydb
+debconf-escape
+debconf-getlang
+debconf-get-selections
+--More--
+debconf-gettextize
+debconf-kde-helper
+debconf-loadtemplate
+debconf-mergetemplate
+debconf-set-selections
+debconf-show
+debconf-updatepo
+debianbts
+deb-systemd-helper
+deb-systemd-invoke
+debugpy
+debugpy.bat
+debugpy.fish
+debugpy.ps1
+declare
+defmt-c
+defmt-sh
+delpart
+delvre--
+dequote
+designer
+desktop-file-edit
+desktop-file-install
+desktop-file-validate
+detex
+devnag
+devops25-databashantering
+devops25-databashantering-rapport
+devops25-databashantering-rapport-review-healthy
+devops25-databashantering-rapport-review-unhealthy
+devops25-databashantering-review-healthy
+devops25-databashantering-review-unhealthy
+devops25-programmering3
+devops25-programmering3-review-healthy
+devops25-programmering3-review-unhealthy
+devops25-projektmetodik-bok
+devops25-projektmetodik-bok-review-healthy
+devops25-projektmetodik-bok-review-unhealthy
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ dea
+
+deactivate  deallocvt   
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">r:#5c5cff;">ITINF25/lektion7
+</span>$ deactivate
+
+
+
+
+
+
+$ ls .venv/
+<span style="font-weight:bold;color:#5c5cff;">bin</span>  <span style="font-weight:bold;color:#5c5cff;">include</span>  <span style="font-weight:bold;color:#5c5cff;">lib</span>  <span style="font-weight:bold;color:#00ffff;">lib64</span>  pyvenv.cfg
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ ls .venv/include/
+<span style="font-weight:bold;color:#5c5cff;">python3.11</span>
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;"><span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ ls .venv/bin/
+activate      activate.fish  <span style="font-weight:bold;color:#00ff00;">pip</span>   <span style="font-weight:bold;color:#00ff00;">pip3.11</span>  <span style="font-weight:bold;color:#00ffff;">python3</span>
+activate.csh  Activate.ps1   <span style="font-weight:bold;color:#00ff00;">pip3</span>  <span style="font-weight:bold;color:#00ffff;">python</span>   <span style="font-weight:bold;color:#00ffff;">python3.11</span>
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ .b
+venv/bin/A
+ctivate.ps1 # för windows   ^C
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+$ span>$ 
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ pip3
+
+Usage:   
+  pip3 &lt;command&gt; [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip&apos;s wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions propagate
+                              outside the main subroutine,
+                              instead of logging them to stderr.
+  --isolated                  Run pip in an isolated mode,
+                              ignoring environment variables and
+                              user configuration.
+  --require-virtualenv        Allow pip to only run in a virtual
+                              environment; exit with an error
+                              otherwise.
+  --python &lt;python&gt;           Run pip with the specified Python
+                              interpreter.
+  -v, --verbose               Give more output. Option is
+                              additive, and can be used up to 3
+                              times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is
+                              additive, and can be used up to 3
+                              times (corresponding to WARNING,
+                              ERROR, and CRITICAL logging
+                              levels).
+  --log &lt;path&gt;                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy &lt;proxy&gt;             Specify a proxy in the form scheme
+                              ://[user:passwd&#64;]proxy.server:port
+                              .
+  --retries &lt;retries&gt;         Maximum number of retries each
+                              connection should attempt (default
+                              5 times).
+  --timeout &lt;sec&gt;             Set the socket timeout (default 15
+                              seconds).
+  --exists-action &lt;action&gt;    Default action when a path already
+                              exists: (s)witch, (i)gnore,
+                              (w)ipe, (b)ackup, (a)bort.
+  --trusted-host &lt;hostname&gt;   Mark this host or host:port pair
+                              as trusted, even though it does
+                              not have valid or any HTTPS.
+  --cert &lt;path&gt;               Path to PEM-encoded CA certificate
+                              bundle. If provided, overrides the
+                              default. See &apos;SSL Certificate
+                              Verification&apos; in pip documentation
+                              for more information.
+  --client-cert &lt;path&gt;        Path to SSL client certificate, a
+                              single file containing the private
+                              key and the certificate in PEM
+                              format.
+  --cache-dir &lt;dir&gt;           Store the cache data in &lt;dir&gt;.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don&apos;t periodically check PyPI to
+                              determine whether a new version of
+                              pip is available for download.
+                              Implied with --no-index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation warnings for
+                              upcoming unsupported Pythons.
+  --use-feature &lt;feature&gt;     Enable new functionality, that may
+                              be backward incompatible.
+  --use-deprecated &lt;feature&gt;  Enable deprecated functionality,
+                              that will be removed in the
+                              future.
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+</span>$ <span style="color:#000000;background-color:#000000;">pip3 install pytest</span><span style="color:#000000;background-color:#000000;">
+<span style="color:#000000;background-color:#000000;">pip3 install pytest
+<span style="color:#000000;background-color:#000000;">Collecting pytest
+  Using cached pytest-9.0.2-py3-none-any.whl (374 kB)
+Collecting iniconfig&gt;=1.0.1
+  Using cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Collecting packaging&gt;=22
+  Using cached packaging-26.0-py3-none-any.whl (74 kB)
+Collecting pluggy&lt;2,&gt;=1.5
+  Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Collecting pygments&gt;=2.7.2
+  Using cached pygments-2.19.2-py3-none-any.whl (1.2 MB)
+Installing collected packages: pygments, pluggy, packaging, iniconfig, pytest
+Successfully installed iniconfig-2.3.0 packaging-26.0 pluggy-1.6.0 pygments-2.19.2 pytest-9.0.2
+<span style="color:#5c5cff;background-color:#000000;">0000;">ITINF25/lektion7
+<span style="color:#5c5cff;">">ITINF25/lektion7
+</span>$ pip freeze
+iniconfig==2.3.0
+packaging==26.0
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==9.0.2
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">r:#5c5cff;">ITINF25/lektion7
+</span>$ pip freeze :&gt; requirements.txrt
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">lor:#5c5cff;">ITINF25/lektion7
+</span>$ pip3 install +r-r re
+
+recordings/       requirements.txt  
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">irements.txt <span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ pip3 install -r requirements.txt 
+Requirement already satisfied: iniconfig==2.3.0 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 1)) (2.3.0)
+Requirement already satisfied: packaging==26.0 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 2)) (26.0)
+Requirement already satisfied: pluggy==1.6.0 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 3)) (1.6.0)
+Requirement already satisfied: Pygments==2.19.2 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 4)) (2.19.2)
+Requirement already satisfied: pytest==9.0.2 in ./.venv/lib/python3.11/site-packages (from -r requirements.txt (line 5)) (9.0.2)
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">">ITINF25/lektion7
+</span>$ ls
+<span style="font-weight:bold;color:#5c5cff;">custom_tests</span>  pip_paket.txt  <span style="font-weight:bold;color:#5c5cff;">pytest_tests</span>  requirements.txt
+goal.txt      <span style="font-weight:bold;color:#5c5cff;">__pycache__</span>    <span style="font-weight:bold;color:#5c5cff;">recordings</span>
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ cd pytest_tests/
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ ls
+count_words.py  test_count_words.py
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ mkdir tests
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ mkdir src
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ rmdir *
+rmdir: failed to remove &apos;count_words.py&apos;: Not a directory
+rmdir: failed to remove &apos;test_count_words.py&apos;: Not a directory
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ ls
+count_words.py  test_count_words.py
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pyt
+e
+s
+
+
+
+
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ which pytest
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/pytest
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ echo $PATH
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin:/home/kent/.local/share/jdk-25.0.1/bin:/home/kent/.local/share/jdk-25.0.1/bin:/home/kent/.sdkman/candidates/gradle/current/bin:/home/kent/.nvm/versions/node/v24.12.0/bin:/home/kent/.local/share/jdk-25.0.1/bin:/var/lib/flatpak/exports/bin:/home/kent/.local/bin:/home/kent/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/kent/.dotnet/tools:/home/kent/.local/share/JetBrains/Toolbox/scripts:/home/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 1 item                                                                  </span>
+
+test_count_words.py <span style="color:#cd0000;">F</span><span style="color:#cd0000;">                                                       [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">___________________________________ test_hej_10 ___________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_10</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hej hej hej hej hej hej hej</span><span style="color:#cdcd00;">&quot;</span>) != {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">10</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hej&apos;: 10} != {&apos;hej&apos;: 10}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E        +  where {&apos;hej&apos;: 10} = count_words(&apos;hej hej hej hej hej hej hej hej hej hej&apos;)</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:5: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_10</span> - AssertionError: assert {&apos;hej&apos;: 10} != {&apos;hej&apos;: 10}
+<span style="color:#cd0000;">================================ </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span><span style="color:#cd0000;"> in 0.02s</span><span style="color:#cd0000;"> ================================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/pytest_tests
+$ pyte>$ 
+st
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 1 item                                                                  </span>
+
+test_count_words.py <span style="color:#cd0000;">F</span><span style="color:#cd0000;">                                                       [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">___________________________________ test_hej_10 ___________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_10</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hej hej hej hej hej hej hej</span><span style="color:#cdcd00;">&quot;</span>) != {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">10</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hej&apos;: 10} != {&apos;hej&apos;: 10}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E        +  where {&apos;hej&apos;: 10} = count_words(&apos;hej hej hej hej hej hej hej hej hej hej&apos;)</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:5: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_10</span> - AssertionError: assert {&apos;hej&apos;: 10} != {&apos;hej&apos;: 10}
+<span style="color:#cd0000;">================================ </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span><span style="color:#cd0000;"> in 0.02s</span><span style="color:#cd0000;"> ================================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 1 item                                                                  </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">                                                       [100%]</span>
+
+<span style="color:#00cd00;">================================ </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">1 passed</span><span style="color:#00cd00;"> in 0.00s</span><span style="color:#00cd00;"> ================================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">olor:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 2 items                                                                 </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">                                                      [100%]</span>
+
+<span style="color:#00cd00;">================================ </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">2 passed</span><span style="color:#00cd00;"> in 0.00s</span><span style="color:#00cd00;"> ================================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">olor:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                                 </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">                                                     [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">_________________________________ test_hej_hopp_3 _________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_hopp_3</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>, <span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Right contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Use -v to get more diff</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:13: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_hopp_3</span> - AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}
+<span style="color:#cd0000;">=========================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.02s</span><span style="color:#cd0000;"> ===========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest -v
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                                 </span>
+
+test_count_words.py::test_hej_10 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 33%]</span>
+test_count_words.py::test_hopp_5 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 66%]</span>
+test_count_words.py::test_hej_hopp_3 <span style="color:#cd0000;">FAILED</span><span style="color:#cd0000;">                                 [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">_________________________________ test_hej_hopp_3 _________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_hopp_3</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>, <span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Right contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Full diff:...</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ...Full output truncated (7 lines hidden), use &apos;-vv&apos; to show</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:13: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_hopp_3</span> - AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}
+<span style="color:#cd0000;">=========================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.03s</span><span style="color:#cd0000;"> ===========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest -vv
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                                 </span>
+
+test_count_words.py::test_hej_10 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 33%]</span>
+test_count_words.py::test_hopp_5 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 66%]</span>
+test_count_words.py::test_hej_hopp_3 <span style="color:#cd0000;">FAILED</span><span style="color:#cd0000;">                                 [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">_________________________________ test_hej_hopp_3 _________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_hopp_3</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>, <span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Right contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Full diff:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="color:#7f7f7f;"> </span> {<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#ff0000;">-     &apos;hej&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#ff0000;">-     &apos;hopp&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ?             ^</span><span style="font-weight:bold;color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#00ff00;">+     &apos;hopp&apos;: 5,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ?             ^</span><span style="font-weight:bold;color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#7f7f7f;"> </span> }<span style="color:#7f7f7f;"></span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:13: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_hopp_3</span> - AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}
+  
+  Differing items:
+  {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+  Right contains 1 more item:
+  {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+  
+  Full diff:
+  <span style="color:#7f7f7f;"> </span> {<span style="color:#7f7f7f;"></span>
+  <span style="color:#ff0000;">-     &apos;hej&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+  <span style="color:#ff0000;">-     &apos;hopp&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+  ?             ^<span style="color:#7f7f7f;"></span>
+  <span style="color:#00ff00;">+     &apos;hopp&apos;: 5,</span><span style="color:#7f7f7f;"></span>
+  ?             ^<span style="color:#7f7f7f;"></span>
+  <span style="color:#7f7f7f;"> </span> }<span style="color:#7f7f7f;"></span>
+<span style="color:#cd0000;">=========================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.03s</span><span style="color:#cd0000;"> ===========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest -vvv
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                                 </span>
+
+test_count_words.py::test_hej_10 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 33%]</span>
+test_count_words.py::test_hopp_5 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 66%]</span>
+test_count_words.py::test_hej_hopp_3 <span style="color:#cd0000;">FAILED</span><span style="color:#cd0000;">                                 [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">_________________________________ test_hej_hopp_3 _________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_hopp_3</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>, <span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Right contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Full diff:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="color:#7f7f7f;"> </span> {<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#ff0000;">-     &apos;hej&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#ff0000;">-     &apos;hopp&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ?             ^</span><span style="font-weight:bold;color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#00ff00;">+     &apos;hopp&apos;: 5,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ?             ^</span><span style="font-weight:bold;color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#7f7f7f;"> </span> }<span style="color:#7f7f7f;"></span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:13: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_hopp_3</span> - AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}
+  
+  Differing items:
+  {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+  Right contains 1 more item:
+  {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+  
+  Full diff:
+  <span style="color:#7f7f7f;"> </span> {<span style="color:#7f7f7f;"></span>
+  <span style="color:#ff0000;">-     &apos;hej&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+  <span style="color:#ff0000;">-     &apos;hopp&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+  ?             ^<span style="color:#7f7f7f;"></span>
+  <span style="color:#00ff00;">+     &apos;hopp&apos;: 5,</span><span style="color:#7f7f7f;"></span>
+  ?             ^<span style="color:#7f7f7f;"></span>
+  <span style="color:#7f7f7f;"> </span> }<span style="color:#7f7f7f;"></span>
+<span style="color:#cd0000;">=========================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.02s</span><span style="color:#cd0000;"> ===========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest -vv
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                                 </span>
+
+test_count_words.py::test_hej_10 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 33%]</span>
+test_count_words.py::test_hopp_5 <span style="color:#00cd00;">PASSED</span><span style="color:#00cd00;">                                     [ 66%]</span>
+test_count_words.py::test_hej_hopp_3 <span style="color:#cd0000;">FAILED</span><span style="color:#cd0000;">                                 [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">_________________________________ test_hej_hopp_3 _________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_hopp_3</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>, <span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Right contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Full diff:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="color:#7f7f7f;"> </span> {<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#ff0000;">-     &apos;hej&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#ff0000;">-     &apos;hopp&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ?             ^</span><span style="font-weight:bold;color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#00ff00;">+     &apos;hopp&apos;: 5,</span><span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         ?             ^</span><span style="font-weight:bold;color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span><span style="font-weight:bold;color:#7f7f7f;"> </span> }<span style="color:#7f7f7f;"></span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:13: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_hopp_3</span> - AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}
+  
+  Differing items:
+  {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+  Right contains 1 more item:
+  {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+  
+  Full diff:
+  <span style="color:#7f7f7f;"> </span> {<span style="color:#7f7f7f;"></span>
+  <span style="color:#ff0000;">-     &apos;hej&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+  <span style="color:#ff0000;">-     &apos;hopp&apos;: 3,</span><span style="color:#7f7f7f;"></span>
+  ?             ^<span style="color:#7f7f7f;"></span>
+  <span style="color:#00ff00;">+     &apos;hopp&apos;: 5,</span><span style="color:#7f7f7f;"></span>
+  ?             ^<span style="color:#7f7f7f;"></span>
+  <span style="color:#7f7f7f;"> </span> }<span style="color:#7f7f7f;"></span>
+<span style="color:#cd0000;">=========================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.02s</span><span style="color:#cd0000;"> ===========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">r:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">=============================== test session starts ===============================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                                 </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">                                                     [100%]</span>
+
+==================================== FAILURES =====================================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">_________________________________ test_hej_hopp_3 _________________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hej_hopp_3</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej hej hej hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>, <span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Right contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Use -v to get more diff</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:13: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">============================= short test summary info =============================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hej_hopp_3</span> - AssertionError: assert {&apos;hopp&apos;: 5} == {&apos;hej&apos;: 3, &apos;hopp&apos;: 3}
+<span style="color:#cd0000;">=========================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.02s</span><span style="color:#cd0000;"> ===========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">====================== test session starts =======================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#cd0000;">F</span><span style="color:#00cd00;">.</span><span style="color:#cd0000;">                                    [100%]</span>
+
+============================ FAILURES ============================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">__________________________ test_hopp_5 ___________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_hopp_5</span>():<span style="color:#7f7f7f;"></span>
+&gt;       <span style="color:#5c5cff;">assert</span> count_words(<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp hopp hopp hopp hopp</span><span style="color:#cdcd00;">&quot;</span>) == {<span style="color:#cdcd00;">&quot;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&quot;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AssertionError: assert {&apos;hej&apos;: 3, &apos;hopp&apos;: 3} == {&apos;hopp&apos;: 5}</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Differing items:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span> != {<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hopp</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">5</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Left contains 1 more item:</span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         </span>{<span style="color:#cdcd00;">&apos;</span><span style="color:#cdcd00;">hej</span><span style="color:#cdcd00;">&apos;</span>: <span style="color:#5c5cff;">3</span>}<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E         Use -v to get more diff</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:9: AssertionError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">==================== short test summary info =====================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_hopp_5</span> - AssertionError: assert {&apos;hej&apos;: 3, &apos;hopp&apos;: 3} == {&apos;hopp&apos;: 5}
+<span style="color:#cd0000;">================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">2 passed</span><span style="color:#cd0000;"> in 0.03s</span><span style="color:#cd0000;"> ===================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">====================== test session starts =======================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">                                    [100%]</span>
+
+<span style="color:#00cd00;">======================= </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">3 passed</span><span style="color:#00cd00;"> in 0.00s</span><span style="color:#00cd00;"> ========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">====================== test session starts =======================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 3 items                                                </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">                                    [100%]</span>
+
+<span style="color:#00cd00;">======================= </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">3 passed</span><span style="color:#00cd00;"> in 0.00s</span><span style="color:#00cd00;"> ========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">====================== test session starts =======================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 5 items                                                </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#cd0000;">F</span><span style="color:#cd0000;">                                  [100%]</span>
+
+============================ FAILURES ============================
+<span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">________________________ test_not_string _________________________</span>
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">test_not_string</span>():<span style="color:#7f7f7f;"></span>
+&gt;       count_words(<span style="color:#5c5cff;">12345</span>)<span style="color:#7f7f7f;"></span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">test_count_words.py</span>:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+text_string = 12345
+
+    <span style="color:#5c5cff;">def</span><span style="color:#7f7f7f;"> </span><span style="color:#00ff00;">count_words</span>(text_string):<span style="color:#7f7f7f;"></span>
+&gt;       words = text_string.split()<span style="color:#7f7f7f;"></span>
+                ^^^^^^^^^^^^^^^^^<span style="color:#7f7f7f;"></span>
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">E       AttributeError: &apos;int&apos; object has no attribute &apos;split&apos;</span>
+
+<span style="font-weight:bold;color:#7f7f7f;"></span><span style="font-weight:bold;color:#ff0000;">count_words.py</span>:8: AttributeError
+<span style="color:#00cdcd;"></span><span style="font-weight:bold;color:#7f7f7f;">==================== short test summary info =====================</span>
+<span style="color:#cd0000;">FAILED</span> test_count_words.py::<span style="font-weight:bold;color:#7f7f7f;">test_not_string</span> - AttributeError: &apos;int&apos; object has no attribute &apos;split&apos;
+<span style="color:#cd0000;">================== </span><span style="color:#cd0000;"></span><span style="font-weight:bold;color:#7f7f7f;">1 failed</span>, <span style="color:#00cd00;">4 passed</span><span style="color:#cd0000;"> in 0.03s</span><span style="color:#cd0000;"> ===================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ pytest
+<span style="font-weight:bold;color:#7f7f7f;">====================== test session starts =======================</span>
+platform linux -- Python 3.11.2, pytest-9.0.2, pluggy-1.6.0
+rootdir: /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/pytest_tests
+<span style="font-weight:bold;color:#7f7f7f;">collected 6 items                                                </span>
+
+test_count_words.py <span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">.</span><span style="color:#00cd00;">                                 [100%]</span>
+
+<span style="color:#00cd00;">======================= </span><span style="color:#00cd00;"></span><span style="font-weight:bold;color:#7f7f7f;">6 passed</span><span style="color:#00cd00;"> in 0.01s</span><span style="color:#00cd00;"> ========================</span>
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;">">ITINF25/lektion7/pytest_tests
+$ pytes$ 
+
+
+
+
+
+
+python3 test_count_words.py 
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+<span style="color:#5c5cff;"> <span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+</span>$ python3 test_count_words.py 
+<span style="color:#5c5cff;">ITINF25/lektion7/pytest_tests
+$ cd ..$ 
+<span style="color:#5c5cff;">ITINF25/lektion7
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7
+</span>$ ls
+<span style="font-weight:bold;color:#5c5cff;">custom_tests</span>  pip_paket.txt  <span style="font-weight:bold;color:#5c5cff;">pytest_tests</span>  requirements.txt
+goal.txt      <span style="font-weight:bold;color:#5c5cff;">__pycache__</span>    <span style="font-weight:bold;color:#5c5cff;">recordings</span>    <span style="font-weight:bold;color:#5c5cff;">unittest_tests</span>
+<span style="color:#5c5cff;">ITINF25/lektion7
+</span>$ cd pytest_testsunittest_tests/
+<span style="color:#5c5cff;">ITINF25/lektion7/unittest_tests
+<span style="color:#5c5cff;">5c5cff;">ITINF25/lektion7/unittest_tests
+</span>$ ls
+count_words.py  test_count_words.py
+<span style="color:#5c5cff;">ITINF25/lektion7/unittest_tests
+<span style="color:#5c5cff;">ords.py <span style="color:#5c5cff;">ITINF25/lektion7/unittest_tests
+</span>$ python3 test_count_words.py 
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+<span style="color:#5c5cff;">ITINF25/lektion7/unittest_tests
+<span style="color:#5c5cff;"> <span style="color:#5c5cff;">ITINF25/lektion7/unittest_tests
+</span>$ python3 test_count_words.py 
+..F..
+======================================================================
+FAIL: test_hopp_5 (__main__.TestStringMethods.test_hopp_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File &quot;/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion7/unittest_tests/test_count_words.py&quot;, line 13, in test_hopp_5
+    self.assertEqual(result, {&quot;hopp&quot;: 5})
+AssertionError: {&apos;hopp&apos;: 4, &apos;jump&apos;: 1} != {&apos;hopp&apos;: 5}
+- {&apos;hopp&apos;: 4, &apos;jump&apos;: 1}
++ {&apos;hopp&apos;: 5}
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
+<span style="color:#5c5cff;">ITINF25/lektion7/unittest_tests
+<span style="color:#5c5cff;">">ITINF25/lektion7/unittest_tests
+$ span>$ 
+exit
+</pre>
+</body>
+</html>
+<!--HTML generated by ansifilter 2.18, http://www.andre-simon.de/-->

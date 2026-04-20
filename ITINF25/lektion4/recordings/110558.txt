@@ -1,0 +1,18 @@
+/usr/bin/python
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion4
+mod.py        recordings               sekv_tbl1.py  sekv_tbl3.py  sekv_tbl5.py
+mut_sekv1.py  sekvenstyper.excalidraw  sekv_tbl2.py  sekv_tbl4.py  sekv_tbl6.py
+ITINF25/lektion4
+$ /usr/bin/python
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;1 + 2 + plus(10,20)
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion4
+$ 
+exit

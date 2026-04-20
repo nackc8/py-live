@@ -1,0 +1,23 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5
+annatpaket  dict6.py                   imp3_uses_string_extra.py  matte        string_extra.py
+dict1.py    dict7.py                   imp4_uses_string_extra.py  __pycache__  uses_matte.py
+dict2.py    funkfirstobj1.py           imp5_uses_string_extra.py  recordings
+dict3.py    funkfirstobj2.py           imports_satt.txt           scope1.py
+dict4.py    imp1_uses_string_extra.py  imports_sokvagar.txt       scope2.py
+dict5.py    imp2_uses_string_extra.py  __init__.py                set1.py
+ITINF25/lektion5
+$  /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 52657 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/scope2.py 
+hello 1
+ITINF25/lektion5
+$ ^C
+
+ITINF25/lektion5
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45727 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/scope2.py 
+hello 1
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 45757 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/scope2.py 
+hello 1
+hellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohellohello 100
+$ 
+exit

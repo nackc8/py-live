@@ -1,6 +1,10 @@
 # shellcheck shell=bash
 
+# ---- paths / repo root -------------------------------------------------------
+
 ___script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+___this_rcfile="$___script_dir/$(basename -- "${BASH_SOURCE[0]}")"
+
 ___root="$(
 	cd "$___script_dir/.."
 	git rev-parse --show-toplevel
@@ -11,7 +15,9 @@ source "$___root/.shared/repo.bash"
 # shellcheck disable=SC1090
 source ~/.bashrc
 
-# shellcheck disable=SC2181,SC2317
+# ---- prompt helpers ----------------------------------------------------------
+
+# shellcheck disable=SC2181,SC2317,SC2329
 ___rel_path() {
 	local prompt
 	local root
@@ -32,7 +38,7 @@ ___rel_path() {
 }
 export -f ___rel_path
 
-# shellcheck disable=SC2317,SC2155
+# shellcheck disable=SC2317,SC2155,SC2329
 ___set_bash_prompt() {
 	local prompt=$(___rel_path)
 
@@ -51,8 +57,7 @@ ___set_bash_prompt() {
 }
 export -f ___set_bash_prompt
 
-pwd
-ls --color
+# ---- state / branch / lesson dir --------------------------------------------
 
 ___class_validation_re='^[A-Z]+2[3-9]$'
 ___lession_number_validation_re='^[1-9][0-9]?$'
@@ -74,6 +79,7 @@ IFS=, read -r ___datepart ___timepart < <(date +"%y%m%d,%H%M%S")
 ___date_dir="$___dates_dir/d$___datepart"
 
 export PROMPT_COMMAND=___set_bash_prompt
+
 export SHELL="$___script_dir/bash_noprofile_norc"
 
 if [[ (! -e $___date_dir) || -z $___class || -z $___lession_number ]]; then
@@ -108,19 +114,23 @@ fi
 ___lession_dir="$___root/$___class/lektion${___lession_number}"
 
 mkdir -p "$___lession_dir"
-
 [ ! -e "$___date_dir" ] && ln -rs "$___lession_dir" "$___date_dir"
 
 cd "$___lession_dir" || true
-
 mkdir -p recordings
 
-___record="recordings/${___timepart}.txt"
-___record_timing="recordings/${___timepart}_timing.txt"
+# ---- asciinema auto-record ---------------------------------------------------
 
-# shellcheck disable=SC2064,SC2154
-trap '___exit_code=$?; '"'$___script_dir/clean_exited_recording.bash' '$___record' '$___record_timing'; "'exit $___exit_code' EXIT
+___record="recordings/${___timepart}.cast"
 
-script -q --return "$___record" "--timing=$___record_timing"
+if [[ -z ${ASCIINEMA_REC:-} ]]; then
+	export PRESENT_RCFILE="$___this_rcfile"
+	asciinema rec -q "$___record" \
+		-c "bash --noprofile --rcfile ${PRESENT_RCFILE@Q} -i"
+	"$___script_dir/clean_exited_recording.bash" "$___record"
+	exit
+fi
 
-exit $?
+# Inside asciinema recording: fall through to become the interactive shell.
+pwd
+ls --color

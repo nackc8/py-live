@@ -1,0 +1,47 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5
+annatpaket                 imp2_uses_string_extra.py  rek2.py
+dict1.py                   imp3_uses_string_extra.py  rek3.py
+dict2.py                   imp4_uses_string_extra.py  rek4.py
+dict3.py                   imp5_uses_string_extra.py  scope1.py
+dict4.py                   imports_satt.txt           scope2.py
+dict5.py                   imports_sokvagar.txt       scope3.py
+dict6.py                   __init__.py                scope4.py
+dict7.py                   matte                      set1.py
+funkfirstobj1.py           __pycache__                string_extra.py
+funkfirstobj2.py           recordings                 uses_matte.py
+imp1_uses_string_extra.py  rek1.py
+ITINF25/lektion5
+$  /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 36675 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/rek4.py 
+number: 5
+number: 4
+number: 3
+number: 2
+number: 1
+ITINF25/lektion5
+$ ^C
+
+ITINF25/lektion5
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 51183 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/rek4.py 
+number: 5
+number: 4
+number: 3
+number: 2
+number: 1
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 56893 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/rek4\ copy.py 
+$ ^C
+
+$  cd /shared/kent/Documents/nackademin/python/py-live ; /usr/bin/env /usr/bin/python /shared/kent/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 50987 -- /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/rek4\ copy.py 
+x: 4
+x: 3
+x: 2
+x: 1
+x: 0
+python3 rek-m lektion5.uses_annatpaket.py
+6
+.
+
+
+
+exit

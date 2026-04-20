@@ -1,0 +1,648 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion1
+recordings
+ITINF25/lektion1
+$ ls
+recordings
+ITINF25/lektion1
+$ cd ..
+ITINF25 $ cd ..
+$ $ ls
+bin  date  ITINF24  ITINF25  README.md
+$ pwd
+/shared/kent/Documents/nackademin/python/py-live
+$ bin/play.py 
+Recordings: http://localhost:7777/
+Browser disconnected, exiting.
+$ python3
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;round(2.50001)
+633;D;0
+633;A
+>>> 633;B
+jhudhiuh
+
+help
+Type help() for interactive help, or help(object) for help about object.
+633;C
+633;E;help
+633;D;0
+633;A
+>>> 633;B
+help(      
+633;C
+633;E;help
+633;D;0
+633;A
+>>> 633;B
+print(Ã"Hello")
+Hello
+633;C
+633;E;print("Hello")
+633;D;0
+633;A
+>>> 633;B
+greetin
+
+1greeting
+
+
+greetinggeting
+
+
+ =:"hej"
+633;C
+633;E;greeting = "hej"
+633;D;0
+633;A
+>>> 633;B
+print(greeting)
+hej
+633;C
+633;E;print(greeting)
+633;D;0
+633;A
+>>> 633;B
+greeting # funkar bara i REPL, att se vÃ¤rdet
+'hej'
+633;C
+633;E;greeting # funkar bara i REPL, att se vÃ¤rdet
+633;D;0
+633;A
+>>> 633;B
+type(Ã"yolo")
+<class 'str'>
+633;C
+633;E;type("yolo")
+633;D;0
+633;A
+>>> 633;B
+type(greeting_)
+<class 'str'>
+633;C
+633;E;type(greeting)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;type(greeting)
+633;D;0
+633;A
+>>> 633;B
+-5
+-5
+633;C
+633;E;-5
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;-5
+633;D;0
+633;A
+>>> 633;B
+1.2
+1.2
+633;C
+633;E;1.2
+633;D;0
+633;A
+>>> 633;B
+1.3
+1.3
+633;C
+633;E;1.3
+633;D;0
+633;A
+>>> 633;B
+1.33333
+1.33333
+633;C
+633;E;1.33333
+633;D;0
+633;A
+>>> 633;B
+1.33333333333333333
+1.3333333333333333
+633;C
+633;E;1.33333333333333333
+633;D;0
+633;A
+>>> 633;B
+print(Ã"f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+633;C
+633;E;1.33333333333333333
+633;D;0
+633;A
+>>> 633;B
+
+2.3
+2.3
+633;C
+633;E;2.3
+633;D;0
+633;A
+>>> 633;B
+vaning_fyra = True
+633;C
+633;E;vaning_fyra = True
+633;D;0
+633;A
+>>> 633;B
+vanin_fyrg_fyra
+True
+633;C
+633;E;vaning_fyra
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;vaning_fyra
+633;D;0
+633;A
+>>> 633;B
+blandat = "Hej", 3.5 ]
+
+
+
+
+
+633;C
+633;E;blandat = [ 12, 88, "Hej", 3.5 ]
+633;D;0
+633;A
+>>> 633;B
+balandat
+[12, 88, 'Hej', 3.5]
+633;C
+633;E;blandat
+633;D;0
+633;A
+>>> 633;B
+blandat[2
+
+'Hej'
+633;C
+633;E;blandat[2]
+633;D;0
+633;A
+>>> 633;B
+print(blandat)
+[12, 88, 'Hej', 3.5]
+633;C
+633;E;print(blandat)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(blandat)
+633;D;0
+633;A
+>>> 633;B
+nummer = range(7)
+633;C
+633;E;nummer = range(7)
+633;D;0
+633;A
+>>> 633;B
+number
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'number' is not defined. Did you mean: 'nummer'?
+633;C
+633;E;number
+633;D;1
+633;A
+>>> 633;B
+numbeeme
+range(0, 7)
+633;C
+633;E;nummer
+633;D;0
+633;A
+>>> 633;B
+print(nummer)
+range(0, 7)
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;print(nummer)
+633;D;0
+633;A
+>>> 633;B
+nummer
+range(0, 7)
+633;C
+633;E;nummer
+633;D;0
+633;A
+>>> 633;B
+Ã[  s ,    1 ,  2 ,  3       [  1 ,  2 ,  3 
+
+[1, 2, 3]
+633;C
+633;E;[ 1, 2, 3 ]
+633;D;0
+633;A
+>>> 633;B
+nummer_list = list(nummer)
+633;C
+633;E;nummer_list = list(nummer)
+633;D;0
+633;A
+>>> 633;B
+nummer_list
+[0, 1, 2, 3, 4, 5, 6]
+633;C
+633;E;nummer_list
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;nummer_list
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;nummer_list
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;nummer_list
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;nummer_list
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;nummer_list
+633;D;0
+633;A
+>>> 633;B
+type(nummer)
+<class 'range'>
+633;C
+633;E;type(nummer)
+633;D;0
+633;A
+>>> 633;B
+type(nummer_list)
+<class 'list'>
+633;C
+633;E;type(nummer_list)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;type(nummer_list)
+633;D;0
+633;A
+>>> 633;B
+type(2)
+<class 'int'>
+633;C
+633;E;type(2)
+633;D;0
+633;A
+>>> 633;B
+type(2.0
+
+<class 'float'>
+633;C
+633;E;type(2.0)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;type(2.0)
+633;D;0
+633;A
+>>> 633;B
+ 
+
+
+1 
+ 2
+3
+633;C
+633;E;1 + 2
+633;D;0
+633;A
+>>> 633;B
+10633;C
+633;E;1 + 2
+633;D;0
+633;A
+>>> 633;B
+10 / 3
+3.3333333333333335
+633;C
+633;E;10 / 3
+633;D;0
+633;A
+>>> 633;B
+10 / 
+
+
+
+
+type(
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<class 'float'>
+633;C
+633;E;type(10 / 3)
+633;D;0
+633;A
+>>> 633;B
+type(10 / 33
+
+
+
+
+
+x = 10 /3 3
+633;C
+633;E;x = 10 / 3
+633;D;0
+633;A
+>>> 633;B
+type(x)
+<class 'float'>
+633;C
+633;E;type(x)
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;type(x)
+633;D;0
+633;A
+>>> 633;B
+10 / 3
+3.3333333333333335
+633;C
+633;E;10 / 3
+633;D;0
+633;A
+>>> 633;B
+10 / 
+
+
+
+
+
+
+
+
+
+/ 
+
+
+3
+633;C
+633;E;10 // 3
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;10 // 3
+633;D;0
+633;A
+>>> 633;B
+10 % 3
+1
+633;C
+633;E;10 % 3
+633;D;0
+633;A
+>>> 633;B
+10 / 3
+3.3333333333333335
+633;C
+633;E;10 / 3
+633;D;0
+633;A
+>>> 633;B
+3 * 3
+9
+633;C
+633;E;3 * 3
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;3 * 3
+633;D;0
+633;A
+>>> 633;B
+10 % 3
+1
+633;C
+633;E;10 % 3
+633;D;0
+633;A
+>>> 633;B
+10 % 3 # resrenten vid division
+1
+633;C
+633;E;10 % 3 # resten vid division
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;10 % 3 # resten vid division
+633;D;0
+633;A
+>>> 633;B
+n
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n' is not defined
+633;C
+633;E;n
+633;D;1
+633;A
+>>> 633;B
+633;C
+633;E;n
+633;D;1
+633;A
+>>> 633;B
+n = 1
+633;C
+633;E;n = 1
+633;D;0
+633;A
+>>> 633;B
+n % 3
+1
+633;C
+633;E;n % 3
+633;D;0
+633;A
+>>> 633;B
+n % = 2
+633;C
+633;E;n = 2
+633;D;0
+633;A
+>>> 633;B
+n = % 3
+2
+633;C
+633;E;n % 3
+633;D;0
+633;A
+>>> 633;B
+n % = % = 3
+633;C
+633;E;n = 3
+633;D;0
+633;A
+>>> 633;B
+n = %
+0
+633;C
+633;E;n % 3
+633;D;0
+633;A
+>>> 633;B
+n % =4
+633;C
+633;E;n = 4
+633;D;0
+633;A
+>>> 633;B
+n = % 3
+1
+633;C
+633;E;n % 3
+633;D;0
+633;A
+>>> 633;B
+n % = 5
+633;C
+633;E;n = 5
+633;D;0
+633;A
+>>> 633;B
+n = % 3
+2
+633;C
+633;E;n % 3
+633;D;0
+633;A
+>>> 633;B
+
+$ 
+exit

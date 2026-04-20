@@ -1,0 +1,272 @@
+/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5
+ imp1_uses_string_extra.py         imports.txt   recordings
+'imp2_uses_string_extra copy.py'   __pycache__   string_extra.py
+ITINF25/lektion5
+$ /usr/bin/python "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/imp2_uses_string_extra copy.py"
+HEj
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/imp5_uses_string_extra.py
+HEj
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ åytpython3
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;1 + 2 + plus(10,20)
+633;D;0
+633;A
+>>> 633;B
+import sys
+633;C
+633;E;import sys
+633;D;0
+633;A
+>>> 633;B
+sys.
+
+sys.abiflags
+sys.addaudithook(
+sys.api_version
+sys.argv
+sys.audit(
+sys.base_exec_prefix
+sys.base_prefix
+sys.breakpointhook(
+sys.builtin_module_names
+sys.byteorder
+sys.call_tracing(
+sys.copyright
+sys.displayhook(
+sys.dont_write_bytecode
+sys.exc_info()
+sys.excepthook(
+sys.exception()
+sys.exec_prefix
+sys.executable
+sys.exit(
+sys.flags
+sys.float_info
+sys.float_repr_style
+sys.get_asyncgen_hooks()
+sys.get_coroutine_origin_tracking_depth()
+sys.get_int_max_str_digits()
+sys.getallocatedblocks()
+sys.getdefaultencoding()
+sys.getdlopenflags()
+sys.getfilesystemencodeerrors()
+sys.getfilesystemencoding()
+sys.getprofile()
+sys.getrecursionlimit()
+sys.getrefcount(
+sys.getsizeof(
+sys.getswitchinterval()
+sys.gettrace()
+sys.hash_info
+sys.hexversion
+sys.implementation
+sys.int_info
+sys.intern(
+sys.is_finalizing()
+sys.maxsize
+sys.maxunicode
+sys.meta_path
+sys.modules
+sys.orig_argv
+sys.path
+sys.path_hooks
+sys.path_importer_cache
+sys.platform
+sys.platlibdir
+sys.prefix
+sys.ps1
+sys.ps2-
+sys.pycache_prefix
+sys.set_asyncgen_hooks(
+sys.set_coroutine_origin_tracking_depth(
+sys.set_int_max_str_digits(
+sys.setdlopenflags(
+sys.setprofile(
+sys.setrecursionlimit(
+sys.setswitchinterval(
+sys.settrace(
+sys.stderr
+sys.stdin
+sys.stdlib_module_names
+sys.stdout
+sys.thread_info
+sys.unraisablehook(
+sys.version
+sys.version_info
+sys.warnoptions
+633;C
+633;E;import sys
+633;D;0
+633;A
+>>> 633;B
+sys.pa
+th
+['', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/home/kent/.local/lib/python3.11/site-packages', '/shared/kent/Documents/playground-hooks/src', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+633;C
+633;E;sys.path
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ python3 uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/uses_matte.py", line 1, in <module>
+    x = dubbla(100)
+        ^^^^^^
+NameError: name 'dubbla' is not defined
+ITINF25/lektion5
+$ python3 uses_matte.py ITINF25/lektion5
+$ python3 uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/uses_matte.py", line 1, in <module>
+    import multi
+ModuleNotFoundError: No module named 'multi'
+ITINF25/lektion5
+python3 uses_matte.py ITINF25/lektion5
+$ python3 uses_matte.py 
+200
+ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket/also_uses_matte.py", line 1, in <module>
+    import matte.multi
+ModuleNotFoundError: No module named 'matte'
+ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket/also_uses_matte.py", line 3, in <module>
+    import matte.multi
+ModuleNotFoundError: No module named 'matte'
+ITINF25/lektion5
+$ ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py 
+sys path ['/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/home/kent/.local/lib/python3.11/site-packages', '/shared/kent/Documents/playground-hooks/src', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket/also_uses_matte.py", line 5, in <module>
+    import matte.multi
+ModuleNotFoundError: No module named 'matte'
+ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket/also_uses_matte.py", line 3, in <module>
+    from .. import matte
+ImportError: attempted relative import with no known parent package
+ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py ITINF25/lektion5
+$ python3 annatpaket/also_uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket/also_uses_matte.py", line 3, in <module>
+    from .. import matte
+ImportError: attempted relative import with no known parent package
+ITINF25/lektion5
+$ cd annatpaket/
+ITINF25/lektion5/annatpaket
+$ python3 also_uses_matte.py 
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/annatpaket/also_uses_matte.py", line 3, in <module>
+    from .. import matte
+ImportError: attempted relative import with no known parent package
+ITINF25/lektion5/annatpaket
+$ ^C
+ITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py
+Innan sortering ['🍕', '🍖', '🍗']
+Efter sortering ['🍕', '🍖', '🍗']
+ITINF25/lektion5/annatpaket
+$ ITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py
+Innan sortering ['🍕', '🍖', '🍗']
+Efter sortering ['🍕', '🍖', '🍗']
+ITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.pyITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py
+Innan sortering ['🍖', '🍕', '🍗']
+Efter sortering ['🍕', '🍖', '🍗']
+ITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.pyITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py
+Innan sortering ['🍖', '🍕', '🍗']
+Efter normal sortering ['🍕', '🍖', '🍗']
+Traceback (most recent call last):
+  File "/shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py", line 20, in <module>
+    lst.sort(food_sort)
+TypeError: sort() takes no positional arguments
+ITINF25/lektion5/annatpaket
+$ ITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py
+Innan sortering ['🍖', '🍕', '🍗']
+Efter normal sortering ['🍕', '🍖', '🍗']
+Efter egen sortering ['🍖', '🍕', '🍗']
+ITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.pyITINF25/lektion5/annatpaket
+$ /usr/bin/python /shared/kent/Documents/nackademin/python/py-live/ITINF25/lektion5/funkfirstobj2.py
+Innan sortering ['🍖', '🍕', '🍗']
+Efter normal sortering ['🍕', '🍖', '🍗']
+Efter egen sortering ['🍕', '🍗', '🍖']
+ITINF25/lektion5/annatpaket
+$ ^C
+ITINF25/lektion5/annatpaket
+$ /usr/bin/python
+Python 3.11.2 (main, Apr 28 2025, 14:11:48) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+633;C
+633;E;p("hej","svejs",10020)
+633;D;0
+633;A
+>>> 633;B
+
+ITINF25/lektion5/annatpaket
+$ 
+exit
